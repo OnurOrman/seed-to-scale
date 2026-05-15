@@ -8,10 +8,13 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 from urllib.parse import urljoin
 
-from helpers.constants import *
-from helpers.linkedin import *
+from helpers.constants import CSV_PATH
+from helpers.linkedin import clean_linkedin_link
+from helpers.logging import configure_logging, get_logger
 from helpers.string import *
 from helpers.webscrape import is_element_hidden, scrape_website
+
+logger = get_logger(__name__)
 
 def collect_portfolio_links(url: str = "https://212.vc/portfolio") -> str:
   result = scrape_website(url)
@@ -240,7 +243,11 @@ def scrape_portfolio_links(path_to_links: str):
         }
       )
 
-  print(f"Saved {len(extracted_rows)} company rows to {CSV_PATH + "/" + output_csv}")
+  logger.info(
+    "Saved %s company rows to %s",
+    len(extracted_rows),
+    CSV_PATH + "/" + output_csv,
+  )
   return output_csv
 
 def collect_team_links(url: str = "https://212.vc/team") -> str:
@@ -310,7 +317,11 @@ def collect_team_links(url: str = "https://212.vc/team") -> str:
         "employee_linkedin": linkedin_link
       })
 
-  print(f"Saved {len(unique_employee_links)} company rows to {CSV_PATH + "/" + output_csv}")
+  logger.info(
+    "Saved %s company rows to %s",
+    len(unique_employee_links),
+    CSV_PATH + "/" + output_csv,
+  )
   return output_csv
 
 def main():
@@ -320,8 +331,9 @@ def main():
   return portfolio_csv, team_csv
 
 if __name__ == "__main__":
+  configure_logging()
   if len(sys.argv) != 1:
-    print("Usage: uv run -m collect.vc_212")
+    logger.error("Usage: uv run -m collect.vc_212")
     exit(os.EX_USAGE)
   
   main()

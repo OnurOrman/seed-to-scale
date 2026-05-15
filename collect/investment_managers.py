@@ -3,8 +3,8 @@ import pandas as pd
 
 from pathlib import Path
 
-from helpers.constants import *
-from helpers.string import *
+from helpers.constants import CSV_PATH, JSON_PATH
+from helpers.string import extract_unique_names
 
 def __retrieve_investment_managers(filename: str):
   file_path = Path(CSV_PATH) / filename

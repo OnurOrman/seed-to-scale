@@ -7,9 +7,12 @@ import sys
 from bs4 import BeautifulSoup
 from pathlib import Path
 
-from helpers.constants import *
+from helpers.constants import CSV_PATH, HTML_PATH, STATE_PATH
 from helpers.linkedin import *
-from helpers.string import *
+from helpers.logging import configure_logging, get_logger
+from helpers.string import deturkify, extract_unique_names
+
+logger = get_logger(__name__)
 
 async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, linkedin_page: str = ""):
   csv_path = Path(CSV_PATH) / data_with_links
@@ -26,13 +29,13 @@ async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, l
     }
   )
 
-  print(f"Total number of LinkedIn links to scrape: {len(linkedin_links)}")
+  logger.info("Total number of LinkedIn links to scrape: %s", len(linkedin_links))
 
   out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page if linkedin_page != "" else "main"}"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
-    print("Login state not found. Triggering login flow...")
+    logger.warning("Login state not found. Triggering login flow...")
     await save_logged_in_state(
       login_url="https://www.linkedin.com/login",
       timeout_ms=180000,
@@ -48,12 +51,12 @@ async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, l
 
     url: str
     for i, url in enumerate(linkedin_links, start=1):
-      print(f"\n[{i}/{len(linkedin_links)}] Scraping: {url}")
+      logger.info("[%s/%s] Scraping: %s", i, len(linkedin_links), url)
       
       html_file = f"linkedin_{i:04d}.html"
       html_path = out_dir / html_file
       if html_path.exists() and html_path.stat().st_size > 100:
-        print(f"  ✓ Already scraped.")
+        logger.info("Already scraped.")
         continue
           
       try:
@@ -69,8 +72,8 @@ async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, l
         
         # Recover if blocked
         if looks_like_linkedin_auth_wall(html):
-          print("  ! Auth wall or challenge detected.")
-          print("  In the opened browser, solve challenge or login manually.")
+          logger.warning("Auth wall or challenge detected.")
+          logger.warning("In the opened browser, solve challenge or login manually.")
           input("  Press Enter here to retry capture...")
           
           await page.reload(wait_until="commit", timeout=60000)
@@ -91,11 +94,11 @@ async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, l
           "file_path": html_file,
           "error": ""
         })
-        print(f"  ✓ Saved to {html_path.name} - Title: {title[:40]}...")
+        logger.info("Saved %s - Title: %s...", html_path.name, title[:40])
           
       except Exception as exc:
         error_msg = str(exc)
-        print(f"  ✗ Error: {error_msg}")
+        logger.error("Error: %s", error_msg)
         
         rows.append({
           "url": url,
@@ -122,9 +125,9 @@ async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, l
     else:
       result_df.to_csv(result_csv, index=False, encoding="utf-8")
         
-    print(f"\nSaved logging results to {CSV_PATH + "/" + result_csv}")
+    logger.info("Saved logging results to %s", CSV_PATH + "/" + result_csv)
 
-  print("\nScraping complete.")
+  logger.info("Scraping complete.")
 
   return result_csv
 
@@ -134,7 +137,7 @@ async def scrape_linkedin_people_from_dict(vc: str, data: dict, category: str, l
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
-    print("Login state not found. Triggering login flow...")
+    logger.warning("Login state not found. Triggering login flow...")
     await save_logged_in_state(
       login_url="https://www.linkedin.com/login",
       timeout_ms=180000,
@@ -153,7 +156,7 @@ async def scrape_linkedin_people_from_dict(vc: str, data: dict, category: str, l
       html_file = f"linkedin_{i:04d}.html"
       html_path = out_dir / html_file
       if html_path.exists() and html_path.stat().st_size > 100:
-        print(f"  ✓ Already scraped.")
+        logger.info("Already scraped.")
         continue
         
       for url in urls:
@@ -171,13 +174,13 @@ async def scrape_linkedin_people_from_dict(vc: str, data: dict, category: str, l
 
           # Check for 404 redirect
           if "linkedin.com/404" in current_url:
-            print(f"  ! Profile not found (404/redirect) at {url}, trying next...")
+            logger.warning("Profile not found (404/redirect) at %s, trying next...", url)
             continue
           
           # Recover if blocked
           if looks_like_linkedin_auth_wall(html):
-            print("  ! Auth wall or challenge detected.")
-            print("  In the opened browser, solve challenge or login manually.")
+            logger.warning("Auth wall or challenge detected.")
+            logger.warning("In the opened browser, solve challenge or login manually.")
             input("  Press Enter here to retry capture...")
             
             await page.reload(wait_until="commit", timeout=60000)
@@ -198,11 +201,11 @@ async def scrape_linkedin_people_from_dict(vc: str, data: dict, category: str, l
             "file_path": html_file,
             "error": ""
           })
-          print(f"  ✓ Saved to {html_path.name} - Title: {title[:40]}...")
+          logger.info("Saved %s - Title: %s...", html_path.name, title[:40])
             
         except Exception as exc:
           error_msg = str(exc)
-          print(f"  ✗ Error: {error_msg}")
+          logger.error("Error: %s", error_msg)
           
           rows.append({
             "url": url,
@@ -229,9 +232,9 @@ async def scrape_linkedin_people_from_dict(vc: str, data: dict, category: str, l
     else:
       result_df.to_csv(result_csv, index=False, encoding="utf-8")
         
-    print(f"\nSaved logging results to {CSV_PATH + "/" + result_csv}")
+    logger.info("Saved logging results to %s", CSV_PATH + "/" + result_csv)
 
-  print("\nScraping complete.")
+  logger.info("Scraping complete.")
 
   return result_csv
 
@@ -248,7 +251,7 @@ async def scrape_employee_lookup(data_with_links: str, vc_base_linkedin_url: str
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
-    print("Login state not found. Triggering login flow...")
+    logger.warning("Login state not found. Triggering login flow...")
     await save_logged_in_state(
       login_url="https://www.linkedin.com/login",
       timeout_ms=180000,
@@ -264,11 +267,11 @@ async def scrape_employee_lookup(data_with_links: str, vc_base_linkedin_url: str
 
     for i, name in enumerate(investment_manager_names, start=1):
       vc_employee_url = f"{vc_base_linkedin_url}/people/?keywords={name}&viewAsMember=true"
-      print(f"\n[{i}/{len(investment_manager_names)}] Scraping: {vc_employee_url}")
+      logger.info("[%s/%s] Scraping: %s", i, len(investment_manager_names), vc_employee_url)
       
       html_file = out_dir / f"vc_employee_linkedin_{i:04d}.html"
       if html_file.exists() and html_file.stat().st_size > 100:
-        print(f"  ✓ Already scraped.")
+        logger.info("Already scraped.")
         continue
           
       try:
@@ -284,8 +287,8 @@ async def scrape_employee_lookup(data_with_links: str, vc_base_linkedin_url: str
         
         # Recover if blocked
         if looks_like_linkedin_auth_wall(html):
-          print("  ! Auth wall or challenge detected.")
-          print("  In the opened browser, solve challenge or login manually.")
+          logger.warning("Auth wall or challenge detected.")
+          logger.warning("In the opened browser, solve challenge or login manually.")
           input("  Press Enter here to retry capture...")
           
           await page.reload(wait_until="commit", timeout=60000)
@@ -306,11 +309,11 @@ async def scrape_employee_lookup(data_with_links: str, vc_base_linkedin_url: str
           "file_path": str(html_file),
           "error": ""
         })
-        print(f"  ✓ Saved to {html_file.name} - Title: {title[:40]}...")
+        logger.info("Saved %s - Title: %s...", html_file.name, title[:40])
           
       except Exception as exc:
         error_msg = str(exc)
-        print(f"  ✗ Error: {error_msg}")
+        logger.error("Error: %s", error_msg)
         
         rows.append({
           "url": vc_employee_url,
@@ -337,9 +340,9 @@ async def scrape_employee_lookup(data_with_links: str, vc_base_linkedin_url: str
     else:
       result_df.to_csv(result_csv_path, index=False, encoding="utf-8")
         
-    print(f"\nSaved logging results to {CSV_PATH + "/" + result_csv}")
+    logger.info("Saved logging results to %s", CSV_PATH + "/" + result_csv)
 
-  print("\nScraping complete.")
+  logger.info("Scraping complete.")
 
   return f"{data_with_links.split("_")[0]}_employees_linkedin_lookup"
 
@@ -353,7 +356,7 @@ async def collect_employee_lookup(html_dir: str):
     with open(html_file, "r", encoding = "utf-8") as f:
       html_content = f.read()
 
-      print(f"Processing {html_file.name}...")
+      logger.info("Processing %s...", html_file.name)
 
       soup = BeautifulSoup(html_content, "html.parser")
       try:
@@ -369,7 +372,7 @@ async def collect_employee_lookup(html_dir: str):
           employee_linkedin_names.append(formatted_name)
 
       except Exception as e:
-        print(e)
+        logger.warning("Parse error: %s", e)
         continue
 
   unique_employee_linkedin_links = list(dict.fromkeys(employee_linkedin_links))
@@ -392,7 +395,11 @@ async def collect_employee_lookup(html_dir: str):
         "employee_linkedin": linkedin_link
       })
 
-  print(f"Saved {len(unique_employee_linkedin_links)} company rows to {CSV_PATH + "/" + output_csv}")
+  logger.info(
+    "Saved %s company rows to %s",
+    len(unique_employee_linkedin_links),
+    CSV_PATH + "/" + output_csv,
+  )
   return output_csv
 
 async def cofounders(vc: str):
@@ -420,8 +427,9 @@ async def main(vc: str, vc_linkedin: str):
   return cofounders_csv, cofounders_education_csv, cofounders_experience_csv, cofounders_volunteering_csv, employees_csv
 
 if __name__ == "__main__":
+  configure_logging()
   if len(sys.argv) != 3:
-    print("Usage: uv run -m collect.linkedin <vc-name> <vc-linkedin-url>")
+    logger.error("Usage: uv run -m collect.linkedin <vc-name> <vc-linkedin-url>")
     exit(os.EX_USAGE)
 
   asyncio.run(main(sys.argv[1], sys.argv[2]))

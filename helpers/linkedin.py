@@ -1,8 +1,11 @@
 from pathlib import Path
 from playwright.async_api import async_playwright
 
-from .constants import *
-from .string import *
+from .constants import STATE_PATH
+from .logging import get_logger
+from .string import clean_link
+
+logger = get_logger(__name__)
 
 def looks_like_linkedin_auth_wall(html: str) -> bool:
   lowered = html.lower()
@@ -32,7 +35,7 @@ async def save_logged_in_state(
     await context.storage_state(path=state_path)
     await browser.close()
 
-  print(f"Saved logged-in browser state to: {state_path}")
+  logger.info("Saved logged-in browser state to: %s", state_path)
   return state_file
 
 def clean_linkedin_link(link: str) -> str:

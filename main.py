@@ -3,9 +3,12 @@ import os
 import sys
 
 from collect import investment_managers, linkedin, vc_212
+from helpers.logging import configure_logging, get_logger
+
+logger = get_logger(__name__)
 
 def main(vc: str, vc_linkedin: str):
-  print("Hello from seed-to-scale!")
+  logger.info("Starting seed-to-scale run.")
   portfolio_csv = ""
   team_csv = ""
 
@@ -25,10 +28,13 @@ def main(vc: str, vc_linkedin: str):
   investment_managers_csv, investment_managers_education_csv, investment_managers_experience_csv,\
     investment_managers_volunteering_csv\
       = asyncio.run(linkedin.vc_investment_managers(vc, investment_manager_json))
+  
+  logger.info("Collected the data for %s", vc)
 
 if __name__ == "__main__":
+  configure_logging()
   if len(sys.argv) != 3:
-    print("Usage: uv run python main.py <vc-name> <vc-linkedin-url>")
+    logger.error("Usage: uv run python main.py <vc-name> <vc-linkedin-url>")
     exit(os.EX_USAGE)
 
   # 212 -> 212, https://www.linkedin.com/company/212vc
