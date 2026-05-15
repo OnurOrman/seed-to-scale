@@ -113,6 +113,7 @@ async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, l
         
     await browser.close()
   
+  result_csv = ""
   if rows:
     result_df = pd.DataFrame(rows)
     result_csv = f"{data_with_links.split("_")[0]}_{category}_linkedin_{linkedin_page if linkedin_page != "" else "main"}.csv"
@@ -126,6 +127,9 @@ async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, l
       result_df.to_csv(result_csv, index=False, encoding="utf-8")
         
     logger.info("Saved logging results to %s", CSV_PATH + "/" + result_csv)
+
+  if not result_csv:
+    logger.warning("No rows collected; skipping CSV output.")
 
   logger.info("Scraping complete.")
 
@@ -220,6 +224,7 @@ async def scrape_linkedin_people_from_dict(vc: str, data: dict, category: str, l
         
     await browser.close()
   
+  result_csv = ""
   if rows:
     result_df = pd.DataFrame(rows)
     result_csv = f"{vc}_{category}_linkedin_{linkedin_page if linkedin_page != "" else "main"}.csv"
@@ -233,6 +238,9 @@ async def scrape_linkedin_people_from_dict(vc: str, data: dict, category: str, l
       result_df.to_csv(result_csv, index=False, encoding="utf-8")
         
     logger.info("Saved logging results to %s", CSV_PATH + "/" + result_csv)
+
+  if not result_csv:
+    logger.warning("No rows collected; skipping CSV output.")
 
   logger.info("Scraping complete.")
 
