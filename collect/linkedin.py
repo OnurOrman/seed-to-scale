@@ -415,6 +415,7 @@ async def vc_employees(vc: str, vc_linkedin: str):
   return employee_csv
 
 async def vc_investment_managers(vc: str, data: dict):
+  configure_logging()
   investment_managers_csv = await scrape_linkedin_people_from_dict(vc, data, "employee")
   investment_managers_education_csv = scrape_linkedin_people_from_dict(vc, data, "employee", "/education")
   investment_managers_experience_csv = await scrape_linkedin_people_from_dict(vc, data, "employee", "/experience")
@@ -422,12 +423,12 @@ async def vc_investment_managers(vc: str, data: dict):
   return investment_managers_csv, investment_managers_education_csv, investment_managers_experience_csv, investment_managers_volunteering_csv
 
 async def main(vc: str, vc_linkedin: str):
+  configure_logging()
   cofounders_csv, cofounders_education_csv, cofounders_experience_csv, cofounders_volunteering_csv = await cofounders(vc)
   employees_csv = await vc_employees(vc, vc_linkedin)
   return cofounders_csv, cofounders_education_csv, cofounders_experience_csv, cofounders_volunteering_csv, employees_csv
 
 if __name__ == "__main__":
-  configure_logging()
   if len(sys.argv) != 3:
     logger.error("Usage: uv run -m collect.linkedin <vc-name> <vc-linkedin-url>")
     exit(os.EX_USAGE)

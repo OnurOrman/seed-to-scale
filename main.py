@@ -37,5 +37,4 @@ if __name__ == "__main__":
     logger.error("Usage: uv run python main.py <vc-name> <vc-linkedin-url>")
     exit(os.EX_USAGE)
 
-  # 212 -> 212, https://www.linkedin.com/company/212vc
   main(sys.argv[1], sys.argv[2])

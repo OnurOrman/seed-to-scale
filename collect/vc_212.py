@@ -325,13 +325,13 @@ def collect_team_links(url: str = "https://212.vc/team") -> str:
   return output_csv
 
 def main():
+  configure_logging()
   portfolio_links = collect_portfolio_links()
   portfolio_csv = scrape_portfolio_links(portfolio_links)
   team_csv = collect_team_links()
   return portfolio_csv, team_csv
 
 if __name__ == "__main__":
-  configure_logging()
   if len(sys.argv) != 1:
     logger.error("Usage: uv run -m collect.vc_212")
     exit(os.EX_USAGE)

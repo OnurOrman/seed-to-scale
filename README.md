@@ -6,6 +6,8 @@ The public repository for the CS 414/514 (Network Science) course project at Sab
 uv run main.py <vc-name> <vc-linkedin>
 ```
 
+- For 212: ```212 https://www.linkedin.com/company/212vc```
+
 ## How to run different modules of the project independently?
 
 ```bash
@@ -14,4 +16,11 @@ uv run -m collect.vc_212
 
 ```bash
 uv run -m collect.linkedin
+```
+
+## How to set up the project workflow?
+```bash
+uv venv
+uv sync
+uv run playwright install
 ```
