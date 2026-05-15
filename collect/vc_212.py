@@ -84,13 +84,8 @@ def scrape_portfolio_links(path_to_links: str):
 
       # LinkedIn buttons: <a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.linkedin.com/in/...">
       linkedin_anchors = soup.select("a.elementor-button.elementor-button-link.elementor-size-sm[href]")
-      linkedin_links = []
-      for a in linkedin_anchors:
-        url = a["href"].strip()
-        if url.find("linkedin.com/in/") != -1:
-          linkedin_links.append(clean_linkedin_link(url))
       linkedin_links = [
-        a["href"].strip()
+        clean_linkedin_link(a["href"].strip())
         for a in linkedin_anchors
         if a["href"].strip().find("linkedin.com/in/") != -1
       ]
@@ -277,7 +272,7 @@ def collect_team_links(url: str = "https://212.vc/team") -> str:
 
     for a_tag in li.find_all("a", href=True):
       if "linkedin.com" in a_tag["href"] and a_tag["href"] not in links:
-        links.append(clean_link(a_tag["href"]))
+        links.append(clean_linkedin_link(a_tag["href"]))
     
   target_spans = [
     span
