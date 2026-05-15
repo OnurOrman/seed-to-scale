@@ -12,10 +12,10 @@ def configure_logging(level: str | None = None) -> None:
   date_format = os.getenv("LOG_DATE_FORMAT", "%Y-%m-%d %H:%M:%S")
 
   logging.basicConfig(
-    level=level_value,
-    format=log_format,
-    datefmt=date_format,
-    stream=sys.stdout,
+    level = level_value,
+    format = log_format,
+    datefmt = date_format,
+    stream = sys.stdout,
   )
 
 def get_logger(name: str) -> logging.Logger:

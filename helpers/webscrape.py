@@ -23,16 +23,16 @@ def __scrape_with_scrapy_selector(url: str, timeout: int) -> ScrapeResult:
     )
   }
 
-  response = requests.get(url, timeout=timeout, headers=headers)
+  response = requests.get(url, timeout = timeout, headers = headers)
   response.raise_for_status()
 
-  html_response = HtmlResponse(url=url, body=response.content, encoding="utf-8")
+  html_response = HtmlResponse(url = url, body = response.content, encoding = "utf-8")
   title = (html_response.css("title::text").get() or "").strip()
 
   texts = [t.strip() for t in html_response.xpath("//body//text()[normalize-space()]").getall()]
   content = " ".join(t for t in texts if t)
 
-  return ScrapeResult(url=url, title=title, content=content, html=response.text)
+  return ScrapeResult(url = url, title=title, content = content, html = response.text)
 
 def scrape_website(
   url: str,

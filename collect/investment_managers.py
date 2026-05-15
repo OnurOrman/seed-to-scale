@@ -14,13 +14,22 @@ def __retrieve_investment_managers(filename: str):
 
   return sorted(extract_unique_names(initial_investment_manager_names))
 
-def collect_investment_managers(team_file: str, linkedin_file: str, portfolio_file: str):
+def collect_investment_managers(
+  team_file: str,
+  linkedin_file: str,
+  portfolio_file: str,
+  overwrite: bool = False,
+):
   team_path = Path(CSV_PATH) / team_file
   linkedin_path = Path(CSV_PATH) / linkedin_file
   
   vc = portfolio_file.split("_")[0]
   json_file = f"{vc}_investment_managers.json"
   json_path = Path(JSON_PATH) / json_file
+  json_path.parent.mkdir(parents = True, exist_ok = True)
+
+  if json_path.exists() and not overwrite:
+    return json_file
 
   team_df = pd.read_csv(team_path, index_col = "employee_name")
   linkedin_df = pd.read_csv(linkedin_path, index_col = "employee_name")

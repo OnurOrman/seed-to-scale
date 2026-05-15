@@ -14,7 +14,7 @@ def split_possible_names(raw_text: str) -> list[str]:
 
   # Split multi-name strings like "Alice, Bob", "Alice and Bob",
   # "Alice & Bob", "Alice / Bob", or names separated by newlines.
-  parts = re.split(r"\s*(?:\n+|,|;|\band\b|&|/|\|)\s*", text, flags=re.IGNORECASE)
+  parts = re.split(r"\s*(?:\n+|,|;|\band\b|&|/|\|)\s*", text, flags = re.IGNORECASE)
   cleaned = [p.strip() for p in parts if p and p.strip()]
   return cleaned or [text]
 

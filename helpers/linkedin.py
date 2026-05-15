@@ -24,15 +24,15 @@ async def save_logged_in_state(
   """Open a visible browser, let the user complete login, then save auth state."""
   async with async_playwright() as p:
     state_path = Path(STATE_PATH) / state_file
-    state_path.parent.mkdir(parents=True, exist_ok=True)
-    browser = await p.chromium.launch(headless=False)
+    state_path.parent.mkdir(parents = True, exist_ok = True)
+    browser = await p.chromium.launch(headless = False)
     context = await browser.new_context()
     page = await context.new_page()
 
-    await page.goto(login_url, wait_until="domcontentloaded", timeout=timeout_ms)
+    await page.goto(login_url, wait_until = "domcontentloaded", timeout = timeout_ms)
     input("Complete login/challenge in browser, then press Enter here...")
 
-    await context.storage_state(path=state_path)
+    await context.storage_state(path = state_path)
     await browser.close()
 
   logger.info("Saved logged-in browser state to: %s", state_path)
