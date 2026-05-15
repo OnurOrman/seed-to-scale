@@ -31,7 +31,7 @@ async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, l
 
   logger.info("Total number of LinkedIn links to scrape: %s", len(linkedin_links))
 
-  out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page if linkedin_page != "" else "main"}"
+  out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page[1:] if linkedin_page != "" else "main"}"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
@@ -120,11 +120,11 @@ async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, l
     result_csv_path = Path(CSV_PATH) / result_csv
     
     if result_csv_path.exists():
-      existing_df = pd.read_csv(result_csv)
+      existing_df = pd.read_csv(result_csv_path)
       combined_df = pd.concat([existing_df, result_df]).drop_duplicates(subset=["url"], keep="last")
-      combined_df.to_csv(result_csv, index=False, encoding="utf-8")
+      combined_df.to_csv(result_csv_path, index=False, encoding="utf-8")
     else:
-      result_df.to_csv(result_csv, index=False, encoding="utf-8")
+      result_df.to_csv(result_csv_path, index=False, encoding="utf-8")
         
     logger.info("Saved logging results to %s", CSV_PATH + "/" + result_csv)
 
@@ -137,7 +137,7 @@ async def scrape_linkedin_people_from_csv(data_with_links: str, category: str, l
 
 async def scrape_linkedin_people_from_dict(vc: str, data: dict, category: str, linkedin_page: str = ""):
   state_path = Path(STATE_PATH) / "li_playwright_state.json"
-  out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page if linkedin_page != "" else "main"}"
+  out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page[1:] if linkedin_page != "" else "main"}"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
@@ -231,11 +231,11 @@ async def scrape_linkedin_people_from_dict(vc: str, data: dict, category: str, l
     result_csv_path = Path(CSV_PATH) / result_csv
     
     if result_csv_path.exists():
-      existing_df = pd.read_csv(result_csv)
+      existing_df = pd.read_csv(result_csv_path)
       combined_df = pd.concat([existing_df, result_df]).drop_duplicates(subset=["url"], keep="last")
-      combined_df.to_csv(result_csv, index=False, encoding="utf-8")
+      combined_df.to_csv(result_csv_path, index=False, encoding="utf-8")
     else:
-      result_df.to_csv(result_csv, index=False, encoding="utf-8")
+      result_df.to_csv(result_csv_path, index=False, encoding="utf-8")
         
     logger.info("Saved logging results to %s", CSV_PATH + "/" + result_csv)
 
