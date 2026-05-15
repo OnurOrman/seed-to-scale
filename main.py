@@ -34,7 +34,7 @@ def main(vc: str, vc_linkedin: str):
 if __name__ == "__main__":
   configure_logging()
   if len(sys.argv) != 3:
-    logger.error("Usage: uv run python main.py <vc-name> <vc-linkedin-url>")
+    logger.error("Usage: uv run main.py <vc-name> <vc-linkedin-url>")
     exit(os.EX_USAGE)
 
   main(sys.argv[1], sys.argv[2])
