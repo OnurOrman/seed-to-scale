@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-16">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="212" label="212">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="VC" />
+        </attvalues>
+      </node>
+      <node id="123FormBuilder" label="123FormBuilder">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Aepnus" label="Aepnus">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Agrotics" label="Agrotics">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Aibuild" label="Aibuild">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="AppSamurai" label="AppSamurai">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Arcademonk" label="Arcademonk">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Artboard Studio" label="Artboard Studio">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Avatao" label="Avatao">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="B2Metric" label="B2Metric">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Balerin" label="Balerin">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Bolt Insight" label="Bolt Insight">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Butigo" label="Butigo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Chooch" label="Chooch">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Eluvium" label="Eluvium">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Ever Dye" label="Ever Dye">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Evercopy" label="Evercopy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Evim.net" label="Evim.net">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="ExoMatter" label="ExoMatter">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Fazla" label="Fazla">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="FibreCoat" label="FibreCoat">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Flow48" label="Flow48">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Freya" label="Freya">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Getmobil" label="Getmobil">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Haelixa" label="Haelixa">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Hazinem" label="Hazinem">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="HemenKiralık" label="HemenKiralık">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="HotelRunner" label="HotelRunner">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Insider One" label="Insider One">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Juphy" label="Juphy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Keyrails" label="Keyrails">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Khenda" label="Khenda">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Mall IQ" label="Mall IQ">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Martı" label="Martı">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Meddy" label="Meddy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Metrobi" label="Metrobi">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="OMMA" label="OMMA">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="ParcaDeposu" label="ParcaDeposu">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="PhilosopherKing" label="PhilosopherKing">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Phitech" label="Phitech">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Qrambo" label="Qrambo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="RemotePass" label="RemotePass">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Reprai" label="Reprai">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Robolaunch" label="Robolaunch">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="SOCRadar" label="SOCRadar">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="SmartMessage" label="SmartMessage">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Solvoyo" label="Solvoyo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Syntonym" label="Syntonym">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Trio Mobil" label="Trio Mobil">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Vizera" label="Vizera">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Voltfox" label="Voltfox">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Wellbees" label="Wellbees">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="Werover" label="Werover">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="iyzico" label="iyzico">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+      <node id="one.five" label="one.five">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Startup" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="212" target="123FormBuilder" id="0" />
+      <edge source="212" target="Aepnus" id="1" />
+      <edge source="212" target="Agrotics" id="2" />
+      <edge source="212" target="Aibuild" id="3" />
+      <edge source="212" target="AppSamurai" id="4" />
+      <edge source="212" target="Arcademonk" id="5" />
+      <edge source="212" target="Artboard Studio" id="6" />
+      <edge source="212" target="Avatao" id="7" />
+      <edge source="212" target="B2Metric" id="8" />
+      <edge source="212" target="Balerin" id="9" />
+      <edge source="212" target="Bolt Insight" id="10" />
+      <edge source="212" target="Butigo" id="11" />
+      <edge source="212" target="Chooch" id="12" />
+      <edge source="212" target="Eluvium" id="13" />
+      <edge source="212" target="Ever Dye" id="14" />
+      <edge source="212" target="Evercopy" id="15" />
+      <edge source="212" target="Evim.net" id="16" />
+      <edge source="212" target="ExoMatter" id="17" />
+      <edge source="212" target="Fazla" id="18" />
+      <edge source="212" target="FibreCoat" id="19" />
+      <edge source="212" target="Flow48" id="20" />
+      <edge source="212" target="Freya" id="21" />
+      <edge source="212" target="Getmobil" id="22" />
+      <edge source="212" target="Haelixa" id="23" />
+      <edge source="212" target="Hazinem" id="24" />
+      <edge source="212" target="HemenKiralık" id="25" />
+      <edge source="212" target="HotelRunner" id="26" />
+      <edge source="212" target="Insider One" id="27" />
+      <edge source="212" target="Juphy" id="28" />
+      <edge source="212" target="Keyrails" id="29" />
+      <edge source="212" target="Khenda" id="30" />
+      <edge source="212" target="Mall IQ" id="31" />
+      <edge source="212" target="Martı" id="32" />
+      <edge source="212" target="Meddy" id="33" />
+      <edge source="212" target="Metrobi" id="34" />
+      <edge source="212" target="OMMA" id="35" />
+      <edge source="212" target="ParcaDeposu" id="36" />
+      <edge source="212" target="PhilosopherKing" id="37" />
+      <edge source="212" target="Phitech" id="38" />
+      <edge source="212" target="Qrambo" id="39" />
+      <edge source="212" target="RemotePass" id="40" />
+      <edge source="212" target="Reprai" id="41" />
+      <edge source="212" target="Robolaunch" id="42" />
+      <edge source="212" target="SOCRadar" id="43" />
+      <edge source="212" target="SmartMessage" id="44" />
+      <edge source="212" target="Solvoyo" id="45" />
+      <edge source="212" target="Syntonym" id="46" />
+      <edge source="212" target="Trio Mobil" id="47" />
+      <edge source="212" target="Vizera" id="48" />
+      <edge source="212" target="Voltfox" id="49" />
+      <edge source="212" target="Wellbees" id="50" />
+      <edge source="212" target="Werover" id="51" />
+      <edge source="212" target="iyzico" id="52" />
+      <edge source="212" target="one.five" id="53" />
+    </edges>
+  </graph>
+</gexf>

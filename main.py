@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from collect import investment_managers, linkedin, vc_212
 from helpers.logging import configure_logging, get_logger
 from helpers.string import csv_names_for_vc
+from network import generate
 
 logger = get_logger(__name__)
 
@@ -60,6 +61,8 @@ def main(overwrite: bool = False, collect: bool = False, network: bool = False):
       investment_managers_csvs[vc], investment_managers_education_csvs[vc],\
       investment_managers_experience_csvs[vc], investment_managers_volunteering_csvs[vc]\
       = csv_names_for_vc(vc)
+
+    generate.vc_startup_network(portfolio_csvs)
 
     
 
