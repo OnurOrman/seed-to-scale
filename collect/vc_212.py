@@ -109,7 +109,10 @@ def scrape_portfolio_links(csv_with_links: str, overwrite: bool = False):
       for node in name_nodes:
         raw_name = node.get_text(strip = True)
         clean_name = raw_name.split(",")[0].strip()
+        
         if clean_name:
+          clean_name = clean_name[:clean_name.find(" – ")]
+          clean_name = clean_name.replace("Dr.", "", clean_name.count("Dr."))
           founder_names.append(clean_name)
 
       # Investment manager blocks:

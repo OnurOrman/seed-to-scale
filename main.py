@@ -46,8 +46,7 @@ def main(overwrite: bool = False, collect: bool = False, network: bool = False):
       logger.info("Collected the data for %s", vc)
 
   if network:
-    portfolio_csvs = dict()
-    team_csvs = dict()
+    portfolio_csvs = dict(); team_csvs = dict(); cofounders_inv_manager_csvs = dict()
     cofounders_csvs = dict(); cofounders_education_csvs = dict()
     cofounders_experience_csvs = dict(); cofounders_volunteering_csvs = dict()
 
@@ -55,17 +54,16 @@ def main(overwrite: bool = False, collect: bool = False, network: bool = False):
     investment_managers_experience_csvs = dict(); investment_managers_volunteering_csvs = dict()
 
     for vc in vcs:
-      portfolio_csvs[vc], team_csvs[vc],\
+      portfolio_csvs[vc], team_csvs[vc], cofounders_inv_manager_csvs[vc],\
       cofounders_csvs[vc], cofounders_education_csvs[vc],\
       cofounders_experience_csvs[vc], cofounders_volunteering_csvs[vc],\
       investment_managers_csvs[vc], investment_managers_education_csvs[vc],\
       investment_managers_experience_csvs[vc], investment_managers_volunteering_csvs[vc]\
       = csv_names_for_vc(vc)
 
-    generate.vc_startup_network(portfolio_csvs)
-
-    
-
+    generate.vc_company_network(portfolio_csvs, overwrite)
+    generate.company_cofounder_network(cofounders_inv_manager_csvs, overwrite)
+    generate.company_inv_manager_network(cofounders_inv_manager_csvs, overwrite)
 
 if __name__ == "__main__":
   configure_logging()

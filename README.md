@@ -25,6 +25,10 @@ uv run -m collect.vc_212 [--overwrite]
 uv run -m collect.linkedin [--overwrite]
 ```
 
+```bash
+uv run -m network.generate [--overwrite]
+```
+
 ## How to set up the project workflow?
 ```bash
 uv venv

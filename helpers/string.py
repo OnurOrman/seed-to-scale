@@ -64,6 +64,7 @@ def csv_names_for_vc(vc: str):
   return (
     f"{vc}_{PORTFOLIO_CSV}",
     f"{vc}_{TEAM_CSV}",
+    f"{vc}_{COFOUNDER_INVESTMENT_CSV}",
     f"{vc}_{COFOUNDER_MAIN_CSV}",
     f"{vc}_{COFOUNDER_EDU_CSV}",
     f"{vc}_{COFOUNDER_EXP_CSV}",

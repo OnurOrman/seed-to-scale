@@ -27,7 +27,7 @@ async def scrape_linkedin_people_from_csv(
 
   linkedin_links = sorted(
     {
-      part.strip() + linkedin_page
+      f"{part.strip()}{linkedin_page}"
       for link in df.get(f"{category}_linkedin", [])
       if pd.notna(link)
       for part in str(link).split("|")
@@ -176,7 +176,7 @@ async def scrape_linkedin_people_from_dict(
         continue
         
       for plain_url in urls:
-        url = plain_url + linkedin_page if linkedin_page != "" else plain_url
+        url = f"{plain_url}{linkedin_page}" if linkedin_page != "" else plain_url
         try:
           # "commit" returns as soon as network response is received, avoiding timeouts 
           # from endless background trackers holding up the "networkidle" state.
