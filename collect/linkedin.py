@@ -146,7 +146,7 @@ async def scrape_linkedin_people_from_dict(
   overwrite: bool = False,
 ):
   state_path = Path(STATE_PATH) / "li_playwright_state.json"
-  out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}"
+  out_dir = Path(HTML_PATH) / f"linkedin_{vc}_{category}_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
