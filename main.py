@@ -7,12 +7,12 @@ from helpers.logging import configure_logging, get_logger
 
 logger = get_logger(__name__)
 
-def main(vc: str, vc_linkedin: str, overwrite: bool = False, scrape: bool = False):
+def main(vc: str, vc_linkedin: str, overwrite: bool = False, collect: bool = False):
   logger.info("Starting seed-to-scale run.")
   portfolio_csv = ""
   team_csv = ""
 
-  if scrape:
+  if collect:
     if vc == "212":
       portfolio_csv, team_csv = vc_212.main(overwrite = overwrite)
     
@@ -41,11 +41,11 @@ def main(vc: str, vc_linkedin: str, overwrite: bool = False, scrape: bool = Fals
 
 if __name__ == "__main__":
   configure_logging()
-  args = [arg for arg in sys.argv[1:] if arg != "--overwrite" and arg != "--scrape"]
+  args = [arg for arg in sys.argv[1:] if arg != "--overwrite" and arg != "--collect"]
   overwrite_flag = "--overwrite" in sys.argv
-  scrape_flag = "--scrape" in sys.argv
+  collect_flag = "--collect" in sys.argv
   if len(args) != 2:
-    logger.error("Usage: uv run main.py <vc-name> <vc-linkedin-url> [--overwrite] [--scrape]")
+    logger.error("Usage: uv run main.py <vc-name> <vc-linkedin-url> [--overwrite] [--collect]")
     exit(os.EX_USAGE)
 
-  main(args[0], args[1], overwrite = overwrite_flag, scrape = scrape_flag)
+  main(args[0], args[1], overwrite = overwrite_flag, collect = collect_flag)
