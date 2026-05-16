@@ -36,7 +36,7 @@ async def scrape_linkedin_people_from_csv(
 
   logger.info("Total number of LinkedIn links to scrape: %s", len(linkedin_links))
 
-  out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page[1:] if linkedin_page != "" else "main"}"
+  out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
@@ -121,7 +121,7 @@ async def scrape_linkedin_people_from_csv(
   result_csv = ""
   if rows:
     result_df = pd.DataFrame(rows)
-    result_csv = f"{data_with_links.split("_")[0]}_{category}_linkedin_{linkedin_page if linkedin_page != "" else "main"}.csv"
+    result_csv = f"{data_with_links.split("_")[0]}_{category}_linkedin_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}.csv"
     result_csv_path = Path(CSV_PATH) / result_csv
 
     if result_csv_path.exists() and not overwrite:
@@ -146,7 +146,7 @@ async def scrape_linkedin_people_from_dict(
   overwrite: bool = False,
 ):
   state_path = Path(STATE_PATH) / "li_playwright_state.json"
-  out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page[1:] if linkedin_page != "" else "main"}"
+  out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
@@ -236,7 +236,7 @@ async def scrape_linkedin_people_from_dict(
   result_csv = ""
   if rows:
     result_df = pd.DataFrame(rows)
-    result_csv = f"{vc}_{category}_linkedin_{linkedin_page if linkedin_page != "" else "main"}.csv"
+    result_csv = f"{vc}_{category}_linkedin_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}.csv"
     result_csv_path = Path(CSV_PATH) / result_csv
 
     if result_csv_path.exists() and not overwrite:
@@ -432,19 +432,19 @@ async def cofounders(vc: str, overwrite: bool = False):
   cofounders_education_csv = await scrape_linkedin_people_from_csv(
     f"{vc}_cofounders_with_investment_managers.csv",
     "cofounders",
-    "/education",
+    "/details/education",
     overwrite = overwrite,
   )
   cofounders_experience_csv = await scrape_linkedin_people_from_csv(
     f"{vc}_cofounders_with_investment_managers.csv",
     "cofounders",
-    "/experience",
+    "/details/experience",
     overwrite = overwrite,
   )
   cofounders_volunteering_csv = await scrape_linkedin_people_from_csv(
     f"{vc}_cofounders_with_investment_managers.csv",
     "cofounders",
-    "/volunteering-experiences",
+    "/details/volunteering-experiences",
     overwrite = overwrite,
   )
   return cofounders_csv, cofounders_education_csv, cofounders_experience_csv, cofounders_volunteering_csv
@@ -470,21 +470,21 @@ async def vc_investment_managers(vc: str, data: dict, overwrite: bool = False):
     vc,
     data,
     "employee",
-    "/education",
+    "/details/education",
     overwrite = overwrite,
   )
   investment_managers_experience_csv = await scrape_linkedin_people_from_dict(
     vc,
     data,
     "employee",
-    "/experience",
+    "/details/experience",
     overwrite = overwrite,
   )
   investment_managers_volunteering_csv = await scrape_linkedin_people_from_dict(
     vc,
     data,
     "employee",
-    "/volunteering-experiences",
+    "/details/volunteering-experiences",
     overwrite = overwrite,
   )
   return investment_managers_csv, investment_managers_education_csv, investment_managers_experience_csv, investment_managers_volunteering_csv
