@@ -1,7 +1,30 @@
 DATA_PATH = "data"
 
 CSV_PATH = DATA_PATH + "/csv"
+COFOUNDER_INVESTMENT_CSV = "cofounders_with_investment_managers.csv"
+PORTFOLIO_CSV = "portfolio_links.csv"
+TEAM_CSV = "employees_team.csv"
+
 HTML_PATH = DATA_PATH + "/html"
 JSON_PATH = DATA_PATH + "/json"
 
 STATE_PATH = "state"
+LINKEDIN_STATE_FILE = "li_playwright_state.json"
+
+LINKEDIN_CANONICAL_START = "https://www."
+LINKEDIN_BASE = "linkedin.com"
+
+LINKEDIN_LOGIN = LINKEDIN_CANONICAL_START + LINKEDIN_BASE + "/login"
+
+LINKEDIN_COMPANY_BASE = LINKEDIN_BASE + "/company/"
+LINKEDIN_COMPANY_CANONICAL = LINKEDIN_CANONICAL_START + LINKEDIN_COMPANY_BASE
+
+LINKEDIN_IN_BASE = LINKEDIN_BASE + "/in/"
+LINKEDIN_IN_CANONICAL = LINKEDIN_CANONICAL_START + LINKEDIN_BASE + "/in/"
+
+LINKEDIN_404 = LINKEDIN_BASE + "/404"
+
+# ---------- VCs ----------
+BASE_212 = "https://212.vc"
+PORTFOLIO_212 = BASE_212 + "/portfolio"
+TEAM_212 = BASE_212 + "/team"

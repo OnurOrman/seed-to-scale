@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from pathlib import Path
 
-from helpers.constants import CSV_PATH, HTML_PATH, STATE_PATH
+from helpers.constants import *
 from helpers.linkedin import *
 from helpers.logging import configure_logging, get_logger
 from helpers.string import deturkify, extract_unique_names
@@ -22,7 +22,7 @@ async def scrape_linkedin_people_from_csv(
   overwrite: bool = False,
 ):
   csv_path = Path(CSV_PATH) / data_with_links
-  state_path = Path(STATE_PATH) / "li_playwright_state.json"
+  state_path = Path(STATE_PATH) / LINKEDIN_STATE_FILE
   df = pd.read_csv(csv_path)
 
   linkedin_links = sorted(
@@ -31,7 +31,7 @@ async def scrape_linkedin_people_from_csv(
       for link in df.get(f"{category}_linkedin", [])
       if pd.notna(link)
       for part in str(link).split("|")
-      if "linkedin.com/in/" in part
+      if LINKEDIN_IN_BASE in part
     }
   )
 
@@ -39,14 +39,14 @@ async def scrape_linkedin_people_from_csv(
 
   vc = data_with_links.split("_")[0]
 
-  out_dir = Path(HTML_PATH) / f"linkedin_{vc}_{category}_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}"
+  out_dir = Path(HTML_PATH) / f"{vc}_{category}_linkedin_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
     logger.warning("Login state not found. Triggering login flow...")
     await save_logged_in_state(
-      login_url="https://www.linkedin.com/login",
-      timeout_ms=180000,
+      login_url = LINKEDIN_LOGIN,
+      timeout_ms = 180000,
     )
 
   rows = []
@@ -124,7 +124,7 @@ async def scrape_linkedin_people_from_csv(
   result_csv = ""
   if rows:
     result_df = pd.DataFrame(rows)
-    result_csv = f"{data_with_links.split("_")[0]}_{category}_linkedin_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}.csv"
+    result_csv = f"{vc}_{category}_linkedin_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}.csv"
     result_csv_path = Path(CSV_PATH) / result_csv
 
     if result_csv_path.exists() and not overwrite:
@@ -148,15 +148,15 @@ async def scrape_linkedin_people_from_dict(
   linkedin_page: str = "",
   overwrite: bool = False,
 ):
-  state_path = Path(STATE_PATH) / "li_playwright_state.json"
-  out_dir = Path(HTML_PATH) / f"linkedin_{vc}_{category}_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}"
+  state_path = Path(STATE_PATH) / LINKEDIN_STATE_FILE
+  out_dir = Path(HTML_PATH) / f"{vc}_{category}_linkedin_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
     logger.warning("Login state not found. Triggering login flow...")
     await save_logged_in_state(
-      login_url="https://www.linkedin.com/login",
-      timeout_ms=180000,
+      login_url = LINKEDIN_LOGIN,
+      timeout_ms = 180000,
     )
 
   rows = []
@@ -190,7 +190,7 @@ async def scrape_linkedin_people_from_dict(
           current_url = page.url
 
           # Check for 404 redirect
-          if "linkedin.com/404" in current_url or html.count("Something went wrong") > 1\
+          if LINKEDIN_404 in current_url or html.count("Something went wrong") > 1\
             or (html.count("entity-collection-item") == 0 and html.count("Nothing to see for now") == 0):
             logger.warning("Profile not found (404/redirect) at %s, trying next...", url)
             continue
@@ -264,21 +264,21 @@ async def scrape_employee_lookup(
   overwrite: bool = False,
 ):
   csv_path = Path(CSV_PATH) / data_with_links
-  state_path = Path(STATE_PATH) / "li_playwright_state.json"
+  state_path = Path(STATE_PATH) / LINKEDIN_STATE_FILE
   df = pd.read_csv(csv_path)
 
   initial_investment_manager_names = df["investment_managers"].dropna().unique().tolist()
 
   investment_manager_names = extract_unique_names(initial_investment_manager_names, "%20")
 
-  out_dir = Path(HTML_PATH) / f"linkedin_{data_with_links.split("_")[0]}_employees_lookup"
+  out_dir = Path(HTML_PATH) / f"{data_with_links.split("_")[0]}_employee_lookup_linkedin"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
     logger.warning("Login state not found. Triggering login flow...")
     await save_logged_in_state(
-      login_url="https://www.linkedin.com/login",
-      timeout_ms=180000,
+      login_url = LINKEDIN_LOGIN,
+      timeout_ms = 180000,
     )
 
   rows = []
@@ -315,7 +315,7 @@ async def scrape_employee_lookup(
           logger.warning("In the opened browser, solve challenge or login manually.")
           input("  Press Enter here to retry capture...")
           
-          await page.reload(wait_until="commit", timeout = 60000)
+          await page.reload(wait_until = "commit", timeout = 60000)
           await page.wait_for_timeout(15000)
           
           html = await page.content()
@@ -366,7 +366,7 @@ async def scrape_employee_lookup(
 
   logger.info("Scraping complete.")
 
-  return f"{data_with_links.split("_")[0]}_employees_linkedin_lookup"
+  return f"{data_with_links.split("_")[0]}_employee_lookup_linkedin"
 
 async def collect_employee_lookup(html_dir: str, overwrite: bool = False):
   vc = html_dir.split("_")[0]
@@ -431,24 +431,24 @@ async def collect_employee_lookup(html_dir: str, overwrite: bool = False):
 
 async def cofounders(vc: str, overwrite: bool = False):
   cofounders_csv = await scrape_linkedin_people_from_csv(
-    f"{vc}_cofounders_with_investment_managers.csv",
+    f"{vc}_{COFOUNDER_INVESTMENT_CSV}",
     "cofounders",
     overwrite = overwrite,
   )
   cofounders_education_csv = await scrape_linkedin_people_from_csv(
-    f"{vc}_cofounders_with_investment_managers.csv",
+    f"{vc}_{COFOUNDER_INVESTMENT_CSV}",
     "cofounders",
     "/details/education",
     overwrite = overwrite,
   )
   cofounders_experience_csv = await scrape_linkedin_people_from_csv(
-    f"{vc}_cofounders_with_investment_managers.csv",
+    f"{vc}_{COFOUNDER_INVESTMENT_CSV}",
     "cofounders",
     "/details/experience",
     overwrite = overwrite,
   )
   cofounders_volunteering_csv = await scrape_linkedin_people_from_csv(
-    f"{vc}_cofounders_with_investment_managers.csv",
+    f"{vc}_{COFOUNDER_INVESTMENT_CSV}",
     "cofounders",
     "/details/volunteering-experiences",
     overwrite = overwrite,
@@ -457,7 +457,7 @@ async def cofounders(vc: str, overwrite: bool = False):
 
 async def vc_employees(vc: str, vc_linkedin: str, overwrite: bool = False):
   lookup_dir = await scrape_employee_lookup(
-    f"{vc}_cofounders_with_investment_managers.csv",
+    f"{vc}_{COFOUNDER_INVESTMENT_CSV}",
     vc_linkedin,
     overwrite = overwrite,
   )

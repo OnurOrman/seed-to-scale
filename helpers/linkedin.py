@@ -1,7 +1,7 @@
 from pathlib import Path
 from playwright.async_api import async_playwright
 
-from .constants import STATE_PATH
+from .constants import *
 from .logging import get_logger
 from .string import clean_link
 
@@ -17,8 +17,8 @@ def looks_like_linkedin_auth_wall(html: str) -> bool:
   )
 
 async def save_logged_in_state(
-  login_url: str = "https://www.linkedin.com/login",
-  state_file: str = "li_playwright_state.json",
+  login_url: str = LINKEDIN_LOGIN,
+  state_file: str = LINKEDIN_STATE_FILE,
   timeout_ms: int = 180000,
 ) -> str:
   """Open a visible browser, let the user complete login, then save auth state."""
@@ -39,4 +39,4 @@ async def save_logged_in_state(
   return state_file
 
 def clean_linkedin_link(link: str) -> str:
-  return clean_link(link.replace(link[:link.find("linkedin.com")], "https://www."))
+  return clean_link(link.replace(link[:link.find(LINKEDIN_BASE)], LINKEDIN_CANONICAL_START))

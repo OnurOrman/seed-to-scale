@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 from urllib.parse import urljoin
 
-from helpers.constants import CSV_PATH
+from helpers.constants import *
 from helpers.linkedin import clean_linkedin_link
 from helpers.logging import configure_logging, get_logger
 from helpers.string import *
@@ -16,10 +16,10 @@ from helpers.webscrape import is_element_hidden, scrape_website
 
 logger = get_logger(__name__)
 
-def collect_portfolio_links(url: str = "https://212.vc/portfolio", overwrite: bool = False) -> str:
+def collect_portfolio_links(url: str = PORTFOLIO_212, overwrite: bool = False) -> str:
   csv_path = Path(CSV_PATH)
   csv_path.mkdir(parents = True, exist_ok = True)
-  portfolio_csv = "212_portfolio_links.csv"
+  portfolio_csv = f"212_{PORTFOLIO_CSV}"
   portfolio_csv_path = csv_path / portfolio_csv
 
   if portfolio_csv_path.exists() and not overwrite:
@@ -77,7 +77,7 @@ def scrape_portfolio_links(csv_with_links: str, overwrite: bool = False):
   csv_path = Path(CSV_PATH)
   csv_path.mkdir(parents = True, exist_ok = True)
 
-  output_csv = "212_cofounders_with_investment_managers.csv"
+  output_csv = f"212_{COFOUNDER_INVESTMENT_CSV}"
   output_csv_path = csv_path / output_csv
   if output_csv_path.exists() and not overwrite:
     logger.info("CSV already exists: %s", str(output_csv_path))
@@ -100,7 +100,7 @@ def scrape_portfolio_links(csv_with_links: str, overwrite: bool = False):
       linkedin_links = [
         clean_linkedin_link(a["href"].strip())
         for a in linkedin_anchors
-        if "linkedin.com/in/" in a["href"].strip()
+        if LINKEDIN_IN_BASE in a["href"].strip()
       ]
 
       # Co-founder names: <h2 class="elementor-heading-title elementor-size-default">Name, ...</h2>
@@ -159,7 +159,7 @@ def scrape_portfolio_links(csv_with_links: str, overwrite: bool = False):
       clean_name_slug = company_name.lower().replace(" ", "").replace("-", "")
 
       for raw_url in potential_links:
-        if "linkedin.com/company/" in raw_url:
+        if LINKEDIN_COMPANY_BASE in raw_url:
             parts = raw_url.split("/")
             try:
               idx = parts.index("company")
@@ -168,7 +168,7 @@ def scrape_portfolio_links(csv_with_links: str, overwrite: bool = False):
               
               # Compatibility check: one must be contained in the other
               if clean_slug in clean_name_slug or clean_name_slug in clean_slug:
-                company_linkedin = f"https://www.linkedin.com/company/{slug}/"
+                company_linkedin = f"{LINKEDIN_COMPANY_CANONICAL}{slug}/"
                 break # Found a compatible match, stop searching
             except (ValueError, IndexError):
               continue
@@ -179,7 +179,7 @@ def scrape_portfolio_links(csv_with_links: str, overwrite: bool = False):
         path = urlparse(company_link).path.strip("/")
         slug = path.split("/")[-1] if path else ""
         if slug:
-          company_linkedin = f"https://www.linkedin.com/company/{slug}/"
+          company_linkedin = f"{LINKEDIN_COMPANY_CANONICAL}{slug}/"
 
       extracted_rows.append(
         {
@@ -254,8 +254,8 @@ def scrape_portfolio_links(csv_with_links: str, overwrite: bool = False):
   )
   return output_csv
 
-def collect_team_links(url: str = "https://212.vc/team", overwrite: bool = False) -> str:
-  output_csv = "212_employees_team.csv"
+def collect_team_links(url: str = TEAM_212, overwrite: bool = False) -> str:
+  output_csv = f"212_{TEAM_CSV}"
   output_csv_path = Path(CSV_PATH) / output_csv
 
   if output_csv_path.exists() and not overwrite:
@@ -288,7 +288,7 @@ def collect_team_links(url: str = "https://212.vc/team", overwrite: bool = False
       continue
 
     for a_tag in li.find_all("a", href = True):
-      if "linkedin.com" in a_tag["href"] and a_tag["href"] not in links:
+      if LINKEDIN_BASE in a_tag["href"] and a_tag["href"] not in links:
         links.append(clean_linkedin_link(a_tag["href"]))
     
   target_spans = [

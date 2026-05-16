@@ -44,7 +44,7 @@ def main(overwrite: bool = False, collect: bool = False, network: bool = False):
           ))
       
       logger.info("Collected the data for %s", vc)
-  else:
+  elif network:
     pass
 
 
