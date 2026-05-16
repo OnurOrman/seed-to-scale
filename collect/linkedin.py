@@ -164,9 +164,9 @@ async def scrape_linkedin_people_from_dict(
     context = await browser.new_context(storage_state = state_path)
     page = await context.new_page()
 
-    for i, _ in enumerate(data, start = 1):
+    for i, _ in enumerate(data, start = 0):
       _, urls = list(data.keys())[i], list(data.values())[i]
-      html_file = f"linkedin_{i:04d}.html"
+      html_file = f"linkedin_{i + 1:04d}.html"
       html_path = out_dir / html_file
       if html_path.exists() and not overwrite:
         logger.info("HTML already exists: %s", str(html_path))
