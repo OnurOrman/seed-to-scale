@@ -6,12 +6,14 @@ The public repository for the CS 414/514 (Network Science) course project at Sab
 uv run main.py [--overwrite] [--collect] [--network]
 ```
 
-- For 212:
+- Supported VCs for the CS 414/514 course project:
 
-```env
-VC=212
-VC_LINKEDIN=https://www.linkedin.com/company/212vc
-```
+  - 212
+
+    ```env
+    VC=212
+    VC_LINKEDIN=https://www.linkedin.com/company/212vc
+    ```
 
 ## How to run different modules of the project independently?
 
