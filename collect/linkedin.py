@@ -172,7 +172,8 @@ async def scrape_linkedin_people_from_dict(
         logger.info("HTML already exists: %s", str(html_path))
         continue
         
-      for url in urls:
+      for plain_url in urls:
+        url = plain_url + linkedin_page if linkedin_page != "" else plain_url
         try:
           # "commit" returns as soon as network response is received, avoiding timeouts 
           # from endless background trackers holding up the "networkidle" state.
@@ -186,7 +187,8 @@ async def scrape_linkedin_people_from_dict(
           current_url = page.url
 
           # Check for 404 redirect
-          if "linkedin.com/404" in current_url:
+          if "linkedin.com/404" in current_url or html.count("Something went wrong") > 1\
+            or (html.count("entity-collection-item") == 0 and html.count("Nothing to see for now") == 0):
             logger.warning("Profile not found (404/redirect) at %s, trying next...", url)
             continue
           
