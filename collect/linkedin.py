@@ -377,8 +377,9 @@ async def collect_employee_lookup(html_dir: str, overwrite: bool = False):
 
       soup = BeautifulSoup(html_content, "html.parser")
       try:
-        link_target_div = soup.find("div", attrs = {"id": "ember204"})
-        name_target_div = soup.find("div", attrs = {"id": "ember206"})
+        # The id's should be checked manually
+        link_target_div = soup.find("div", attrs = {"id": "ember173"})
+        name_target_div = soup.find("div", attrs = {"id": "ember175"})
 
         for a_tag in link_target_div.find_all("a", href = True):
           if a_tag["href"] not in employee_linkedin_links:

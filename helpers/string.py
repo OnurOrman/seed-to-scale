@@ -53,4 +53,7 @@ def exclude_abbreviated_names(full_name: str) -> str:
   return final_name.strip()
 
 def clean_link(link: str) -> str:
-  return link[:link.find("?") - 1] if link.find("?") != -1 else link[:-1] if link[-1] == "/" else link
+  return link[:link.find("/?")] if "/?" in link\
+    else link[:link.find("?")] if "?" in link\
+      else link[:-1] if link[-1] == "/"\
+        else link
