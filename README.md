@@ -3,10 +3,15 @@ The public repository for the CS 414/514 (Network Science) course project at Sab
 
 ## How to run the project?
 ```bash
-uv run main.py <vc-name> <vc-linkedin-url> [--overwrite] [--collect]
+uv run main.py [--overwrite] [--collect] [--network]
 ```
 
-- For 212: ```212 https://www.linkedin.com/company/212vc```
+- For 212:
+
+```env
+VC=212
+VC_LINKEDIN=https://www.linkedin.com/company/212vc
+```
 
 ## How to run different modules of the project independently?
 
@@ -15,7 +20,7 @@ uv run -m collect.vc_212 [--overwrite]
 ```
 
 ```bash
-uv run -m collect.linkedin <vc-name> <vc-linkedin-url> [--overwrite]
+uv run -m collect.linkedin [--overwrite]
 ```
 
 ## How to set up the project workflow?

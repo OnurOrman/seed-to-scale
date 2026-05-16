@@ -213,3 +213,5 @@ state/
 **/**_playwright_state.json
 
 **/**.html
+
+notes.md

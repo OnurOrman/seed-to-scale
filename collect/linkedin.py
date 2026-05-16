@@ -5,6 +5,7 @@ import pandas as pd
 import sys
 
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 from pathlib import Path
 
 from helpers.constants import CSV_PATH, HTML_PATH, STATE_PATH
@@ -36,7 +37,9 @@ async def scrape_linkedin_people_from_csv(
 
   logger.info("Total number of LinkedIn links to scrape: %s", len(linkedin_links))
 
-  out_dir = Path(HTML_PATH) / f"linkedin_{category}_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}"
+  vc = data_with_links.split("_")[0]
+
+  out_dir = Path(HTML_PATH) / f"linkedin_{vc}_{category}_{linkedin_page.split("/")[-1] if linkedin_page != "" else "main"}"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
@@ -268,7 +271,7 @@ async def scrape_employee_lookup(
 
   investment_manager_names = extract_unique_names(initial_investment_manager_names, "%20")
 
-  out_dir = Path(HTML_PATH) / f"{data_with_links.split("_")[0]}_employees_linkedin_lookup"
+  out_dir = Path(HTML_PATH) / f"linkedin_{data_with_links.split("_")[0]}_employees_lookup"
   out_dir.mkdir(parents = True, exist_ok = True)
 
   if not state_path.exists():
@@ -281,12 +284,12 @@ async def scrape_employee_lookup(
   rows = []
 
   async with async_playwright() as p:
-    browser = await p.chromium.launch(headless=False)
+    browser = await p.chromium.launch(headless = False)
     # Load the saved state
-    context = await browser.new_context(storage_state=state_path)
+    context = await browser.new_context(storage_state = state_path)
     page = await context.new_page()
 
-    for i, name in enumerate(investment_manager_names, start=1):
+    for i, name in enumerate(investment_manager_names, start = 1):
       vc_employee_url = f"{vc_base_linkedin_url}/people/?keywords={name}&viewAsMember=true"
       logger.info("[%s/%s] Scraping: %s", i, len(investment_manager_names), vc_employee_url)
       
@@ -494,6 +497,7 @@ async def vc_investment_managers(vc: str, data: dict, overwrite: bool = False):
 
 async def main(vc: str, vc_linkedin: str, overwrite: bool = False):
   configure_logging()
+
   cofounders_csv, cofounders_education_csv, cofounders_experience_csv, cofounders_volunteering_csv = await cofounders(
     vc,
     overwrite = overwrite,
@@ -502,10 +506,15 @@ async def main(vc: str, vc_linkedin: str, overwrite: bool = False):
   return cofounders_csv, cofounders_education_csv, cofounders_experience_csv, cofounders_volunteering_csv, employees_csv
 
 if __name__ == "__main__":
+  load_dotenv()
   args = [arg for arg in sys.argv[1:] if arg != "--overwrite"]
   overwrite_flag = "--overwrite" in sys.argv
-  if len(args) != 2:
-    logger.error("Usage: uv run -m collect.linkedin <vc-name> <vc-linkedin-url> [--overwrite]")
+  if len(args) != 0:
+    logger.error("Usage: uv run -m collect.linkedin [--overwrite]")
     exit(os.EX_USAGE)
 
-  asyncio.run(main(args[0], args[1], overwrite = overwrite_flag))
+  vcs = os.getenv("VC").split(",")
+  vc_linkedins = os.getenv("VC_LINKEDIN").split(",")
+
+  for vc, vc_linkedin in zip(vcs, vc_linkedins):
+    asyncio.run(main(vc, vc_linkedin, overwrite = overwrite_flag))
