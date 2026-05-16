@@ -2,6 +2,8 @@ import re
 
 from urllib.parse import urlparse
 
+from helpers.constants import *
+
 def company_name_from_parent_link(parent_link: str) -> str:
   path = urlparse(parent_link).path.strip("/")
   slug = path.split("/")[-1] if path else ""
@@ -57,3 +59,17 @@ def clean_link(link: str) -> str:
     else link[:link.find("?")] if "?" in link\
       else link[:-1] if link[-1] == "/"\
         else link
+
+def csv_names_for_vc(vc: str):
+  return (
+    f"{vc}_{PORTFOLIO_CSV}",
+    f"{vc}_{TEAM_CSV}",
+    f"{vc}_{COFOUNDER_MAIN_CSV}",
+    f"{vc}_{COFOUNDER_EDU_CSV}",
+    f"{vc}_{COFOUNDER_EXP_CSV}",
+    f"{vc}_{COFOUNDER_VOL_CSV}",
+    f"{vc}_{EMPLOYEE_MAIN_CSV}",
+    f"{vc}_{EMPLOYEE_EDU_CSV}",
+    f"{vc}_{EMPLOYEE_EXP_CSV}",
+    f"{vc}_{EMPLOYEE_VOL_CSV}"
+  )

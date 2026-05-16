@@ -401,7 +401,7 @@ async def collect_employee_lookup(html_dir: str, overwrite: bool = False):
   unique_employee_linkedin_links = list(dict.fromkeys(employee_linkedin_links))
   unique_employee_linkedin_names = list(dict.fromkeys(employee_linkedin_names))
 
-  output_csv = f"{vc}_employees_linkedin.csv"
+  output_csv = f"{vc}_{TEAM_LINKEDIN_CSV}"
   output_csv_path = Path(CSV_PATH) / output_csv
   fieldnames = [
     "employee_name",
@@ -453,7 +453,6 @@ async def cofounders(vc: str, overwrite: bool = False):
     "/details/volunteering-experiences",
     overwrite = overwrite,
   )
-  return cofounders_csv, cofounders_education_csv, cofounders_experience_csv, cofounders_volunteering_csv
 
 async def vc_employees(vc: str, vc_linkedin: str, overwrite: bool = False):
   lookup_dir = await scrape_employee_lookup(
@@ -466,44 +465,40 @@ async def vc_employees(vc: str, vc_linkedin: str, overwrite: bool = False):
 
 async def vc_investment_managers(vc: str, data: dict, overwrite: bool = False):
   configure_logging()
-  investment_managers_csv = await scrape_linkedin_people_from_dict(
+  await scrape_linkedin_people_from_dict(
     vc,
     data,
     "employee",
     overwrite = overwrite,
   )
-  investment_managers_education_csv = await scrape_linkedin_people_from_dict(
+  await scrape_linkedin_people_from_dict(
     vc,
     data,
     "employee",
     "/details/education",
     overwrite = overwrite,
   )
-  investment_managers_experience_csv = await scrape_linkedin_people_from_dict(
+  await scrape_linkedin_people_from_dict(
     vc,
     data,
     "employee",
     "/details/experience",
     overwrite = overwrite,
   )
-  investment_managers_volunteering_csv = await scrape_linkedin_people_from_dict(
+  await scrape_linkedin_people_from_dict(
     vc,
     data,
     "employee",
     "/details/volunteering-experiences",
     overwrite = overwrite,
   )
-  return investment_managers_csv, investment_managers_education_csv, investment_managers_experience_csv, investment_managers_volunteering_csv
 
 async def main(vc: str, vc_linkedin: str, overwrite: bool = False):
   configure_logging()
 
-  cofounders_csv, cofounders_education_csv, cofounders_experience_csv, cofounders_volunteering_csv = await cofounders(
-    vc,
-    overwrite = overwrite,
-  )
+  await cofounders(vc, overwrite = overwrite)
   employees_csv = await vc_employees(vc, vc_linkedin, overwrite = overwrite)
-  return cofounders_csv, cofounders_education_csv, cofounders_experience_csv, cofounders_volunteering_csv, employees_csv
+  return employees_csv
 
 if __name__ == "__main__":
   load_dotenv()

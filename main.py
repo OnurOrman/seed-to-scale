@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 
 from collect import investment_managers, linkedin, vc_212
 from helpers.logging import configure_logging, get_logger
+from helpers.string import csv_names_for_vc
 
 logger = get_logger(__name__)
 
@@ -22,9 +23,9 @@ def main(overwrite: bool = False, collect: bool = False, network: bool = False):
       if vc == "212":
         portfolio_csv, team_csv = vc_212.main(overwrite = overwrite)
       
-      cofounders_csv, cofounders_education_csv, cofounders_experience_csv,\
-        cofounders_volunteering_csv, employees_csv\
-          = asyncio.run(linkedin.main(vc, vc_linkedin, overwrite = overwrite))
+      employees_csv = asyncio.run(linkedin.main(
+        vc, vc_linkedin, overwrite = overwrite
+      ))
       
       investment_manager_json = investment_managers.get_investment_managers(
         investment_managers.collect_investment_managers(
@@ -35,17 +36,32 @@ def main(overwrite: bool = False, collect: bool = False, network: bool = False):
         )
       )
 
-      investment_managers_csv, investment_managers_education_csv,\
-        investment_managers_experience_csv, investment_managers_volunteering_csv\
-          = asyncio.run(linkedin.vc_investment_managers(
-            vc,
-            investment_manager_json,
-            overwrite = overwrite,
-          ))
+      asyncio.run(linkedin.vc_investment_managers(
+        vc,
+        investment_manager_json,
+        overwrite = overwrite,
+      ))
       
       logger.info("Collected the data for %s", vc)
-  elif network:
-    pass
+
+  if network:
+    portfolio_csvs = dict()
+    team_csvs = dict()
+    cofounders_csvs = dict(); cofounders_education_csvs = dict()
+    cofounders_experience_csvs = dict(); cofounders_volunteering_csvs = dict()
+
+    investment_managers_csvs = dict(); investment_managers_education_csvs = dict()
+    investment_managers_experience_csvs = dict(); investment_managers_volunteering_csvs = dict()
+
+    for vc in vcs:
+      portfolio_csvs[vc], team_csvs[vc],\
+      cofounders_csvs[vc], cofounders_education_csvs[vc],\
+      cofounders_experience_csvs[vc], cofounders_volunteering_csvs[vc],\
+      investment_managers_csvs[vc], investment_managers_education_csvs[vc],\
+      investment_managers_experience_csvs[vc], investment_managers_volunteering_csvs[vc]\
+      = csv_names_for_vc(vc)
+
+    
 
 
 if __name__ == "__main__":
