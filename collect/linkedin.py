@@ -288,7 +288,7 @@ async def scrape_employee_lookup(
       vc_employee_url = f"{vc_base_linkedin_url}/people/?keywords={name}&viewAsMember=true"
       logger.info("[%s/%s] Scraping: %s", i, len(investment_manager_names), vc_employee_url)
       
-      html_file = out_dir / f"vc_employee_linkedin_{i:04d}.html"
+      html_file = out_dir / f"linkedin_{i:04d}.html"
       if html_file.exists() and not overwrite:
         logger.info("HTML already exists: %s", str(html_file))
         continue
