@@ -100,7 +100,7 @@ def scrape_portfolio_links(csv_with_links: str, overwrite: bool = False):
       linkedin_links = [
         clean_linkedin_link(a["href"].strip())
         for a in linkedin_anchors
-        if "linkedin.com/in/" in a["href"].strip().find()
+        if "linkedin.com/in/" in a["href"].strip()
       ]
 
       # Co-founder names: <h2 class="elementor-heading-title elementor-size-default">Name, ...</h2>

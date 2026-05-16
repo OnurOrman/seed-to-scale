@@ -466,7 +466,7 @@ async def vc_investment_managers(vc: str, data: dict, overwrite: bool = False):
     "employee",
     overwrite = overwrite,
   )
-  investment_managers_education_csv = scrape_linkedin_people_from_dict(
+  investment_managers_education_csv = await scrape_linkedin_people_from_dict(
     vc,
     data,
     "employee",
@@ -480,7 +480,7 @@ async def vc_investment_managers(vc: str, data: dict, overwrite: bool = False):
     "/experience",
     overwrite = overwrite,
   )
-  investment_managers_volunteering_csv = scrape_linkedin_people_from_dict(
+  investment_managers_volunteering_csv = await scrape_linkedin_people_from_dict(
     vc,
     data,
     "employee",
