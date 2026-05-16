@@ -33,14 +33,15 @@ def deturkify(string: str) -> str:
     .replace("ü", "u", string.count("ü"))
 
 def extract_unique_names(initial_names: list[str], separator: str = " ") -> list[str]:
-  final_names = []
+  names = []
 
   for initial_name in initial_names:
     for split_name in split_possible_names(initial_name):
       formatted = deturkify(split_name)
-      if formatted not in final_names:
-        final_names.append(formatted.replace(" ", separator, formatted.count(" ")))
+      if formatted not in names:
+        names.append(formatted.replace(" ", separator, formatted.count(" ")))
 
+  final_names = sorted(list(dict.fromkeys(names)))
   return final_names
 
 def exclude_abbreviated_names(full_name: str) -> str:
