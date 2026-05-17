@@ -432,25 +432,25 @@ async def collect_employee_lookup(html_dir: str, overwrite: bool = False):
 async def cofounders(vc: str, overwrite: bool = False):
   cofounders_csv = await scrape_linkedin_people_from_csv(
     f"{vc}_{COFOUNDER_INVESTMENT_CSV}",
-    "cofounders",
+    COFOUNDER,
     overwrite = overwrite,
   )
   cofounders_education_csv = await scrape_linkedin_people_from_csv(
     f"{vc}_{COFOUNDER_INVESTMENT_CSV}",
-    "cofounders",
-    "/details/education",
+    COFOUNDER,
+    EDUCATION_LINKEDIN,
     overwrite = overwrite,
   )
   cofounders_experience_csv = await scrape_linkedin_people_from_csv(
     f"{vc}_{COFOUNDER_INVESTMENT_CSV}",
-    "cofounders",
-    "/details/experience",
+    COFOUNDER,
+    EXPERIENCE_LINKEDIN,
     overwrite = overwrite,
   )
   cofounders_volunteering_csv = await scrape_linkedin_people_from_csv(
     f"{vc}_{COFOUNDER_INVESTMENT_CSV}",
-    "cofounders",
-    "/details/volunteering-experiences",
+    COFOUNDER,
+    VOLUNTEERING_LINKEDIN,
     overwrite = overwrite,
   )
 
@@ -468,28 +468,28 @@ async def vc_investment_managers(vc: str, data: dict, overwrite: bool = False):
   await scrape_linkedin_people_from_dict(
     vc,
     data,
-    "employee",
+    EMPLOYEE,
     overwrite = overwrite,
   )
   await scrape_linkedin_people_from_dict(
     vc,
     data,
-    "employee",
-    "/details/education",
+    EMPLOYEE,
+    EDUCATION_LINKEDIN,
     overwrite = overwrite,
   )
   await scrape_linkedin_people_from_dict(
     vc,
     data,
-    "employee",
-    "/details/experience",
+    EMPLOYEE,
+    EXPERIENCE_LINKEDIN,
     overwrite = overwrite,
   )
   await scrape_linkedin_people_from_dict(
     vc,
     data,
-    "employee",
-    "/details/volunteering-experiences",
+    EMPLOYEE,
+    VOLUNTEERING_LINKEDIN,
     overwrite = overwrite,
   )
 

@@ -83,16 +83,16 @@ def company_cofounder_network(cofounder_inv_manager_csvs: dict[str, str], overwr
     logger.debug("Loaded %d rows from %s", len(cofounder_inv_manager_df), cofounder_inv_manager_csv)
     
     for _, row in cofounder_inv_manager_df.iterrows():
-      company = row["company_name"]
-      if not network.has_node(company):
-        attrs = {
-          "bipartite": 1,
-          "type": "Company",
-          "label": company
-        }
-        network.add_node(company, **attrs)
-
       if row["cofounder_count"] > 0:
+        company = row["company_name"]
+        if not network.has_node(company):
+          attrs = {
+            "bipartite": 1,
+            "type": "Company",
+            "label": company
+          }
+          network.add_node(company, **attrs)
+
         cofounders = extract_unique_names([row["cofounders_name"]])
         for cofounder in cofounders:
           if not network.has_node(cofounder):
@@ -131,16 +131,16 @@ def company_inv_manager_network(cofounder_inv_manager_csvs: dict[str, str], over
     logger.debug("Loaded %d rows from %s", len(cofounder_inv_manager_df), cofounder_inv_manager_csv)
     
     for _, row in cofounder_inv_manager_df.iterrows():
-      company = row["company_name"]
-      if not network.has_node(company):
-        attrs = {
-          "bipartite": 1,
-          "type": "Company",
-          "label": company
-        }
-        network.add_node(company, **attrs)
-
       if row["investment_manager_count"] > 0:
+        company = row["company_name"]
+        if not network.has_node(company):
+          attrs = {
+            "bipartite": 1,
+            "type": "Company",
+            "label": company
+          }
+          network.add_node(company, **attrs)
+
         inv_managers = extract_unique_names([row["investment_managers"]])
         for inv_manager in inv_managers:
           if not network.has_node(inv_manager):
@@ -163,6 +163,9 @@ def company_inv_manager_network(cofounder_inv_manager_csvs: dict[str, str], over
   logger.info("Company-Investment Manager network saved to: %s", network_gexf_path)
 
 def main(overwrite: bool = False):
+  configure_logging()
+  load_dotenv()
+
   vcs = os.getenv("VC").split(",")
   portfolio_csvs = dict(); team_csvs = dict(); cofounder_inv_manager_csvs = dict()
   cofounders_csvs = dict(); cofounders_education_csvs = dict()
@@ -184,9 +187,6 @@ def main(overwrite: bool = False):
   company_inv_manager_network(cofounder_inv_manager_csvs, overwrite)
 
 if __name__ == "__main__":
-  configure_logging()
-  load_dotenv()
-
   args = [arg for arg in sys.argv[1:] if arg != "--overwrite"]
   overwrite_flag = "--overwrite" in sys.argv
 

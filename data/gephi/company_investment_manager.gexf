@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-05-16">
+  <meta lastmodifieddate="2026-05-17">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -63,12 +63,6 @@
           <attvalue for="1" value="Investment Manager" />
         </attvalues>
       </node>
-      <node id="Arcademonk" label="Arcademonk">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
       <node id="Artboard Studio" label="Artboard Studio">
         <attvalues>
           <attvalue for="0" value="1" />
@@ -99,19 +93,7 @@
           <attvalue for="1" value="Investment Manager" />
         </attvalues>
       </node>
-      <node id="Balerin" label="Balerin">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
       <node id="Bolt Insight" label="Bolt Insight">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
-      <node id="Butigo" label="Butigo">
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="Company" />
@@ -142,12 +124,6 @@
         </attvalues>
       </node>
       <node id="Evercopy" label="Evercopy">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
-      <node id="Evim Net" label="Evim Net">
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="Company" />
@@ -202,18 +178,6 @@
         </attvalues>
       </node>
       <node id="Haelixa" label="Haelixa">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
-      <node id="Hazinem" label="Hazinem">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
-      <node id="Hemenkiralik" label="Hemenkiralik">
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="Company" />
@@ -279,12 +243,6 @@
           <attvalue for="1" value="Company" />
         </attvalues>
       </node>
-      <node id="Parcadeposu" label="Parcadeposu">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
       <node id="Philosopherking" label="Philosopherking">
         <attvalues>
           <attvalue for="0" value="1" />
@@ -321,12 +279,6 @@
           <attvalue for="1" value="Company" />
         </attvalues>
       </node>
-      <node id="Robolaunch" label="Robolaunch">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
       <node id="Socradar" label="Socradar">
         <attvalues>
           <attvalue for="0" value="1" />
@@ -352,12 +304,6 @@
         </attvalues>
       </node>
       <node id="Trio Mobil" label="Trio Mobil">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
-      <node id="Vizera" label="Vizera">
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="Company" />

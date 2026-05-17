@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-05-16">
+  <meta lastmodifieddate="2026-05-17">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -27,13 +27,13 @@
           <attvalue for="1" value="Company" />
         </attvalues>
       </node>
-      <node id="Bilen Akuzum" label="Bilen Akuzum">
+      <node id="Lukas Hackl" label="Lukas Hackl">
         <attvalues>
           <attvalue for="0" value="2" />
           <attvalue for="1" value="Cofounder" />
         </attvalues>
       </node>
-      <node id="Lukas Hackl" label="Lukas Hackl">
+      <node id="Bilen Akuzum" label="Bilen Akuzum">
         <attvalues>
           <attvalue for="0" value="2" />
           <attvalue for="1" value="Cofounder" />
@@ -81,12 +81,6 @@
           <attvalue for="1" value="Cofounder" />
         </attvalues>
       </node>
-      <node id="Arcademonk" label="Arcademonk">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
       <node id="Artboard Studio" label="Artboard Studio">
         <attvalues>
           <attvalue for="0" value="1" />
@@ -123,12 +117,6 @@
           <attvalue for="1" value="Cofounder" />
         </attvalues>
       </node>
-      <node id="Balerin" label="Balerin">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
       <node id="Bolt Insight" label="Bolt Insight">
         <attvalues>
           <attvalue for="0" value="1" />
@@ -139,12 +127,6 @@
         <attvalues>
           <attvalue for="0" value="2" />
           <attvalue for="1" value="Cofounder" />
-        </attvalues>
-      </node>
-      <node id="Butigo" label="Butigo">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
         </attvalues>
       </node>
       <node id="Chooch" label="Chooch">
@@ -193,12 +175,6 @@
         <attvalues>
           <attvalue for="0" value="2" />
           <attvalue for="1" value="Cofounder" />
-        </attvalues>
-      </node>
-      <node id="Evim Net" label="Evim Net">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
         </attvalues>
       </node>
       <node id="Exomatter" label="Exomatter">
@@ -255,13 +231,13 @@
           <attvalue for="1" value="Company" />
         </attvalues>
       </node>
-      <node id="Tomas Nepala" label="Tomas Nepala">
+      <node id="Tunga Bayrak" label="Tunga Bayrak">
         <attvalues>
           <attvalue for="0" value="2" />
           <attvalue for="1" value="Cofounder" />
         </attvalues>
       </node>
-      <node id="Tunga Bayrak" label="Tunga Bayrak">
+      <node id="Tomas Nepala" label="Tomas Nepala">
         <attvalues>
           <attvalue for="0" value="2" />
           <attvalue for="1" value="Cofounder" />
@@ -291,31 +267,19 @@
           <attvalue for="1" value="Cofounder" />
         </attvalues>
       </node>
-      <node id="Hazinem" label="Hazinem">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
-      <node id="Hemenkiralik" label="Hemenkiralik">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
       <node id="Hotelrunner" label="Hotelrunner">
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="Company" />
         </attvalues>
       </node>
-      <node id="Ali Beklen" label="Ali Beklen">
+      <node id="Arden Agopyan" label="Arden Agopyan">
         <attvalues>
           <attvalue for="0" value="2" />
           <attvalue for="1" value="Cofounder" />
         </attvalues>
       </node>
-      <node id="Arden Agopyan" label="Arden Agopyan">
+      <node id="Ali Beklen" label="Ali Beklen">
         <attvalues>
           <attvalue for="0" value="2" />
           <attvalue for="1" value="Cofounder" />
@@ -427,12 +391,6 @@
         <attvalues>
           <attvalue for="0" value="2" />
           <attvalue for="1" value="Cofounder" />
-        </attvalues>
-      </node>
-      <node id="Parcadeposu" label="Parcadeposu">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
         </attvalues>
       </node>
       <node id="Philosopherking" label="Philosopherking">
@@ -567,12 +525,6 @@
           <attvalue for="1" value="Cofounder" />
         </attvalues>
       </node>
-      <node id="Vizera" label="Vizera">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="Company" />
-        </attvalues>
-      </node>
       <node id="Voltfox" label="Voltfox">
         <attvalues>
           <attvalue for="0" value="1" />
@@ -630,8 +582,8 @@
     </nodes>
     <edges>
       <edge source="123Formbuilder" target="Florin Cornianu" id="0" />
-      <edge source="Aepnus" target="Bilen Akuzum" id="1" />
-      <edge source="Aepnus" target="Lukas Hackl" id="2" />
+      <edge source="Aepnus" target="Lukas Hackl" id="1" />
+      <edge source="Aepnus" target="Bilen Akuzum" id="2" />
       <edge source="Agrotics" target="Mehmet Coka" id="3" />
       <edge source="Aibuild" target="Daghan Cam" id="4" />
       <edge source="Aibuild" target="Michail Desyllas" id="5" />
@@ -648,12 +600,12 @@
       <edge source="Fazla" target="Olcay Silahli" id="16" />
       <edge source="Fibrecoat" target="Robert Brull" id="17" />
       <edge source="Flow48" target="Idriss Al Rifai" id="18" />
-      <edge source="Freya" target="Tomas Nepala" id="19" />
-      <edge source="Freya" target="Tunga Bayrak" id="20" />
+      <edge source="Freya" target="Tunga Bayrak" id="19" />
+      <edge source="Freya" target="Tomas Nepala" id="20" />
       <edge source="Getmobil" target="Mehmet Uygun" id="21" />
       <edge source="Haelixa" target="Gediminas Mikutis" id="22" />
-      <edge source="Hotelrunner" target="Ali Beklen" id="23" />
-      <edge source="Hotelrunner" target="Arden Agopyan" id="24" />
+      <edge source="Hotelrunner" target="Arden Agopyan" id="23" />
+      <edge source="Hotelrunner" target="Ali Beklen" id="24" />
       <edge source="Insider One" target="Hande Cilingir" id="25" />
       <edge source="Hande Cilingir" target="Iyzico" id="26" />
       <edge source="Juphy" target="Alara Eren Iplikcioglu" id="27" />

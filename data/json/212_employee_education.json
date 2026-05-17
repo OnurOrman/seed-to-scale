@@ -1,0 +1,114 @@
+{
+  "Ali Karabey": [
+    {
+      "school": "University of Michigan - Stephen M. Ross School of Business",
+      "additional": "1995 – 1999"
+    },
+    {
+      "school": "St. Georg Avusturya Lisesi ve Ticaret Okulu (Österreichisches St. Georgs-Kolleg)",
+      "additional": "1987 – 1995"
+    }
+  ],
+  "Cagdas Yildiz": [
+    {
+      "school": "Concordia University",
+      "major": "MBA, Finance",
+      "additional": "2002 – 2004"
+    },
+    {
+      "school": "Istanbul Technical University",
+      "major": "BSc, Industrial Engineering",
+      "additional": "1995 – 1999"
+    }
+  ],
+  "Caglar Urcan": [
+    {
+      "school": "Boğaziçi University",
+      "major": "Bachelor of Arts (B.A.), International Trade",
+      "additional": "2003 – 2007"
+    },
+    {
+      "school": "Robert College",
+      "additional": "1996 – 2003"
+    }
+  ],
+  "Gizem Yagiz": [
+    {
+      "school": "The London School of Economics and Political Science (LSE)",
+      "major": "MSc, Management of Information Systems",
+      "additional": "2000 – 2001"
+    },
+    {
+      "school": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+      "major": "BSc, Economics",
+      "additional": "1996 – 2000"
+    },
+    {
+      "school": "TED Ankara Koleji",
+      "major": "High School",
+      "additional": "1990 – 1996"
+    }
+  ],
+  "Kivanc Aydin": [
+    {
+      "school": "University of Cambridge",
+      "major": "Master of Business Administration (MBA)",
+      "additional": "2017"
+    },
+    {
+      "school": "The London School of Economics and Political Science (LSE)",
+      "major": "BSc Economics",
+      "additional": "2007 – 2010"
+    },
+    {
+      "school": "Izmir Fen Lisesi",
+      "additional": "2004"
+    }
+  ],
+  "Maher Hakim": [
+    {
+      "school": "Carnegie Mellon University",
+      "major": "Ph.D., Computer-Aided Engineering and Management",
+      "additional": "1990 – 1993"
+    },
+    {
+      "school": "University of Illinois Urbana-Champaign",
+      "major": "MSc, Civil Engineering",
+      "additional": "1988 – 1990"
+    },
+    {
+      "school": "Damascus University",
+      "major": "BSc., Engineering",
+      "additional": "1982 – 1987"
+    }
+  ],
+  "Numan Numan": [
+    {
+      "school": "Ege University",
+      "major": "BS, Computer Science",
+      "additional": "1983 – 1987"
+    }
+  ],
+  "Ozge Sevim": [
+    {
+      "school": "Sabancı Business School",
+      "major": "Master's degree, Finance"
+    },
+    {
+      "school": "Istanbul Technical University",
+      "major": "Bachelor's degree, Mechanical Engineering"
+    }
+  ],
+  "Selma Bahcivanoglu": [
+    {
+      "school": "Boğaziçi University",
+      "major": "Master of Arts (MA), Turkish Modern History",
+      "additional": "2007 – 2009"
+    },
+    {
+      "school": "Marmara University",
+      "major": "Lisans, Political Science and International Relations",
+      "additional": "2002 – 2007"
+    }
+  ]
+}

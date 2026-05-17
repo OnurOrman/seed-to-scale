@@ -1,0 +1,765 @@
+{
+  "Florin Cornianu": [
+    {
+      "school": "Politehnica University of Timisoara",
+      "major": "Bachelor of Engineering (BEng), Computer Science, Software",
+      "additional": "2000 – 2005"
+    },
+    {
+      "school": "C.N. Mihai Eminescu Oradea",
+      "major": "Computer Science, Computer Science, English",
+      "additional": "1995 – 2000"
+    }
+  ],
+  "Lukas Hackl": [
+    {
+      "school": "UC Berkeley College of Engineering",
+      "major": "Doctor of Philosophy (Ph.D.), Environmental and Civil Engineering",
+      "additional": "2016 – 2021"
+    },
+    {
+      "school": "ETH Zürich",
+      "major": "Master's Degree (M.Sc.), Mechanical Engineering and Nanotechnology",
+      "additional": "2014 – 2016"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "major": "Bachelor;s degree (B.Eng.), Mechanical Engineering and Business",
+      "additional": "2009 – 2013"
+    },
+    {
+      "school": "University of California, Berkeley",
+      "major": "Mechanical Engineering and Business",
+      "additional": "2011 – 2012"
+    },
+    {
+      "school": "Ashbury College",
+      "major": "Bilingual International Baccalaureate (IB), Higher Level: Physics, Biology, Econmics  Standard Level: Mathematics, German, English",
+      "additional": "2007 – 2009"
+    }
+  ],
+  "Bilen Akuzum": [
+    {
+      "school": "University of California, Berkeley",
+      "major": "BS, Materials Science and Engineering"
+    },
+    {
+      "school": "Drexel University",
+      "major": "Doctor of Philosophy (Ph.D.), Materials Science and Engineering"
+    },
+    {
+      "school": "Drexel University",
+      "major": "Master of Science - MS, Materials Science and Engineering"
+    },
+    {
+      "school": "Drexel University",
+      "major": "Master of Science - MS, Undergraduate STEM Education"
+    },
+    {
+      "school": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+      "major": "Bachelor of Science (B.S.), Metallurgical and Materials Engineering"
+    },
+    {
+      "school": "Harvard University",
+      "major": "Summer School, Business Administration and Management, General"
+    },
+    {
+      "school": "Technische Universität Braunschweig",
+      "major": "Guest Student, Mathematics"
+    },
+    {
+      "school": "Beşiktaş Atatürk Anadolu Lisesi",
+      "major": "Highschool, Physical Sciences"
+    },
+    {
+      "school": "Terakki Vakfı Okulları",
+      "major": "Secondary School"
+    }
+  ],
+  "Mehmet Coka": [
+    {
+      "school": "Nasdaq Entreprenual Center",
+      "major": "Entrepreneurship/Entrepreneurial Studies",
+      "additional": "Mar 2022 – Jun 2022"
+    },
+    {
+      "school": "Food System 6 Acceralator-Silicon Valley",
+      "major": "Accelarator",
+      "additional": "Aug 2017 – Nov 2017"
+    },
+    {
+      "school": "Eastern Mediterranean University",
+      "major": "Bachelor's degree, International Relations",
+      "additional": "1992 – 1997"
+    },
+    {
+      "school": "Kabataş Erkek Lisesi",
+      "major": "Mathematics",
+      "additional": "1988 – 1992"
+    }
+  ],
+  "Daghan Cam": [
+    {
+      "school": "Architectural Association",
+      "major": "MArch (Dist.), Design Research Lab",
+      "additional": "2010 – 2012"
+    },
+    {
+      "school": "Istanbul Technical University",
+      "major": "BArch, Architecture",
+      "additional": "2005 – 2009"
+    },
+    {
+      "school": "MEF Okulları",
+      "additional": "1998 – 2005"
+    }
+  ],
+  "Michail Desyllas": [
+    {
+      "school": "Architectural Association DRL",
+      "major": "Master of Architecture - MArch, Advanced Algorithmic Geometries",
+      "additional": "2011 – 2012"
+    }
+  ],
+  "Emre Fadillioglu": [
+    {
+      "school": "University of California, Berkeley, Haas School of Business",
+      "major": "Executive Leadership Program",
+      "additional": "2013 – 2013"
+    },
+    {
+      "school": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+      "major": "Bachelor of Science (BS), Business Administration",
+      "additional": "2000 – 2004"
+    },
+    {
+      "school": "Arı Fen Lisesi",
+      "additional": "1997 – 2000"
+    }
+  ],
+  "Mucahit Gayiran": [
+    {
+      "school": "Sivas Cumhuriyet Üniversitesi",
+      "major": "Bachelor's degree, Fine and Studio Arts",
+      "additional": "2009 – 2013"
+    }
+  ],
+  "Mark Felegyhazi": [
+    {
+      "school": "University of California, Berkeley",
+      "major": "Postdoctoral, Computer and Information Systems Security/Information Assurance",
+      "additional": "2008 – 2010"
+    },
+    {
+      "school": "EPFL",
+      "major": "PhD, Communication Systems",
+      "additional": "2002 – 2007"
+    },
+    {
+      "school": "Budapest University of Technology and Economics",
+      "major": "MSc, Electrical Engineering",
+      "additional": "1996 – 2001"
+    },
+    {
+      "school": "Karlsruhe Institute of Technology (KIT)",
+      "major": "Semester studies, Electrical Engineering",
+      "additional": "1998 – 1999"
+    },
+    {
+      "school": "Szent Istvan High School",
+      "major": "High School Diploma",
+      "additional": "1992 – 1996"
+    }
+  ],
+  "Murat Hacioglu": [
+    {
+      "school": "Technical University of Munich",
+      "major": "BS, Informatic (Exchange Student)",
+      "additional": "2009 – 2010"
+    },
+    {
+      "school": "Istanbul Technical University",
+      "major": "3.04, Computer Engineering Bsc",
+      "additional": "2006 – 2011"
+    },
+    {
+      "school": "Yeditepe University",
+      "major": "Master of Business Administration - MBA",
+      "additional": "2013 – 2015"
+    },
+    {
+      "school": "Ulubatli Hasan Anatolian High School",
+      "major": "5.00/5.00, 1st Degree",
+      "additional": "2002 – 2006"
+    }
+  ],
+  "Hakan Yurdakul": [
+    {
+      "school": "University of Warwick",
+      "major": "Master of Science (MSc), MSc Business Management",
+      "additional": "2006 – 2007"
+    },
+    {
+      "school": "Koç University",
+      "major": "Bachelor of Engineering (B.Eng.), Industrial Engineering",
+      "additional": "2001 – 2005"
+    },
+    {
+      "school": "Robert College",
+      "major": "Bachelor of Science (B.Sc.), Science",
+      "additional": "1994 – 2001"
+    }
+  ],
+  "Emrah Gultekin": [
+    {
+      "school": "Brown University",
+      "major": "BA, Anthropology, International Relations"
+    },
+    {
+      "school": "Massachusetts Institute of Technology",
+      "major": "MM, Data, Economics, Development Policy"
+    }
+  ],
+  "Sean Yu": [
+    {
+      "school": "Harvard University",
+      "major": "Bachelor of Arts - BA, Economics, Pre-medicine",
+      "additional": "2002 – 2006"
+    },
+    {
+      "school": "Boğaziçi University",
+      "major": "Master of Science - MS, Software Engineering",
+      "additional": "2012 – Present"
+    }
+  ],
+  "Philippe Berlan": [
+    {
+      "school": "Mines Paris - PSL",
+      "major": "Master of Science (M.Sc.), Industrial Economics",
+      "additional": "1988 – 1991"
+    },
+    {
+      "school": "Lycée Sainte-Geneviève",
+      "major": "Classes préparatoires, Mathematics",
+      "additional": "1985 – 1988"
+    }
+  ],
+  "Deniz Ozgur": [
+    {
+      "school": "Boğaziçi University",
+      "major": "Lisans Derecesi, Economics",
+      "additional": "2016 – 2021"
+    }
+  ],
+  "Josua Vieten": [
+    {
+      "school": "Technische Universität Dresden",
+      "major": "Dr.-Ing.",
+      "additional": "2016 – 2019"
+    },
+    {
+      "school": "Technical University of Munich",
+      "major": "Master of Science (M.Sc.), Chemie",
+      "additional": "2014 – 2016"
+    },
+    {
+      "school": "Technische Universität München, LMU München, Universität Augsburg",
+      "major": "Master of Science (M.Sc.), Advanced Materials Science",
+      "additional": "2013 – 2015"
+    },
+    {
+      "school": "Technical University of Munich",
+      "major": "Bachelor of Science (B.Sc.), Chemie",
+      "additional": "2011 – 2013"
+    }
+  ],
+  "Olcay Silahli": [
+    {
+      "school": "Istanbul Technical University",
+      "major": "Management Engineering",
+      "additional": "2008 – 2011"
+    },
+    {
+      "school": "The Turkish Military Academy",
+      "major": "Systems Engineering",
+      "additional": "2005 – 2007"
+    },
+    {
+      "school": "Kuleli Military High School",
+      "additional": "2001 – 2005"
+    },
+    {
+      "school": "Católica Lisbon School of Business and Economics",
+      "major": "Scaling Impact Executive Program"
+    }
+  ],
+  "Robert Brull": [
+    {
+      "school": "RWTH Aachen University",
+      "major": "Doktor der Ingenieurswissenschaften, Mechanical Engineering",
+      "additional": "Feb 2014 – Mar 2019"
+    },
+    {
+      "school": "RWTH Aachen University",
+      "major": "Master of Science (M.Sc.), Wirtschaftswissenschaften",
+      "additional": "Oct 2014 – Apr 2017"
+    },
+    {
+      "school": "RWTH Aachen University",
+      "major": "Master of Science (M.Sc.), Maschinenbau",
+      "additional": "Apr 2013 – Feb 2014"
+    },
+    {
+      "school": "RWTH Aachen University",
+      "major": "Bachelor of Science (B.Sc.), Maschinenbau",
+      "additional": "Oct 2007 – Apr 2013"
+    }
+  ],
+  "Tunga Bayrak": [
+    {
+      "school": "University of Pennsylvania",
+      "major": "Computer Science, AI Concentration"
+    },
+    {
+      "school": "The Wharton School",
+      "major": "Statistics"
+    }
+  ],
+  "Tomas Nepala": [
+    {
+      "school": "The Wharton School",
+      "major": "BS, Finance & Artificial Intelligence Concentrations"
+    },
+    {
+      "school": "Y Combinator",
+      "major": "S25"
+    },
+    {
+      "school": "The English College in Prague - Anglické gymnázium",
+      "major": "International Baccalaureate (IB) Diploma Programme"
+    }
+  ],
+  "Mehmet Ertan Uygun": [
+    {
+      "school": "Koç University",
+      "major": "Elektrik ve Elektronik Mühendisliği",
+      "additional": "Sep 2012 – Apr 2016"
+    },
+    {
+      "school": "The University of British Columbia",
+      "major": "Bachelor of Applied Science (BASc), Elektrik ve Elektronik Mühendisliği",
+      "additional": "Aug 2015 – Feb 2016"
+    },
+    {
+      "school": "UCLA Anderson School of Management",
+      "major": "Bachelor's degree",
+      "additional": "2014 – 2015"
+    },
+    {
+      "school": "Açı Schools",
+      "major": "Lise",
+      "additional": "Aug 2008 – Jun 2012"
+    }
+  ],
+  "Gediminas Mikutis": [
+    {
+      "school": "ETH Zürich",
+      "major": "Doctor of Philosophy (Ph.D.), Nanosensors based on DNA technology",
+      "additional": "2014 – 2017"
+    },
+    {
+      "school": "ETH Zürich",
+      "major": "MSc, Chemistry",
+      "additional": "2011 – 2013"
+    },
+    {
+      "school": "Jacobs University Bremen",
+      "major": "BSc, Chemistry",
+      "additional": "2008 – 2011"
+    },
+    {
+      "school": "Utrecht University",
+      "major": "Summer School, Biological Chemistry",
+      "additional": "2010 – 2010"
+    },
+    {
+      "school": "KTU Gymnasium",
+      "additional": "2004 – 2008"
+    }
+  ],
+  "Arden Agopyan": [
+    {
+      "school": "Galatasaray University",
+      "major": "BSc, Computer Engineering",
+      "additional": "2002 – 2006"
+    },
+    {
+      "school": "Ozyegin University",
+      "major": "PhD, Finance",
+      "additional": "2010 – 2021"
+    },
+    {
+      "school": "Istanbul Bilgi University",
+      "major": "MBA, MBA",
+      "additional": "2007 – 2010"
+    },
+    {
+      "school": "Lycée Saint-Joseph",
+      "major": "Science",
+      "additional": "1994 – 2002"
+    }
+  ],
+  "Ali Beklen": [
+    {
+      "school": "Maltepe University",
+      "major": "Master, Computer Science",
+      "additional": "2007 – 2009"
+    }
+  ],
+  "Hande Cilingir": [
+    {
+      "school": "The London School of Economics and Political Science (LSE)",
+      "major": "Bachelor of Science (BSc), Economics & Management",
+      "additional": "2003 – 2007"
+    },
+    {
+      "school": "Shanghai Normal University",
+      "major": "Master's degree, International Chinese Culture and Language",
+      "additional": "2007 – 2008"
+    }
+  ],
+  "Alara Eren Iplikcioglu": [
+    {
+      "school": "Imperial College London",
+      "major": "Master of Science - MS, Strategic Marketing",
+      "additional": "2017 – 2018"
+    },
+    {
+      "school": "University of Westminster",
+      "major": "Bachelor of Arts - BA, Business Management and Marketing",
+      "additional": "2014 – 2017"
+    },
+    {
+      "school": "UCL",
+      "major": "Undergraduate Preparatory Certificate for the Humanities",
+      "additional": "2013 – 2014"
+    },
+    {
+      "school": "Açı Schools",
+      "major": "Turkish High School Diploma",
+      "additional": "2009 – 2013"
+    }
+  ],
+  "Berhan Kongel": [
+    {
+      "school": "Boğaziçi University",
+      "major": "M.Sc., Engineering & Technology Management",
+      "additional": "2007 – 2009"
+    },
+    {
+      "school": "Boğaziçi University",
+      "major": "Bachelor, Mechanical Engineering",
+      "additional": "2000 – 2006"
+    },
+    {
+      "school": "Deutsche Schule Istanbul / Alman Lisesi",
+      "major": "Abitur",
+      "additional": "1992 – 2000"
+    }
+  ],
+  "Cagkan Ekici": [
+    {
+      "school": "Yeditepe University",
+      "major": "Doctor of Philosophy (Ph.D.) - ABD, Electrical and Electronics Engineering",
+      "additional": "2013 – 2017"
+    },
+    {
+      "school": "Yeditepe University",
+      "major": "MSc, Electrical and Electronics Engineering",
+      "additional": "2008 – 2012"
+    },
+    {
+      "school": "Yeditepe University",
+      "major": "BSc, Systems Engineering",
+      "additional": "2001 – 2006"
+    }
+  ],
+  "Batu Sat": [
+    {
+      "school": "University of Illinois Urbana-Champaign",
+      "major": "Ph.D., Electrical Engineering",
+      "additional": "2003 – 2008"
+    },
+    {
+      "school": "University of Illinois Urbana-Champaign",
+      "major": "Graduate Certificate, Strategic Technology Management",
+      "additional": "2004 – 2007"
+    },
+    {
+      "school": "University of Illinois Urbana-Champaign",
+      "major": "M.S., Electrical Engineering",
+      "additional": "2001 – 2003"
+    },
+    {
+      "school": "Istanbul Technical University",
+      "major": "BS, Electronics and Communication Engineering",
+      "additional": "1997 – 2001"
+    },
+    {
+      "school": "Robert College",
+      "major": "High School, Science",
+      "additional": "1991 – 1997"
+    }
+  ],
+  "Oguz Alper Oktem": [
+    {
+      "school": "The London School of Economics and Political Science (LSE)",
+      "major": "Master of Science - MSc, Political Economy",
+      "additional": "Sep 2013 – Jun 2014"
+    },
+    {
+      "school": "University of Chicago",
+      "major": "Bachelor of Arts - BA, Economics",
+      "additional": "Sep 2009 – Jun 2012"
+    },
+    {
+      "school": "The Koç School",
+      "major": "Lise - High School",
+      "additional": "Sep 2005 – Jun 2009"
+    }
+  ],
+  "Haris Aghadi": [
+    {
+      "school": "Carnegie Mellon University",
+      "major": "Bachelor of Science - BS, Information Systems"
+    },
+    {
+      "school": "500 Startups",
+      "major": "Distro Dojo, Growth Hacking & Distribution",
+      "additional": "2017 – 2017"
+    }
+  ],
+  "Oguzhan Uyar": [
+    {
+      "school": "Massachusetts Institute of Technology",
+      "major": "MS, Electrical Engineering",
+      "additional": "2009 – 2011"
+    },
+    {
+      "school": "Boğaziçi University",
+      "major": "BS, Electrical Engineering",
+      "additional": "2005 – 2009"
+    }
+  ],
+  "Tolga Sen": [
+    {
+      "school": "Yıldız Teknik Üniversitesi",
+      "major": "BSc, Maths Engineering",
+      "additional": "1997 – 2003"
+    },
+    {
+      "school": "Bahcesehir University",
+      "major": "Master of Science (MSc), Industry Engineering",
+      "additional": "2005 – 2008"
+    },
+    {
+      "school": "Macka Anatolia Technical High School",
+      "major": "Electronics",
+      "additional": "1992 – 1996"
+    }
+  ],
+  "Sadok Kohen": [
+    {
+      "school": "Yeditepe University",
+      "major": "Bachelor of Science (BS), Computer Science",
+      "additional": "1996 – 2000"
+    }
+  ],
+  "Saliha Durmus": [
+    {
+      "school": "Boğaziçi University",
+      "major": "PhD, Chemical Engineering / Biosystems Engineering Research Group",
+      "additional": "2007 – 2013"
+    },
+    {
+      "school": "Boğaziçi University",
+      "major": "MSc, Chemical Engineering / Biosystems Engineering Research Group",
+      "additional": "2004 – 2007"
+    },
+    {
+      "school": "Boğaziçi University",
+      "major": "BSc, Chemical Engineering",
+      "additional": "1999 – 2004"
+    },
+    {
+      "school": "Haydarpaşa Lisesi",
+      "additional": "Sep 1995 – Jun 1999"
+    }
+  ],
+  "Baransel Soysal": [
+    {
+      "school": "Galatasaray Lisesi",
+      "major": "High School",
+      "additional": "2005 – 2010"
+    },
+    {
+      "school": "Politecnico di Milano",
+      "major": "Master of Science (MSc), Management of Built Environment",
+      "additional": "2016 – 2019"
+    },
+    {
+      "school": "Boğaziçi University",
+      "major": "Bachelor's Degree, Civil Engineering",
+      "additional": "2010 – 2014"
+    }
+  ],
+  "Kamal Reggad": [
+    {
+      "school": "Northeastern University",
+      "major": "B.S, Mathematics and Computer Science"
+    },
+    {
+      "school": "Northeastern University",
+      "major": "M.S, Computer Science"
+    }
+  ],
+  "Didem Aral": [
+    {
+      "school": "Marmara University",
+      "major": "Bachelor’s Degree, Departement Francophone de la Science Politique et Administration",
+      "additional": "1997 – 2001"
+    }
+  ],
+  "Mukremin Cetinkaya": [
+    {
+      "school": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+      "major": "Elektrik Elektronik Mühendisi",
+      "additional": "2002 – 2007"
+    }
+  ],
+  "Huzeyfe Onal": [
+    {
+      "school": "Kocaeli University",
+      "additional": "2000 – 2006"
+    }
+  ],
+  "Oguz Kucukbarak": [
+    {
+      "school": "Bilgi University",
+      "major": "MBA",
+      "additional": "2004 – 2006"
+    },
+    {
+      "school": "Gazi University",
+      "major": "Industrial Engineering",
+      "additional": "1995 – 1999"
+    }
+  ],
+  "Koray Dogan": [
+    {
+      "school": "Georgia Institute of Technology",
+      "major": "Ph.D., Operations Research",
+      "additional": "1991 – 1996"
+    },
+    {
+      "school": "Bilkent University",
+      "major": "BS, Industrial Engineering",
+      "additional": "1987 – 1991"
+    },
+    {
+      "school": "Ankara Science High School",
+      "additional": "1984 – 1987"
+    }
+  ],
+  "Batuhan Ozcan": [
+    {
+      "school": "Imperial College London",
+      "major": "Master of Science - MS, @Analytics",
+      "additional": "2017 – 2019"
+    },
+    {
+      "school": "The London School of Economics and Political Science (LSE)",
+      "major": "Marketing & Management",
+      "additional": "2013 – 2013"
+    },
+    {
+      "school": "Blekinge Institute of Technology",
+      "major": "Bachelor’s Degree, Electrical Engineering with emphasis on Telecommunications",
+      "additional": "2010 – 2013"
+    },
+    {
+      "school": "Maltepe Military High School",
+      "major": "High School, Officer Training",
+      "additional": "2005 – 2009"
+    }
+  ],
+  "Nevzat Atakli": [
+    {
+      "school": "Harvard Business School Online",
+      "major": "Business Strategy",
+      "additional": "Oct 2022 – Present"
+    },
+    {
+      "school": "Sabanci University",
+      "major": "BSc, Mechatronics Engineering",
+      "additional": "2003 – 2008"
+    },
+    {
+      "school": "İzmir Fen Lisesi",
+      "additional": "2000 – 2003"
+    }
+  ],
+  "Selim Satici": [
+    {
+      "school": "University of California, Berkeley",
+      "major": "Berkeley Blockchain Xcelerator, Blockchain, Entrepreneurship",
+      "additional": "2020 – 2020"
+    },
+    {
+      "school": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+      "major": "Master of Science - MS , Geological/Geophysical Engineering",
+      "additional": "2010 – 2013"
+    },
+    {
+      "school": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+      "major": "Bachelor's degree, Geological/Geophysical Engineering",
+      "additional": "2002 – 2008"
+    }
+  ],
+  "Ceren Melis Abacioglu": [
+    {
+      "school": "Columbia University",
+      "major": "BA, Mathematics & Art History",
+      "additional": "2005 – 2009"
+    },
+    {
+      "school": "Deutsche Schule Istanbul",
+      "major": "Abitur Diploma",
+      "additional": "1997 – 2005"
+    }
+  ],
+  "Balca Yilmaz": [
+    {
+      "school": "Istanbul Technical University",
+      "major": "Bachelor's degree, Control & Automation Engineering",
+      "additional": "Sep 2012 – Jun 2017"
+    }
+  ],
+  "Martin Weber": [
+    {
+      "school": "ESCP Business School",
+      "major": "Master in Management Grand École, Major in Entrepreneurship",
+      "additional": "2011 – 2013"
+    },
+    {
+      "school": "The Hebrew University of Jerusalem",
+      "major": "InnovNation Summerprogram: Entrepreneurship & Innovation Israel, Entrepreneurship/Entrepreneurial Studies",
+      "additional": "2013 – 2013"
+    },
+    {
+      "school": "HSBA Hamburg School of Business Administration",
+      "major": "Bachelor of Applied Science (B.Sc.), Financemanagement",
+      "additional": "2008 – 2011"
+    }
+  ]
+}

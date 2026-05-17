@@ -3,7 +3,7 @@ The public repository for the CS 414/514 (Network Science) course project at Sab
 
 ## How to run the project?
 ```bash
-uv run main.py [--overwrite] [--collect] [--network]
+uv run main.py [--collect] [--scrape] [--network] [--overwrite]
 ```
 
 - Supported VCs for the CS 414/514 course project:
@@ -23,6 +23,10 @@ uv run -m collect.vc_212 [--overwrite]
 
 ```bash
 uv run -m collect.linkedin [--overwrite]
+```
+
+```bash
+uv run -m scrape.linkedin [--overwrite]
 ```
 
 ```bash

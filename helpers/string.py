@@ -20,6 +20,18 @@ def split_possible_names(raw_text: str) -> list[str]:
   cleaned = [p.strip() for p in parts if p and p.strip()]
   return cleaned or [text]
 
+def split_links(raw_links: str) -> list[str]:
+  if not isinstance(raw_links, str):
+    return []
+
+  links = raw_links.strip()
+  if not links:
+    return []
+  
+  parts = links.split("|")
+  cleaned = [clean_link(p.strip()) for p in parts if p and p.strip()]
+  return cleaned
+
 def deturkify(string: str) -> str:
   return string.replace("Ç", "C", string.count("Ç"))\
     .replace("ç", "c", string.count("ç"))\
@@ -42,9 +54,20 @@ def extract_unique_names(initial_names: list[str], separator: str = " ") -> list
       formatted = deturkify(split_name)
       if formatted not in names:
         names.append(formatted.replace(" ", separator, formatted.count(" ")))
-
-  final_names = sorted(list(dict.fromkeys(names)))
+  # No sorting as the names and links may mismatch
+  final_names = list(dict.fromkeys(names))
   return final_names
+
+def extract_unique_links(initial_links: list[str]) -> list[str]:
+  links = []
+
+  for initial_link in initial_links:
+    for split_link in split_links(initial_link):
+      if split_link not in links:
+        links.append(split_link)
+  # No sorting as the names and links may mismatch
+  final_links = list(dict.fromkeys(links))
+  return final_links
 
 def exclude_abbreviated_names(full_name: str) -> str:
   final_name = ""
@@ -74,3 +97,24 @@ def csv_names_for_vc(vc: str):
     f"{vc}_{EMPLOYEE_EXP_CSV}",
     f"{vc}_{EMPLOYEE_VOL_CSV}"
   )
+
+def format_name(name: str) -> str:
+  formatted_name = ""
+  for word in name.split(" "):
+    formatted_name += f" {word.capitalize()}"
+
+  formatted_name = formatted_name.replace(".", "", formatted_name.count("."))
+
+  return formatted_name.strip()
+
+def is_name_in(name1: str, name2: str):
+  if name1 == name2:
+    return True
+  
+  words_name1 = name1.split(" ")
+
+  for word in words_name1:
+    if word not in name2:
+      return False
+    
+  return True
