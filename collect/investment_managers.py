@@ -4,6 +4,7 @@ import pandas as pd
 from pathlib import Path
 
 from helpers.constants import CSV_PATH, JSON_PATH
+from helpers.json import load_json
 from helpers.string import extract_unique_names
 
 def __retrieve_investment_managers(filename: str):
@@ -55,8 +56,4 @@ def collect_investment_managers(
   return json_file
 
 def get_investment_managers(json_file: str):
-  json_path = Path(JSON_PATH) / json_file
-
-  with open(json_path, "r") as f:
-    investment_manager_data = json.load(f)
-    return investment_manager_data
+  return load_json(json_file)

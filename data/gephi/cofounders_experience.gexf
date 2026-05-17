@@ -1,0 +1,2690 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-17">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Florin Cornianu" label="Florin Cornianu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Kiteworks" label="Kiteworks">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Fundatia Cornianu" label="Fundatia Cornianu">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="16 yrs 5 mos" label="16 yrs 5 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Adolix Software" label="Adolix Software">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="3 yrs 1 mo" label="3 yrs 1 mo">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Lukas Hackl" label="Lukas Hackl">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Aepnus Technology Inc." label="Aepnus Technology Inc.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Activate" label="Activate">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="UC Berkeley and Lawrence Berkeley National Laboratory" label="UC Berkeley and Lawrence Berkeley National Laboratory">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Drexel University College of Engineering" label="Drexel University College of Engineering">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Berkeley Lab" label="Berkeley Lab">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Tronex Technology" label="Tronex Technology">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="AEG Power Solutions" label="AEG Power Solutions">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Lanterna Education" label="Lanterna Education">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Bilen Akuzum" label="Bilen Akuzum">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Aepnus Technology" label="Aepnus Technology">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Turkish Founders Club" label="Turkish Founders Club">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="The Production Board" label="The Production Board">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="University of California, Berkeley" label="University of California, Berkeley">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="H2Only Technology Inc." label="H2Only Technology Inc.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Harvard University" label="Harvard University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="ODTÜ" label="ODTÜ">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Bosch Turkey" label="Bosch Turkey">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Novelis" label="Novelis">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Mehmet Coka" label="Mehmet Coka">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Agrotelligence INC" label="Agrotelligence INC">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Tura Tarım ve Gayrimenkul Yatırım A.Ş." label="Tura Tarım ve Gayrimenkul Yatırım A.Ş.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Pavo IoT" label="Pavo IoT">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Agrotics Incorp." label="Agrotics Incorp.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Coka Dış Ticaret Ltd." label="Coka Dış Ticaret Ltd.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Coproline" label="Coproline">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="ENKA-Moscow" label="ENKA-Moscow">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Calik Holding-Turkmenistan" label="Calik Holding-Turkmenistan">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Daghan Cam" label="Daghan Cam">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Aibuild" label="Aibuild">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Bartlett School of Architecture, University College London" label="Bartlett School of Architecture, University College London">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Architectural Association" label="Architectural Association">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Zaha Hadid Architects" label="Zaha Hadid Architects">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Mutlu Cilingiroglu MIAR Architecture" label="Mutlu Cilingiroglu MIAR Architecture">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Michail Desyllas" label="Michail Desyllas">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Ai Build" label="Ai Build">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Emre Fadillioglu" label="Emre Fadillioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="App Samurai" label="App Samurai">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Storyly" label="Storyly">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="MMA TÜRKİYE" label="MMA TÜRKİYE">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Netvent" label="Netvent">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Interceptd" label="Interceptd">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Paperclip" label="Paperclip">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Growth Tower" label="Growth Tower">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Oracle" label="Oracle">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="3 yrs 4 mos" label="3 yrs 4 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="IntaSpaceturk" label="IntaSpaceturk">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="PricewaterhouseCoopers" label="PricewaterhouseCoopers">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Mucahit Gayiran" label="Mucahit Gayiran">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Key Visual AI" label="Key Visual AI">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Artboard Studio" label="Artboard Studio">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Mockup Zone" label="Mockup Zone">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="ABM Grafik Evi" label="ABM Grafik Evi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Mark Felegyhazi" label="Mark Felegyhazi">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Full-time" label="Full-time">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Avatao" label="Avatao">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="CrySyS Lab, Budapest University of Technology and Economics" label="CrySyS Lab, Budapest University of Technology and Economics">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Ukatemi Technologies" label="Ukatemi Technologies">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="IT-SEC Expert Nonprofit Kft." label="IT-SEC Expert Nonprofit Kft.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="ICSI - International Computer Science Institute" label="ICSI - International Computer Science Institute">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="UC Berkeley" label="UC Berkeley">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="EPFL" label="EPFL">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Ericsson" label="Ericsson">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Murat Hacioglu" label="Murat Hacioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="B2Metric" label="B2Metric">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Turkcell" label="Turkcell">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="LiyyoTech Mobile Apps" label="LiyyoTech Mobile Apps">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="OBSS" label="OBSS">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="D-Smart" label="D-Smart">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Netas" label="Netas">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="TRANSVER GmbH" label="TRANSVER GmbH">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Fraunhofer-Gesellschaft" label="Fraunhofer-Gesellschaft">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Hakan Yurdakul" label="Hakan Yurdakul">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Bolt Insight" label="Bolt Insight">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="13 yrs" label="13 yrs">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Bayer HealthCare" label="Bayer HealthCare">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Eksan" label="Eksan">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Emrah Gultekin" label="Emrah Gultekin">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Delivering Better Lives" label="Delivering Better Lives">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Terra Invest" label="Terra Invest">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="DEIK - Foreign Economic Relations Board" label="DEIK - Foreign Economic Relations Board">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Balat AS" label="Balat AS">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Goodman" label="Goodman">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="UTi Worldwide" label="UTi Worldwide">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Maersk Line" label="Maersk Line">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Sean Yu" label="Sean Yu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Eluvium" label="Eluvium">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Fabrikatör" label="Fabrikatör">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="212" label="212">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Mikrogrup" label="Mikrogrup">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Paraşüt" label="Paraşüt">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Endeavor" label="Endeavor">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Gryphon Investors" label="Gryphon Investors">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Lehman Brothers" label="Lehman Brothers">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Andesite, LLC" label="Andesite, LLC">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="ProfitLogic (Acquired by Oracle)" label="ProfitLogic (Acquired by Oracle)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Boehringer Ingelheim" label="Boehringer Ingelheim">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Philippe Berlan" label="Philippe Berlan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="EverDye" label="EverDye">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Teampact.ventures" label="Teampact.ventures">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Zèta" label="Zèta">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Clear Fashion" label="Clear Fashion">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Asterion Ventures" label="Asterion Ventures">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="12 yrs" label="12 yrs">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="FEVAD" label="FEVAD">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="UPECAD (Union Prof. des Entreprises du Commerce à Distance)" label="UPECAD (Union Prof. des Entreprises du Commerce à Distance)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Eco-mobilier" label="Eco-mobilier">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Eco TLC" label="Eco TLC">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Groupe Casino" label="Groupe Casino">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Petit Bateau" label="Petit Bateau">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Lancel" label="Lancel">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Bossard Consultants" label="Bossard Consultants">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Marine Nationale" label="Marine Nationale">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Deniz Ozgur" label="Deniz Ozgur">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Evercopy" label="Evercopy">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Space Runners" label="Space Runners">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="FCB Artgroup" label="FCB Artgroup">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="FARFETCH" label="FARFETCH">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="2 yrs 8 mos" label="2 yrs 8 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Josua Vieten" label="Josua Vieten">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="ExoMatter" label="ExoMatter">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Deutsches Zentrum für Luft-und Raumfahrt e.V." label="Deutsches Zentrum für Luft-und Raumfahrt e.V.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Celonis" label="Celonis">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Technische Universität München" label="Technische Universität München">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="BASF" label="BASF">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Olcay Silahli" label="Olcay Silahli">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Fazla" label="Fazla">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Techstars" label="Techstars">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="5 yrs 5 mos" label="5 yrs 5 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="One Young World" label="One Young World">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Akbank" label="Akbank">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="1 yr 5 mos" label="1 yr 5 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Faber-Castell / Adel Kalemcilik" label="Faber-Castell / Adel Kalemcilik">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Deloitte" label="Deloitte">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="ITU ARI Teknokent (Science Park) Management Office" label="ITU ARI Teknokent (Science Park) Management Office">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Robert Brull" label="Robert Brull">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="FibreCoat GmbH" label="FibreCoat GmbH">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Startup-Verband" label="Startup-Verband">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="7 yrs 11 mos" label="7 yrs 11 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="3 yrs 6 mos" label="3 yrs 6 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Robert Bosch GmbH" label="Robert Bosch GmbH">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Fraunhofer-Institut für Produktionstechnologie IPT" label="Fraunhofer-Institut für Produktionstechnologie IPT">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="OTTO JUNKER GmbH" label="OTTO JUNKER GmbH">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Tunga Bayrak" label="Tunga Bayrak">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Freya (YC S25)" label="Freya (YC S25)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="freeCodeCamp" label="freeCodeCamp">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="MotionShark" label="MotionShark">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Penn Quantum Computing Club" label="Penn Quantum Computing Club">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Big Brain Holdings" label="Big Brain Holdings">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Penn Engineering" label="Penn Engineering">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Aspiring Scholars Directed Research Program (ASDRP)" label="Aspiring Scholars Directed Research Program (ASDRP)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Polygence" label="Polygence">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="QTurkey" label="QTurkey">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Tomas Nepala" label="Tomas Nepala">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="RENOMIA" label="RENOMIA">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Gallagher" label="Gallagher">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="RockawayX" label="RockawayX">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="RSJ Investments" label="RSJ Investments">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Mehmet Ertan Uygun" label="Mehmet Ertan Uygun">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Getmobil" label="Getmobil">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="YPO" label="YPO">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="IVU" label="IVU">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Pisano" label="Pisano">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Groop App" label="Groop App">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Lidyana.com" label="Lidyana.com">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="ISS A/S" label="ISS A/S">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Gediminas Mikutis" label="Gediminas Mikutis">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="10 yrs 6 mos" label="10 yrs 6 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Philochem AG" label="Philochem AG">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Roche" label="Roche">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="1 yr 8 mos" label="1 yr 8 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Arden Agopyan" label="Arden Agopyan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="HotelRunner" label="HotelRunner">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="5 yrs 4 mos" label="5 yrs 4 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Innova" label="Innova">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Bizitek" label="Bizitek">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Freelance Development" label="Freelance Development">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Ali Beklen" label="Ali Beklen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="IBM" label="IBM">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="YapiKredi" label="YapiKredi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Hande Cilingir" label="Hande Cilingir">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Insider One" label="Insider One">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="English&amp;More International Learning Centre" label="English&amp;More International Learning Centre">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Starmall" label="Starmall">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Torlin Chemicals (Shanghai) Co., Ltd" label="Torlin Chemicals (Shanghai) Co., Ltd">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="PepsiCo" label="PepsiCo">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Zorlu Holding" label="Zorlu Holding">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Vestel" label="Vestel">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Alarko Tourism Group" label="Alarko Tourism Group">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Alara Eren Iplikcioglu" label="Alara Eren Iplikcioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Dine and Pay" label="Dine and Pay">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Happy Cow Ltd." label="Happy Cow Ltd.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Sözcü Gazetesi" label="Sözcü Gazetesi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="111SKIN LTD" label="111SKIN LTD">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Eko Faktoring A.S." label="Eko Faktoring A.S.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="The Right Angle" label="The Right Angle">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Universal Hospital Group" label="Universal Hospital Group">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Mynet" label="Mynet">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Berhan Kongel" label="Berhan Kongel">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Keyrails" label="Keyrails">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Arf" label="Arf">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="yapabilirim" label="yapabilirim">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="workup" label="workup">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Founder Institute Istanbul" label="Founder Institute Istanbul">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="4 yrs 3 mos" label="4 yrs 3 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Clubber" label="Clubber">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="TravelClub" label="TravelClub">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="OneHour" label="OneHour">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="TakımTakip" label="TakımTakip">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="mod12" label="mod12">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Sodriva" label="Sodriva">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="6 yrs 5 mos" label="6 yrs 5 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Cagkan Ekici" label="Cagkan Ekici">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Khenda" label="Khenda">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Eravis Yazılım ve Otomasyon Ltd. Şti." label="Eravis Yazılım ve Otomasyon Ltd. Şti.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Ideaport Engineering&amp;Consulting" label="Ideaport Engineering&amp;Consulting">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Projes" label="Projes">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Batu Sat" label="Batu Sat">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Mall IQ, Inc" label="Mall IQ, Inc">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Alchemist Accelerator" label="Alchemist Accelerator">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="MMA Global" label="MMA Global">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="StartX." label="StartX.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="500 Startups" label="500 Startups">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Founder Institute" label="Founder Institute">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Fuze, Inc." label="Fuze, Inc.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Cisco" label="Cisco">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="7 yrs 1 mo" label="7 yrs 1 mo">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Microsoft" label="Microsoft">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Oguz Alper Oktem" label="Oguz Alper Oktem">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Marti Technologies (NYSE: MRT)" label="Marti Technologies (NYSE: MRT)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Warner Bros. Discovery Türkiye" label="Warner Bros. Discovery Türkiye">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="McKinsey &amp; Company" label="McKinsey &amp; Company">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Deutsche Bank" label="Deutsche Bank">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Haris Aghadi" label="Haris Aghadi">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Calo Inc." label="Calo Inc.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Paro" label="Paro">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Helium Health" label="Helium Health">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Forbes" label="Forbes">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="HeliumDoc" label="HeliumDoc">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Carnegie Mellon University in Qatar" label="Carnegie Mellon University in Qatar">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Vodafone Qatar" label="Vodafone Qatar">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Edutechnoz" label="Edutechnoz">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Carnegie Mellon University" label="Carnegie Mellon University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Zawya" label="Zawya">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Qatar Islamic Bank" label="Qatar Islamic Bank">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Oguzhan Uyar" label="Oguzhan Uyar">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Metrobi" label="Metrobi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Metrobi (SaaS)" label="Metrobi (SaaS)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Public Transit Solutions" label="Public Transit Solutions">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Gasberry" label="Gasberry">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Eta Devices" label="Eta Devices">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Intel Corporation" label="Intel Corporation">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="MIT" label="MIT">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="ST Microelectronics" label="ST Microelectronics">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Tolga Sen" label="Tolga Sen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="9 yrs 5 mos" label="9 yrs 5 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="emlakjet.com" label="emlakjet.com">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Ezgi Consultancy" label="Ezgi Consultancy">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Tart New Media" label="Tart New Media">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Trader Media East Competence Center" label="Trader Media East Competence Center">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Trader Media East" label="Trader Media East">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Hurriyet Emlak / Oto" label="Hurriyet Emlak / Oto">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="2 yrs 2 mos" label="2 yrs 2 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="BSG" label="BSG">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="2999" label="2999">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Sadok Kohen" label="Sadok Kohen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="PhilosopherKing" label="PhilosopherKing">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Wynn Interactive" label="Wynn Interactive">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="WynnBET" label="WynnBET">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Betbull" label="Betbull">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Saran Online" label="Saran Online">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="tuttur" label="tuttur">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="bwin.party digital entertainment" label="bwin.party digital entertainment">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Kapgel.com" label="Kapgel.com">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Happy Foundry" label="Happy Foundry">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Isteoyun.com" label="Isteoyun.com">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="BidPlaza" label="BidPlaza">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Esmedia" label="Esmedia">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Intelicom" label="Intelicom">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Telsad" label="Telsad">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Saliha Durmus" label="Saliha Durmus">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="PhiTech" label="PhiTech">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="2 yrs 5 mos" label="2 yrs 5 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Gebze Technical University" label="Gebze Technical University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Bogazici University / Department of Chemical Engineering" label="Bogazici University / Department of Chemical Engineering">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Baransel Soysal" label="Baransel Soysal">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Qrambo" label="Qrambo">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="İstanbul Portföy Yönetimi" label="İstanbul Portföy Yönetimi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Driblab" label="Driblab">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="3 yrs 10 mos" label="3 yrs 10 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="RIMOND GROUP" label="RIMOND GROUP">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Acibadem Project Management" label="Acibadem Project Management">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Kamal Reggad" label="Kamal Reggad">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="RemotePass" label="RemotePass">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="SafarPass" label="SafarPass">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Hmizate.ma" label="Hmizate.ma">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="TIBCO Software" label="TIBCO Software">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Arrowstreet Capital L.P" label="Arrowstreet Capital L.P">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Didem Aral" label="Didem Aral">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="reprai" label="reprai">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Primary Venture Partners" label="Primary Venture Partners">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="20 yrs 5 mos" label="20 yrs 5 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="BİZİM DOKTOR" label="BİZİM DOKTOR">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="PRG" label="PRG">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Digiturk" label="Digiturk">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="CMC Turkey" label="CMC Turkey">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Mukremin Cetinkaya" label="Mukremin Cetinkaya">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="robolaunch Cloud" label="robolaunch Cloud">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="robolaunch" label="robolaunch">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="KAE Systems" label="KAE Systems">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="HAVELSAN" label="HAVELSAN">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Aselsan" label="Aselsan">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Huzeyfe Onal" label="Huzeyfe Onal">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="SOCRadar® Extended Threat Intelligence" label="SOCRadar® Extended Threat Intelligence">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Self-employed" label="Self-employed">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="11 yrs 10 mos" label="11 yrs 10 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Turkcell Iletisim Hizmetleri A.S." label="Turkcell Iletisim Hizmetleri A.S.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Vodafone Telekomünikasyon A.S" label="Vodafone Telekomünikasyon A.S">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="AVEA Iletisim Hizmetleri" label="AVEA Iletisim Hizmetleri">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Ford OTOSAN" label="Ford OTOSAN">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Birlesik Oksijen Sanayi" label="Birlesik Oksijen Sanayi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Oguz Kucukbarak" label="Oguz Kucukbarak">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="19 yrs 9 mos" label="19 yrs 9 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="BNP Paribas" label="BNP Paribas">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="BankEuropa" label="BankEuropa">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="HSBC" label="HSBC">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Demirbank" label="Demirbank">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Koray Dogan" label="Koray Dogan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Solvoyo" label="Solvoyo">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="i2" label="i2">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Supply Chain Consultants" label="Supply Chain Consultants">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Batuhan Ozcan" label="Batuhan Ozcan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Syntonym" label="Syntonym">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Nevzat Atakli" label="Nevzat Atakli">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Trio Mobil" label="Trio Mobil">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Ford Motor Company" label="Ford Motor Company">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Selim Satici" label="Selim Satici">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Voltfox (Ex. Blok-Z)" label="Voltfox (Ex. Blok-Z)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Menthol Protocol" label="Menthol Protocol">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Basarsoft" label="Basarsoft">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Arcasoy Consulting" label="Arcasoy Consulting">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Ceren Melis Abacioglu" label="Ceren Melis Abacioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Wellbees" label="Wellbees">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Kızlar Sahada" label="Kızlar Sahada">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Actifit" label="Actifit">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="SWEATersApp" label="SWEATersApp">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Hareket Candir!" label="Hareket Candir!">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Performance Sports Club of The Spinal Cord Paralytics Association of Turkey" label="Performance Sports Club of The Spinal Cord Paralytics Association of Turkey">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Dunyagoz" label="Dunyagoz">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Transmed Hair and Cosmetic Surgery Clinic" label="Transmed Hair and Cosmetic Surgery Clinic">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Columbia University" label="Columbia University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="New England Consulting Group" label="New England Consulting Group">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Balca Yilmaz" label="Balca Yilmaz">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Werover" label="Werover">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Enerji Sanayicileri &amp; İş İnsanları Derneği - ENSİA" label="Enerji Sanayicileri &amp; İş İnsanları Derneği - ENSİA">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Martin Weber" label="Martin Weber">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="one • fıve" label="one • fıve">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Nucleus Capital" label="Nucleus Capital">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="NetZeroNitrogen" label="NetZeroNitrogen">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="UNCAGED Innovations" label="UNCAGED Innovations">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Recyda GmbH" label="Recyda GmbH">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Epoch Biodesign" label="Epoch Biodesign">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="info.link" label="info.link">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Farmless" label="Farmless">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Tandem Repeat" label="Tandem Repeat">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Core Biogenesis" label="Core Biogenesis">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="planetarygroup" label="planetarygroup">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="DUDE CHEM" label="DUDE CHEM">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Aquapurna" label="Aquapurna">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Formo" label="Formo">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Hashtag You" label="Hashtag You">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="7 yrs 6 mos" label="7 yrs 6 mos">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Marathon Artists" label="Marathon Artists">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="EY Studio+" label="EY Studio+">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Startupbootcamp" label="Startupbootcamp">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Sushi Venture Partners" label="Sushi Venture Partners">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="StarTau Tel Aviv University Entrepreneurship Center" label="StarTau Tel Aviv University Entrepreneurship Center">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Aon" label="Aon">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="enomyc GmbH" label="enomyc GmbH">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+      <node id="Hamburger Sparkasse" label="Hamburger Sparkasse">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Former Company" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Florin Cornianu" target="Kiteworks" id="0" />
+      <edge source="Florin Cornianu" target="Fundatia Cornianu" id="1" />
+      <edge source="Florin Cornianu" target="16 yrs 5 mos" id="2" />
+      <edge source="Florin Cornianu" target="Adolix Software" id="3" />
+      <edge source="Florin Cornianu" target="3 yrs 1 mo" id="4" />
+      <edge source="Lukas Hackl" target="Aepnus Technology Inc." id="5" />
+      <edge source="Lukas Hackl" target="Activate" id="6" />
+      <edge source="Lukas Hackl" target="UC Berkeley and Lawrence Berkeley National Laboratory" id="7" />
+      <edge source="Lukas Hackl" target="Drexel University College of Engineering" id="8" />
+      <edge source="Lukas Hackl" target="Berkeley Lab" id="9" />
+      <edge source="Lukas Hackl" target="Tronex Technology" id="10" />
+      <edge source="Lukas Hackl" target="AEG Power Solutions" id="11" />
+      <edge source="Lukas Hackl" target="Lanterna Education" id="12" />
+      <edge source="Activate" target="Bilen Akuzum" id="13" />
+      <edge source="Drexel University College of Engineering" target="Bilen Akuzum" id="14" />
+      <edge source="Berkeley Lab" target="Bilen Akuzum" id="15" />
+      <edge source="Berkeley Lab" target="Josua Vieten" id="16" />
+      <edge source="Bilen Akuzum" target="Aepnus Technology" id="17" />
+      <edge source="Bilen Akuzum" target="Turkish Founders Club" id="18" />
+      <edge source="Bilen Akuzum" target="The Production Board" id="19" />
+      <edge source="Bilen Akuzum" target="University of California, Berkeley" id="20" />
+      <edge source="Bilen Akuzum" target="H2Only Technology Inc." id="21" />
+      <edge source="Bilen Akuzum" target="Harvard University" id="22" />
+      <edge source="Bilen Akuzum" target="ODTÜ" id="23" />
+      <edge source="Bilen Akuzum" target="Bosch Turkey" id="24" />
+      <edge source="Bilen Akuzum" target="Novelis" id="25" />
+      <edge source="Mehmet Coka" target="Agrotelligence INC" id="26" />
+      <edge source="Mehmet Coka" target="Tura Tarım ve Gayrimenkul Yatırım A.Ş." id="27" />
+      <edge source="Mehmet Coka" target="Pavo IoT" id="28" />
+      <edge source="Mehmet Coka" target="Agrotics Incorp." id="29" />
+      <edge source="Mehmet Coka" target="Coka Dış Ticaret Ltd." id="30" />
+      <edge source="Mehmet Coka" target="Coproline" id="31" />
+      <edge source="Mehmet Coka" target="ENKA-Moscow" id="32" />
+      <edge source="Mehmet Coka" target="Calik Holding-Turkmenistan" id="33" />
+      <edge source="Daghan Cam" target="Aibuild" id="34" />
+      <edge source="Daghan Cam" target="Bartlett School of Architecture, University College London" id="35" />
+      <edge source="Daghan Cam" target="Architectural Association" id="36" />
+      <edge source="Daghan Cam" target="Zaha Hadid Architects" id="37" />
+      <edge source="Daghan Cam" target="Mutlu Cilingiroglu MIAR Architecture" id="38" />
+      <edge source="Zaha Hadid Architects" target="Michail Desyllas" id="39" />
+      <edge source="Michail Desyllas" target="Ai Build" id="40" />
+      <edge source="Emre Fadillioglu" target="App Samurai" id="41" />
+      <edge source="Emre Fadillioglu" target="Storyly" id="42" />
+      <edge source="Emre Fadillioglu" target="MMA TÜRKİYE" id="43" />
+      <edge source="Emre Fadillioglu" target="Netvent" id="44" />
+      <edge source="Emre Fadillioglu" target="Interceptd" id="45" />
+      <edge source="Emre Fadillioglu" target="Paperclip" id="46" />
+      <edge source="Emre Fadillioglu" target="Growth Tower" id="47" />
+      <edge source="Emre Fadillioglu" target="Oracle" id="48" />
+      <edge source="Emre Fadillioglu" target="3 yrs 4 mos" id="49" />
+      <edge source="Emre Fadillioglu" target="IntaSpaceturk" id="50" />
+      <edge source="Emre Fadillioglu" target="PricewaterhouseCoopers" id="51" />
+      <edge source="3 yrs 4 mos" target="Josua Vieten" id="52" />
+      <edge source="Mucahit Gayiran" target="Key Visual AI" id="53" />
+      <edge source="Mucahit Gayiran" target="Artboard Studio" id="54" />
+      <edge source="Mucahit Gayiran" target="Mockup Zone" id="55" />
+      <edge source="Mucahit Gayiran" target="ABM Grafik Evi" id="56" />
+      <edge source="Mark Felegyhazi" target="Full-time" id="57" />
+      <edge source="Mark Felegyhazi" target="Avatao" id="58" />
+      <edge source="Mark Felegyhazi" target="CrySyS Lab, Budapest University of Technology and Economics" id="59" />
+      <edge source="Mark Felegyhazi" target="Ukatemi Technologies" id="60" />
+      <edge source="Mark Felegyhazi" target="IT-SEC Expert Nonprofit Kft." id="61" />
+      <edge source="Mark Felegyhazi" target="ICSI - International Computer Science Institute" id="62" />
+      <edge source="Mark Felegyhazi" target="UC Berkeley" id="63" />
+      <edge source="Mark Felegyhazi" target="EPFL" id="64" />
+      <edge source="Mark Felegyhazi" target="Ericsson" id="65" />
+      <edge source="Full-time" target="Emrah Gultekin" id="66" />
+      <edge source="Full-time" target="Alara Eren Iplikcioglu" id="67" />
+      <edge source="Full-time" target="Baransel Soysal" id="68" />
+      <edge source="EPFL" target="Gediminas Mikutis" id="69" />
+      <edge source="Murat Hacioglu" target="B2Metric" id="70" />
+      <edge source="Murat Hacioglu" target="Turkcell" id="71" />
+      <edge source="Murat Hacioglu" target="LiyyoTech Mobile Apps" id="72" />
+      <edge source="Murat Hacioglu" target="OBSS" id="73" />
+      <edge source="Murat Hacioglu" target="D-Smart" id="74" />
+      <edge source="Murat Hacioglu" target="Netas" id="75" />
+      <edge source="Murat Hacioglu" target="TRANSVER GmbH" id="76" />
+      <edge source="Murat Hacioglu" target="Fraunhofer-Gesellschaft" id="77" />
+      <edge source="Turkcell" target="Batuhan Ozcan" id="78" />
+      <edge source="Hakan Yurdakul" target="Bolt Insight" id="79" />
+      <edge source="Hakan Yurdakul" target="13 yrs" id="80" />
+      <edge source="Hakan Yurdakul" target="Bayer HealthCare" id="81" />
+      <edge source="Hakan Yurdakul" target="Eksan" id="82" />
+      <edge source="Emrah Gultekin" target="Delivering Better Lives" id="83" />
+      <edge source="Emrah Gultekin" target="Terra Invest" id="84" />
+      <edge source="Emrah Gultekin" target="DEIK - Foreign Economic Relations Board" id="85" />
+      <edge source="Emrah Gultekin" target="Balat AS" id="86" />
+      <edge source="Emrah Gultekin" target="Goodman" id="87" />
+      <edge source="Emrah Gultekin" target="UTi Worldwide" id="88" />
+      <edge source="Emrah Gultekin" target="Maersk Line" id="89" />
+      <edge source="Sean Yu" target="Eluvium" id="90" />
+      <edge source="Sean Yu" target="Fabrikatör" id="91" />
+      <edge source="Sean Yu" target="212" id="92" />
+      <edge source="Sean Yu" target="Mikrogrup" id="93" />
+      <edge source="Sean Yu" target="Paraşüt" id="94" />
+      <edge source="Sean Yu" target="Endeavor" id="95" />
+      <edge source="Sean Yu" target="Gryphon Investors" id="96" />
+      <edge source="Sean Yu" target="Lehman Brothers" id="97" />
+      <edge source="Sean Yu" target="Andesite, LLC" id="98" />
+      <edge source="Sean Yu" target="ProfitLogic (Acquired by Oracle)" id="99" />
+      <edge source="Sean Yu" target="Boehringer Ingelheim" id="100" />
+      <edge source="212" target="Batu Sat" id="101" />
+      <edge source="Endeavor" target="Kamal Reggad" id="102" />
+      <edge source="Philippe Berlan" target="EverDye" id="103" />
+      <edge source="Philippe Berlan" target="Teampact.ventures" id="104" />
+      <edge source="Philippe Berlan" target="Zèta" id="105" />
+      <edge source="Philippe Berlan" target="Clear Fashion" id="106" />
+      <edge source="Philippe Berlan" target="Asterion Ventures" id="107" />
+      <edge source="Philippe Berlan" target="12 yrs" id="108" />
+      <edge source="Philippe Berlan" target="FEVAD" id="109" />
+      <edge source="Philippe Berlan" target="UPECAD (Union Prof. des Entreprises du Commerce à Distance)" id="110" />
+      <edge source="Philippe Berlan" target="Eco-mobilier" id="111" />
+      <edge source="Philippe Berlan" target="Eco TLC" id="112" />
+      <edge source="Philippe Berlan" target="Groupe Casino" id="113" />
+      <edge source="Philippe Berlan" target="Petit Bateau" id="114" />
+      <edge source="Philippe Berlan" target="Lancel" id="115" />
+      <edge source="Philippe Berlan" target="Bossard Consultants" id="116" />
+      <edge source="Philippe Berlan" target="Marine Nationale" id="117" />
+      <edge source="Deniz Ozgur" target="Evercopy" id="118" />
+      <edge source="Deniz Ozgur" target="Space Runners" id="119" />
+      <edge source="Deniz Ozgur" target="FCB Artgroup" id="120" />
+      <edge source="Deniz Ozgur" target="FARFETCH" id="121" />
+      <edge source="Deniz Ozgur" target="2 yrs 8 mos" id="122" />
+      <edge source="Josua Vieten" target="ExoMatter" id="123" />
+      <edge source="Josua Vieten" target="Deutsches Zentrum für Luft-und Raumfahrt e.V." id="124" />
+      <edge source="Josua Vieten" target="Celonis" id="125" />
+      <edge source="Josua Vieten" target="Technische Universität München" id="126" />
+      <edge source="Josua Vieten" target="BASF" id="127" />
+      <edge source="Olcay Silahli" target="Fazla" id="128" />
+      <edge source="Olcay Silahli" target="Techstars" id="129" />
+      <edge source="Olcay Silahli" target="5 yrs 5 mos" id="130" />
+      <edge source="Olcay Silahli" target="One Young World" id="131" />
+      <edge source="Olcay Silahli" target="Akbank" id="132" />
+      <edge source="Olcay Silahli" target="1 yr 5 mos" id="133" />
+      <edge source="Olcay Silahli" target="Faber-Castell / Adel Kalemcilik" id="134" />
+      <edge source="Olcay Silahli" target="Deloitte" id="135" />
+      <edge source="Olcay Silahli" target="ITU ARI Teknokent (Science Park) Management Office" id="136" />
+      <edge source="Robert Brull" target="FibreCoat GmbH" id="137" />
+      <edge source="Robert Brull" target="Startup-Verband" id="138" />
+      <edge source="Robert Brull" target="7 yrs 11 mos" id="139" />
+      <edge source="Robert Brull" target="3 yrs 6 mos" id="140" />
+      <edge source="Robert Brull" target="Robert Bosch GmbH" id="141" />
+      <edge source="Robert Brull" target="Fraunhofer-Institut für Produktionstechnologie IPT" id="142" />
+      <edge source="Robert Brull" target="OTTO JUNKER GmbH" id="143" />
+      <edge source="Tunga Bayrak" target="Freya (YC S25)" id="144" />
+      <edge source="Tunga Bayrak" target="freeCodeCamp" id="145" />
+      <edge source="Tunga Bayrak" target="MotionShark" id="146" />
+      <edge source="Tunga Bayrak" target="Penn Quantum Computing Club" id="147" />
+      <edge source="Tunga Bayrak" target="Big Brain Holdings" id="148" />
+      <edge source="Tunga Bayrak" target="Penn Engineering" id="149" />
+      <edge source="Tunga Bayrak" target="Aspiring Scholars Directed Research Program (ASDRP)" id="150" />
+      <edge source="Tunga Bayrak" target="Polygence" id="151" />
+      <edge source="Tunga Bayrak" target="QTurkey" id="152" />
+      <edge source="Freya (YC S25)" target="Tomas Nepala" id="153" />
+      <edge source="MotionShark" target="Tomas Nepala" id="154" />
+      <edge source="Tomas Nepala" target="RENOMIA" id="155" />
+      <edge source="Tomas Nepala" target="Gallagher" id="156" />
+      <edge source="Tomas Nepala" target="RockawayX" id="157" />
+      <edge source="Tomas Nepala" target="RSJ Investments" id="158" />
+      <edge source="Mehmet Ertan Uygun" target="Getmobil" id="159" />
+      <edge source="Mehmet Ertan Uygun" target="YPO" id="160" />
+      <edge source="Mehmet Ertan Uygun" target="IVU" id="161" />
+      <edge source="Mehmet Ertan Uygun" target="Pisano" id="162" />
+      <edge source="Mehmet Ertan Uygun" target="Groop App" id="163" />
+      <edge source="Mehmet Ertan Uygun" target="Lidyana.com" id="164" />
+      <edge source="Mehmet Ertan Uygun" target="ISS A/S" id="165" />
+      <edge source="Gediminas Mikutis" target="10 yrs 6 mos" id="166" />
+      <edge source="Gediminas Mikutis" target="Philochem AG" id="167" />
+      <edge source="Gediminas Mikutis" target="Roche" id="168" />
+      <edge source="Gediminas Mikutis" target="1 yr 8 mos" id="169" />
+      <edge source="Arden Agopyan" target="HotelRunner" id="170" />
+      <edge source="Arden Agopyan" target="5 yrs 4 mos" id="171" />
+      <edge source="Arden Agopyan" target="Innova" id="172" />
+      <edge source="Arden Agopyan" target="Bizitek" id="173" />
+      <edge source="Arden Agopyan" target="Freelance Development" id="174" />
+      <edge source="HotelRunner" target="Ali Beklen" id="175" />
+      <edge source="Ali Beklen" target="IBM" id="176" />
+      <edge source="Ali Beklen" target="YapiKredi" id="177" />
+      <edge source="IBM" target="Alara Eren Iplikcioglu" id="178" />
+      <edge source="Hande Cilingir" target="Insider One" id="179" />
+      <edge source="Hande Cilingir" target="English&amp;More International Learning Centre" id="180" />
+      <edge source="Hande Cilingir" target="Starmall" id="181" />
+      <edge source="Hande Cilingir" target="Torlin Chemicals (Shanghai) Co., Ltd" id="182" />
+      <edge source="Hande Cilingir" target="PepsiCo" id="183" />
+      <edge source="Hande Cilingir" target="Zorlu Holding" id="184" />
+      <edge source="Hande Cilingir" target="Vestel" id="185" />
+      <edge source="Hande Cilingir" target="Alarko Tourism Group" id="186" />
+      <edge source="Alara Eren Iplikcioglu" target="Dine and Pay" id="187" />
+      <edge source="Alara Eren Iplikcioglu" target="Happy Cow Ltd." id="188" />
+      <edge source="Alara Eren Iplikcioglu" target="Sözcü Gazetesi" id="189" />
+      <edge source="Alara Eren Iplikcioglu" target="111SKIN LTD" id="190" />
+      <edge source="Alara Eren Iplikcioglu" target="Eko Faktoring A.S." id="191" />
+      <edge source="Alara Eren Iplikcioglu" target="The Right Angle" id="192" />
+      <edge source="Alara Eren Iplikcioglu" target="Universal Hospital Group" id="193" />
+      <edge source="Alara Eren Iplikcioglu" target="Mynet" id="194" />
+      <edge source="Berhan Kongel" target="Keyrails" id="195" />
+      <edge source="Berhan Kongel" target="Arf" id="196" />
+      <edge source="Berhan Kongel" target="yapabilirim" id="197" />
+      <edge source="Berhan Kongel" target="workup" id="198" />
+      <edge source="Berhan Kongel" target="Founder Institute Istanbul" id="199" />
+      <edge source="Berhan Kongel" target="4 yrs 3 mos" id="200" />
+      <edge source="Berhan Kongel" target="Clubber" id="201" />
+      <edge source="Berhan Kongel" target="TravelClub" id="202" />
+      <edge source="Berhan Kongel" target="OneHour" id="203" />
+      <edge source="Berhan Kongel" target="TakımTakip" id="204" />
+      <edge source="Berhan Kongel" target="mod12" id="205" />
+      <edge source="Berhan Kongel" target="Sodriva" id="206" />
+      <edge source="Berhan Kongel" target="6 yrs 5 mos" id="207" />
+      <edge source="Cagkan Ekici" target="Khenda" id="208" />
+      <edge source="Cagkan Ekici" target="Eravis Yazılım ve Otomasyon Ltd. Şti." id="209" />
+      <edge source="Cagkan Ekici" target="Ideaport Engineering&amp;Consulting" id="210" />
+      <edge source="Cagkan Ekici" target="Projes" id="211" />
+      <edge source="Batu Sat" target="Mall IQ, Inc" id="212" />
+      <edge source="Batu Sat" target="Alchemist Accelerator" id="213" />
+      <edge source="Batu Sat" target="MMA Global" id="214" />
+      <edge source="Batu Sat" target="StartX." id="215" />
+      <edge source="Batu Sat" target="500 Startups" id="216" />
+      <edge source="Batu Sat" target="Founder Institute" id="217" />
+      <edge source="Batu Sat" target="Fuze, Inc." id="218" />
+      <edge source="Batu Sat" target="Cisco" id="219" />
+      <edge source="Batu Sat" target="7 yrs 1 mo" id="220" />
+      <edge source="Batu Sat" target="Microsoft" id="221" />
+      <edge source="Alchemist Accelerator" target="Saliha Durmus" id="222" />
+      <edge source="Microsoft" target="Haris Aghadi" id="223" />
+      <edge source="Microsoft" target="Sadok Kohen" id="224" />
+      <edge source="Oguz Alper Oktem" target="Marti Technologies (NYSE: MRT)" id="225" />
+      <edge source="Oguz Alper Oktem" target="Warner Bros. Discovery Türkiye" id="226" />
+      <edge source="Oguz Alper Oktem" target="McKinsey &amp; Company" id="227" />
+      <edge source="Oguz Alper Oktem" target="Deutsche Bank" id="228" />
+      <edge source="Haris Aghadi" target="Calo Inc." id="229" />
+      <edge source="Haris Aghadi" target="Paro" id="230" />
+      <edge source="Haris Aghadi" target="Helium Health" id="231" />
+      <edge source="Haris Aghadi" target="Forbes" id="232" />
+      <edge source="Haris Aghadi" target="HeliumDoc" id="233" />
+      <edge source="Haris Aghadi" target="Carnegie Mellon University in Qatar" id="234" />
+      <edge source="Haris Aghadi" target="Vodafone Qatar" id="235" />
+      <edge source="Haris Aghadi" target="Edutechnoz" id="236" />
+      <edge source="Haris Aghadi" target="Carnegie Mellon University" id="237" />
+      <edge source="Haris Aghadi" target="Zawya" id="238" />
+      <edge source="Haris Aghadi" target="Qatar Islamic Bank" id="239" />
+      <edge source="Oguzhan Uyar" target="Metrobi" id="240" />
+      <edge source="Oguzhan Uyar" target="Metrobi (SaaS)" id="241" />
+      <edge source="Oguzhan Uyar" target="Public Transit Solutions" id="242" />
+      <edge source="Oguzhan Uyar" target="Gasberry" id="243" />
+      <edge source="Oguzhan Uyar" target="Eta Devices" id="244" />
+      <edge source="Oguzhan Uyar" target="Intel Corporation" id="245" />
+      <edge source="Oguzhan Uyar" target="MIT" id="246" />
+      <edge source="Oguzhan Uyar" target="ST Microelectronics" id="247" />
+      <edge source="Tolga Sen" target="9 yrs 5 mos" id="248" />
+      <edge source="Tolga Sen" target="emlakjet.com" id="249" />
+      <edge source="Tolga Sen" target="Ezgi Consultancy" id="250" />
+      <edge source="Tolga Sen" target="Tart New Media" id="251" />
+      <edge source="Tolga Sen" target="Trader Media East Competence Center" id="252" />
+      <edge source="Tolga Sen" target="Trader Media East" id="253" />
+      <edge source="Tolga Sen" target="Hurriyet Emlak / Oto" id="254" />
+      <edge source="Tolga Sen" target="2 yrs 2 mos" id="255" />
+      <edge source="Tolga Sen" target="BSG" id="256" />
+      <edge source="Tolga Sen" target="2999" id="257" />
+      <edge source="Sadok Kohen" target="PhilosopherKing" id="258" />
+      <edge source="Sadok Kohen" target="Wynn Interactive" id="259" />
+      <edge source="Sadok Kohen" target="WynnBET" id="260" />
+      <edge source="Sadok Kohen" target="Betbull" id="261" />
+      <edge source="Sadok Kohen" target="Saran Online" id="262" />
+      <edge source="Sadok Kohen" target="tuttur" id="263" />
+      <edge source="Sadok Kohen" target="bwin.party digital entertainment" id="264" />
+      <edge source="Sadok Kohen" target="Kapgel.com" id="265" />
+      <edge source="Sadok Kohen" target="Happy Foundry" id="266" />
+      <edge source="Sadok Kohen" target="Isteoyun.com" id="267" />
+      <edge source="Sadok Kohen" target="BidPlaza" id="268" />
+      <edge source="Sadok Kohen" target="Esmedia" id="269" />
+      <edge source="Sadok Kohen" target="Intelicom" id="270" />
+      <edge source="Sadok Kohen" target="Telsad" id="271" />
+      <edge source="Saliha Durmus" target="PhiTech" id="272" />
+      <edge source="Saliha Durmus" target="2 yrs 5 mos" id="273" />
+      <edge source="Saliha Durmus" target="Gebze Technical University" id="274" />
+      <edge source="Saliha Durmus" target="Bogazici University / Department of Chemical Engineering" id="275" />
+      <edge source="Baransel Soysal" target="Qrambo" id="276" />
+      <edge source="Baransel Soysal" target="İstanbul Portföy Yönetimi" id="277" />
+      <edge source="Baransel Soysal" target="Driblab" id="278" />
+      <edge source="Baransel Soysal" target="3 yrs 10 mos" id="279" />
+      <edge source="Baransel Soysal" target="RIMOND GROUP" id="280" />
+      <edge source="Baransel Soysal" target="Acibadem Project Management" id="281" />
+      <edge source="Kamal Reggad" target="RemotePass" id="282" />
+      <edge source="Kamal Reggad" target="SafarPass" id="283" />
+      <edge source="Kamal Reggad" target="Hmizate.ma" id="284" />
+      <edge source="Kamal Reggad" target="TIBCO Software" id="285" />
+      <edge source="Kamal Reggad" target="Arrowstreet Capital L.P" id="286" />
+      <edge source="Didem Aral" target="reprai" id="287" />
+      <edge source="Didem Aral" target="Primary Venture Partners" id="288" />
+      <edge source="Didem Aral" target="20 yrs 5 mos" id="289" />
+      <edge source="Didem Aral" target="BİZİM DOKTOR" id="290" />
+      <edge source="Didem Aral" target="PRG" id="291" />
+      <edge source="Didem Aral" target="Digiturk" id="292" />
+      <edge source="Didem Aral" target="CMC Turkey" id="293" />
+      <edge source="Mukremin Cetinkaya" target="robolaunch Cloud" id="294" />
+      <edge source="Mukremin Cetinkaya" target="robolaunch" id="295" />
+      <edge source="Mukremin Cetinkaya" target="KAE Systems" id="296" />
+      <edge source="Mukremin Cetinkaya" target="HAVELSAN" id="297" />
+      <edge source="Mukremin Cetinkaya" target="Aselsan" id="298" />
+      <edge source="Huzeyfe Onal" target="SOCRadar® Extended Threat Intelligence" id="299" />
+      <edge source="Huzeyfe Onal" target="Self-employed" id="300" />
+      <edge source="Huzeyfe Onal" target="11 yrs 10 mos" id="301" />
+      <edge source="Huzeyfe Onal" target="Turkcell Iletisim Hizmetleri A.S." id="302" />
+      <edge source="Huzeyfe Onal" target="Vodafone Telekomünikasyon A.S" id="303" />
+      <edge source="Huzeyfe Onal" target="AVEA Iletisim Hizmetleri" id="304" />
+      <edge source="Huzeyfe Onal" target="Ford OTOSAN" id="305" />
+      <edge source="Huzeyfe Onal" target="Birlesik Oksijen Sanayi" id="306" />
+      <edge source="Oguz Kucukbarak" target="19 yrs 9 mos" id="307" />
+      <edge source="Oguz Kucukbarak" target="BNP Paribas" id="308" />
+      <edge source="Oguz Kucukbarak" target="BankEuropa" id="309" />
+      <edge source="Oguz Kucukbarak" target="HSBC" id="310" />
+      <edge source="Oguz Kucukbarak" target="Demirbank" id="311" />
+      <edge source="Koray Dogan" target="Solvoyo" id="312" />
+      <edge source="Koray Dogan" target="i2" id="313" />
+      <edge source="Koray Dogan" target="Supply Chain Consultants" id="314" />
+      <edge source="Batuhan Ozcan" target="Syntonym" id="315" />
+      <edge source="Nevzat Atakli" target="Trio Mobil" id="316" />
+      <edge source="Nevzat Atakli" target="Ford Motor Company" id="317" />
+      <edge source="Selim Satici" target="Voltfox (Ex. Blok-Z)" id="318" />
+      <edge source="Selim Satici" target="Menthol Protocol" id="319" />
+      <edge source="Selim Satici" target="Basarsoft" id="320" />
+      <edge source="Selim Satici" target="Arcasoy Consulting" id="321" />
+      <edge source="Ceren Melis Abacioglu" target="Wellbees" id="322" />
+      <edge source="Ceren Melis Abacioglu" target="Kızlar Sahada" id="323" />
+      <edge source="Ceren Melis Abacioglu" target="Actifit" id="324" />
+      <edge source="Ceren Melis Abacioglu" target="SWEATersApp" id="325" />
+      <edge source="Ceren Melis Abacioglu" target="Hareket Candir!" id="326" />
+      <edge source="Ceren Melis Abacioglu" target="Performance Sports Club of The Spinal Cord Paralytics Association of Turkey" id="327" />
+      <edge source="Ceren Melis Abacioglu" target="Dunyagoz" id="328" />
+      <edge source="Ceren Melis Abacioglu" target="Transmed Hair and Cosmetic Surgery Clinic" id="329" />
+      <edge source="Ceren Melis Abacioglu" target="Columbia University" id="330" />
+      <edge source="Ceren Melis Abacioglu" target="New England Consulting Group" id="331" />
+      <edge source="Balca Yilmaz" target="Werover" id="332" />
+      <edge source="Balca Yilmaz" target="Enerji Sanayicileri &amp; İş İnsanları Derneği - ENSİA" id="333" />
+      <edge source="Martin Weber" target="one • fıve" id="334" />
+      <edge source="Martin Weber" target="Nucleus Capital" id="335" />
+      <edge source="Martin Weber" target="NetZeroNitrogen" id="336" />
+      <edge source="Martin Weber" target="UNCAGED Innovations" id="337" />
+      <edge source="Martin Weber" target="Recyda GmbH" id="338" />
+      <edge source="Martin Weber" target="Epoch Biodesign" id="339" />
+      <edge source="Martin Weber" target="info.link" id="340" />
+      <edge source="Martin Weber" target="Farmless" id="341" />
+      <edge source="Martin Weber" target="Tandem Repeat" id="342" />
+      <edge source="Martin Weber" target="Core Biogenesis" id="343" />
+      <edge source="Martin Weber" target="planetarygroup" id="344" />
+      <edge source="Martin Weber" target="DUDE CHEM" id="345" />
+      <edge source="Martin Weber" target="Aquapurna" id="346" />
+      <edge source="Martin Weber" target="Formo" id="347" />
+      <edge source="Martin Weber" target="Hashtag You" id="348" />
+      <edge source="Martin Weber" target="7 yrs 6 mos" id="349" />
+      <edge source="Martin Weber" target="Marathon Artists" id="350" />
+      <edge source="Martin Weber" target="EY Studio+" id="351" />
+      <edge source="Martin Weber" target="Startupbootcamp" id="352" />
+      <edge source="Martin Weber" target="Sushi Venture Partners" id="353" />
+      <edge source="Martin Weber" target="StarTau Tel Aviv University Entrepreneurship Center" id="354" />
+      <edge source="Martin Weber" target="Aon" id="355" />
+      <edge source="Martin Weber" target="enomyc GmbH" id="356" />
+      <edge source="Martin Weber" target="Hamburger Sparkasse" id="357" />
+    </edges>
+  </graph>
+</gexf>

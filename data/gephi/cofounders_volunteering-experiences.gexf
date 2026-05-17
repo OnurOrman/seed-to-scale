@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-17">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Florin Cornianu" label="Florin Cornianu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Lukas Hackl" label="Lukas Hackl">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Bilen Akuzum" label="Bilen Akuzum">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Mehmet Coka" label="Mehmet Coka">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Daghan Cam" label="Daghan Cam">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Michail Desyllas" label="Michail Desyllas">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Emre Fadillioglu" label="Emre Fadillioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Mucahit Gayiran" label="Mucahit Gayiran">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Mark Felegyhazi" label="Mark Felegyhazi">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Murat Hacioglu" label="Murat Hacioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Hakan Yurdakul" label="Hakan Yurdakul">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Emrah Gultekin" label="Emrah Gultekin">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Sean Yu" label="Sean Yu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Philippe Berlan" label="Philippe Berlan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Solidarcite" label="Solidarcite">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Deniz Ozgur" label="Deniz Ozgur">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Josua Vieten" label="Josua Vieten">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Bayerische Volkssternwarte München e.V." label="Bayerische Volkssternwarte München e.V.">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Olcay Silahli" label="Olcay Silahli">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Free The Children" label="Free The Children">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="One Young World" label="One Young World">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Robert Brull" label="Robert Brull">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Rugby Club Aachen" label="Rugby Club Aachen">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Tunga Bayrak" label="Tunga Bayrak">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Tomas Nepala" label="Tomas Nepala">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="YPO" label="YPO">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Vysoká škola ekonomická v Praze" label="Vysoká škola ekonomická v Praze">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Dostupné Doučování (Accessible Tutoring)" label="Dostupné Doučování (Accessible Tutoring)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Mehmet Ertan Uygun" label="Mehmet Ertan Uygun">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Gediminas Mikutis" label="Gediminas Mikutis">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Arden Agopyan" label="Arden Agopyan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Ali Beklen" label="Ali Beklen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Hande Cilingir" label="Hande Cilingir">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Alara Eren Iplikcioglu" label="Alara Eren Iplikcioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Westminster Business School" label="Westminster Business School">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="GLA Thailand" label="GLA Thailand">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Rotary International" label="Rotary International">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Toplum Gönüllüleri Vakfı (TOG)" label="Toplum Gönüllüleri Vakfı (TOG)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Berhan Kongel" label="Berhan Kongel">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Cagkan Ekici" label="Cagkan Ekici">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Batu Sat" label="Batu Sat">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Oguz Alper Oktem" label="Oguz Alper Oktem">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Haris Aghadi" label="Haris Aghadi">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Qatar Red Crescent Society" label="Qatar Red Crescent Society">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Carnegie Mellon University in Qatar" label="Carnegie Mellon University in Qatar">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Oguzhan Uyar" label="Oguzhan Uyar">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Tolga Sen" label="Tolga Sen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Sadok Kohen" label="Sadok Kohen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Saliha Durmus" label="Saliha Durmus">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Baransel Soysal" label="Baransel Soysal">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Kamal Reggad" label="Kamal Reggad">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Didem Aral" label="Didem Aral">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="WEConnect International" label="WEConnect International">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Techstars" label="Techstars">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Arya Women Investment Platform" label="Arya Women Investment Platform">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Faydasıçok Vakfı" label="Faydasıçok Vakfı">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Yenibirlider Association" label="Yenibirlider Association">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Mukremin Cetinkaya" label="Mukremin Cetinkaya">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Huzeyfe Onal" label="Huzeyfe Onal">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Oguz Kucukbarak" label="Oguz Kucukbarak">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Koray Dogan" label="Koray Dogan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Batuhan Ozcan" label="Batuhan Ozcan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="IEEE" label="IEEE">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Nevzat Atakli" label="Nevzat Atakli">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Selim Satici" label="Selim Satici">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Ceren Melis Abacioglu" label="Ceren Melis Abacioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="NEVER AGAIN RWANDA" label="NEVER AGAIN RWANDA">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Teach for Turkey" label="Teach for Turkey">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Volunteering Organization" />
+        </attvalues>
+      </node>
+      <node id="Balca Yilmaz" label="Balca Yilmaz">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Martin Weber" label="Martin Weber">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Philippe Berlan" target="Solidarcite" id="0" />
+      <edge source="Josua Vieten" target="Bayerische Volkssternwarte München e.V." id="1" />
+      <edge source="Olcay Silahli" target="Free The Children" id="2" />
+      <edge source="Olcay Silahli" target="One Young World" id="3" />
+      <edge source="Robert Brull" target="Rugby Club Aachen" id="4" />
+      <edge source="Tomas Nepala" target="YPO" id="5" />
+      <edge source="Tomas Nepala" target="Vysoká škola ekonomická v Praze" id="6" />
+      <edge source="Tomas Nepala" target="Dostupné Doučování (Accessible Tutoring)" id="7" />
+      <edge source="Alara Eren Iplikcioglu" target="Westminster Business School" id="8" />
+      <edge source="Alara Eren Iplikcioglu" target="GLA Thailand" id="9" />
+      <edge source="Alara Eren Iplikcioglu" target="Rotary International" id="10" />
+      <edge source="Alara Eren Iplikcioglu" target="Toplum Gönüllüleri Vakfı (TOG)" id="11" />
+      <edge source="Haris Aghadi" target="Qatar Red Crescent Society" id="12" />
+      <edge source="Haris Aghadi" target="Carnegie Mellon University in Qatar" id="13" />
+      <edge source="Didem Aral" target="WEConnect International" id="14" />
+      <edge source="Didem Aral" target="Techstars" id="15" />
+      <edge source="Didem Aral" target="Arya Women Investment Platform" id="16" />
+      <edge source="Didem Aral" target="Faydasıçok Vakfı" id="17" />
+      <edge source="Didem Aral" target="Yenibirlider Association" id="18" />
+      <edge source="Batuhan Ozcan" target="IEEE" id="19" />
+      <edge source="Ceren Melis Abacioglu" target="NEVER AGAIN RWANDA" id="20" />
+      <edge source="Ceren Melis Abacioglu" target="Teach for Turkey" id="21" />
+    </edges>
+  </graph>
+</gexf>

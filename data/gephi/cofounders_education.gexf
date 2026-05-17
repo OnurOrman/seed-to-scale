@@ -1,0 +1,997 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-17">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Florin Cornianu" label="Florin Cornianu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Politehnica University of Timisoara" label="Politehnica University of Timisoara">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="C.N. Mihai Eminescu Oradea" label="C.N. Mihai Eminescu Oradea">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Lukas Hackl" label="Lukas Hackl">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="UC Berkeley College of Engineering" label="UC Berkeley College of Engineering">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="ETH Zürich" label="ETH Zürich">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="The University of Edinburgh" label="The University of Edinburgh">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="University of California, Berkeley" label="University of California, Berkeley">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Ashbury College" label="Ashbury College">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Bilen Akuzum" label="Bilen Akuzum">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Drexel University" label="Drexel University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Orta Doğu Teknik Üniversitesi / Middle East Technical University" label="Orta Doğu Teknik Üniversitesi / Middle East Technical University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Harvard University" label="Harvard University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Technische Universität Braunschweig" label="Technische Universität Braunschweig">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Beşiktaş Atatürk Anadolu Lisesi" label="Beşiktaş Atatürk Anadolu Lisesi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Terakki Vakfı Okulları" label="Terakki Vakfı Okulları">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Mehmet Coka" label="Mehmet Coka">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Nasdaq Entreprenual Center" label="Nasdaq Entreprenual Center">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Food System 6 Acceralator-Silicon Valley" label="Food System 6 Acceralator-Silicon Valley">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Eastern Mediterranean University" label="Eastern Mediterranean University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Kabataş Erkek Lisesi" label="Kabataş Erkek Lisesi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Daghan Cam" label="Daghan Cam">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Architectural Association" label="Architectural Association">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Istanbul Technical University" label="Istanbul Technical University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="MEF Okulları" label="MEF Okulları">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Michail Desyllas" label="Michail Desyllas">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Architectural Association DRL" label="Architectural Association DRL">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Emre Fadillioglu" label="Emre Fadillioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="University of California, Berkeley, Haas School of Business" label="University of California, Berkeley, Haas School of Business">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Arı Fen Lisesi" label="Arı Fen Lisesi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Mucahit Gayiran" label="Mucahit Gayiran">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Sivas Cumhuriyet Üniversitesi" label="Sivas Cumhuriyet Üniversitesi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Mark Felegyhazi" label="Mark Felegyhazi">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="EPFL" label="EPFL">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Budapest University of Technology and Economics" label="Budapest University of Technology and Economics">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Karlsruhe Institute of Technology (KIT)" label="Karlsruhe Institute of Technology (KIT)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Szent Istvan High School" label="Szent Istvan High School">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Murat Hacioglu" label="Murat Hacioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Technical University of Munich" label="Technical University of Munich">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Yeditepe University" label="Yeditepe University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Ulubatli Hasan Anatolian High School" label="Ulubatli Hasan Anatolian High School">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Hakan Yurdakul" label="Hakan Yurdakul">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="University of Warwick" label="University of Warwick">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Koç University" label="Koç University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Robert College" label="Robert College">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Emrah Gultekin" label="Emrah Gultekin">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Brown University" label="Brown University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Massachusetts Institute of Technology" label="Massachusetts Institute of Technology">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Sean Yu" label="Sean Yu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Boğaziçi University" label="Boğaziçi University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Philippe Berlan" label="Philippe Berlan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Mines Paris - PSL" label="Mines Paris - PSL">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Lycée Sainte-Geneviève" label="Lycée Sainte-Geneviève">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Deniz Ozgur" label="Deniz Ozgur">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Josua Vieten" label="Josua Vieten">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Technische Universität Dresden" label="Technische Universität Dresden">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Technische Universität München, LMU München, Universität Augsburg" label="Technische Universität München, LMU München, Universität Augsburg">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Olcay Silahli" label="Olcay Silahli">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="The Turkish Military Academy" label="The Turkish Military Academy">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Kuleli Military High School" label="Kuleli Military High School">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Católica Lisbon School of Business and Economics" label="Católica Lisbon School of Business and Economics">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Robert Brull" label="Robert Brull">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="RWTH Aachen University" label="RWTH Aachen University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Tunga Bayrak" label="Tunga Bayrak">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="University of Pennsylvania" label="University of Pennsylvania">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="The Wharton School" label="The Wharton School">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Tomas Nepala" label="Tomas Nepala">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Y Combinator" label="Y Combinator">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="The English College in Prague - Anglické gymnázium" label="The English College in Prague - Anglické gymnázium">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Mehmet Ertan Uygun" label="Mehmet Ertan Uygun">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="The University of British Columbia" label="The University of British Columbia">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="UCLA Anderson School of Management" label="UCLA Anderson School of Management">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Açı Schools" label="Açı Schools">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Gediminas Mikutis" label="Gediminas Mikutis">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Jacobs University Bremen" label="Jacobs University Bremen">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Utrecht University" label="Utrecht University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="KTU Gymnasium" label="KTU Gymnasium">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Arden Agopyan" label="Arden Agopyan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Galatasaray University" label="Galatasaray University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Ozyegin University" label="Ozyegin University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Istanbul Bilgi University" label="Istanbul Bilgi University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Lycée Saint-Joseph" label="Lycée Saint-Joseph">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Ali Beklen" label="Ali Beklen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Maltepe University" label="Maltepe University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Hande Cilingir" label="Hande Cilingir">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="The London School of Economics and Political Science (LSE)" label="The London School of Economics and Political Science (LSE)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Shanghai Normal University" label="Shanghai Normal University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Alara Eren Iplikcioglu" label="Alara Eren Iplikcioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Imperial College London" label="Imperial College London">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="University of Westminster" label="University of Westminster">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="UCL" label="UCL">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Berhan Kongel" label="Berhan Kongel">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Deutsche Schule Istanbul / Alman Lisesi" label="Deutsche Schule Istanbul / Alman Lisesi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Cagkan Ekici" label="Cagkan Ekici">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Batu Sat" label="Batu Sat">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="University of Illinois Urbana-Champaign" label="University of Illinois Urbana-Champaign">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Oguz Alper Oktem" label="Oguz Alper Oktem">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="University of Chicago" label="University of Chicago">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="The Koç School" label="The Koç School">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Haris Aghadi" label="Haris Aghadi">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Carnegie Mellon University" label="Carnegie Mellon University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="500 Startups" label="500 Startups">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Oguzhan Uyar" label="Oguzhan Uyar">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Tolga Sen" label="Tolga Sen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Yıldız Teknik Üniversitesi" label="Yıldız Teknik Üniversitesi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Bahcesehir University" label="Bahcesehir University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Macka Anatolia Technical High School" label="Macka Anatolia Technical High School">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Sadok Kohen" label="Sadok Kohen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Saliha Durmus" label="Saliha Durmus">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Haydarpaşa Lisesi" label="Haydarpaşa Lisesi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Baransel Soysal" label="Baransel Soysal">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Galatasaray Lisesi" label="Galatasaray Lisesi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Politecnico di Milano" label="Politecnico di Milano">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Kamal Reggad" label="Kamal Reggad">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Northeastern University" label="Northeastern University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Didem Aral" label="Didem Aral">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Marmara University" label="Marmara University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Mukremin Cetinkaya" label="Mukremin Cetinkaya">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Huzeyfe Onal" label="Huzeyfe Onal">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Kocaeli University" label="Kocaeli University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Oguz Kucukbarak" label="Oguz Kucukbarak">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Bilgi University" label="Bilgi University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Gazi University" label="Gazi University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Koray Dogan" label="Koray Dogan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Georgia Institute of Technology" label="Georgia Institute of Technology">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Bilkent University" label="Bilkent University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Ankara Science High School" label="Ankara Science High School">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Batuhan Ozcan" label="Batuhan Ozcan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Blekinge Institute of Technology" label="Blekinge Institute of Technology">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Maltepe Military High School" label="Maltepe Military High School">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Nevzat Atakli" label="Nevzat Atakli">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Harvard Business School Online" label="Harvard Business School Online">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Sabanci University" label="Sabanci University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="İzmir Fen Lisesi" label="İzmir Fen Lisesi">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Selim Satici" label="Selim Satici">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Ceren Melis Abacioglu" label="Ceren Melis Abacioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Columbia University" label="Columbia University">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Deutsche Schule Istanbul" label="Deutsche Schule Istanbul">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="Balca Yilmaz" label="Balca Yilmaz">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Martin Weber" label="Martin Weber">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="ESCP Business School" label="ESCP Business School">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="The Hebrew University of Jerusalem" label="The Hebrew University of Jerusalem">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+      <node id="HSBA Hamburg School of Business Administration" label="HSBA Hamburg School of Business Administration">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Education" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Florin Cornianu" target="Politehnica University of Timisoara" id="0" />
+      <edge source="Florin Cornianu" target="C.N. Mihai Eminescu Oradea" id="1" />
+      <edge source="Lukas Hackl" target="UC Berkeley College of Engineering" id="2" />
+      <edge source="Lukas Hackl" target="ETH Zürich" id="3" />
+      <edge source="Lukas Hackl" target="The University of Edinburgh" id="4" />
+      <edge source="Lukas Hackl" target="University of California, Berkeley" id="5" />
+      <edge source="Lukas Hackl" target="Ashbury College" id="6" />
+      <edge source="ETH Zürich" target="Gediminas Mikutis" id="7" />
+      <edge source="University of California, Berkeley" target="Bilen Akuzum" id="8" />
+      <edge source="University of California, Berkeley" target="Mark Felegyhazi" id="9" />
+      <edge source="University of California, Berkeley" target="Selim Satici" id="10" />
+      <edge source="Bilen Akuzum" target="Drexel University" id="11" />
+      <edge source="Bilen Akuzum" target="Orta Doğu Teknik Üniversitesi / Middle East Technical University" id="12" />
+      <edge source="Bilen Akuzum" target="Harvard University" id="13" />
+      <edge source="Bilen Akuzum" target="Technische Universität Braunschweig" id="14" />
+      <edge source="Bilen Akuzum" target="Beşiktaş Atatürk Anadolu Lisesi" id="15" />
+      <edge source="Bilen Akuzum" target="Terakki Vakfı Okulları" id="16" />
+      <edge source="Orta Doğu Teknik Üniversitesi / Middle East Technical University" target="Emre Fadillioglu" id="17" />
+      <edge source="Orta Doğu Teknik Üniversitesi / Middle East Technical University" target="Mukremin Cetinkaya" id="18" />
+      <edge source="Orta Doğu Teknik Üniversitesi / Middle East Technical University" target="Selim Satici" id="19" />
+      <edge source="Harvard University" target="Sean Yu" id="20" />
+      <edge source="Mehmet Coka" target="Nasdaq Entreprenual Center" id="21" />
+      <edge source="Mehmet Coka" target="Food System 6 Acceralator-Silicon Valley" id="22" />
+      <edge source="Mehmet Coka" target="Eastern Mediterranean University" id="23" />
+      <edge source="Mehmet Coka" target="Kabataş Erkek Lisesi" id="24" />
+      <edge source="Daghan Cam" target="Architectural Association" id="25" />
+      <edge source="Daghan Cam" target="Istanbul Technical University" id="26" />
+      <edge source="Daghan Cam" target="MEF Okulları" id="27" />
+      <edge source="Istanbul Technical University" target="Murat Hacioglu" id="28" />
+      <edge source="Istanbul Technical University" target="Olcay Silahli" id="29" />
+      <edge source="Istanbul Technical University" target="Batu Sat" id="30" />
+      <edge source="Istanbul Technical University" target="Balca Yilmaz" id="31" />
+      <edge source="Michail Desyllas" target="Architectural Association DRL" id="32" />
+      <edge source="Emre Fadillioglu" target="University of California, Berkeley, Haas School of Business" id="33" />
+      <edge source="Emre Fadillioglu" target="Arı Fen Lisesi" id="34" />
+      <edge source="Mucahit Gayiran" target="Sivas Cumhuriyet Üniversitesi" id="35" />
+      <edge source="Mark Felegyhazi" target="EPFL" id="36" />
+      <edge source="Mark Felegyhazi" target="Budapest University of Technology and Economics" id="37" />
+      <edge source="Mark Felegyhazi" target="Karlsruhe Institute of Technology (KIT)" id="38" />
+      <edge source="Mark Felegyhazi" target="Szent Istvan High School" id="39" />
+      <edge source="Murat Hacioglu" target="Technical University of Munich" id="40" />
+      <edge source="Murat Hacioglu" target="Yeditepe University" id="41" />
+      <edge source="Murat Hacioglu" target="Ulubatli Hasan Anatolian High School" id="42" />
+      <edge source="Technical University of Munich" target="Josua Vieten" id="43" />
+      <edge source="Yeditepe University" target="Cagkan Ekici" id="44" />
+      <edge source="Yeditepe University" target="Sadok Kohen" id="45" />
+      <edge source="Hakan Yurdakul" target="University of Warwick" id="46" />
+      <edge source="Hakan Yurdakul" target="Koç University" id="47" />
+      <edge source="Hakan Yurdakul" target="Robert College" id="48" />
+      <edge source="Koç University" target="Mehmet Ertan Uygun" id="49" />
+      <edge source="Robert College" target="Batu Sat" id="50" />
+      <edge source="Emrah Gultekin" target="Brown University" id="51" />
+      <edge source="Emrah Gultekin" target="Massachusetts Institute of Technology" id="52" />
+      <edge source="Massachusetts Institute of Technology" target="Oguzhan Uyar" id="53" />
+      <edge source="Sean Yu" target="Boğaziçi University" id="54" />
+      <edge source="Boğaziçi University" target="Deniz Ozgur" id="55" />
+      <edge source="Boğaziçi University" target="Berhan Kongel" id="56" />
+      <edge source="Boğaziçi University" target="Oguzhan Uyar" id="57" />
+      <edge source="Boğaziçi University" target="Saliha Durmus" id="58" />
+      <edge source="Boğaziçi University" target="Baransel Soysal" id="59" />
+      <edge source="Philippe Berlan" target="Mines Paris - PSL" id="60" />
+      <edge source="Philippe Berlan" target="Lycée Sainte-Geneviève" id="61" />
+      <edge source="Josua Vieten" target="Technische Universität Dresden" id="62" />
+      <edge source="Josua Vieten" target="Technische Universität München, LMU München, Universität Augsburg" id="63" />
+      <edge source="Olcay Silahli" target="The Turkish Military Academy" id="64" />
+      <edge source="Olcay Silahli" target="Kuleli Military High School" id="65" />
+      <edge source="Olcay Silahli" target="Católica Lisbon School of Business and Economics" id="66" />
+      <edge source="Robert Brull" target="RWTH Aachen University" id="67" />
+      <edge source="Tunga Bayrak" target="University of Pennsylvania" id="68" />
+      <edge source="Tunga Bayrak" target="The Wharton School" id="69" />
+      <edge source="The Wharton School" target="Tomas Nepala" id="70" />
+      <edge source="Tomas Nepala" target="Y Combinator" id="71" />
+      <edge source="Tomas Nepala" target="The English College in Prague - Anglické gymnázium" id="72" />
+      <edge source="Mehmet Ertan Uygun" target="The University of British Columbia" id="73" />
+      <edge source="Mehmet Ertan Uygun" target="UCLA Anderson School of Management" id="74" />
+      <edge source="Mehmet Ertan Uygun" target="Açı Schools" id="75" />
+      <edge source="Açı Schools" target="Alara Eren Iplikcioglu" id="76" />
+      <edge source="Gediminas Mikutis" target="Jacobs University Bremen" id="77" />
+      <edge source="Gediminas Mikutis" target="Utrecht University" id="78" />
+      <edge source="Gediminas Mikutis" target="KTU Gymnasium" id="79" />
+      <edge source="Arden Agopyan" target="Galatasaray University" id="80" />
+      <edge source="Arden Agopyan" target="Ozyegin University" id="81" />
+      <edge source="Arden Agopyan" target="Istanbul Bilgi University" id="82" />
+      <edge source="Arden Agopyan" target="Lycée Saint-Joseph" id="83" />
+      <edge source="Ali Beklen" target="Maltepe University" id="84" />
+      <edge source="Hande Cilingir" target="The London School of Economics and Political Science (LSE)" id="85" />
+      <edge source="Hande Cilingir" target="Shanghai Normal University" id="86" />
+      <edge source="The London School of Economics and Political Science (LSE)" target="Oguz Alper Oktem" id="87" />
+      <edge source="The London School of Economics and Political Science (LSE)" target="Batuhan Ozcan" id="88" />
+      <edge source="Alara Eren Iplikcioglu" target="Imperial College London" id="89" />
+      <edge source="Alara Eren Iplikcioglu" target="University of Westminster" id="90" />
+      <edge source="Alara Eren Iplikcioglu" target="UCL" id="91" />
+      <edge source="Imperial College London" target="Batuhan Ozcan" id="92" />
+      <edge source="Berhan Kongel" target="Deutsche Schule Istanbul / Alman Lisesi" id="93" />
+      <edge source="Batu Sat" target="University of Illinois Urbana-Champaign" id="94" />
+      <edge source="Oguz Alper Oktem" target="University of Chicago" id="95" />
+      <edge source="Oguz Alper Oktem" target="The Koç School" id="96" />
+      <edge source="Haris Aghadi" target="Carnegie Mellon University" id="97" />
+      <edge source="Haris Aghadi" target="500 Startups" id="98" />
+      <edge source="Tolga Sen" target="Yıldız Teknik Üniversitesi" id="99" />
+      <edge source="Tolga Sen" target="Bahcesehir University" id="100" />
+      <edge source="Tolga Sen" target="Macka Anatolia Technical High School" id="101" />
+      <edge source="Saliha Durmus" target="Haydarpaşa Lisesi" id="102" />
+      <edge source="Baransel Soysal" target="Galatasaray Lisesi" id="103" />
+      <edge source="Baransel Soysal" target="Politecnico di Milano" id="104" />
+      <edge source="Kamal Reggad" target="Northeastern University" id="105" />
+      <edge source="Didem Aral" target="Marmara University" id="106" />
+      <edge source="Huzeyfe Onal" target="Kocaeli University" id="107" />
+      <edge source="Oguz Kucukbarak" target="Bilgi University" id="108" />
+      <edge source="Oguz Kucukbarak" target="Gazi University" id="109" />
+      <edge source="Koray Dogan" target="Georgia Institute of Technology" id="110" />
+      <edge source="Koray Dogan" target="Bilkent University" id="111" />
+      <edge source="Koray Dogan" target="Ankara Science High School" id="112" />
+      <edge source="Batuhan Ozcan" target="Blekinge Institute of Technology" id="113" />
+      <edge source="Batuhan Ozcan" target="Maltepe Military High School" id="114" />
+      <edge source="Nevzat Atakli" target="Harvard Business School Online" id="115" />
+      <edge source="Nevzat Atakli" target="Sabanci University" id="116" />
+      <edge source="Nevzat Atakli" target="İzmir Fen Lisesi" id="117" />
+      <edge source="Ceren Melis Abacioglu" target="Columbia University" id="118" />
+      <edge source="Ceren Melis Abacioglu" target="Deutsche Schule Istanbul" id="119" />
+      <edge source="Martin Weber" target="ESCP Business School" id="120" />
+      <edge source="Martin Weber" target="The Hebrew University of Jerusalem" id="121" />
+      <edge source="Martin Weber" target="HSBA Hamburg School of Business Administration" id="122" />
+    </edges>
+  </graph>
+</gexf>

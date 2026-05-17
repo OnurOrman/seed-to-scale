@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-17">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Ali Karabey" label="Ali Karabey">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Cagdas Yildiz" label="Cagdas Yildiz">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Caglar Urcan" label="Caglar Urcan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Gizem Yagiz" label="Gizem Yagiz">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Kivanc Aydin" label="Kivanc Aydin">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Maher Hakim" label="Maher Hakim">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Numan Numan" label="Numan Numan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Ozge Sevim" label="Ozge Sevim">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Selma Bahcivanoglu" label="Selma Bahcivanoglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges />
+  </graph>
+</gexf>

@@ -1,0 +1,2001 @@
+{
+  "run_id": "a5deaad7-4bc2-47b5-83f2-63bd016dac5e",
+  "timestamp_utc": "20260517T185202Z",
+  "input": {
+    "gexf_path": "data/gephi/cofounders_employee.gexf",
+    "nodes": 59,
+    "edges": 93
+  },
+  "algorithms": [
+    {
+      "name": "louvain",
+      "parameters": {
+        "weight": "weight",
+        "seed": 42
+      },
+      "result": {
+        "title": "Louvain communities",
+        "modularity": 0.47210884353741495,
+        "communities": [
+          {
+            "id": 1,
+            "size": 7,
+            "deduped_size": 7,
+            "members": {
+              "cofounders": [
+                "Berhan Kongel",
+                "Gediminas Mikutis",
+                "Lukas Hackl",
+                "Martin Weber",
+                "Michail Desyllas",
+                "Oguzhan Uyar"
+              ],
+              "investment_managers": [
+                "Caglar Urcan"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Aibuild",
+                  "count": 1
+                },
+                {
+                  "name": "One Five",
+                  "count": 1
+                },
+                {
+                  "name": "Aepnus",
+                  "count": 1
+                },
+                {
+                  "name": "Haelixa",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Bogazici University",
+                  "count": 2
+                }
+              ]
+            }
+          },
+          {
+            "id": 2,
+            "size": 9,
+            "deduped_size": 9,
+            "members": {
+              "cofounders": [
+                "Alara Eren Iplikcioglu",
+                "Ali Beklen",
+                "Arden Agopyan",
+                "Cagkan Ekici",
+                "Didem Aral",
+                "Mehmet Coka",
+                "Saliha Durmus",
+                "Sean Yu"
+              ],
+              "investment_managers": [
+                "Selma Bahcivanoglu"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Hotelrunner",
+                  "count": 2
+                },
+                {
+                  "name": "Agrotics",
+                  "count": 1
+                },
+                {
+                  "name": "Eluvium",
+                  "count": 1
+                },
+                {
+                  "name": "Juphy",
+                  "count": 1
+                },
+                {
+                  "name": "Khenda",
+                  "count": 1
+                },
+                {
+                  "name": "Phitech",
+                  "count": 1
+                },
+                {
+                  "name": "Reprai",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Bogazici University",
+                  "count": 2
+                },
+                {
+                  "name": "Marmara University",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "size": 6,
+            "deduped_size": 6,
+            "members": {
+              "cofounders": [
+                "Baransel Soysal",
+                "Batuhan Ozcan",
+                "Hakan Yurdakul",
+                "Tomas Nepala",
+                "Tunga Bayrak"
+              ],
+              "investment_managers": [
+                "Kivanc Aydin"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Freya",
+                  "count": 2
+                },
+                {
+                  "name": "Qrambo",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "The London School of Economics and Political Science (LSE)",
+                  "count": 1
+                }
+              ],
+              "experience": [
+                {
+                  "name": "Bolt Insight",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 4,
+            "size": 7,
+            "deduped_size": 7,
+            "members": {
+              "cofounders": [
+                "Emrah Gultekin",
+                "Huzeyfe Onal",
+                "Idriss Al Rifai",
+                "Mucahit Gayiran",
+                "Nevzat Atakli",
+                "Tolga Sen"
+              ],
+              "investment_managers": [
+                "Numan Numan"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Trio Mobil",
+                  "count": 1
+                },
+                {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
+                  "name": "Artboard Studio",
+                  "count": 1
+                },
+                {
+                  "name": "Chooch",
+                  "count": 1
+                },
+                {
+                  "name": "Socradar",
+                  "count": 1
+                },
+                {
+                  "name": "Omma",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 5,
+            "size": 14,
+            "deduped_size": 14,
+            "members": {
+              "cofounders": [
+                "Emre Fadillioglu",
+                "Hande Cilingir",
+                "Josua Vieten",
+                "Kamal Reggad",
+                "Koray Dogan",
+                "Mark Felegyhazi",
+                "Mukremin Cetinkaya",
+                "Oguz Alper Oktem",
+                "Oguz Kucukbarak",
+                "Philippe Berlan",
+                "Robert Brull",
+                "Selim Satici"
+              ],
+              "investment_managers": [
+                "Ali Karabey",
+                "Gizem Yagiz"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Ever Dye",
+                  "count": 1
+                },
+                {
+                  "name": "Appsamurai",
+                  "count": 1
+                },
+                {
+                  "name": "Avatao",
+                  "count": 1
+                },
+                {
+                  "name": "Insider One",
+                  "count": 1
+                },
+                {
+                  "name": "Iyzico",
+                  "count": 1
+                },
+                {
+                  "name": "Remotepass",
+                  "count": 1
+                },
+                {
+                  "name": "Smartmessage",
+                  "count": 1
+                },
+                {
+                  "name": "Solvoyo",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Orta Dogu Teknik Universitesi / Middle East Technical University",
+                  "count": 3
+                },
+                {
+                  "name": "The London School of Economics and Political Science (LSE)",
+                  "count": 2
+                }
+              ],
+              "experience": [
+                {
+                  "name": "Deutsche Bank",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 6,
+            "size": 2,
+            "deduped_size": 2,
+            "members": {
+              "cofounders": [
+                "Mehmet Uygun"
+              ],
+              "investment_managers": [
+                "Cem Okay"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Getmobil",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 7,
+            "size": 14,
+            "deduped_size": 14,
+            "members": {
+              "cofounders": [
+                "Balca Yilmaz",
+                "Batu Sat",
+                "Bilen Akuzum",
+                "Ceren Melis Abacioglu",
+                "Daghan Cam",
+                "Deniz Ozgur",
+                "Florin Cornianu",
+                "Haris Aghadi",
+                "Murat Hacioglu",
+                "Olcay Silahli",
+                "Sadok Kohen"
+              ],
+              "investment_managers": [
+                "Cagdas Yildiz",
+                "Maher Hakim",
+                "Ozge Sevim"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Evercopy",
+                  "count": 1
+                },
+                {
+                  "name": "Philosopherking",
+                  "count": 1
+                },
+                {
+                  "name": "B2Metric",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "123Formbuilder",
+                  "count": 1
+                },
+                {
+                  "name": "Meddy",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Istanbul Technical University",
+                  "count": 10
+                },
+                {
+                  "name": "University of Illinois Urbana-Champaign",
+                  "count": 1
+                },
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                }
+              ],
+              "experience": [
+                {
+                  "name": "212",
+                  "count": 2
+                },
+                {
+                  "name": "Bosch Turkey",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "University of California, Berkeley",
+                  "count": 1
+                },
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                },
+                {
+                  "name": "Carnegie Mellon University in Qatar",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "greedy_modularity",
+      "parameters": {
+        "weight": "weight"
+      },
+      "result": {
+        "title": "Greedy modularity communities",
+        "modularity": 0.49201814058956916,
+        "communities": [
+          {
+            "id": 1,
+            "size": 11,
+            "deduped_size": 11,
+            "members": {
+              "cofounders": [
+                "Emre Fadillioglu",
+                "Hande Cilingir",
+                "Kamal Reggad",
+                "Koray Dogan",
+                "Mark Felegyhazi",
+                "Mukremin Cetinkaya",
+                "Oguz Alper Oktem",
+                "Oguz Kucukbarak",
+                "Philippe Berlan"
+              ],
+              "investment_managers": [
+                "Ali Karabey",
+                "Gizem Yagiz"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Ever Dye",
+                  "count": 1
+                },
+                {
+                  "name": "Appsamurai",
+                  "count": 1
+                },
+                {
+                  "name": "Avatao",
+                  "count": 1
+                },
+                {
+                  "name": "Insider One",
+                  "count": 1
+                },
+                {
+                  "name": "Iyzico",
+                  "count": 1
+                },
+                {
+                  "name": "Remotepass",
+                  "count": 1
+                },
+                {
+                  "name": "Smartmessage",
+                  "count": 1
+                },
+                {
+                  "name": "Solvoyo",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Orta Dogu Teknik Universitesi / Middle East Technical University",
+                  "count": 2
+                },
+                {
+                  "name": "The London School of Economics and Political Science (LSE)",
+                  "count": 2
+                }
+              ],
+              "experience": [
+                {
+                  "name": "Deutsche Bank",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 2,
+            "size": 10,
+            "deduped_size": 10,
+            "members": {
+              "cofounders": [
+                "Berhan Kongel",
+                "Deniz Ozgur",
+                "Gediminas Mikutis",
+                "Josua Vieten",
+                "Lukas Hackl",
+                "Martin Weber",
+                "Michail Desyllas",
+                "Oguzhan Uyar",
+                "Robert Brull"
+              ],
+              "investment_managers": [
+                "Caglar Urcan"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Fibrecoat",
+                  "count": 1
+                },
+                {
+                  "name": "Exomatter",
+                  "count": 1
+                },
+                {
+                  "name": "Aibuild",
+                  "count": 1
+                },
+                {
+                  "name": "One Five",
+                  "count": 1
+                },
+                {
+                  "name": "Aepnus",
+                  "count": 1
+                },
+                {
+                  "name": "Haelixa",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Bogazici University",
+                  "count": 3
+                }
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "size": 9,
+            "deduped_size": 9,
+            "members": {
+              "cofounders": [
+                "Alara Eren Iplikcioglu",
+                "Ali Beklen",
+                "Arden Agopyan",
+                "Cagkan Ekici",
+                "Didem Aral",
+                "Mehmet Coka",
+                "Saliha Durmus",
+                "Sean Yu"
+              ],
+              "investment_managers": [
+                "Selma Bahcivanoglu"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Hotelrunner",
+                  "count": 2
+                },
+                {
+                  "name": "Agrotics",
+                  "count": 1
+                },
+                {
+                  "name": "Eluvium",
+                  "count": 1
+                },
+                {
+                  "name": "Juphy",
+                  "count": 1
+                },
+                {
+                  "name": "Khenda",
+                  "count": 1
+                },
+                {
+                  "name": "Phitech",
+                  "count": 1
+                },
+                {
+                  "name": "Reprai",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Bogazici University",
+                  "count": 2
+                },
+                {
+                  "name": "Marmara University",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 4,
+            "size": 9,
+            "deduped_size": 9,
+            "members": {
+              "cofounders": [
+                "Balca Yilmaz",
+                "Batu Sat",
+                "Daghan Cam",
+                "Murat Hacioglu",
+                "Olcay Silahli",
+                "Sadok Kohen",
+                "Selim Satici"
+              ],
+              "investment_managers": [
+                "Cagdas Yildiz",
+                "Ozge Sevim"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Philosopherking",
+                  "count": 1
+                },
+                {
+                  "name": "B2Metric",
+                  "count": 1
+                },
+                {
+                  "name": "Voltfox",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Istanbul Technical University",
+                  "count": 10
+                }
+              ],
+              "experience": [
+                {
+                  "name": "212",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 5,
+            "size": 7,
+            "deduped_size": 7,
+            "members": {
+              "cofounders": [
+                "Emrah Gultekin",
+                "Huzeyfe Onal",
+                "Idriss Al Rifai",
+                "Mucahit Gayiran",
+                "Nevzat Atakli",
+                "Tolga Sen"
+              ],
+              "investment_managers": [
+                "Numan Numan"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Trio Mobil",
+                  "count": 1
+                },
+                {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
+                  "name": "Artboard Studio",
+                  "count": 1
+                },
+                {
+                  "name": "Omma",
+                  "count": 1
+                },
+                {
+                  "name": "Chooch",
+                  "count": 1
+                },
+                {
+                  "name": "Socradar",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 6,
+            "size": 6,
+            "deduped_size": 6,
+            "members": {
+              "cofounders": [
+                "Baransel Soysal",
+                "Batuhan Ozcan",
+                "Hakan Yurdakul",
+                "Tomas Nepala",
+                "Tunga Bayrak"
+              ],
+              "investment_managers": [
+                "Kivanc Aydin"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Freya",
+                  "count": 2
+                },
+                {
+                  "name": "Qrambo",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "The London School of Economics and Political Science (LSE)",
+                  "count": 1
+                }
+              ],
+              "experience": [
+                {
+                  "name": "Bolt Insight",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 7,
+            "size": 5,
+            "deduped_size": 5,
+            "members": {
+              "cofounders": [
+                "Bilen Akuzum",
+                "Ceren Melis Abacioglu",
+                "Florin Cornianu",
+                "Haris Aghadi"
+              ],
+              "investment_managers": [
+                "Maher Hakim"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "123Formbuilder",
+                  "count": 1
+                },
+                {
+                  "name": "Meddy",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                }
+              ],
+              "experience": [
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                },
+                {
+                  "name": "Carnegie Mellon University in Qatar",
+                  "count": 1
+                },
+                {
+                  "name": "University of California, Berkeley",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 8,
+            "size": 2,
+            "deduped_size": 2,
+            "members": {
+              "cofounders": [
+                "Mehmet Uygun"
+              ],
+              "investment_managers": [
+                "Cem Okay"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Getmobil",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "label_propagation",
+      "parameters": {
+        "weight": "weight"
+      },
+      "result": {
+        "title": "Label propagation communities",
+        "modularity": 0.37219954648526077,
+        "communities": [
+          {
+            "id": 1,
+            "size": 4,
+            "deduped_size": 4,
+            "members": {
+              "cofounders": [
+                "Ceren Melis Abacioglu",
+                "Florin Cornianu",
+                "Haris Aghadi"
+              ],
+              "investment_managers": [
+                "Maher Hakim"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "123Formbuilder",
+                  "count": 1
+                },
+                {
+                  "name": "Meddy",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                }
+              ],
+              "experience": [
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                },
+                {
+                  "name": "Carnegie Mellon University in Qatar",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 2,
+            "size": 31,
+            "deduped_size": 31,
+            "members": {
+              "cofounders": [
+                "Baransel Soysal",
+                "Batu Sat",
+                "Batuhan Ozcan",
+                "Berhan Kongel",
+                "Bilen Akuzum",
+                "Emre Fadillioglu",
+                "Gediminas Mikutis",
+                "Hakan Yurdakul",
+                "Hande Cilingir",
+                "Josua Vieten",
+                "Kamal Reggad",
+                "Koray Dogan",
+                "Lukas Hackl",
+                "Mark Felegyhazi",
+                "Martin Weber",
+                "Michail Desyllas",
+                "Mukremin Cetinkaya",
+                "Oguz Alper Oktem",
+                "Oguz Kucukbarak",
+                "Oguzhan Uyar",
+                "Philippe Berlan",
+                "Robert Brull",
+                "Saliha Durmus",
+                "Sean Yu",
+                "Selim Satici",
+                "Tomas Nepala",
+                "Tunga Bayrak"
+              ],
+              "investment_managers": [
+                "Ali Karabey",
+                "Caglar Urcan",
+                "Gizem Yagiz",
+                "Kivanc Aydin"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Aepnus",
+                  "count": 2
+                },
+                {
+                  "name": "Exomatter",
+                  "count": 2
+                },
+                {
+                  "name": "Fibrecoat",
+                  "count": 2
+                },
+                {
+                  "name": "Freya",
+                  "count": 2
+                },
+                {
+                  "name": "Aibuild",
+                  "count": 1
+                },
+                {
+                  "name": "Haelixa",
+                  "count": 1
+                },
+                {
+                  "name": "One Five",
+                  "count": 1
+                },
+                {
+                  "name": "Appsamurai",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "The London School of Economics and Political Science (LSE)",
+                  "count": 6
+                },
+                {
+                  "name": "Bogazici University",
+                  "count": 5
+                },
+                {
+                  "name": "Orta Dogu Teknik Universitesi / Middle East Technical University",
+                  "count": 4
+                },
+                {
+                  "name": "Robert College",
+                  "count": 2
+                }
+              ],
+              "experience": [
+                {
+                  "name": "212",
+                  "count": 4
+                },
+                {
+                  "name": "Deutsche Bank",
+                  "count": 1
+                },
+                {
+                  "name": "Bolt Insight",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "size": 15,
+            "deduped_size": 15,
+            "members": {
+              "cofounders": [
+                "Alara Eren Iplikcioglu",
+                "Ali Beklen",
+                "Arden Agopyan",
+                "Balca Yilmaz",
+                "Cagkan Ekici",
+                "Daghan Cam",
+                "Deniz Ozgur",
+                "Didem Aral",
+                "Mehmet Coka",
+                "Murat Hacioglu",
+                "Olcay Silahli",
+                "Sadok Kohen"
+              ],
+              "investment_managers": [
+                "Cagdas Yildiz",
+                "Ozge Sevim",
+                "Selma Bahcivanoglu"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Hotelrunner",
+                  "count": 2
+                },
+                {
+                  "name": "Evercopy",
+                  "count": 1
+                },
+                {
+                  "name": "Philosopherking",
+                  "count": 1
+                },
+                {
+                  "name": "B2Metric",
+                  "count": 1
+                },
+                {
+                  "name": "Agrotics",
+                  "count": 1
+                },
+                {
+                  "name": "Juphy",
+                  "count": 1
+                },
+                {
+                  "name": "Khenda",
+                  "count": 1
+                },
+                {
+                  "name": "Reprai",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Istanbul Technical University",
+                  "count": 8
+                },
+                {
+                  "name": "Bogazici University",
+                  "count": 1
+                },
+                {
+                  "name": "Marmara University",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 4,
+            "size": 7,
+            "deduped_size": 7,
+            "members": {
+              "cofounders": [
+                "Emrah Gultekin",
+                "Huzeyfe Onal",
+                "Idriss Al Rifai",
+                "Mucahit Gayiran",
+                "Nevzat Atakli",
+                "Tolga Sen"
+              ],
+              "investment_managers": [
+                "Numan Numan"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Trio Mobil",
+                  "count": 1
+                },
+                {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
+                  "name": "Artboard Studio",
+                  "count": 1
+                },
+                {
+                  "name": "Chooch",
+                  "count": 1
+                },
+                {
+                  "name": "Socradar",
+                  "count": 1
+                },
+                {
+                  "name": "Omma",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 5,
+            "size": 2,
+            "deduped_size": 2,
+            "members": {
+              "cofounders": [
+                "Mehmet Uygun"
+              ],
+              "investment_managers": [
+                "Cem Okay"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Getmobil",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "girvan_newman",
+      "parameters": {
+        "level": 1,
+        "k": 3
+      },
+      "result": {
+        "title": "Girvan-Newman communities (split 1, k=3)",
+        "modularity": 0.10648526077097505,
+        "communities": [
+          {
+            "id": 1,
+            "size": 51,
+            "deduped_size": 51,
+            "members": {
+              "cofounders": [
+                "Alara Eren Iplikcioglu",
+                "Ali Beklen",
+                "Arden Agopyan",
+                "Balca Yilmaz",
+                "Baransel Soysal",
+                "Batu Sat",
+                "Batuhan Ozcan",
+                "Berhan Kongel",
+                "Bilen Akuzum",
+                "Cagkan Ekici",
+                "Ceren Melis Abacioglu",
+                "Daghan Cam",
+                "Deniz Ozgur",
+                "Didem Aral",
+                "Emre Fadillioglu",
+                "Florin Cornianu",
+                "Gediminas Mikutis",
+                "Hakan Yurdakul",
+                "Hande Cilingir",
+                "Haris Aghadi",
+                "Josua Vieten",
+                "Kamal Reggad",
+                "Koray Dogan",
+                "Lukas Hackl",
+                "Mark Felegyhazi",
+                "Martin Weber",
+                "Mehmet Coka",
+                "Michail Desyllas",
+                "Mukremin Cetinkaya",
+                "Murat Hacioglu",
+                "Nevzat Atakli",
+                "Oguz Alper Oktem",
+                "Oguz Kucukbarak",
+                "Oguzhan Uyar",
+                "Olcay Silahli",
+                "Philippe Berlan",
+                "Robert Brull",
+                "Sadok Kohen",
+                "Saliha Durmus",
+                "Sean Yu",
+                "Selim Satici",
+                "Tomas Nepala",
+                "Tunga Bayrak"
+              ],
+              "investment_managers": [
+                "Ali Karabey",
+                "Cagdas Yildiz",
+                "Caglar Urcan",
+                "Gizem Yagiz",
+                "Kivanc Aydin",
+                "Maher Hakim",
+                "Ozge Sevim",
+                "Selma Bahcivanoglu"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Aepnus",
+                  "count": 2
+                },
+                {
+                  "name": "Aibuild",
+                  "count": 2
+                },
+                {
+                  "name": "Exomatter",
+                  "count": 2
+                },
+                {
+                  "name": "Fibrecoat",
+                  "count": 2
+                },
+                {
+                  "name": "Hotelrunner",
+                  "count": 2
+                },
+                {
+                  "name": "Freya",
+                  "count": 2
+                },
+                {
+                  "name": "123Formbuilder",
+                  "count": 1
+                },
+                {
+                  "name": "Meddy",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Bogazici University",
+                  "count": 12
+                },
+                {
+                  "name": "Istanbul Technical University",
+                  "count": 10
+                },
+                {
+                  "name": "The London School of Economics and Political Science (LSE)",
+                  "count": 6
+                },
+                {
+                  "name": "Orta Dogu Teknik Universitesi / Middle East Technical University",
+                  "count": 4
+                },
+                {
+                  "name": "Robert College",
+                  "count": 2
+                },
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                },
+                {
+                  "name": "University of Illinois Urbana-Champaign",
+                  "count": 1
+                },
+                {
+                  "name": "Marmara University",
+                  "count": 1
+                }
+              ],
+              "experience": [
+                {
+                  "name": "212",
+                  "count": 8
+                },
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                },
+                {
+                  "name": "Carnegie Mellon University in Qatar",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "University of California, Berkeley",
+                  "count": 1
+                },
+                {
+                  "name": "Bosch Turkey",
+                  "count": 1
+                },
+                {
+                  "name": "Deutsche Bank",
+                  "count": 1
+                },
+                {
+                  "name": "Trio Mobil",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 2,
+            "size": 6,
+            "deduped_size": 6,
+            "members": {
+              "cofounders": [
+                "Emrah Gultekin",
+                "Huzeyfe Onal",
+                "Idriss Al Rifai",
+                "Mucahit Gayiran",
+                "Tolga Sen"
+              ],
+              "investment_managers": [
+                "Numan Numan"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
+                  "name": "Artboard Studio",
+                  "count": 1
+                },
+                {
+                  "name": "Chooch",
+                  "count": 1
+                },
+                {
+                  "name": "Socradar",
+                  "count": 1
+                },
+                {
+                  "name": "Omma",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "deduped_size": 2,
+            "members": {
+              "cofounders": [
+                "Mehmet Uygun"
+              ],
+              "investment_managers": [
+                "Cem Okay"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Getmobil",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "girvan_newman",
+      "parameters": {
+        "level": 2,
+        "k": 4
+      },
+      "result": {
+        "title": "Girvan-Newman communities (split 2, k=4)",
+        "modularity": 0.21369614512471652,
+        "communities": [
+          {
+            "id": 1,
+            "size": 4,
+            "deduped_size": 4,
+            "members": {
+              "cofounders": [
+                "Ceren Melis Abacioglu",
+                "Florin Cornianu",
+                "Haris Aghadi"
+              ],
+              "investment_managers": [
+                "Maher Hakim"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "123Formbuilder",
+                  "count": 1
+                },
+                {
+                  "name": "Meddy",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                }
+              ],
+              "experience": [
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                },
+                {
+                  "name": "Carnegie Mellon University in Qatar",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 2,
+            "size": 47,
+            "deduped_size": 47,
+            "members": {
+              "cofounders": [
+                "Alara Eren Iplikcioglu",
+                "Ali Beklen",
+                "Arden Agopyan",
+                "Balca Yilmaz",
+                "Baransel Soysal",
+                "Batu Sat",
+                "Batuhan Ozcan",
+                "Berhan Kongel",
+                "Bilen Akuzum",
+                "Cagkan Ekici",
+                "Daghan Cam",
+                "Deniz Ozgur",
+                "Didem Aral",
+                "Emre Fadillioglu",
+                "Gediminas Mikutis",
+                "Hakan Yurdakul",
+                "Hande Cilingir",
+                "Josua Vieten",
+                "Kamal Reggad",
+                "Koray Dogan",
+                "Lukas Hackl",
+                "Mark Felegyhazi",
+                "Martin Weber",
+                "Mehmet Coka",
+                "Michail Desyllas",
+                "Mukremin Cetinkaya",
+                "Murat Hacioglu",
+                "Nevzat Atakli",
+                "Oguz Alper Oktem",
+                "Oguz Kucukbarak",
+                "Oguzhan Uyar",
+                "Olcay Silahli",
+                "Philippe Berlan",
+                "Robert Brull",
+                "Sadok Kohen",
+                "Saliha Durmus",
+                "Sean Yu",
+                "Selim Satici",
+                "Tomas Nepala",
+                "Tunga Bayrak"
+              ],
+              "investment_managers": [
+                "Ali Karabey",
+                "Cagdas Yildiz",
+                "Caglar Urcan",
+                "Gizem Yagiz",
+                "Kivanc Aydin",
+                "Ozge Sevim",
+                "Selma Bahcivanoglu"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Aepnus",
+                  "count": 2
+                },
+                {
+                  "name": "Aibuild",
+                  "count": 2
+                },
+                {
+                  "name": "Exomatter",
+                  "count": 2
+                },
+                {
+                  "name": "Fibrecoat",
+                  "count": 2
+                },
+                {
+                  "name": "Hotelrunner",
+                  "count": 2
+                },
+                {
+                  "name": "Freya",
+                  "count": 2
+                },
+                {
+                  "name": "Haelixa",
+                  "count": 1
+                },
+                {
+                  "name": "One Five",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Bogazici University",
+                  "count": 12
+                },
+                {
+                  "name": "Istanbul Technical University",
+                  "count": 10
+                },
+                {
+                  "name": "The London School of Economics and Political Science (LSE)",
+                  "count": 6
+                },
+                {
+                  "name": "Orta Dogu Teknik Universitesi / Middle East Technical University",
+                  "count": 4
+                },
+                {
+                  "name": "Robert College",
+                  "count": 2
+                },
+                {
+                  "name": "Marmara University",
+                  "count": 1
+                },
+                {
+                  "name": "Izmir Fen Lisesi",
+                  "count": 1
+                }
+              ],
+              "experience": [
+                {
+                  "name": "212",
+                  "count": 6
+                },
+                {
+                  "name": "Bosch Turkey",
+                  "count": 1
+                },
+                {
+                  "name": "Deutsche Bank",
+                  "count": 1
+                },
+                {
+                  "name": "Trio Mobil",
+                  "count": 1
+                },
+                {
+                  "name": "Bolt Insight",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "size": 6,
+            "deduped_size": 6,
+            "members": {
+              "cofounders": [
+                "Emrah Gultekin",
+                "Huzeyfe Onal",
+                "Idriss Al Rifai",
+                "Mucahit Gayiran",
+                "Tolga Sen"
+              ],
+              "investment_managers": [
+                "Numan Numan"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
+                  "name": "Artboard Studio",
+                  "count": 1
+                },
+                {
+                  "name": "Chooch",
+                  "count": 1
+                },
+                {
+                  "name": "Socradar",
+                  "count": 1
+                },
+                {
+                  "name": "Omma",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 4,
+            "size": 2,
+            "deduped_size": 2,
+            "members": {
+              "cofounders": [
+                "Mehmet Uygun"
+              ],
+              "investment_managers": [
+                "Cem Okay"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Getmobil",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "girvan_newman",
+      "parameters": {
+        "level": 3,
+        "k": 5
+      },
+      "result": {
+        "title": "Girvan-Newman communities (split 3, k=5)",
+        "modularity": 0.31673469387755104,
+        "communities": [
+          {
+            "id": 1,
+            "size": 4,
+            "deduped_size": 4,
+            "members": {
+              "cofounders": [
+                "Ceren Melis Abacioglu",
+                "Florin Cornianu",
+                "Haris Aghadi"
+              ],
+              "investment_managers": [
+                "Maher Hakim"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "123Formbuilder",
+                  "count": 1
+                },
+                {
+                  "name": "Meddy",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                }
+              ],
+              "experience": [
+                {
+                  "name": "Carnegie Mellon University",
+                  "count": 1
+                },
+                {
+                  "name": "Carnegie Mellon University in Qatar",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 2,
+            "size": 39,
+            "deduped_size": 39,
+            "members": {
+              "cofounders": [
+                "Balca Yilmaz",
+                "Baransel Soysal",
+                "Batu Sat",
+                "Batuhan Ozcan",
+                "Berhan Kongel",
+                "Bilen Akuzum",
+                "Daghan Cam",
+                "Deniz Ozgur",
+                "Emre Fadillioglu",
+                "Gediminas Mikutis",
+                "Hakan Yurdakul",
+                "Hande Cilingir",
+                "Josua Vieten",
+                "Kamal Reggad",
+                "Koray Dogan",
+                "Lukas Hackl",
+                "Mark Felegyhazi",
+                "Martin Weber",
+                "Michail Desyllas",
+                "Mukremin Cetinkaya",
+                "Murat Hacioglu",
+                "Nevzat Atakli",
+                "Oguz Alper Oktem",
+                "Oguz Kucukbarak",
+                "Oguzhan Uyar",
+                "Olcay Silahli",
+                "Philippe Berlan",
+                "Robert Brull",
+                "Sadok Kohen",
+                "Sean Yu",
+                "Selim Satici",
+                "Tomas Nepala",
+                "Tunga Bayrak"
+              ],
+              "investment_managers": [
+                "Ali Karabey",
+                "Cagdas Yildiz",
+                "Caglar Urcan",
+                "Gizem Yagiz",
+                "Kivanc Aydin",
+                "Ozge Sevim"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Aepnus",
+                  "count": 2
+                },
+                {
+                  "name": "Aibuild",
+                  "count": 2
+                },
+                {
+                  "name": "Exomatter",
+                  "count": 2
+                },
+                {
+                  "name": "Fibrecoat",
+                  "count": 2
+                },
+                {
+                  "name": "Freya",
+                  "count": 2
+                },
+                {
+                  "name": "Haelixa",
+                  "count": 1
+                },
+                {
+                  "name": "One Five",
+                  "count": 1
+                },
+                {
+                  "name": "Appsamurai",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Istanbul Technical University",
+                  "count": 10
+                },
+                {
+                  "name": "The London School of Economics and Political Science (LSE)",
+                  "count": 6
+                },
+                {
+                  "name": "Bogazici University",
+                  "count": 5
+                },
+                {
+                  "name": "Orta Dogu Teknik Universitesi / Middle East Technical University",
+                  "count": 4
+                },
+                {
+                  "name": "Robert College",
+                  "count": 2
+                },
+                {
+                  "name": "Izmir Fen Lisesi",
+                  "count": 1
+                }
+              ],
+              "experience": [
+                {
+                  "name": "212",
+                  "count": 6
+                },
+                {
+                  "name": "Bosch Turkey",
+                  "count": 1
+                },
+                {
+                  "name": "Deutsche Bank",
+                  "count": 1
+                },
+                {
+                  "name": "Trio Mobil",
+                  "count": 1
+                },
+                {
+                  "name": "Bolt Insight",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "size": 8,
+            "deduped_size": 8,
+            "members": {
+              "cofounders": [
+                "Alara Eren Iplikcioglu",
+                "Ali Beklen",
+                "Arden Agopyan",
+                "Cagkan Ekici",
+                "Didem Aral",
+                "Mehmet Coka",
+                "Saliha Durmus"
+              ],
+              "investment_managers": [
+                "Selma Bahcivanoglu"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Hotelrunner",
+                  "count": 2
+                },
+                {
+                  "name": "Agrotics",
+                  "count": 1
+                },
+                {
+                  "name": "Juphy",
+                  "count": 1
+                },
+                {
+                  "name": "Khenda",
+                  "count": 1
+                },
+                {
+                  "name": "Phitech",
+                  "count": 1
+                },
+                {
+                  "name": "Reprai",
+                  "count": 1
+                }
+              ],
+              "education": [
+                {
+                  "name": "Bogazici University",
+                  "count": 1
+                },
+                {
+                  "name": "Marmara University",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "deduped_size": 6,
+            "members": {
+              "cofounders": [
+                "Emrah Gultekin",
+                "Huzeyfe Onal",
+                "Idriss Al Rifai",
+                "Mucahit Gayiran",
+                "Tolga Sen"
+              ],
+              "investment_managers": [
+                "Numan Numan"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
+                  "name": "Artboard Studio",
+                  "count": 1
+                },
+                {
+                  "name": "Chooch",
+                  "count": 1
+                },
+                {
+                  "name": "Socradar",
+                  "count": 1
+                },
+                {
+                  "name": "Omma",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": 5,
+            "size": 2,
+            "deduped_size": 2,
+            "members": {
+              "cofounders": [
+                "Mehmet Uygun"
+              ],
+              "investment_managers": [
+                "Cem Okay"
+              ],
+              "other": []
+            },
+            "shared": {
+              "investment": [
+                {
+                  "name": "Getmobil",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

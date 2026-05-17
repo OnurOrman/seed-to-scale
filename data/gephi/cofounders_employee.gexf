@@ -1,0 +1,944 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-17">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="layers" type="string" />
+      <attribute id="3" title="investment" type="string" />
+      <attribute id="4" title="education" type="string" />
+      <attribute id="5" title="experience" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Florin Cornianu" label="Florin Cornianu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Maher Hakim" label="Maher Hakim">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Lukas Hackl" label="Lukas Hackl">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Caglar Urcan" label="Caglar Urcan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Bilen Akuzum" label="Bilen Akuzum">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Mehmet Coka" label="Mehmet Coka">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Selma Bahcivanoglu" label="Selma Bahcivanoglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Daghan Cam" label="Daghan Cam">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Michail Desyllas" label="Michail Desyllas">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Emre Fadillioglu" label="Emre Fadillioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Ali Karabey" label="Ali Karabey">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Mucahit Gayiran" label="Mucahit Gayiran">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Numan Numan" label="Numan Numan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Mark Felegyhazi" label="Mark Felegyhazi">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Murat Hacioglu" label="Murat Hacioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Cagdas Yildiz" label="Cagdas Yildiz">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Hakan Yurdakul" label="Hakan Yurdakul">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Emrah Gultekin" label="Emrah Gultekin">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Sean Yu" label="Sean Yu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Philippe Berlan" label="Philippe Berlan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Gizem Yagiz" label="Gizem Yagiz">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Deniz Ozgur" label="Deniz Ozgur">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Josua Vieten" label="Josua Vieten">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Olcay Silahli" label="Olcay Silahli">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Robert Brull" label="Robert Brull">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Idriss Al Rifai" label="Idriss Al Rifai">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Tunga Bayrak" label="Tunga Bayrak">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Kivanc Aydin" label="Kivanc Aydin">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Tomas Nepala" label="Tomas Nepala">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Mehmet Uygun" label="Mehmet Uygun">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Cem Okay" label="Cem Okay">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Gediminas Mikutis" label="Gediminas Mikutis">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Arden Agopyan" label="Arden Agopyan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Ali Beklen" label="Ali Beklen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Hande Cilingir" label="Hande Cilingir">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Alara Eren Iplikcioglu" label="Alara Eren Iplikcioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Berhan Kongel" label="Berhan Kongel">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Cagkan Ekici" label="Cagkan Ekici">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Batu Sat" label="Batu Sat">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Haris Aghadi" label="Haris Aghadi">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Oguzhan Uyar" label="Oguzhan Uyar">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Tolga Sen" label="Tolga Sen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Sadok Kohen" label="Sadok Kohen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Ozge Sevim" label="Ozge Sevim">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Investment Manager" />
+        </attvalues>
+      </node>
+      <node id="Saliha Durmus" label="Saliha Durmus">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Baransel Soysal" label="Baransel Soysal">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Kamal Reggad" label="Kamal Reggad">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Didem Aral" label="Didem Aral">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Huzeyfe Onal" label="Huzeyfe Onal">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Oguz Kucukbarak" label="Oguz Kucukbarak">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Koray Dogan" label="Koray Dogan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Batuhan Ozcan" label="Batuhan Ozcan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Nevzat Atakli" label="Nevzat Atakli">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Selim Satici" label="Selim Satici">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Ceren Melis Abacioglu" label="Ceren Melis Abacioglu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Balca Yilmaz" label="Balca Yilmaz">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Martin Weber" label="Martin Weber">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Mukremin Cetinkaya" label="Mukremin Cetinkaya">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+      <node id="Oguz Alper Oktem" label="Oguz Alper Oktem">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Cofounder" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Florin Cornianu" target="Maher Hakim" id="0" label="investment:123Formbuilder" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="123Formbuilder" />
+        </attvalues>
+      </edge>
+      <edge source="Maher Hakim" target="Haris Aghadi" id="1" label="investment:Meddy; education:Carnegie Mellon University; experience:Carnegie Mellon University|Carnegie Mellon University in Qatar" weight="4">
+        <attvalues>
+          <attvalue for="2" value="education|experience|investment" />
+          <attvalue for="3" value="Meddy" />
+          <attvalue for="4" value="Carnegie Mellon University" />
+          <attvalue for="5" value="Carnegie Mellon University|Carnegie Mellon University in Qatar" />
+        </attvalues>
+      </edge>
+      <edge source="Maher Hakim" target="Ceren Melis Abacioglu" id="2" label="investment:Wellbees; experience:Wellbees" weight="2">
+        <attvalues>
+          <attvalue for="2" value="experience|investment" />
+          <attvalue for="3" value="Wellbees" />
+          <attvalue for="5" value="Wellbees" />
+        </attvalues>
+      </edge>
+      <edge source="Maher Hakim" target="Batu Sat" id="3" label="education:University of Illinois Urbana-Champaign; experience:212" weight="2">
+        <attvalues>
+          <attvalue for="2" value="education|experience" />
+          <attvalue for="4" value="University of Illinois Urbana-Champaign" />
+          <attvalue for="5" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="Maher Hakim" target="Bilen Akuzum" id="4" label="experience:University of California, Berkeley" weight="1">
+        <attvalues>
+          <attvalue for="2" value="experience" />
+          <attvalue for="5" value="University of California, Berkeley" />
+        </attvalues>
+      </edge>
+      <edge source="Maher Hakim" target="Sean Yu" id="5" label="experience:212" weight="1">
+        <attvalues>
+          <attvalue for="2" value="experience" />
+          <attvalue for="5" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="Lukas Hackl" target="Caglar Urcan" id="6" label="investment:Aepnus" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Aepnus" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Bilen Akuzum" id="7" label="investment:Aepnus" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Aepnus" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Daghan Cam" id="8" label="investment:Aibuild" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Aibuild" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Michail Desyllas" id="9" label="investment:Aibuild" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Aibuild" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Josua Vieten" id="10" label="investment:Exomatter" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Exomatter" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Robert Brull" id="11" label="investment:Fibrecoat" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Fibrecoat" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Gediminas Mikutis" id="12" label="investment:Haelixa" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Haelixa" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Martin Weber" id="13" label="investment:One Five" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="One Five" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Hakan Yurdakul" id="14" label="education:Robert College" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Robert College" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Batu Sat" id="15" label="education:Robert College" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Robert College" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Oguzhan Uyar" id="16" label="education:Bogazici University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Deniz Ozgur" id="17" label="education:Bogazici University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Saliha Durmus" id="18" label="education:Bogazici University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Sean Yu" id="19" label="education:Bogazici University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Berhan Kongel" id="20" label="education:Bogazici University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Caglar Urcan" target="Baransel Soysal" id="21" label="education:Bogazici University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Bilen Akuzum" target="Gizem Yagiz" id="22" label="education:Orta Dogu Teknik Universitesi / Middle East Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Orta Dogu Teknik Universitesi / Middle East Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Bilen Akuzum" target="Ozge Sevim" id="23" label="experience:Bosch Turkey" weight="1">
+        <attvalues>
+          <attvalue for="2" value="experience" />
+          <attvalue for="5" value="Bosch Turkey" />
+        </attvalues>
+      </edge>
+      <edge source="Mehmet Coka" target="Selma Bahcivanoglu" id="24" label="investment:Agrotics" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Agrotics" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Sean Yu" id="25" label="investment:Eluvium; education:Bogazici University" weight="2">
+        <attvalues>
+          <attvalue for="2" value="education|investment" />
+          <attvalue for="3" value="Eluvium" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Arden Agopyan" id="26" label="investment:Hotelrunner" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Hotelrunner" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Ali Beklen" id="27" label="investment:Hotelrunner" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Hotelrunner" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Alara Eren Iplikcioglu" id="28" label="investment:Juphy" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Juphy" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Cagkan Ekici" id="29" label="investment:Khenda" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Khenda" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Saliha Durmus" id="30" label="investment:Phitech; education:Bogazici University" weight="2">
+        <attvalues>
+          <attvalue for="2" value="education|investment" />
+          <attvalue for="3" value="Phitech" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Didem Aral" id="31" label="investment:Reprai; education:Marmara University" weight="2">
+        <attvalues>
+          <attvalue for="2" value="education|investment" />
+          <attvalue for="3" value="Reprai" />
+          <attvalue for="4" value="Marmara University" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Balca Yilmaz" id="32" label="investment:Werover" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Werover" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Oguzhan Uyar" id="33" label="education:Bogazici University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Deniz Ozgur" id="34" label="education:Bogazici University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Berhan Kongel" id="35" label="education:Bogazici University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Selma Bahcivanoglu" target="Baransel Soysal" id="36" label="education:Bogazici University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Bogazici University" />
+        </attvalues>
+      </edge>
+      <edge source="Daghan Cam" target="Cagdas Yildiz" id="37" label="education:Istanbul Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Istanbul Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Daghan Cam" target="Ozge Sevim" id="38" label="education:Istanbul Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Istanbul Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Emre Fadillioglu" target="Ali Karabey" id="39" label="investment:Appsamurai" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Appsamurai" />
+        </attvalues>
+      </edge>
+      <edge source="Emre Fadillioglu" target="Gizem Yagiz" id="40" label="education:Orta Dogu Teknik Universitesi / Middle East Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Orta Dogu Teknik Universitesi / Middle East Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Mark Felegyhazi" id="41" label="investment:Avatao" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Avatao" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Hakan Yurdakul" id="42" label="investment:Bolt Insight" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Bolt Insight" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Olcay Silahli" id="43" label="investment:Fazla" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Fazla" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Hande Cilingir" id="44" label="investment:Insider One|Iyzico" weight="2">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Insider One|Iyzico" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Berhan Kongel" id="45" label="investment:Keyrails" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Keyrails" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Oguzhan Uyar" id="46" label="investment:Metrobi" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Metrobi" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Kamal Reggad" id="47" label="investment:Remotepass" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Remotepass" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Oguz Kucukbarak" id="48" label="investment:Smartmessage" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Smartmessage" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Koray Dogan" id="49" label="investment:Solvoyo" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Solvoyo" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Oguz Alper Oktem" id="50" label="investment:Marti; experience:Deutsche Bank" weight="2">
+        <attvalues>
+          <attvalue for="2" value="experience|investment" />
+          <attvalue for="3" value="Marti" />
+          <attvalue for="5" value="Deutsche Bank" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Sean Yu" id="51" label="experience:212" weight="1">
+        <attvalues>
+          <attvalue for="2" value="experience" />
+          <attvalue for="5" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="Ali Karabey" target="Batu Sat" id="52" label="experience:212" weight="1">
+        <attvalues>
+          <attvalue for="2" value="experience" />
+          <attvalue for="5" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="Mucahit Gayiran" target="Numan Numan" id="53" label="investment:Artboard Studio" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Artboard Studio" />
+        </attvalues>
+      </edge>
+      <edge source="Numan Numan" target="Emrah Gultekin" id="54" label="investment:Chooch" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Chooch" />
+        </attvalues>
+      </edge>
+      <edge source="Numan Numan" target="Idriss Al Rifai" id="55" label="investment:Flow48" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Flow48" />
+        </attvalues>
+      </edge>
+      <edge source="Numan Numan" target="Batu Sat" id="56" label="investment:Mall Iq" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Mall Iq" />
+        </attvalues>
+      </edge>
+      <edge source="Numan Numan" target="Tolga Sen" id="57" label="investment:Omma" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Omma" />
+        </attvalues>
+      </edge>
+      <edge source="Numan Numan" target="Huzeyfe Onal" id="58" label="investment:Socradar" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Socradar" />
+        </attvalues>
+      </edge>
+      <edge source="Numan Numan" target="Nevzat Atakli" id="59" label="investment:Trio Mobil" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Trio Mobil" />
+        </attvalues>
+      </edge>
+      <edge source="Murat Hacioglu" target="Cagdas Yildiz" id="60" label="investment:B2Metric; education:Istanbul Technical University" weight="2">
+        <attvalues>
+          <attvalue for="2" value="education|investment" />
+          <attvalue for="3" value="B2Metric" />
+          <attvalue for="4" value="Istanbul Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Murat Hacioglu" target="Ozge Sevim" id="61" label="education:Istanbul Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Istanbul Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Cagdas Yildiz" target="Deniz Ozgur" id="62" label="investment:Evercopy" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Evercopy" />
+        </attvalues>
+      </edge>
+      <edge source="Cagdas Yildiz" target="Batuhan Ozcan" id="63" label="investment:Syntonym" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Syntonym" />
+        </attvalues>
+      </edge>
+      <edge source="Cagdas Yildiz" target="Selim Satici" id="64" label="investment:Voltfox" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Voltfox" />
+        </attvalues>
+      </edge>
+      <edge source="Cagdas Yildiz" target="Olcay Silahli" id="65" label="education:Istanbul Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Istanbul Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Cagdas Yildiz" target="Balca Yilmaz" id="66" label="education:Istanbul Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Istanbul Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Cagdas Yildiz" target="Batu Sat" id="67" label="education:Istanbul Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Istanbul Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Cagdas Yildiz" target="Nevzat Atakli" id="68" label="experience:Trio Mobil" weight="1">
+        <attvalues>
+          <attvalue for="2" value="experience" />
+          <attvalue for="5" value="Trio Mobil" />
+        </attvalues>
+      </edge>
+      <edge source="Hakan Yurdakul" target="Kivanc Aydin" id="69" label="experience:Bolt Insight" weight="1">
+        <attvalues>
+          <attvalue for="2" value="experience" />
+          <attvalue for="5" value="Bolt Insight" />
+        </attvalues>
+      </edge>
+      <edge source="Sean Yu" target="Ozge Sevim" id="70" label="experience:212" weight="1">
+        <attvalues>
+          <attvalue for="2" value="experience" />
+          <attvalue for="5" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="Sean Yu" target="Kivanc Aydin" id="71" label="experience:212" weight="1">
+        <attvalues>
+          <attvalue for="2" value="experience" />
+          <attvalue for="5" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="Philippe Berlan" target="Gizem Yagiz" id="72" label="investment:Ever Dye" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Ever Dye" />
+        </attvalues>
+      </edge>
+      <edge source="Gizem Yagiz" target="Josua Vieten" id="73" label="investment:Exomatter" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Exomatter" />
+        </attvalues>
+      </edge>
+      <edge source="Gizem Yagiz" target="Robert Brull" id="74" label="investment:Fibrecoat" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Fibrecoat" />
+        </attvalues>
+      </edge>
+      <edge source="Gizem Yagiz" target="Mukremin Cetinkaya" id="75" label="education:Orta Dogu Teknik Universitesi / Middle East Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Orta Dogu Teknik Universitesi / Middle East Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Gizem Yagiz" target="Selim Satici" id="76" label="education:Orta Dogu Teknik Universitesi / Middle East Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Orta Dogu Teknik Universitesi / Middle East Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Gizem Yagiz" target="Oguz Alper Oktem" id="77" label="education:The London School of Economics and Political Science (LSE)" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
+        </attvalues>
+      </edge>
+      <edge source="Gizem Yagiz" target="Hande Cilingir" id="78" label="education:The London School of Economics and Political Science (LSE)" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
+        </attvalues>
+      </edge>
+      <edge source="Gizem Yagiz" target="Batuhan Ozcan" id="79" label="education:The London School of Economics and Political Science (LSE)" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
+        </attvalues>
+      </edge>
+      <edge source="Olcay Silahli" target="Ozge Sevim" id="80" label="education:Istanbul Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Istanbul Technical University" />
+        </attvalues>
+      </edge>
+      <edge source="Tunga Bayrak" target="Kivanc Aydin" id="81" label="investment:Freya" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Freya" />
+        </attvalues>
+      </edge>
+      <edge source="Kivanc Aydin" target="Tomas Nepala" id="82" label="investment:Freya" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Freya" />
+        </attvalues>
+      </edge>
+      <edge source="Kivanc Aydin" target="Baransel Soysal" id="83" label="investment:Qrambo" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Qrambo" />
+        </attvalues>
+      </edge>
+      <edge source="Kivanc Aydin" target="Oguz Alper Oktem" id="84" label="education:The London School of Economics and Political Science (LSE)" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
+        </attvalues>
+      </edge>
+      <edge source="Kivanc Aydin" target="Hande Cilingir" id="85" label="education:The London School of Economics and Political Science (LSE)" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
+        </attvalues>
+      </edge>
+      <edge source="Kivanc Aydin" target="Batuhan Ozcan" id="86" label="education:The London School of Economics and Political Science (LSE)" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
+        </attvalues>
+      </edge>
+      <edge source="Kivanc Aydin" target="Nevzat Atakli" id="87" label="education:Izmir Fen Lisesi" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Izmir Fen Lisesi" />
+        </attvalues>
+      </edge>
+      <edge source="Kivanc Aydin" target="Batu Sat" id="88" label="experience:212" weight="1">
+        <attvalues>
+          <attvalue for="2" value="experience" />
+          <attvalue for="5" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="Mehmet Uygun" target="Cem Okay" id="89" label="investment:Getmobil" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Getmobil" />
+        </attvalues>
+      </edge>
+      <edge source="Batu Sat" target="Ozge Sevim" id="90" label="education:Istanbul Technical University; experience:212" weight="2">
+        <attvalues>
+          <attvalue for="2" value="education|experience" />
+          <attvalue for="4" value="Istanbul Technical University" />
+          <attvalue for="5" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="Sadok Kohen" target="Ozge Sevim" id="91" label="investment:Philosopherking" weight="1">
+        <attvalues>
+          <attvalue for="2" value="investment" />
+          <attvalue for="3" value="Philosopherking" />
+        </attvalues>
+      </edge>
+      <edge source="Ozge Sevim" target="Balca Yilmaz" id="92" label="education:Istanbul Technical University" weight="1">
+        <attvalues>
+          <attvalue for="2" value="education" />
+          <attvalue for="4" value="Istanbul Technical University" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
