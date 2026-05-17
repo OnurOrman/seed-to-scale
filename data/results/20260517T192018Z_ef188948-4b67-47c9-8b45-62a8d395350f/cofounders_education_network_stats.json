@@ -1,0 +1,463 @@
+{
+  "gexf_path": "data/gephi/cofounders_education.gexf",
+  "nodes": 143,
+  "edges": 123,
+  "directed": false,
+  "density": 0.01211464591746282,
+  "avg_degree": 1.7202797202797202,
+  "min_degree": 1,
+  "max_degree": 7,
+  "connected_components": {
+    "count": 21,
+    "largest_size": 41,
+    "sizes": [
+      41,
+      41,
+      6,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "average_clustering": 0.0,
+  "assortativity_degree": -0.282280023858303,
+  "diameter_largest_component": 12,
+  "avg_shortest_path_largest_component": 5.1,
+  "centrality_top10": {
+    "degree": [
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.04929577464788733
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.04225352112676056
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.035211267605633804
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.035211267605633804
+      },
+      {
+        "node": "Mark Felegyhazi",
+        "score": 0.035211267605633804
+      },
+      {
+        "node": "University of California, Berkeley",
+        "score": 0.028169014084507043
+      },
+      {
+        "node": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+        "score": 0.028169014084507043
+      },
+      {
+        "node": "Mehmet Coka",
+        "score": 0.028169014084507043
+      },
+      {
+        "node": "Murat Hacioglu",
+        "score": 0.028169014084507043
+      },
+      {
+        "node": "Olcay Silahli",
+        "score": 0.028169014084507043
+      }
+    ],
+    "degree_weighted": [
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.04929577464788732
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.04225352112676056
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.035211267605633804
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.035211267605633804
+      },
+      {
+        "node": "Mark Felegyhazi",
+        "score": 0.035211267605633804
+      },
+      {
+        "node": "University of California, Berkeley",
+        "score": 0.028169014084507043
+      },
+      {
+        "node": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+        "score": 0.028169014084507043
+      },
+      {
+        "node": "Mehmet Coka",
+        "score": 0.028169014084507043
+      },
+      {
+        "node": "Murat Hacioglu",
+        "score": 0.028169014084507043
+      },
+      {
+        "node": "Olcay Silahli",
+        "score": 0.028169014084507043
+      }
+    ],
+    "betweenness": [
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.05019478573569074
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.048147038257916296
+      },
+      {
+        "node": "University of California, Berkeley",
+        "score": 0.04185396064329238
+      },
+      {
+        "node": "Hakan Yurdakul",
+        "score": 0.041654180401558286
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.041654180401558286
+      },
+      {
+        "node": "Mehmet Ertan Uygun",
+        "score": 0.0412546199180901
+      },
+      {
+        "node": "Robert College",
+        "score": 0.0399560483468185
+      },
+      {
+        "node": "Koç University",
+        "score": 0.03905703725901508
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.03905703725901508
+      },
+      {
+        "node": "Harvard University",
+        "score": 0.03636000399560484
+      }
+    ],
+    "betweenness_weighted": [
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.05019478573569074
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.048147038257916296
+      },
+      {
+        "node": "University of California, Berkeley",
+        "score": 0.04185396064329238
+      },
+      {
+        "node": "Hakan Yurdakul",
+        "score": 0.041654180401558286
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.041654180401558286
+      },
+      {
+        "node": "Mehmet Ertan Uygun",
+        "score": 0.0412546199180901
+      },
+      {
+        "node": "Robert College",
+        "score": 0.0399560483468185
+      },
+      {
+        "node": "Koç University",
+        "score": 0.03905703725901508
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.03905703725901508
+      },
+      {
+        "node": "Harvard University",
+        "score": 0.03636000399560484
+      }
+    ],
+    "closeness": [
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.08734578010699859
+      },
+      {
+        "node": "University of California, Berkeley",
+        "score": 0.08164931618697695
+      },
+      {
+        "node": "Harvard University",
+        "score": 0.08048289738430583
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.07364448126668509
+      },
+      {
+        "node": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+        "score": 0.07131395970761277
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.06998512816026595
+      },
+      {
+        "node": "Selim Satici",
+        "score": 0.06747069241798094
+      },
+      {
+        "node": "Drexel University",
+        "score": 0.0670690811535882
+      },
+      {
+        "node": "Technische Universität Braunschweig",
+        "score": 0.0670690811535882
+      },
+      {
+        "node": "Beşiktaş Atatürk Anadolu Lisesi",
+        "score": 0.0670690811535882
+      }
+    ],
+    "closeness_weighted": [
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.08734578010699859
+      },
+      {
+        "node": "University of California, Berkeley",
+        "score": 0.08164931618697695
+      },
+      {
+        "node": "Harvard University",
+        "score": 0.08048289738430583
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.07364448126668509
+      },
+      {
+        "node": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+        "score": 0.07131395970761277
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.06998512816026595
+      },
+      {
+        "node": "Selim Satici",
+        "score": 0.06747069241798094
+      },
+      {
+        "node": "Drexel University",
+        "score": 0.0670690811535882
+      },
+      {
+        "node": "Technische Universität Braunschweig",
+        "score": 0.0670690811535882
+      },
+      {
+        "node": "Beşiktaş Atatürk Anadolu Lisesi",
+        "score": 0.0670690811535882
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.5356248169437205
+      },
+      {
+        "node": "University of California, Berkeley",
+        "score": 0.40621398520483426
+      },
+      {
+        "node": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+        "score": 0.3338704038232408
+      },
+      {
+        "node": "Selim Satici",
+        "score": 0.24129592532096816
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.2385736184437244
+      },
+      {
+        "node": "Mark Felegyhazi",
+        "score": 0.2304141705223156
+      },
+      {
+        "node": "Harvard University",
+        "score": 0.2042041556822279
+      },
+      {
+        "node": "Drexel University",
+        "score": 0.1746343897517475
+      },
+      {
+        "node": "Technische Universität Braunschweig",
+        "score": 0.1746343897517475
+      },
+      {
+        "node": "Beşiktaş Atatürk Anadolu Lisesi",
+        "score": 0.1746343897517475
+      }
+    ],
+    "eigenvector_weighted": [
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.5356248169437205
+      },
+      {
+        "node": "University of California, Berkeley",
+        "score": 0.40621398520483426
+      },
+      {
+        "node": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+        "score": 0.3338704038232408
+      },
+      {
+        "node": "Selim Satici",
+        "score": 0.24129592532096816
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.2385736184437244
+      },
+      {
+        "node": "Mark Felegyhazi",
+        "score": 0.2304141705223156
+      },
+      {
+        "node": "Harvard University",
+        "score": 0.2042041556822279
+      },
+      {
+        "node": "Drexel University",
+        "score": 0.1746343897517475
+      },
+      {
+        "node": "Technische Universität Braunschweig",
+        "score": 0.1746343897517475
+      },
+      {
+        "node": "Beşiktaş Atatürk Anadolu Lisesi",
+        "score": 0.1746343897517475
+      }
+    ],
+    "pagerank": [
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.021272708468905478
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.01914370955222923
+      },
+      {
+        "node": "Mark Felegyhazi",
+        "score": 0.016930971682643244
+      },
+      {
+        "node": "Mehmet Coka",
+        "score": 0.01662995687234055
+      },
+      {
+        "node": "Arden Agopyan",
+        "score": 0.01662995687234055
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.01620692800069174
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.01573579470753409
+      },
+      {
+        "node": "Gediminas Mikutis",
+        "score": 0.014518784316282033
+      },
+      {
+        "node": "Olcay Silahli",
+        "score": 0.013966416384769989
+      },
+      {
+        "node": "Batuhan Ozcan",
+        "score": 0.013506457893305459
+      }
+    ],
+    "pagerank_weighted": [
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.021272708468905478
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.01914370955222923
+      },
+      {
+        "node": "Mark Felegyhazi",
+        "score": 0.016930971682643244
+      },
+      {
+        "node": "Mehmet Coka",
+        "score": 0.01662995687234055
+      },
+      {
+        "node": "Arden Agopyan",
+        "score": 0.01662995687234055
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.01620692800069174
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.01573579470753409
+      },
+      {
+        "node": "Gediminas Mikutis",
+        "score": 0.014518784316282033
+      },
+      {
+        "node": "Olcay Silahli",
+        "score": 0.013966416384769989
+      },
+      {
+        "node": "Batuhan Ozcan",
+        "score": 0.013506457893305459
+      }
+    ]
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "gexf_path": "data/gephi/cofounders_volunteering-experiences.gexf",
+  "nodes": 70,
+  "edges": 22,
+  "directed": false,
+  "density": 0.009109730848861283,
+  "avg_degree": 0.6285714285714286,
+  "min_degree": 0,
+  "max_degree": 5,
+  "connected_components": {
+    "count": 48,
+    "largest_size": 6,
+    "sizes": [
+      6,
+      5,
+      4,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "average_clustering": 0.0,
+  "assortativity_degree": -0.4888888888888888,
+  "diameter_largest_component": 2,
+  "avg_shortest_path_largest_component": 1.6666666666666667,
+  "centrality_top10": {
+    "degree": [
+      {
+        "node": "Didem Aral",
+        "score": 0.07246376811594203
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.057971014492753624
+      },
+      {
+        "node": "Tomas Nepala",
+        "score": 0.043478260869565216
+      },
+      {
+        "node": "Olcay Silahli",
+        "score": 0.028985507246376812
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.028985507246376812
+      },
+      {
+        "node": "Ceren Melis Abacioglu",
+        "score": 0.028985507246376812
+      },
+      {
+        "node": "Philippe Berlan",
+        "score": 0.014492753623188406
+      },
+      {
+        "node": "Solidarcite",
+        "score": 0.014492753623188406
+      },
+      {
+        "node": "Josua Vieten",
+        "score": 0.014492753623188406
+      },
+      {
+        "node": "Bayerische Volkssternwarte München e.V.",
+        "score": 0.014492753623188406
+      }
+    ],
+    "degree_weighted": [
+      {
+        "node": "Didem Aral",
+        "score": 0.07246376811594203
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.057971014492753624
+      },
+      {
+        "node": "Tomas Nepala",
+        "score": 0.043478260869565216
+      },
+      {
+        "node": "Olcay Silahli",
+        "score": 0.028985507246376812
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.028985507246376812
+      },
+      {
+        "node": "Ceren Melis Abacioglu",
+        "score": 0.028985507246376812
+      },
+      {
+        "node": "Philippe Berlan",
+        "score": 0.014492753623188406
+      },
+      {
+        "node": "Solidarcite",
+        "score": 0.014492753623188406
+      },
+      {
+        "node": "Josua Vieten",
+        "score": 0.014492753623188406
+      },
+      {
+        "node": "Bayerische Volkssternwarte München e.V.",
+        "score": 0.014492753623188406
+      }
+    ],
+    "betweenness": [
+      {
+        "node": "Didem Aral",
+        "score": 0.004262574595055414
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.002557544757033248
+      },
+      {
+        "node": "Tomas Nepala",
+        "score": 0.001278772378516624
+      },
+      {
+        "node": "Olcay Silahli",
+        "score": 0.00042625745950554135
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.00042625745950554135
+      },
+      {
+        "node": "Ceren Melis Abacioglu",
+        "score": 0.00042625745950554135
+      },
+      {
+        "node": "Florin Cornianu",
+        "score": 0.0
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.0
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.0
+      },
+      {
+        "node": "Mehmet Coka",
+        "score": 0.0
+      }
+    ],
+    "betweenness_weighted": [
+      {
+        "node": "Didem Aral",
+        "score": 0.004262574595055414
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.002557544757033248
+      },
+      {
+        "node": "Tomas Nepala",
+        "score": 0.001278772378516624
+      },
+      {
+        "node": "Olcay Silahli",
+        "score": 0.00042625745950554135
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.00042625745950554135
+      },
+      {
+        "node": "Ceren Melis Abacioglu",
+        "score": 0.00042625745950554135
+      },
+      {
+        "node": "Florin Cornianu",
+        "score": 0.0
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.0
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.0
+      },
+      {
+        "node": "Mehmet Coka",
+        "score": 0.0
+      }
+    ],
+    "closeness": [
+      {
+        "node": "Didem Aral",
+        "score": 0.07246376811594203
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.057971014492753624
+      },
+      {
+        "node": "Tomas Nepala",
+        "score": 0.043478260869565216
+      },
+      {
+        "node": "WEConnect International",
+        "score": 0.04025764895330113
+      },
+      {
+        "node": "Techstars",
+        "score": 0.04025764895330113
+      },
+      {
+        "node": "Arya Women Investment Platform",
+        "score": 0.04025764895330113
+      },
+      {
+        "node": "Faydasıçok Vakfı",
+        "score": 0.04025764895330113
+      },
+      {
+        "node": "Yenibirlider Association",
+        "score": 0.04025764895330113
+      },
+      {
+        "node": "Westminster Business School",
+        "score": 0.03312629399585921
+      },
+      {
+        "node": "GLA Thailand",
+        "score": 0.03312629399585921
+      }
+    ],
+    "closeness_weighted": [
+      {
+        "node": "Didem Aral",
+        "score": 0.07246376811594203
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.057971014492753624
+      },
+      {
+        "node": "Tomas Nepala",
+        "score": 0.043478260869565216
+      },
+      {
+        "node": "WEConnect International",
+        "score": 0.04025764895330113
+      },
+      {
+        "node": "Techstars",
+        "score": 0.04025764895330113
+      },
+      {
+        "node": "Arya Women Investment Platform",
+        "score": 0.04025764895330113
+      },
+      {
+        "node": "Faydasıçok Vakfı",
+        "score": 0.04025764895330113
+      },
+      {
+        "node": "Yenibirlider Association",
+        "score": 0.04025764895330113
+      },
+      {
+        "node": "Westminster Business School",
+        "score": 0.03312629399585921
+      },
+      {
+        "node": "GLA Thailand",
+        "score": 0.03312629399585921
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": "Didem Aral",
+        "score": 0.7071067220575619
+      },
+      {
+        "node": "WEConnect International",
+        "score": 0.3162277395735517
+      },
+      {
+        "node": "Techstars",
+        "score": 0.3162277395735517
+      },
+      {
+        "node": "Arya Women Investment Platform",
+        "score": 0.3162277395735517
+      },
+      {
+        "node": "Faydasıçok Vakfı",
+        "score": 0.3162277395735517
+      },
+      {
+        "node": "Yenibirlider Association",
+        "score": 0.3162277395735517
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.00028917297488090504
+      },
+      {
+        "node": "Westminster Business School",
+        "score": 0.00014458648744045252
+      },
+      {
+        "node": "GLA Thailand",
+        "score": 0.00014458648744045252
+      },
+      {
+        "node": "Rotary International",
+        "score": 0.00014458648744045252
+      }
+    ],
+    "eigenvector_weighted": [
+      {
+        "node": "Didem Aral",
+        "score": 0.7071067220575619
+      },
+      {
+        "node": "WEConnect International",
+        "score": 0.3162277395735517
+      },
+      {
+        "node": "Techstars",
+        "score": 0.3162277395735517
+      },
+      {
+        "node": "Arya Women Investment Platform",
+        "score": 0.3162277395735517
+      },
+      {
+        "node": "Faydasıçok Vakfı",
+        "score": 0.3162277395735517
+      },
+      {
+        "node": "Yenibirlider Association",
+        "score": 0.3162277395735517
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.00028917297488090504
+      },
+      {
+        "node": "Westminster Business School",
+        "score": 0.00014458648744045252
+      },
+      {
+        "node": "GLA Thailand",
+        "score": 0.00014458648744045252
+      },
+      {
+        "node": "Rotary International",
+        "score": 0.00014458648744045252
+      }
+    ],
+    "pagerank": [
+      {
+        "node": "Didem Aral",
+        "score": 0.07526918017293226
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.0630831848644472
+      },
+      {
+        "node": "Tomas Nepala",
+        "score": 0.05089718955596215
+      },
+      {
+        "node": "Olcay Silahli",
+        "score": 0.038711194247477106
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.038711194247477106
+      },
+      {
+        "node": "Ceren Melis Abacioglu",
+        "score": 0.038711194247477106
+      },
+      {
+        "node": "Philippe Berlan",
+        "score": 0.02652519893899205
+      },
+      {
+        "node": "Solidarcite",
+        "score": 0.02652519893899205
+      },
+      {
+        "node": "Josua Vieten",
+        "score": 0.02652519893899205
+      },
+      {
+        "node": "Bayerische Volkssternwarte München e.V.",
+        "score": 0.02652519893899205
+      }
+    ],
+    "pagerank_weighted": [
+      {
+        "node": "Didem Aral",
+        "score": 0.07526918017293226
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.0630831848644472
+      },
+      {
+        "node": "Tomas Nepala",
+        "score": 0.05089718955596215
+      },
+      {
+        "node": "Olcay Silahli",
+        "score": 0.038711194247477106
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.038711194247477106
+      },
+      {
+        "node": "Ceren Melis Abacioglu",
+        "score": 0.038711194247477106
+      },
+      {
+        "node": "Philippe Berlan",
+        "score": 0.02652519893899205
+      },
+      {
+        "node": "Solidarcite",
+        "score": 0.02652519893899205
+      },
+      {
+        "node": "Josua Vieten",
+        "score": 0.02652519893899205
+      },
+      {
+        "node": "Bayerische Volkssternwarte München e.V.",
+        "score": 0.02652519893899205
+      }
+    ]
+  }
+}

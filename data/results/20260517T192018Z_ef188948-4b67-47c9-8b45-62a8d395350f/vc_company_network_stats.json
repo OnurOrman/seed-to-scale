@@ -1,0 +1,443 @@
+{
+  "gexf_path": "data/gephi/vc_company.gexf",
+  "nodes": 55,
+  "edges": 54,
+  "directed": false,
+  "density": 0.03636363636363636,
+  "avg_degree": 1.9636363636363636,
+  "min_degree": 1,
+  "max_degree": 54,
+  "connected_components": {
+    "count": 1,
+    "largest_size": 55,
+    "sizes": [
+      55
+    ]
+  },
+  "average_clustering": 0.0,
+  "assortativity_degree": -1.0,
+  "diameter_largest_component": 2,
+  "avg_shortest_path_largest_component": 1.9636363636363636,
+  "centrality_top10": {
+    "degree": [
+      {
+        "node": "212",
+        "score": 1.0
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Aepnus",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "AppSamurai",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Arcademonk",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Artboard Studio",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Avatao",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "B2Metric",
+        "score": 0.018518518518518517
+      }
+    ],
+    "degree_weighted": [
+      {
+        "node": "212",
+        "score": 1.0
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Aepnus",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "AppSamurai",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Arcademonk",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Artboard Studio",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "Avatao",
+        "score": 0.018518518518518517
+      },
+      {
+        "node": "B2Metric",
+        "score": 0.018518518518518517
+      }
+    ],
+    "betweenness": [
+      {
+        "node": "212",
+        "score": 1.0
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.0
+      },
+      {
+        "node": "Aepnus",
+        "score": 0.0
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.0
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.0
+      },
+      {
+        "node": "AppSamurai",
+        "score": 0.0
+      },
+      {
+        "node": "Arcademonk",
+        "score": 0.0
+      },
+      {
+        "node": "Artboard Studio",
+        "score": 0.0
+      },
+      {
+        "node": "Avatao",
+        "score": 0.0
+      },
+      {
+        "node": "B2Metric",
+        "score": 0.0
+      }
+    ],
+    "betweenness_weighted": [
+      {
+        "node": "212",
+        "score": 1.0
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.0
+      },
+      {
+        "node": "Aepnus",
+        "score": 0.0
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.0
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.0
+      },
+      {
+        "node": "AppSamurai",
+        "score": 0.0
+      },
+      {
+        "node": "Arcademonk",
+        "score": 0.0
+      },
+      {
+        "node": "Artboard Studio",
+        "score": 0.0
+      },
+      {
+        "node": "Avatao",
+        "score": 0.0
+      },
+      {
+        "node": "B2Metric",
+        "score": 0.0
+      }
+    ],
+    "closeness": [
+      {
+        "node": "212",
+        "score": 1.0
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Aepnus",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "AppSamurai",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Arcademonk",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Artboard Studio",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Avatao",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "B2Metric",
+        "score": 0.5046728971962616
+      }
+    ],
+    "closeness_weighted": [
+      {
+        "node": "212",
+        "score": 1.0
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Aepnus",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "AppSamurai",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Arcademonk",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Artboard Studio",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "Avatao",
+        "score": 0.5046728971962616
+      },
+      {
+        "node": "B2Metric",
+        "score": 0.5046728971962616
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": "212",
+        "score": 0.7071091708899508
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Aepnus",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "AppSamurai",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Arcademonk",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Artboard Studio",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Avatao",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "B2Metric",
+        "score": 0.09622471966639554
+      }
+    ],
+    "eigenvector_weighted": [
+      {
+        "node": "212",
+        "score": 0.7071091708899508
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Aepnus",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "AppSamurai",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Arcademonk",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Artboard Studio",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "Avatao",
+        "score": 0.09622471966639554
+      },
+      {
+        "node": "B2Metric",
+        "score": 0.09622471966639554
+      }
+    ],
+    "pagerank": [
+      {
+        "node": "212",
+        "score": 0.46094509999921557
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Aepnus",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "AppSamurai",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Arcademonk",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Artboard Studio",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Avatao",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "B2Metric",
+        "score": 0.009982498148162657
+      }
+    ],
+    "pagerank_weighted": [
+      {
+        "node": "212",
+        "score": 0.46094509999921557
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Aepnus",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "AppSamurai",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Arcademonk",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Artboard Studio",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "Avatao",
+        "score": 0.009982498148162657
+      },
+      {
+        "node": "B2Metric",
+        "score": 0.009982498148162657
+      }
+    ]
+  }
+}

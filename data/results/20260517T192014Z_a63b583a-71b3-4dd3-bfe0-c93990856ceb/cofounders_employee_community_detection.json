@@ -1,6 +1,6 @@
 {
-  "run_id": "50bc8c0a-27f5-4370-92c7-d4633225054b",
-  "timestamp_utc": "20260517T185056Z",
+  "run_id": "a63b583a-71b3-4dd3-bfe0-c93990856ceb",
+  "timestamp_utc": "20260517T192014Z",
   "input": {
     "gexf_path": "data/gephi/cofounders_employee.gexf",
     "nodes": 59,
@@ -38,7 +38,7 @@
             "shared": {
               "investment": [
                 {
-                  "name": "One Five",
+                  "name": "Aepnus",
                   "count": 1
                 },
                 {
@@ -46,11 +46,11 @@
                   "count": 1
                 },
                 {
-                  "name": "Aepnus",
+                  "name": "Haelixa",
                   "count": 1
                 },
                 {
-                  "name": "Haelixa",
+                  "name": "One Five",
                   "count": 1
                 }
               ],
@@ -89,6 +89,10 @@
                   "count": 2
                 },
                 {
+                  "name": "Phitech",
+                  "count": 1
+                },
+                {
                   "name": "Agrotics",
                   "count": 1
                 },
@@ -102,10 +106,6 @@
                 },
                 {
                   "name": "Khenda",
-                  "count": 1
-                },
-                {
-                  "name": "Phitech",
                   "count": 1
                 },
                 {
@@ -188,15 +188,15 @@
             "shared": {
               "investment": [
                 {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
                   "name": "Artboard Studio",
                   "count": 1
                 },
                 {
                   "name": "Chooch",
-                  "count": 1
-                },
-                {
-                  "name": "Flow48",
                   "count": 1
                 },
                 {
@@ -242,6 +242,22 @@
             "shared": {
               "investment": [
                 {
+                  "name": "Exomatter",
+                  "count": 1
+                },
+                {
+                  "name": "Smartmessage",
+                  "count": 1
+                },
+                {
+                  "name": "Appsamurai",
+                  "count": 1
+                },
+                {
+                  "name": "Fibrecoat",
+                  "count": 1
+                },
+                {
                   "name": "Insider One",
                   "count": 1
                 },
@@ -250,27 +266,11 @@
                   "count": 1
                 },
                 {
-                  "name": "Marti",
-                  "count": 1
-                },
-                {
-                  "name": "Smartmessage",
-                  "count": 1
-                },
-                {
-                  "name": "Remotepass",
-                  "count": 1
-                },
-                {
-                  "name": "Appsamurai",
+                  "name": "Solvoyo",
                   "count": 1
                 },
                 {
                   "name": "Avatao",
-                  "count": 1
-                },
-                {
-                  "name": "Solvoyo",
                   "count": 1
                 }
               ],
@@ -342,6 +342,14 @@
             "shared": {
               "investment": [
                 {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "123Formbuilder",
+                  "count": 1
+                },
+                {
                   "name": "B2Metric",
                   "count": 1
                 },
@@ -350,19 +358,11 @@
                   "count": 1
                 },
                 {
-                  "name": "123Formbuilder",
+                  "name": "Philosopherking",
                   "count": 1
                 },
                 {
                   "name": "Meddy",
-                  "count": 1
-                },
-                {
-                  "name": "Wellbees",
-                  "count": 1
-                },
-                {
-                  "name": "Philosopherking",
                   "count": 1
                 }
               ],
@@ -372,11 +372,11 @@
                   "count": 10
                 },
                 {
-                  "name": "Carnegie Mellon University",
+                  "name": "University of Illinois Urbana-Champaign",
                   "count": 1
                 },
                 {
-                  "name": "University of Illinois Urbana-Champaign",
+                  "name": "Carnegie Mellon University",
                   "count": 1
                 }
               ],
@@ -384,6 +384,14 @@
                 {
                   "name": "212",
                   "count": 2
+                },
+                {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "Bosch Turkey",
+                  "count": 1
                 },
                 {
                   "name": "Carnegie Mellon University",
@@ -394,15 +402,7 @@
                   "count": 1
                 },
                 {
-                  "name": "Wellbees",
-                  "count": 1
-                },
-                {
                   "name": "University of California, Berkeley",
-                  "count": 1
-                },
-                {
-                  "name": "Bosch Turkey",
                   "count": 1
                 }
               ]
@@ -445,6 +445,10 @@
             "shared": {
               "investment": [
                 {
+                  "name": "Smartmessage",
+                  "count": 1
+                },
+                {
                   "name": "Insider One",
                   "count": 1
                 },
@@ -453,15 +457,7 @@
                   "count": 1
                 },
                 {
-                  "name": "Marti",
-                  "count": 1
-                },
-                {
-                  "name": "Smartmessage",
-                  "count": 1
-                },
-                {
-                  "name": "Remotepass",
+                  "name": "Solvoyo",
                   "count": 1
                 },
                 {
@@ -473,7 +469,11 @@
                   "count": 1
                 },
                 {
-                  "name": "Solvoyo",
+                  "name": "Remotepass",
+                  "count": 1
+                },
+                {
+                  "name": "Marti",
                   "count": 1
                 }
               ],
@@ -519,14 +519,6 @@
             "shared": {
               "investment": [
                 {
-                  "name": "One Five",
-                  "count": 1
-                },
-                {
-                  "name": "Aibuild",
-                  "count": 1
-                },
-                {
                   "name": "Aepnus",
                   "count": 1
                 },
@@ -535,11 +527,19 @@
                   "count": 1
                 },
                 {
+                  "name": "Aibuild",
+                  "count": 1
+                },
+                {
                   "name": "Fibrecoat",
                   "count": 1
                 },
                 {
                   "name": "Haelixa",
+                  "count": 1
+                },
+                {
+                  "name": "One Five",
                   "count": 1
                 }
               ],
@@ -578,6 +578,10 @@
                   "count": 2
                 },
                 {
+                  "name": "Phitech",
+                  "count": 1
+                },
+                {
                   "name": "Agrotics",
                   "count": 1
                 },
@@ -591,10 +595,6 @@
                 },
                 {
                   "name": "Khenda",
-                  "count": 1
-                },
-                {
-                  "name": "Phitech",
                   "count": 1
                 },
                 {
@@ -637,11 +637,11 @@
             "shared": {
               "investment": [
                 {
-                  "name": "B2Metric",
+                  "name": "Voltfox",
                   "count": 1
                 },
                 {
-                  "name": "Voltfox",
+                  "name": "B2Metric",
                   "count": 1
                 },
                 {
@@ -684,15 +684,15 @@
             "shared": {
               "investment": [
                 {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
                   "name": "Artboard Studio",
                   "count": 1
                 },
                 {
                   "name": "Chooch",
-                  "count": 1
-                },
-                {
-                  "name": "Flow48",
                   "count": 1
                 },
                 {
@@ -771,15 +771,15 @@
             "shared": {
               "investment": [
                 {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
                   "name": "123Formbuilder",
                   "count": 1
                 },
                 {
                   "name": "Meddy",
-                  "count": 1
-                },
-                {
-                  "name": "Wellbees",
                   "count": 1
                 }
               ],
@@ -791,15 +791,15 @@
               ],
               "experience": [
                 {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
                   "name": "Carnegie Mellon University",
                   "count": 1
                 },
                 {
                   "name": "Carnegie Mellon University in Qatar",
-                  "count": 1
-                },
-                {
-                  "name": "Wellbees",
                   "count": 1
                 },
                 {
@@ -861,15 +861,15 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Meddy",
-                  "count": 1
-                },
-                {
                   "name": "123Formbuilder",
                   "count": 1
                 },
                 {
                   "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "Meddy",
                   "count": 1
                 }
               ],
@@ -881,15 +881,15 @@
               ],
               "experience": [
                 {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
                   "name": "Carnegie Mellon University",
                   "count": 1
                 },
                 {
                   "name": "Carnegie Mellon University in Qatar",
-                  "count": 1
-                },
-                {
-                  "name": "Wellbees",
                   "count": 1
                 }
               ]
@@ -1104,15 +1104,15 @@
             "shared": {
               "investment": [
                 {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
                   "name": "Artboard Studio",
                   "count": 1
                 },
                 {
                   "name": "Chooch",
-                  "count": 1
-                },
-                {
-                  "name": "Flow48",
                   "count": 1
                 },
                 {
@@ -1352,15 +1352,15 @@
             "shared": {
               "investment": [
                 {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
                   "name": "Artboard Studio",
                   "count": 1
                 },
                 {
                   "name": "Chooch",
-                  "count": 1
-                },
-                {
-                  "name": "Flow48",
                   "count": 1
                 },
                 {
@@ -1427,15 +1427,15 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Meddy",
-                  "count": 1
-                },
-                {
                   "name": "123Formbuilder",
                   "count": 1
                 },
                 {
                   "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "Meddy",
                   "count": 1
                 }
               ],
@@ -1447,15 +1447,15 @@
               ],
               "experience": [
                 {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
                   "name": "Carnegie Mellon University",
                   "count": 1
                 },
                 {
                   "name": "Carnegie Mellon University in Qatar",
-                  "count": 1
-                },
-                {
-                  "name": "Wellbees",
                   "count": 1
                 }
               ]
@@ -1628,15 +1628,15 @@
             "shared": {
               "investment": [
                 {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
                   "name": "Artboard Studio",
                   "count": 1
                 },
                 {
                   "name": "Chooch",
-                  "count": 1
-                },
-                {
-                  "name": "Flow48",
                   "count": 1
                 },
                 {
@@ -1703,15 +1703,15 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Meddy",
-                  "count": 1
-                },
-                {
                   "name": "123Formbuilder",
                   "count": 1
                 },
                 {
                   "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "Meddy",
                   "count": 1
                 }
               ],
@@ -1723,15 +1723,15 @@
               ],
               "experience": [
                 {
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
                   "name": "Carnegie Mellon University",
                   "count": 1
                 },
                 {
                   "name": "Carnegie Mellon University in Qatar",
-                  "count": 1
-                },
-                {
-                  "name": "Wellbees",
                   "count": 1
                 }
               ]
@@ -1898,6 +1898,10 @@
                   "count": 2
                 },
                 {
+                  "name": "Phitech",
+                  "count": 1
+                },
+                {
                   "name": "Agrotics",
                   "count": 1
                 },
@@ -1907,10 +1911,6 @@
                 },
                 {
                   "name": "Khenda",
-                  "count": 1
-                },
-                {
-                  "name": "Phitech",
                   "count": 1
                 },
                 {
@@ -1950,15 +1950,15 @@
             "shared": {
               "investment": [
                 {
+                  "name": "Flow48",
+                  "count": 1
+                },
+                {
                   "name": "Artboard Studio",
                   "count": 1
                 },
                 {
                   "name": "Chooch",
-                  "count": 1
-                },
-                {
-                  "name": "Flow48",
                   "count": 1
                 },
                 {

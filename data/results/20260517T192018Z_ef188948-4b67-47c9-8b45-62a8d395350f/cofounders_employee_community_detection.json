@@ -1,6 +1,6 @@
 {
-  "run_id": "a5deaad7-4bc2-47b5-83f2-63bd016dac5e",
-  "timestamp_utc": "20260517T185202Z",
+  "run_id": "ef188948-4b67-47c9-8b45-62a8d395350f",
+  "timestamp_utc": "20260517T192018Z",
   "input": {
     "gexf_path": "data/gephi/cofounders_employee.gexf",
     "nodes": 59,
@@ -38,7 +38,7 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Aibuild",
+                  "name": "Haelixa",
                   "count": 1
                 },
                 {
@@ -50,7 +50,7 @@
                   "count": 1
                 },
                 {
-                  "name": "Haelixa",
+                  "name": "Aibuild",
                   "count": 1
                 }
               ],
@@ -89,6 +89,14 @@
                   "count": 2
                 },
                 {
+                  "name": "Juphy",
+                  "count": 1
+                },
+                {
+                  "name": "Phitech",
+                  "count": 1
+                },
+                {
                   "name": "Agrotics",
                   "count": 1
                 },
@@ -97,15 +105,7 @@
                   "count": 1
                 },
                 {
-                  "name": "Juphy",
-                  "count": 1
-                },
-                {
                   "name": "Khenda",
-                  "count": 1
-                },
-                {
-                  "name": "Phitech",
                   "count": 1
                 },
                 {
@@ -188,10 +188,6 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Trio Mobil",
-                  "count": 1
-                },
-                {
                   "name": "Flow48",
                   "count": 1
                 },
@@ -204,11 +200,15 @@
                   "count": 1
                 },
                 {
+                  "name": "Omma",
+                  "count": 1
+                },
+                {
                   "name": "Socradar",
                   "count": 1
                 },
                 {
-                  "name": "Omma",
+                  "name": "Trio Mobil",
                   "count": 1
                 }
               ]
@@ -242,11 +242,15 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Ever Dye",
+                  "name": "Appsamurai",
                   "count": 1
                 },
                 {
-                  "name": "Appsamurai",
+                  "name": "Smartmessage",
+                  "count": 1
+                },
+                {
+                  "name": "Marti",
                   "count": 1
                 },
                 {
@@ -263,10 +267,6 @@
                 },
                 {
                   "name": "Remotepass",
-                  "count": 1
-                },
-                {
-                  "name": "Smartmessage",
                   "count": 1
                 },
                 {
@@ -342,10 +342,6 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Evercopy",
-                  "count": 1
-                },
-                {
                   "name": "Philosopherking",
                   "count": 1
                 },
@@ -354,7 +350,7 @@
                   "count": 1
                 },
                 {
-                  "name": "Wellbees",
+                  "name": "Meddy",
                   "count": 1
                 },
                 {
@@ -362,7 +358,11 @@
                   "count": 1
                 },
                 {
-                  "name": "Meddy",
+                  "name": "Wellbees",
+                  "count": 1
+                },
+                {
+                  "name": "Evercopy",
                   "count": 1
                 }
               ],
@@ -372,11 +372,11 @@
                   "count": 10
                 },
                 {
-                  "name": "University of Illinois Urbana-Champaign",
+                  "name": "Carnegie Mellon University",
                   "count": 1
                 },
                 {
-                  "name": "Carnegie Mellon University",
+                  "name": "University of Illinois Urbana-Champaign",
                   "count": 1
                 }
               ],
@@ -386,15 +386,11 @@
                   "count": 2
                 },
                 {
-                  "name": "Bosch Turkey",
-                  "count": 1
-                },
-                {
-                  "name": "Wellbees",
-                  "count": 1
-                },
-                {
                   "name": "University of California, Berkeley",
+                  "count": 1
+                },
+                {
+                  "name": "Bosch Turkey",
                   "count": 1
                 },
                 {
@@ -403,6 +399,10 @@
                 },
                 {
                   "name": "Carnegie Mellon University in Qatar",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
                   "count": 1
                 }
               ]
@@ -445,11 +445,15 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Ever Dye",
+                  "name": "Appsamurai",
                   "count": 1
                 },
                 {
-                  "name": "Appsamurai",
+                  "name": "Smartmessage",
+                  "count": 1
+                },
+                {
+                  "name": "Marti",
                   "count": 1
                 },
                 {
@@ -466,10 +470,6 @@
                 },
                 {
                   "name": "Remotepass",
-                  "count": 1
-                },
-                {
-                  "name": "Smartmessage",
                   "count": 1
                 },
                 {
@@ -519,15 +519,7 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Fibrecoat",
-                  "count": 1
-                },
-                {
-                  "name": "Exomatter",
-                  "count": 1
-                },
-                {
-                  "name": "Aibuild",
+                  "name": "Haelixa",
                   "count": 1
                 },
                 {
@@ -539,7 +531,15 @@
                   "count": 1
                 },
                 {
-                  "name": "Haelixa",
+                  "name": "Aibuild",
+                  "count": 1
+                },
+                {
+                  "name": "Exomatter",
+                  "count": 1
+                },
+                {
+                  "name": "Fibrecoat",
                   "count": 1
                 }
               ],
@@ -578,6 +578,14 @@
                   "count": 2
                 },
                 {
+                  "name": "Juphy",
+                  "count": 1
+                },
+                {
+                  "name": "Phitech",
+                  "count": 1
+                },
+                {
                   "name": "Agrotics",
                   "count": 1
                 },
@@ -586,15 +594,7 @@
                   "count": 1
                 },
                 {
-                  "name": "Juphy",
-                  "count": 1
-                },
-                {
                   "name": "Khenda",
-                  "count": 1
-                },
-                {
-                  "name": "Phitech",
                   "count": 1
                 },
                 {
@@ -684,10 +684,6 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Trio Mobil",
-                  "count": 1
-                },
-                {
                   "name": "Flow48",
                   "count": 1
                 },
@@ -696,15 +692,19 @@
                   "count": 1
                 },
                 {
-                  "name": "Omma",
-                  "count": 1
-                },
-                {
                   "name": "Chooch",
                   "count": 1
                 },
                 {
+                  "name": "Omma",
+                  "count": 1
+                },
+                {
                   "name": "Socradar",
+                  "count": 1
+                },
+                {
+                  "name": "Trio Mobil",
                   "count": 1
                 }
               ]
@@ -771,15 +771,15 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Wellbees",
-                  "count": 1
-                },
-                {
                   "name": "123Formbuilder",
                   "count": 1
                 },
                 {
                   "name": "Meddy",
+                  "count": 1
+                },
+                {
+                  "name": "Wellbees",
                   "count": 1
                 }
               ],
@@ -791,7 +791,7 @@
               ],
               "experience": [
                 {
-                  "name": "Wellbees",
+                  "name": "University of California, Berkeley",
                   "count": 1
                 },
                 {
@@ -803,7 +803,7 @@
                   "count": 1
                 },
                 {
-                  "name": "University of California, Berkeley",
+                  "name": "Wellbees",
                   "count": 1
                 }
               ]
@@ -1039,23 +1039,15 @@
                   "count": 2
                 },
                 {
-                  "name": "Evercopy",
-                  "count": 1
-                },
-                {
                   "name": "Philosopherking",
                   "count": 1
                 },
                 {
-                  "name": "B2Metric",
+                  "name": "Juphy",
                   "count": 1
                 },
                 {
                   "name": "Agrotics",
-                  "count": 1
-                },
-                {
-                  "name": "Juphy",
                   "count": 1
                 },
                 {
@@ -1065,6 +1057,14 @@
                 {
                   "name": "Reprai",
                   "count": 1
+                },
+                {
+                  "name": "Werover",
+                  "count": 1
+                },
+                {
+                  "name": "B2Metric",
+                  "count": 1
                 }
               ],
               "education": [
@@ -1073,11 +1073,11 @@
                   "count": 8
                 },
                 {
-                  "name": "Bogazici University",
+                  "name": "Marmara University",
                   "count": 1
                 },
                 {
-                  "name": "Marmara University",
+                  "name": "Bogazici University",
                   "count": 1
                 }
               ]
@@ -1104,10 +1104,6 @@
             "shared": {
               "investment": [
                 {
-                  "name": "Trio Mobil",
-                  "count": 1
-                },
-                {
                   "name": "Flow48",
                   "count": 1
                 },
@@ -1120,11 +1116,15 @@
                   "count": 1
                 },
                 {
+                  "name": "Omma",
+                  "count": 1
+                },
+                {
                   "name": "Socradar",
                   "count": 1
                 },
                 {
-                  "name": "Omma",
+                  "name": "Trio Mobil",
                   "count": 1
                 }
               ]
@@ -1364,11 +1364,11 @@
                   "count": 1
                 },
                 {
-                  "name": "Socradar",
+                  "name": "Omma",
                   "count": 1
                 },
                 {
-                  "name": "Omma",
+                  "name": "Socradar",
                   "count": 1
                 }
               ]
@@ -1640,11 +1640,11 @@
                   "count": 1
                 },
                 {
-                  "name": "Socradar",
+                  "name": "Omma",
                   "count": 1
                 },
                 {
-                  "name": "Omma",
+                  "name": "Socradar",
                   "count": 1
                 }
               ]
@@ -1898,19 +1898,19 @@
                   "count": 2
                 },
                 {
-                  "name": "Agrotics",
-                  "count": 1
-                },
-                {
                   "name": "Juphy",
                   "count": 1
                 },
                 {
-                  "name": "Khenda",
+                  "name": "Phitech",
                   "count": 1
                 },
                 {
-                  "name": "Phitech",
+                  "name": "Agrotics",
+                  "count": 1
+                },
+                {
+                  "name": "Khenda",
                   "count": 1
                 },
                 {
@@ -1962,11 +1962,11 @@
                   "count": 1
                 },
                 {
-                  "name": "Socradar",
+                  "name": "Omma",
                   "count": 1
                 },
                 {
-                  "name": "Omma",
+                  "name": "Socradar",
                   "count": 1
                 }
               ]

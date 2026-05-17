@@ -230,7 +230,7 @@ def cofounder_experience_network(cofounder_experience_jsons: dict[str, str], ove
         if not network.has_node(institution):
           attrs = {
             "bipartite": 3,
-            "type": "Former Company",
+            "type": "Experience",
             "label": institution
           }
           network.add_node(institution, **attrs)
@@ -353,7 +353,7 @@ def inv_manager_experience_network(inv_manager_experience_jsons: dict[str, str],
         if not network.has_node(institution):
           attrs = {
             "bipartite": 3,
-            "type": "Former Company",
+            "type": "Experience",
             "label": institution
           }
           network.add_node(institution, **attrs)

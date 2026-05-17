@@ -471,37 +471,37 @@
           <attvalue for="4" value="Robert College" />
         </attvalues>
       </edge>
-      <edge source="Caglar Urcan" target="Oguzhan Uyar" id="16" label="education:Bogazici University" weight="1">
+      <edge source="Caglar Urcan" target="Deniz Ozgur" id="16" label="education:Bogazici University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Bogazici University" />
         </attvalues>
       </edge>
-      <edge source="Caglar Urcan" target="Deniz Ozgur" id="17" label="education:Bogazici University" weight="1">
+      <edge source="Caglar Urcan" target="Sean Yu" id="17" label="education:Bogazici University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Bogazici University" />
         </attvalues>
       </edge>
-      <edge source="Caglar Urcan" target="Saliha Durmus" id="18" label="education:Bogazici University" weight="1">
+      <edge source="Caglar Urcan" target="Berhan Kongel" id="18" label="education:Bogazici University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Bogazici University" />
         </attvalues>
       </edge>
-      <edge source="Caglar Urcan" target="Sean Yu" id="19" label="education:Bogazici University" weight="1">
+      <edge source="Caglar Urcan" target="Baransel Soysal" id="19" label="education:Bogazici University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Bogazici University" />
         </attvalues>
       </edge>
-      <edge source="Caglar Urcan" target="Berhan Kongel" id="20" label="education:Bogazici University" weight="1">
+      <edge source="Caglar Urcan" target="Saliha Durmus" id="20" label="education:Bogazici University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Bogazici University" />
         </attvalues>
       </edge>
-      <edge source="Caglar Urcan" target="Baransel Soysal" id="21" label="education:Bogazici University" weight="1">
+      <edge source="Caglar Urcan" target="Oguzhan Uyar" id="21" label="education:Bogazici University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Bogazici University" />
@@ -576,37 +576,37 @@
           <attvalue for="3" value="Werover" />
         </attvalues>
       </edge>
-      <edge source="Selma Bahcivanoglu" target="Oguzhan Uyar" id="33" label="education:Bogazici University" weight="1">
+      <edge source="Selma Bahcivanoglu" target="Deniz Ozgur" id="33" label="education:Bogazici University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Bogazici University" />
         </attvalues>
       </edge>
-      <edge source="Selma Bahcivanoglu" target="Deniz Ozgur" id="34" label="education:Bogazici University" weight="1">
+      <edge source="Selma Bahcivanoglu" target="Berhan Kongel" id="34" label="education:Bogazici University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Bogazici University" />
         </attvalues>
       </edge>
-      <edge source="Selma Bahcivanoglu" target="Berhan Kongel" id="35" label="education:Bogazici University" weight="1">
+      <edge source="Selma Bahcivanoglu" target="Baransel Soysal" id="35" label="education:Bogazici University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Bogazici University" />
         </attvalues>
       </edge>
-      <edge source="Selma Bahcivanoglu" target="Baransel Soysal" id="36" label="education:Bogazici University" weight="1">
+      <edge source="Selma Bahcivanoglu" target="Oguzhan Uyar" id="36" label="education:Bogazici University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Bogazici University" />
         </attvalues>
       </edge>
-      <edge source="Daghan Cam" target="Cagdas Yildiz" id="37" label="education:Istanbul Technical University" weight="1">
+      <edge source="Daghan Cam" target="Ozge Sevim" id="37" label="education:Istanbul Technical University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Istanbul Technical University" />
         </attvalues>
       </edge>
-      <edge source="Daghan Cam" target="Ozge Sevim" id="38" label="education:Istanbul Technical University" weight="1">
+      <edge source="Daghan Cam" target="Cagdas Yildiz" id="38" label="education:Istanbul Technical University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Istanbul Technical University" />
@@ -685,13 +685,13 @@
           <attvalue for="5" value="Deutsche Bank" />
         </attvalues>
       </edge>
-      <edge source="Ali Karabey" target="Sean Yu" id="51" label="experience:212" weight="1">
+      <edge source="Ali Karabey" target="Batu Sat" id="51" label="experience:212" weight="1">
         <attvalues>
           <attvalue for="2" value="experience" />
           <attvalue for="5" value="212" />
         </attvalues>
       </edge>
-      <edge source="Ali Karabey" target="Batu Sat" id="52" label="experience:212" weight="1">
+      <edge source="Ali Karabey" target="Sean Yu" id="52" label="experience:212" weight="1">
         <attvalues>
           <attvalue for="2" value="experience" />
           <attvalue for="5" value="212" />
@@ -770,19 +770,19 @@
           <attvalue for="3" value="Voltfox" />
         </attvalues>
       </edge>
-      <edge source="Cagdas Yildiz" target="Olcay Silahli" id="65" label="education:Istanbul Technical University" weight="1">
+      <edge source="Cagdas Yildiz" target="Batu Sat" id="65" label="education:Istanbul Technical University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Istanbul Technical University" />
         </attvalues>
       </edge>
-      <edge source="Cagdas Yildiz" target="Balca Yilmaz" id="66" label="education:Istanbul Technical University" weight="1">
+      <edge source="Cagdas Yildiz" target="Olcay Silahli" id="66" label="education:Istanbul Technical University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Istanbul Technical University" />
         </attvalues>
       </edge>
-      <edge source="Cagdas Yildiz" target="Batu Sat" id="67" label="education:Istanbul Technical University" weight="1">
+      <edge source="Cagdas Yildiz" target="Balca Yilmaz" id="67" label="education:Istanbul Technical University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Istanbul Technical University" />
@@ -800,13 +800,13 @@
           <attvalue for="5" value="Bolt Insight" />
         </attvalues>
       </edge>
-      <edge source="Sean Yu" target="Ozge Sevim" id="70" label="experience:212" weight="1">
+      <edge source="Sean Yu" target="Kivanc Aydin" id="70" label="experience:212" weight="1">
         <attvalues>
           <attvalue for="2" value="experience" />
           <attvalue for="5" value="212" />
         </attvalues>
       </edge>
-      <edge source="Sean Yu" target="Kivanc Aydin" id="71" label="experience:212" weight="1">
+      <edge source="Sean Yu" target="Ozge Sevim" id="71" label="experience:212" weight="1">
         <attvalues>
           <attvalue for="2" value="experience" />
           <attvalue for="5" value="212" />
@@ -830,13 +830,13 @@
           <attvalue for="3" value="Fibrecoat" />
         </attvalues>
       </edge>
-      <edge source="Gizem Yagiz" target="Mukremin Cetinkaya" id="75" label="education:Orta Dogu Teknik Universitesi / Middle East Technical University" weight="1">
+      <edge source="Gizem Yagiz" target="Selim Satici" id="75" label="education:Orta Dogu Teknik Universitesi / Middle East Technical University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Orta Dogu Teknik Universitesi / Middle East Technical University" />
         </attvalues>
       </edge>
-      <edge source="Gizem Yagiz" target="Selim Satici" id="76" label="education:Orta Dogu Teknik Universitesi / Middle East Technical University" weight="1">
+      <edge source="Gizem Yagiz" target="Mukremin Cetinkaya" id="76" label="education:Orta Dogu Teknik Universitesi / Middle East Technical University" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="Orta Dogu Teknik Universitesi / Middle East Technical University" />
@@ -848,13 +848,13 @@
           <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
         </attvalues>
       </edge>
-      <edge source="Gizem Yagiz" target="Hande Cilingir" id="78" label="education:The London School of Economics and Political Science (LSE)" weight="1">
+      <edge source="Gizem Yagiz" target="Batuhan Ozcan" id="78" label="education:The London School of Economics and Political Science (LSE)" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
         </attvalues>
       </edge>
-      <edge source="Gizem Yagiz" target="Batuhan Ozcan" id="79" label="education:The London School of Economics and Political Science (LSE)" weight="1">
+      <edge source="Gizem Yagiz" target="Hande Cilingir" id="79" label="education:The London School of Economics and Political Science (LSE)" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
@@ -890,13 +890,13 @@
           <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
         </attvalues>
       </edge>
-      <edge source="Kivanc Aydin" target="Hande Cilingir" id="85" label="education:The London School of Economics and Political Science (LSE)" weight="1">
+      <edge source="Kivanc Aydin" target="Batuhan Ozcan" id="85" label="education:The London School of Economics and Political Science (LSE)" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />
         </attvalues>
       </edge>
-      <edge source="Kivanc Aydin" target="Batuhan Ozcan" id="86" label="education:The London School of Economics and Political Science (LSE)" weight="1">
+      <edge source="Kivanc Aydin" target="Hande Cilingir" id="86" label="education:The London School of Economics and Political Science (LSE)" weight="1">
         <attvalues>
           <attvalue for="2" value="education" />
           <attvalue for="4" value="The London School of Economics and Political Science (LSE)" />

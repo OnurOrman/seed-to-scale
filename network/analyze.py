@@ -6,7 +6,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from helpers.constants import COFOUNDER_EMPLOYEE_GEPHI, COMMUNITY_DETECTION_JSON, GEPHI_PATH, NETWORK_STATS_JSON, RESULTS_PATH
+from helpers.constants import *
 from helpers.logging import configure_logging, get_logger
 from helpers.string import is_name_in
 from helpers.run import current_run_info
@@ -346,7 +346,7 @@ def _run_community_detection(gexf_path: Path, results_dir: Path, run_payload: di
 			),
 		})
 
-	results_path = results_dir / COMMUNITY_DETECTION_JSON
+	results_path = results_dir / f"{COFOUNDER}_{EMPLOYEE}_{COMMUNITY_DETECTION_JSON}"
 	with results_path.open("w", encoding = "utf-8") as handle:
 		json.dump(run_payload, handle, indent = 2, ensure_ascii = False)
 
@@ -376,8 +376,8 @@ def detect_communities(_run_id = None, _run_ts = None):
 	graph = _run_community_detection(gexf_path, results_dir, run_payload)
 	if graph is None:
 		return
-
-	stats_path = results_dir / NETWORK_STATS_JSON
+	
+	stats_path = results_dir / f"{COFOUNDER}_{EMPLOYEE}_{NETWORK_STATS_JSON}"
 	with stats_path.open("w", encoding = "utf-8") as handle:
 		json.dump(_describe_network(gexf_path), handle, indent = 2, ensure_ascii = False)
 
@@ -388,7 +388,8 @@ def describe_network(gexf_file: str, run_id, run_ts, overwrite: bool = False):
 	results_dir = Path(RESULTS_PATH) / f"{run_ts}_{run_id}"
 	results_dir.mkdir(parents = True, exist_ok = True)
 
-	stats_path = results_dir / NETWORK_STATS_JSON
+	plain_file = gexf_file[:gexf_file.find(".gexf")]
+	stats_path = results_dir / f"{plain_file}_{NETWORK_STATS_JSON}"
 
 	if stats_path.exists() and not overwrite:
 		logger.info("GEXF already exists: %s", str(stats_path))
