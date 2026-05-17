@@ -19,14 +19,18 @@ def scrape_linkedin_pages(vc: str, names_links: dict[str, str], category: str, l
   # Experience: div class: _905c4fe2 _81f0ce2b _4904c7ef _56dcffcd _541acca0 _86dbe298 _3d7860a2; entity-collection-item componentkey of div
   # Volunteering: div class: _905c4fe2 dd265f4a _81f0ce2b _4904c7ef _56dcffcd _541acca0 _86dbe298 _3d7860a2
 
+  page_name = linkedin_page if linkedin_page != "" else "main"
+  logger.info(f"Preparing to scrape {category} {page_name} data for {vc} from local HTML files...")
+
   out_json_dict = dict()
-  out_json_file = f"{vc}_{category}_{linkedin_page if linkedin_page != "" else "main"}{JSON_EXT}"
+  out_json_file = f"{vc}_{category}_{page_name}{JSON_EXT}"
   out_json_path = Path(JSON_PATH) / out_json_file
 
   if out_json_path.exists() and not overwrite:
+    logger.info(f"Output file {out_json_file} already exists. Skipping (use --overwrite to force).")
     return
 
-  target = f"{vc}_{category}_linkedin_{linkedin_page if linkedin_page != "" else "main"}"
+  target = f"{vc}_{category}_linkedin_{page_name}"
 
   target_csv = f"{target}{CSV_EXT}"
   target_csv_path = Path(CSV_PATH) / target_csv
@@ -40,10 +44,15 @@ def scrape_linkedin_pages(vc: str, names_links: dict[str, str], category: str, l
       target_link = f"{link}{DETAILS_LINKEDIN}/{linkedin_page}"
       target_html_files = target_df[target_df["url"] == target_link]["file_path"].tolist()
 
-      if len(target_html_files) == 1:
+      if len(target_html_files) == 0:
+        logger.debug(f"Warning: No HTML file found for {name} ({target_link})")
+      elif len(target_html_files) > 1:
+        logger.warning(f"Warning: Multiple HTML files ({len(target_html_files)}) found for {name} ({target_link}). Skipping safely.")
+      elif len(target_html_files) == 1:
         target_html_file = target_html_files[0]
       
         target_html_path = target_html_dir / target_html_file
+        logger.debug(f"Parsing HTML for {name} from {target_html_file}")
 
         with open(target_html_path, "r", encoding = "utf-8") as f:
           html_content = f.read()
@@ -93,7 +102,8 @@ def scrape_linkedin_pages(vc: str, names_links: dict[str, str], category: str, l
 
               elif "d8d5bbbc bab73015 _2dffdc6d _6718f443 e1321d56 a5c40a37 _24f71c1d e2a4ad5d e4602472 _07666e83" in " ".join(target_p.get("class", [])):
                 current_company = target_p.contents[0].strip()
-                current_company = current_company[:current_company.find(" · ")]
+                if " · " in current_company:
+                  current_company = current_company[:current_company.find(" · ")]
                 current_experience_info["company"] = current_company
                 experience_info.append(current_experience_info)
 
@@ -132,15 +142,22 @@ def scrape_linkedin_pages(vc: str, names_links: dict[str, str], category: str, l
 
             out_json_dict[name] = volunteering_info
 
+  logger.info(f"Saving extracted {category} data to {out_json_path}")
   with open(out_json_path, "w", encoding = "utf-8") as f:
     json.dump(out_json_dict, f, indent = 2, ensure_ascii = False)   
 
 def main(overwrite: bool = False):
   configure_logging()
+  logger.info(f"Starting LinkedIn parsing process (overwrite={overwrite})")
 
-  vcs = os.getenv("VC").split(",")
+  vc_env = os.getenv("VC")
+  if not vc_env:
+    logger.error("No VC specified in environment variables.")
+    return
+  vcs = vc_env.split(",")
 
   for vc in vcs:
+    logger.info(f"Processing VC: {vc}")
     cofounders_inv_managers_path = Path(CSV_PATH) / f"{vc}_{COFOUNDER_INVESTMENT_CSV}"
     cofounders_inv_managers_df = pd.read_csv(cofounders_inv_managers_path)
     initial_cofounder_names = [cofounders_inv_managers_df.iloc[i]["cofounders_name"]\
@@ -175,11 +192,11 @@ def main(overwrite: bool = False):
     scrape_linkedin_pages(vc, cofounder_info, COFOUNDER, VOLUNTEERING, overwrite)
 
     inv_managers_dict = get_investment_managers(f"{vc}_{INV_MANAGERS_JSON}")
+    logger.info(f"Scraping employee data for {vc}...")
     scrape_linkedin_pages(vc, inv_managers_dict, EMPLOYEE, EDUCATION, overwrite)
     scrape_linkedin_pages(vc, inv_managers_dict, EMPLOYEE, EXPERIENCE, overwrite)
     scrape_linkedin_pages(vc, inv_managers_dict, EMPLOYEE, VOLUNTEERING, overwrite)
-
-
+    logger.info(f"Finished processing VC: {vc}")
 
 if __name__ == "__main__":
   load_dotenv()
