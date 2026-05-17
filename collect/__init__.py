@@ -1,3 +1,10 @@
+from . import linkedin
+from . import vc_212
 from .investment_managers import collect_investment_managers, get_investment_managers
-from .linkedin import *
-from .vc_212 import *
+
+__all__ = [
+  "collect_investment_managers",
+  "get_investment_managers",
+  "linkedin",
+  "vc_212"
+]

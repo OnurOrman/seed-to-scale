@@ -236,7 +236,6 @@ def cofounder_inv_manager_network(
 
 def main(overwrite: bool = False):
   configure_logging()
-  load_dotenv()
 
   vcs = os.getenv("VC").split(",")
   portfolio_csvs = dict(); team_csvs = dict(); cofounder_inv_manager_csvs = dict()
@@ -269,6 +268,7 @@ def main(overwrite: bool = False):
   company_inv_manager_network(cofounder_inv_manager_csvs, overwrite)
 
 if __name__ == "__main__":
+  load_dotenv()
   args = [arg for arg in sys.argv[1:] if arg != "--overwrite"]
   overwrite_flag = "--overwrite" in sys.argv
 

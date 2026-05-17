@@ -9,7 +9,7 @@ import scrape
 from dotenv import load_dotenv
 
 from helpers.logging import configure_logging, get_logger
-from helpers.string import csv_names_for_vc
+from helpers.string import csv_names_for_vc, json_names_for_vc
 
 logger = get_logger(__name__)
 
@@ -58,6 +58,11 @@ def main(overwrite: bool = False, collect_flag: bool = False, scrape_flag: bool 
     investment_managers_csvs = dict(); investment_managers_education_csvs = dict()
     investment_managers_experience_csvs = dict(); investment_managers_volunteering_csvs = dict()
 
+    cofounders_education_jsons = dict(); cofounders_experience_jsons = dict();\
+      cofounders_volunteering_jsons = dict()
+    investment_managers_education_jsons = dict(); investment_managers_experience_jsons = dict();\
+      investment_managers_volunteering_jsons = dict()
+
     for vc in vcs:
       portfolio_csvs[vc], team_csvs[vc], cofounders_inv_manager_csvs[vc],\
       cofounders_csvs[vc], cofounders_education_csvs[vc],\
@@ -65,10 +70,34 @@ def main(overwrite: bool = False, collect_flag: bool = False, scrape_flag: bool 
       investment_managers_csvs[vc], investment_managers_education_csvs[vc],\
       investment_managers_experience_csvs[vc], investment_managers_volunteering_csvs[vc]\
       = csv_names_for_vc(vc)
+      
+      cofounders_education_jsons[vc], cofounders_experience_jsons[vc],\
+      cofounders_volunteering_jsons[vc], investment_managers_education_jsons[vc],\
+      investment_managers_experience_jsons[vc], investment_managers_volunteering_jsons[vc]\
+      = json_names_for_vc(vc)
 
     network.generate.vc_company_network(portfolio_csvs, overwrite)
     network.generate.company_cofounder_network(cofounders_inv_manager_csvs, overwrite)
     network.generate.company_inv_manager_network(cofounders_inv_manager_csvs, overwrite)
+    
+    network.generate.cofounder_education_network(cofounders_education_jsons, overwrite)
+    network.generate.cofounder_experience_network(cofounders_experience_jsons, overwrite)
+    network.generate.cofounder_volunteering_network(cofounders_volunteering_jsons, overwrite)
+
+    network.generate.inv_manager_education_network(investment_managers_education_jsons, overwrite)
+    network.generate.inv_manager_experience_network(investment_managers_experience_jsons, overwrite)
+    network.generate.inv_manager_volunteering_network(investment_managers_volunteering_jsons, overwrite)
+
+    network.generate.cofounder_inv_manager_network(
+      cofounders_inv_manager_csvs,
+      cofounders_education_jsons,
+      investment_managers_education_jsons,
+      cofounders_experience_jsons,
+      investment_managers_experience_jsons,
+      cofounders_volunteering_jsons,
+      investment_managers_volunteering_jsons,
+      overwrite
+    )
 
 if __name__ == "__main__":
   configure_logging()

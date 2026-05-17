@@ -1,1 +1,5 @@
-from .linkedin import *
+from . import linkedin
+
+__all__ = [
+  "linkedin"
+]
