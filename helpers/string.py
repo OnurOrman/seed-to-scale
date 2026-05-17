@@ -98,6 +98,16 @@ def csv_names_for_vc(vc: str):
     f"{vc}_{EMPLOYEE_VOL_CSV}"
   )
 
+def json_names_for_vc(vc: str):
+  return (
+    f"{vc}_{COFOUNDER_EDU_JSON}",
+    f"{vc}_{COFOUNDER_EXP_JSON}",
+    f"{vc}_{COFOUNDER_VOL_JSON}",
+    f"{vc}_{EMPLOYEE_EDU_JSON}",
+    f"{vc}_{EMPLOYEE_EXP_JSON}",
+    f"{vc}_{EMPLOYEE_VOL_JSON}"
+  )
+
 def format_name(name: str) -> str:
   formatted_name = ""
   for word in name.split(" "):

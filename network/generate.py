@@ -8,7 +8,7 @@ from pathlib import Path
 
 from helpers.constants import *
 from helpers.logging import configure_logging, get_logger
-from helpers.string import csv_names_for_vc, extract_unique_names
+from helpers.string import csv_names_for_vc, extract_unique_names, json_names_for_vc
 
 logger = get_logger(__name__)
 
@@ -162,6 +162,78 @@ def company_inv_manager_network(cofounder_inv_manager_csvs: dict[str, str], over
   )
   logger.info("Company-Investment Manager network saved to: %s", network_gexf_path)
 
+def cofounder_education_network(cofounder_education_jsons: dict[str, str], overwrite: bool = False):
+  network_gexf_path = Path(GEPHI_PATH) / COFOUNDER_EDU_GEPHI
+  if network_gexf_path.exists() and not overwrite:
+    logger.info("GEXF already exists: %s", str(network_gexf_path))
+    return
+
+  return
+
+def cofounder_experience_network(cofounder_experience_jsons: dict[str, str], overwrite: bool = False):
+  network_gexf_path = Path(GEPHI_PATH) / COFOUNDER_EXP_GEPHI
+  if network_gexf_path.exists() and not overwrite:
+    logger.info("GEXF already exists: %s", str(network_gexf_path))
+    return
+  
+  return
+
+def cofounder_volunteering_network(cofounder_volunteering_jsons: dict[str, str], overwrite: bool = False):
+  network_gexf_path = Path(GEPHI_PATH) / COFOUNDER_VOL_GEPHI
+  if network_gexf_path.exists() and not overwrite:
+    logger.info("GEXF already exists: %s", str(network_gexf_path))
+    return
+
+  return
+
+def inv_manager_education_network(inv_manager_education_jsons: dict[str, str], overwrite: bool = False):
+  network_gexf_path = Path(GEPHI_PATH) / EMPLOYEE_EDU_GEPHI
+  if network_gexf_path.exists() and not overwrite:
+    logger.info("GEXF already exists: %s", str(network_gexf_path))
+    return
+
+  return
+
+def inv_manager_experience_network(inv_manager_experience_jsons: dict[str, str], overwrite: bool = False):
+  network_gexf_path = Path(GEPHI_PATH) / EMPLOYEE_EXP_GEPHI
+  if network_gexf_path.exists() and not overwrite:
+    logger.info("GEXF already exists: %s", str(network_gexf_path))
+    return
+
+  return
+
+def inv_manager_volunteering_network(inv_manager_volunteering_jsons: dict[str, str], overwrite: bool = False):
+  network_gexf_path = Path(GEPHI_PATH) / EMPLOYEE_VOL_GEPHI
+  if network_gexf_path.exists() and not overwrite:
+    logger.info("GEXF already exists: %s", str(network_gexf_path))
+    return
+
+  return
+
+def cofounder_inv_manager_network(
+    cofounder_inv_manager_csvs: dict[str, str],
+    cofounder_education_jsons: dict[str, str],
+    inv_manager_education_jsons: dict[str, str],
+    cofounder_experience_jsons: dict[str, str],
+    inv_manager_experience_jsons: dict[str, str],
+    cofounder_volunteering_jsons: dict[str, str],
+    inv_manager_volunteering_jsons: dict[str, str],
+    overwrite: bool = False
+  ):
+  # Nodes: Cofounder, Investment manager
+  # Layer 1:
+    # Edges: Cofounder founded a company; investment manager was responsible for the investment in the company
+  # Layer 2:
+    # Edges: A shared college or high school
+  # Layer 3:
+    # Edges: A common company for work experience
+  network_gexf_path = Path(GEPHI_PATH) / COFOUNDER_EMPLOYEE_GEPHI
+  if network_gexf_path.exists() and not overwrite:
+    logger.info("GEXF already exists: %s", str(network_gexf_path))
+    return
+
+  return
+
 def main(overwrite: bool = False):
   configure_logging()
   load_dotenv()
@@ -174,6 +246,11 @@ def main(overwrite: bool = False):
   investment_managers_csvs = dict(); investment_managers_education_csvs = dict()
   investment_managers_experience_csvs = dict(); investment_managers_volunteering_csvs = dict()
 
+  cofounders_education_jsons = dict(); cofounders_experience_jsons = dict();\
+    cofounders_volunteering_jsons = dict()
+  investment_managers_education_jsons = dict(); investment_managers_experience_jsons = dict();\
+    investment_managers_volunteering_jsons = dict()
+
   for vc in vcs:
     portfolio_csvs[vc], team_csvs[vc], cofounder_inv_manager_csvs[vc],\
     cofounders_csvs[vc], cofounders_education_csvs[vc],\
@@ -181,6 +258,11 @@ def main(overwrite: bool = False):
     investment_managers_csvs[vc], investment_managers_education_csvs[vc],\
     investment_managers_experience_csvs[vc], investment_managers_volunteering_csvs[vc]\
     = csv_names_for_vc(vc)
+
+    cofounders_education_jsons[vc], cofounders_experience_jsons[vc],\
+    cofounders_volunteering_jsons[vc], investment_managers_education_jsons[vc],\
+    investment_managers_experience_jsons[vc], investment_managers_volunteering_jsons[vc]\
+    = json_names_for_vc(vc)
   
   vc_company_network(portfolio_csvs, overwrite)
   company_cofounder_network(cofounder_inv_manager_csvs, overwrite)
