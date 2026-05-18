@@ -20,7 +20,8 @@ def main(
     scrape_flag: bool = False,
     network_flag: bool = False,
     description_flag: bool = False,
-    community_flag: bool = False
+    community_flag: bool = False,
+    plot_flag: bool = False
   ):
   logger.info("Starting seed-to-scale run.")
   run_id, run_ts = current_run_info()
@@ -114,16 +115,22 @@ def main(
   if community_flag:
     network.analyze.detect_communities(run_id, run_ts)
 
+  if plot_flag:
+    network.plot.main()
+
 if __name__ == "__main__":
   configure_logging()
   load_dotenv()
-  args = [arg for arg in sys.argv[1:] if arg != "--overwrite" and arg != "--collect" and arg != "--scrape" and arg != "--network" and arg != "--describe" and arg != "--community"]
+  args = [arg for arg in sys.argv[1:] if arg != "--overwrite" and arg != "--collect" and arg != "--scrape"\
+          and arg != "--network" and arg != "--describe" and arg != "--community"\
+            and arg != "--plot"]
   overwrite_flag = "--overwrite" in sys.argv
   collect_flag = "--collect" in sys.argv
   scrape_flag = "--scrape" in sys.argv
   network_flag = "--network" in sys.argv
   description_flag = "--describe" in sys.argv
   community_flag = "--community" in sys.argv
+  plot_flag = "--plot" in sys.argv
 
   if len(args) != 0:
     logger.error("Usage: uv run main.py [--overwrite] [--collect] [--scrape] [--network] [--describe] [--community]")
@@ -131,4 +138,4 @@ if __name__ == "__main__":
 
   main(overwrite = overwrite_flag, collect_flag = collect_flag, scrape_flag = scrape_flag,
        network_flag = network_flag, description_flag = description_flag,
-       community_flag = community_flag)
+       community_flag = community_flag, plot_flag = plot_flag)

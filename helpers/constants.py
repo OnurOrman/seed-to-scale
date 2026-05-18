@@ -114,6 +114,8 @@ LINKEDIN_IN_CANONICAL = f"{LINKEDIN_CANONICAL_START}{LINKEDIN_BASE}/in/"
 
 LINKEDIN_404 = f"{LINKEDIN_BASE}/404"
 
+FIGURES_PATH = "figures"
+
 # ---------- VCs ----------
 BASE_212 = "https://212.vc"
 PORTFOLIO_212 = f"{BASE_212}/portfolio"

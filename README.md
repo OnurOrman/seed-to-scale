@@ -37,6 +37,10 @@ uv run -m network.generate [--overwrite]
 uv run -m network.analyze [--overwrite]
 ```
 
+```bash
+uv run -m network.plot
+```
+
 ## How to set up the project workflow?
 ```bash
 uv venv
