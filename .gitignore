@@ -213,3 +213,10 @@ state/
 **/**_playwright_state.json
 
 **/**.html
+
+# LaTeX artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
