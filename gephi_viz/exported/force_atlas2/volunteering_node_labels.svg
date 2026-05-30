@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1816.9224"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-929.385742 -884.000000 1816.922363 1722.000000" height="1722.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="120.39948"
+                class="id_Florin_Cornianu" cy="773.46533" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="848.21265"
+                class="id_Lukas_Hackl" cy="75.55123" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="545.3369"
+                class="id_Bilen_Akuzum" cy="-679.4778" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-460.05292"
+                class="id_Mehmet_Coka" cy="-520.73566" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-603.8783"
+                class="id_Daghan_Cam" cy="-671.66296" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-312.99396"
+                class="id_Michail_Desyllas" cy="-765.2075" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="112.76455"
+                class="id_Emre_Fadillioglu" cy="-118.63918" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="99.954544"
+                class="id_Mucahit_Gayiran" cy="599.9298" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-306.0148"
+                class="id_Mark_Felegyhazi" cy="-666.7036" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="782.32916"
+                class="id_Murat_Hacioglu" cy="322.59265" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-312.4611"
+                class="id_Hakan_Yurdakul" cy="-869.2907" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="77.48156"
+                class="id_Emrah_Gultekin" cy="449.65936" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="575.53436"
+                class="id_Sean_Yu" cy="721.3828" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="30.065786"
+                class="id_Philippe_Berlan" cy="111.11792" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="24.195738"
+                class="id_Solidarcite" cy="113.42661" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-572.8034"
+                class="id_Deniz_Ozgur" cy="465.2341" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-704.08704"
+                class="id_Josua_Vieten" cy="-356.74976" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-708.982"
+                class="id_Bayerische_Volkssternwarte_München_e.V."
+                cy="-352.74527" stroke="#7c3b21" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-280.6015"
+                class="id_Olcay_Silahli" cy="-96.05125" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-289.09503"
+                class="id_Free_The_Children" cy="-98.88677" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-272.15552"
+                class="id_One_Young_World" cy="-93.22347" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="464.7357"
+                class="id_Robert_Brull" cy="-533.8874" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="470.53735"
+                class="id_Rugby_Club_Aachen" cy="-536.2633" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-817.84296"
+                class="id_Tunga_Bayrak" cy="-475.8891" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="0.022994108"
+                class="id_Tomas_Nepala" cy="-0.024475975" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-3.70508"
+                class="id_YPO" cy="-8.9373" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="10.101295"
+                class="id_Vysoká_škola_ekonomická_v_Praze" cy="-0.9422883"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-5.7860017"
+                class="id_Dostupné_Doučování_(Accessible_Tutoring)"
+                cy="7.8926477" stroke="#7c3b21" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-186.52051"
+                class="id_Mehmet_Ertan_Uygun" cy="67.049614" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="220.10133"
+                class="id_Gediminas_Mikutis" cy="-148.2265" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-451.0134"
+                class="id_Arden_Agopyan" cy="647.18475" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-769.6089"
+                class="id_Ali_Beklen" cy="334.4769" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-332.53046"
+                class="id_Hande_Cilingir" cy="516.3833" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-67.70262"
+                class="id_Alara_Eren_Iplikcioglu" cy="-443.58292"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-74.61446"
+                class="id_Westminster_Business_School" cy="-453.88947"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-62.486973"
+                class="id_GLA_Thailand" cy="-432.60468" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-78.38063"
+                class="id_Rotary_International" cy="-436.62027" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-56.830406"
+                class="id_Toplum_Gönüllüleri_Vakfı_(TOG)" cy="-449.946"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="166.12143"
+                class="id_Berhan_Kongel" cy="-275.37274" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="360.7759"
+                class="id_Cagkan_Ekici" cy="-212.73518" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="142.78471"
+                class="id_Batu_Sat" cy="-672.64984" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="639.93585"
+                class="id_Oguz_Alper_Oktem" cy="-217.81178" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-149.41217"
+                class="id_Haris_Aghadi" cy="285.85693" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-144.05206"
+                class="id_Qatar_Red_Crescent_Society" cy="278.7379"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-154.81036"
+                class="id_Carnegie_Mellon_University_in_Qatar" cy="293.014"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="729.5221"
+                class="id_Oguzhan_Uyar" cy="-436.87424" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="641.63214"
+                class="id_Tolga_Sen" cy="575.5103" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-658.38043"
+                class="id_Sadok_Kohen" cy="583.4722" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="256.04773"
+                class="id_Saliha_Durmus" cy="740.85144" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="670.2614"
+                class="id_Baransel_Soysal" cy="300.46838" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="694.5701"
+                class="id_Kamal_Reggad" cy="-38.916393" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="357.4238"
+                class="id_Didem_Aral" cy="166.226" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="347.54126"
+                class="id_WEConnect_International" cy="157.37413"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="370.8863"
+                class="id_Techstars" cy="167.20853" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="360.6694"
+                class="id_Arya_Women_Investment_Platform" cy="179.98853"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="345.122"
+                class="id_Faydasıçok_Vakfı" cy="173.20154" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="362.48737"
+                class="id_Yenibirlider_Association" cy="153.26749"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="810.6834"
+                class="id_Mukremin_Cetinkaya" cy="-183.8084" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="525.6448"
+                class="id_Huzeyfe_Onal" cy="-319.76425" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="853.5288"
+                class="id_Oguz_Kucukbarak" cy="440.74353" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="75.53115"
+                class="id_Koray_Dogan" cy="-874.22296" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-115.26877"
+                class="id_Batuhan_Ozcan" cy="707.4397" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-109.248375"
+                class="id_IEEE" cy="705.5216" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-229.01915"
+                class="id_Nevzat_Atakli" cy="828.31415" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-419.30618"
+                class="id_Selim_Satici" cy="799.3657" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-588.0865"
+                class="id_Ceren_Melis_Abacioglu" cy="212.03523" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-579.4822"
+                class="id_NEVER_AGAIN_RWANDA" cy="210.232" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-596.7278"
+                class="id_Teach_for_Turkey" cy="213.84901" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="212.49861"
+                class="id_Balca_Yilmaz" cy="489.41196" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-782.7038"
+                class="id_Martin_Weber" cy="14.342644" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-627.6337"
+                class="id_Ali_Karabey" cy="-114.06979" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="297.7652"
+                class="id_Cagdas_Yildiz" cy="-726.22705" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-904.4873"
+                class="id_Caglar_Urcan" cy="142.8765" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-110.07084"
+                class="id_Gizem_Yagiz" cy="33.82808" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="516.59924"
+                class="id_Kivanc_Aydin" cy="-151.72241" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="392.39633"
+                class="id_Maher_Hakim" cy="779.0064" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="250.22458"
+                class="id_Numan_Numan" cy="-390.06934" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-88.61294"
+                class="id_Ozge_Sevim" cy="-84.73555" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="439.2604"
+                class="id_Selma_Bahcivanoglu" cy="563.55743" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="8" x="120.39948" y="776.1079" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Florin_Cornianu" font-weight="bold">
+            Florin Cornianu
+        </text>
+        <text font-size="8" x="848.21265" y="78.19381" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Lukas_Hackl" font-weight="bold">
+            Lukas Hackl
+        </text>
+        <text font-size="8" x="545.3369" y="-676.8352" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Bilen_Akuzum" font-weight="bold">
+            Bilen Akuzum
+        </text>
+        <text font-size="8" x="-460.05292" y="-518.0931" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mehmet_Coka" font-weight="bold">
+            Mehmet Coka
+        </text>
+        <text font-size="8" x="-603.8783" y="-669.0204" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Daghan_Cam" font-weight="bold">
+            Daghan Cam
+        </text>
+        <text font-size="8" x="-312.99396" y="-762.56494" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Michail_Desyllas" font-weight="bold">
+            Michail Desyllas
+        </text>
+        <text font-size="8" x="112.76455" y="-115.996605" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Emre_Fadillioglu" font-weight="bold">
+            Emre Fadillioglu
+        </text>
+        <text font-size="8" x="99.954544" y="602.5724" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mucahit_Gayiran" font-weight="bold">
+            Mucahit Gayiran
+        </text>
+        <text font-size="8" x="-306.0148" y="-664.06104" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mark_Felegyhazi" font-weight="bold">
+            Mark Felegyhazi
+        </text>
+        <text font-size="8" x="782.32916" y="325.23523" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Murat_Hacioglu" font-weight="bold">
+            Murat Hacioglu
+        </text>
+        <text font-size="8" x="-312.4611" y="-866.64813" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Hakan_Yurdakul" font-weight="bold">
+            Hakan Yurdakul
+        </text>
+        <text font-size="8" x="77.48156" y="452.30194" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Emrah_Gultekin" font-weight="bold">
+            Emrah Gultekin
+        </text>
+        <text font-size="8" x="575.53436" y="724.0254" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Sean_Yu" font-weight="bold">
+            Sean Yu
+        </text>
+        <text font-size="8" x="30.065786" y="113.7605" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Philippe_Berlan" font-weight="bold">
+            Philippe Berlan
+        </text>
+        <text font-size="8" x="-572.8034" y="467.87668" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Deniz_Ozgur" font-weight="bold">
+            Deniz Ozgur
+        </text>
+        <text font-size="8" x="-704.08704" y="-354.10718" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Josua_Vieten" font-weight="bold">
+            Josua Vieten
+        </text>
+        <text font-size="8" x="-280.6015" y="-93.40867" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Olcay_Silahli" font-weight="bold">
+            Olcay Silahli
+        </text>
+        <text font-size="8" x="464.7357" y="-531.2448" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Robert_Brull" font-weight="bold">
+            Robert Brull
+        </text>
+        <text font-size="8" x="-817.84296" y="-473.24652" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Tunga_Bayrak" font-weight="bold">
+            Tunga Bayrak
+        </text>
+        <text font-size="8" x="0.022994108" y="2.618102" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Tomas_Nepala" font-weight="bold">
+            Tomas Nepala
+        </text>
+        <text font-size="8" x="-186.52051" y="69.69219" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mehmet_Ertan_Uygun" font-weight="bold">
+            Mehmet Ertan Uygun
+        </text>
+        <text font-size="8" x="220.10133" y="-145.58392" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Gediminas_Mikutis" font-weight="bold">
+            Gediminas Mikutis
+        </text>
+        <text font-size="8" x="-451.0134" y="649.82733" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Arden_Agopyan" font-weight="bold">
+            Arden Agopyan
+        </text>
+        <text font-size="8" x="-769.6089" y="337.11948" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ali_Beklen" font-weight="bold">
+            Ali Beklen
+        </text>
+        <text font-size="8" x="-332.53046" y="519.0259" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Hande_Cilingir" font-weight="bold">
+            Hande Cilingir
+        </text>
+        <text font-size="8" x="-67.70262" y="-440.94034" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Alara_Eren_Iplikcioglu" font-weight="bold">
+            Alara Eren Iplikcioglu
+        </text>
+        <text font-size="8" x="166.12143" y="-272.73016" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Berhan_Kongel" font-weight="bold">
+            Berhan Kongel
+        </text>
+        <text font-size="8" x="360.7759" y="-210.0926" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Cagkan_Ekici" font-weight="bold">
+            Cagkan Ekici
+        </text>
+        <text font-size="8" x="142.78471" y="-670.00726" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Batu_Sat" font-weight="bold">
+            Batu Sat
+        </text>
+        <text font-size="8" x="639.93585" y="-215.1692" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Oguz_Alper_Oktem" font-weight="bold">
+            Oguz Alper Oktem
+        </text>
+        <text font-size="8" x="-149.41217" y="288.4995" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Haris_Aghadi" font-weight="bold">
+            Haris Aghadi
+        </text>
+        <text font-size="8" x="729.5221" y="-434.23166" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Oguzhan_Uyar" font-weight="bold">
+            Oguzhan Uyar
+        </text>
+        <text font-size="8" x="641.63214" y="578.1529" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Tolga_Sen" font-weight="bold">
+            Tolga Sen
+        </text>
+        <text font-size="8" x="-658.38043" y="586.1148" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Sadok_Kohen" font-weight="bold">
+            Sadok Kohen
+        </text>
+        <text font-size="8" x="256.04773" y="743.494" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Saliha_Durmus" font-weight="bold">
+            Saliha Durmus
+        </text>
+        <text font-size="8" x="670.2614" y="303.11096" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Baransel_Soysal" font-weight="bold">
+            Baransel Soysal
+        </text>
+        <text font-size="8" x="694.5701" y="-36.273815" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Kamal_Reggad" font-weight="bold">
+            Kamal Reggad
+        </text>
+        <text font-size="8" x="357.4238" y="168.86858" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Didem_Aral" font-weight="bold">
+            Didem Aral
+        </text>
+        <text font-size="8" x="810.6834" y="-181.16582" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mukremin_Cetinkaya" font-weight="bold">
+            Mukremin Cetinkaya
+        </text>
+        <text font-size="8" x="525.6448" y="-317.12167" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Huzeyfe_Onal" font-weight="bold">
+            Huzeyfe Onal
+        </text>
+        <text font-size="8" x="853.5288" y="443.3861" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Oguz_Kucukbarak" font-weight="bold">
+            Oguz Kucukbarak
+        </text>
+        <text font-size="8" x="75.53115" y="-871.5804" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Koray_Dogan" font-weight="bold">
+            Koray Dogan
+        </text>
+        <text font-size="8" x="-115.26877" y="710.0823" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Batuhan_Ozcan" font-weight="bold">
+            Batuhan Ozcan
+        </text>
+        <text font-size="8" x="-229.01915" y="830.9567" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Nevzat_Atakli" font-weight="bold">
+            Nevzat Atakli
+        </text>
+        <text font-size="8" x="-419.30618" y="802.0083" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Selim_Satici" font-weight="bold">
+            Selim Satici
+        </text>
+        <text font-size="8" x="-588.0865" y="214.67781" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ceren_Melis_Abacioglu" font-weight="bold">
+            Ceren Melis Abacioglu
+        </text>
+        <text font-size="8" x="212.49861" y="492.05453" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Balca_Yilmaz" font-weight="bold">
+            Balca Yilmaz
+        </text>
+        <text font-size="8" x="-782.7038" y="16.985222" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Martin_Weber" font-weight="bold">
+            Martin Weber
+        </text>
+        <text font-size="8" x="-627.6337" y="-111.427216" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ali_Karabey" font-weight="bold">
+            Ali Karabey
+        </text>
+        <text font-size="8" x="297.7652" y="-723.5845" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Cagdas_Yildiz" font-weight="bold">
+            Cagdas Yildiz
+        </text>
+        <text font-size="8" x="-904.4873" y="145.51907" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Caglar_Urcan" font-weight="bold">
+            Caglar Urcan
+        </text>
+        <text font-size="8" x="-110.07084" y="36.470657" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Gizem_Yagiz" font-weight="bold">
+            Gizem Yagiz
+        </text>
+        <text font-size="8" x="516.59924" y="-149.07983" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Kivanc_Aydin" font-weight="bold">
+            Kivanc Aydin
+        </text>
+        <text font-size="8" x="392.39633" y="781.649" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Maher_Hakim" font-weight="bold">
+            Maher Hakim
+        </text>
+        <text font-size="8" x="250.22458" y="-387.42676" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Numan_Numan" font-weight="bold">
+            Numan Numan
+        </text>
+        <text font-size="8" x="-88.61294" y="-82.09297" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ozge_Sevim" font-weight="bold">
+            Ozge Sevim
+        </text>
+        <text font-size="8" x="439.2604" y="566.2" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Selma_Bahcivanoglu" font-weight="bold">
+            Selma Bahcivanoglu
+        </text>
+    </g>
+</svg>

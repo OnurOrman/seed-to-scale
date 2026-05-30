@@ -1,0 +1,96 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Multilayer Network Analysis of Startup Cofounders and Investment Managers}
+
+\author{\IEEEauthorblockN{Onur Orman - 31086}
+\IEEEauthorblockA{\textit{Sabancı University}\\
+Istanbul, Turkey}
+}
+
+\maketitle
+
+\begin{abstract}
+Startup ecosystems are multilayer social networks where cofounders and investment managers connect through shared portfolio ties, education, work experience, and volunteering. This paper analyzes the 212 VC portfolio (54 companies) as a multilayer network to identify community structure and the institutional signals that explain it. A bipartite cofounder-investment manager network is built and three institutional layers (education, experience, volunteering) are attached using LinkedIn-derived data. The final graph includes 59 people (49 cofounders and 10 investment managers) and 93 multilayer edges. Using Louvain, greedy modularity, label propagation, and Girvan-Newman, stable communities appear in the 5-to-8 range with modularity up to about 0.49. Network statistics show a sparse but connected structure, with density 0.054, average degree 3.15, and diameter 6, plus strong disassortativity (r = -0.718) that signals a hub-and-spoke organization. Centrality rankings highlight investment managers as bridges across founder groups, while the cofounder side splits into sub-communities tied to shared institutional histories. Educational overlap concentrates around local universities with a smaller international tier, suggesting institutional pathways for access and trust formation. Implications for founders, investors, and policy are outlined, along with a reproducible workflow for multilayer network construction, community detection, and comparative analysis across layers.
+\end{abstract}
+
+\begin{IEEEkeywords}
+startup ecosystems, multilayer networks, venture capital, community detection, cofounder networks, investment managers, LinkedIn data
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+\section{Related Work}
+% Community detection algorithms themselves are going to constitute the related work
+
+\section{Data}
+
+\subsection{Data Sources}
+
+\subsection{Construction of the Dataset}
+
+\section{Methodology}
+
+\subsection{Construction of the Networks}
+
+\subsection{Initial Analyses on the Networks}
+
+\subsection{Community Detection}
+
+\section{Results}
+
+\section{Discussion}
+
+\section{Limitations and Future Work}
+
+\section{Conclusion}
+
+\section*{Acknowledgments}
+% TL;DR: This was a course project; you can find the code and the dataset on the repo OnurOrman/seed-to-scale
+
+\section*{References}
+
+% Please number citations consecutively within brackets \cite{b1}. The 
+% sentence punctuation follows the bracket \cite{b2}. Refer simply to the reference 
+% number, as in \cite{b3}---do not use ``Ref. \cite{b3}'' or ``reference \cite{b3}'' except at 
+% the beginning of a sentence: ``Reference \cite{b3} was the first $\ldots$''
+
+% Number footnotes separately in superscripts. Place the actual footnote at 
+% the bottom of the column in which it was cited. Do not put footnotes in the 
+% abstract or reference list. Use letters for table footnotes.
+
+% Unless there are six authors or more give all authors' names; do not use 
+% ``et al.''. Papers that have not been published, even if they have been 
+% submitted for publication, should be cited as ``unpublished'' \cite{b4}. Papers 
+% that have been accepted for publication should be cited as ``in press'' \cite{b5}. 
+% Capitalize only the first word in a paper title, except for proper nouns and 
+% element symbols.
+
+% For papers published in translation journals, please give the English 
+% citation first, followed by the original foreign-language citation \cite{b6}.
+
+%\begin{thebibliography}{00}
+%\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
+%\bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
+%\bibitem{b3} I. S. Jacobs and C. P. Bean, ``Fine particles, thin films and exchange anisotropy,'' in Magnetism, vol. III, G. T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271--350.
+%\bibitem{b4} K. Elissa, ``Title of paper if known,'' unpublished.
+%\bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
+%\bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interface,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
+%\bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
+%\end{thebibliography}
+%\vspace{12pt}
+
+\section*{Appendices}
+
+\end{document}

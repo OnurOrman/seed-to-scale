@@ -13,10 +13,10 @@ dependencies = [
     "matplotlib>=3.10.9",
     "networkx>=3.6.1",
     "pandas>=3.0.3",
-    "playwright>=1.59.0",
+    "playwright>=1.60.0",
     "python-dotenv>=1.2.2",
     "scipy>=1.17.1",
-    "scrapy>=2.15.2",
+    "scrapy>=2.16.0",
     "seaborn>=0.13.2",
 ]
 

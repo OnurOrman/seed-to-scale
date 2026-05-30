@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="2517.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-551.000000 -419.000000 2517.000000 1174.000000" height="1174.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_Florin_Cornianu id_Maher_Hakim"
+              d="M 101.526237,241.508987 A 128.459353,128.459353 0,0 1,12.571762,136.402512"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Maher_Hakim id_Haris_Aghadi"
+              d="M 17.466810,134.545166 A 128.220795,128.220795 0,0 1,20.630062,271.917938"
+              stroke="#00af87" stroke-width="8.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Maher_Hakim id_Ceren_Melis_Abacioglu"
+              d="M 19.830484,132.123367 A 130.779872,130.779872 0,0 1,69.623741,263.492035"
+              stroke="#ff5d85" stroke-width="4.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Maher_Hakim id_Batu_Sat"
+              d="M 1.832549,124.285522 A 163.088334,163.088334 0,0 1,-119.065353,-8.185415"
+              stroke="#806b68" stroke-width="4.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Maher_Hakim id_Bilen_Akuzum"
+              d="M 4.765528,119.146011 A 101.395508,101.395508 0,0 1,-11.738278,15.347535"
+              stroke="#00c7ff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Maher_Hakim id_Sean_Yu"
+              d="M 5.452155,118.559776 A 182.482928,182.482928 0,0 1,-3.752383,-83.887817"
+              stroke="#00c7ff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lukas_Hackl id_Caglar_Urcan"
+              d="M 239.539124,-55.354191 A 132.822298,132.822298 0,0 1,96.705208,-49.685398"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Bilen_Akuzum"
+              d="M 84.275131,-45.880241 A 94.776925,94.776925 0,0 1,2.487107,6.496390"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Daghan_Cam"
+              d="M 78.388901,-56.614754 A 69.303020,69.303020 0,0 1,28.886314,-100.778435"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Michail_Desyllas"
+              d="M 98.027824,-52.881615 A 129.561686,129.561686 0,0 1,192.523331,49.088718"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Josua_Vieten"
+              d="M 88.801750,-45.063908 A 125.266706,125.266706 0,0 1,18.844910,69.053970"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Robert_Brull"
+              d="M 90.704483,-45.351479 A 110.705893,110.705893 0,0 1,50.604774,63.839588"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Gediminas_Mikutis"
+              d="M 97.665756,-58.460976 A 136.480542,136.480542 0,0 1,240.109406,-20.762579"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Martin_Weber"
+              d="M 98.234589,-55.837074 A 134.353454,134.353454 0,0 1,223.346176,17.038454"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Hakan_Yurdakul"
+              d="M 78.719002,-52.072697 A 120.240982,120.240982 0,0 1,-43.390381,-89.797600"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Batu_Sat"
+              d="M 81.230507,-47.942715 A 176.535917,176.535917 0,0 1,-111.283081,-13.846656"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Deniz_Ozgur"
+              d="M 82.584724,-63.279175 A 82.419755,82.419755 0,0 1,80.826736,-145.465576"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Sean_Yu"
+              d="M 78.416023,-53.321842 A 78.573179,78.573179 0,0 1,7.169756,-83.964966"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Berhan_Kongel"
+              d="M 80.950356,-61.867630 A 115.084491,115.084491 0,0 1,54.352871,-180.518188"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Baransel_Soysal"
+              d="M 79.167580,-59.199856 A 101.680078,101.680078 0,0 1,24.186611,-149.176620"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Saliha_Durmus"
+              d="M 90.312057,-64.837898 A 126.925095,126.925095 0,0 1,188.724579,-158.486984"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Oguzhan_Uyar"
+              d="M 80.332710,-61.137920 A 132.982389,132.982389 0,0 1,36.625111,-197.440598"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bilen_Akuzum id_Gizem_Yagiz"
+              d="M -11.334386,15.525209 A 106.038515,106.038515 0,0 1,-103.801529,76.385025"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bilen_Akuzum id_Ozge_Sevim"
+              d="M -15.132115,-0.188932 A 143.018475,143.018475 0,0 1,-54.747215,-150.260727"
+              stroke="#00c7ff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mehmet_Coka id_Selma_Bahcivanoglu"
+              d="M 233.030731,-398.712982 A 137.561615,137.561615 0,0 1,164.670197,-266.716125"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Sean_Yu"
+              d="M 154.629547,-252.119034 A 191.092789,191.092789 0,0 1,11.416964,-94.447304"
+              stroke="#fa9200" stroke-width="4.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Arden_Agopyan"
+              d="M 158.634155,-271.645020 A 140.723846,140.723846 0,0 1,277.338989,-367.305237"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Ali_Beklen"
+              d="M 157.000427,-271.977997 A 108.194588,108.194588 0,0 1,231.268311,-357.536591"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Alara_Eren_Iplikcioglu"
+              d="M 161.245560,-270.451874 A 128.785383,128.785383 0,0 1,288.780365,-323.398499"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Cagkan_Ekici"
+              d="M 163.598312,-268.340607 A 126.330600,126.330600 0,0 1,298.334167,-278.710236"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Saliha_Durmus"
+              d="M 164.167099,-256.529358 A 92.172873,92.172873 0,0 1,200.512009,-169.861603"
+              stroke="#fa9200" stroke-width="4.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Didem_Aral"
+              d="M 151.542053,-271.082428 A 122.992384,122.992384 0,0 1,172.430786,-400.524048"
+              stroke="#fa9200" stroke-width="4.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Balca_Yilmaz"
+              d="M 148.552689,-255.185394 A 120.923139,120.923139 0,0 1,21.450914,-235.447037"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Deniz_Ozgur"
+              d="M 156.070770,-252.050034 A 107.186199,107.186199 0,0 1,95.355347,-157.838516"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Berhan_Kongel"
+              d="M 152.489212,-252.620590 A 101.302486,101.302486 0,0 1,68.048706,-190.228745"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Baransel_Soysal"
+              d="M 152.888885,-252.488464 A 138.927899,138.927899 0,0 1,34.627857,-159.741455"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Oguzhan_Uyar"
+              d="M 150.755554,-253.428528 A 107.213932,107.213932 0,0 1,49.418568,-205.465240"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Daghan_Cam id_Ozge_Sevim"
+              d="M 16.209686,-110.290855 A 76.532253,76.532253 0,0 1,-47.174435,-150.549973"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Daghan_Cam id_Cagdas_Yildiz"
+              d="M 17.967478,-104.749580 A 96.129770,96.129770 0,0 1,-80.780159,-103.698952"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Emre_Fadillioglu id_Ali_Karabey"
+              d="M -205.138489,-32.730469 A 140.082583,140.082583 0,0 1,-140.537735,-169.966995"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Emre_Fadillioglu id_Gizem_Yagiz"
+              d="M -193.746979,-20.525057 A 111.379530,111.379530 0,0 1,-115.164322,66.336182"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Mark_Felegyhazi"
+              d="M -141.680786,-176.921860 A 138.439898,138.439898 0,0 1,-245.483521,-284.794739"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Hakan_Yurdakul"
+              d="M -122.008881,-173.329468 A 94.091768,94.091768 0,0 1,-51.836338,-107.385918"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Olcay_Silahli"
+              d="M -138.639587,-182.326675 A 33.290096,33.290096 0,0 1,-144.168869,-203.958466"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Hande_Cilingir"
+              d="M -127.761955,-165.847046 A 107.507663,107.507663 0,0 1,-147.135895,-55.059883"
+              stroke="#e28bff" stroke-width="4.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Berhan_Kongel"
+              d="M -124.162231,-181.327530 A 158.759594,158.759594 0,0 1,49.449856,-194.896454"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Oguzhan_Uyar"
+              d="M -124.863991,-182.093079 A 145.318649,145.318649 0,0 1,30.424747,-211.123520"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Kamal_Reggad"
+              d="M -141.824692,-173.963409 A 135.814509,135.814509 0,0 1,-269.962219,-245.073502"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Oguz_Kucukbarak"
+              d="M -139.058823,-181.918335 A 139.465377,139.465377 0,0 1,-168.139114,-330.029022"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Koray_Dogan"
+              d="M -140.795334,-179.481247 A 140.872174,140.872174 0,0 1,-213.150955,-313.871796"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Oguz_Alper_Oktem"
+              d="M -130.790237,-165.021133 A 110.862651,110.862651 0,0 1,-185.594788,-62.205276"
+              stroke="#ff5d85" stroke-width="4.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Batu_Sat"
+              d="M -125.596062,-167.178925 A 131.067805,131.067805 0,0 1,-115.259529,-26.723522"
+              stroke="#00c7ff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Sean_Yu"
+              d="M -121.887680,-175.471649 A 130.865740,130.865740 0,0 1,-2.347563,-101.469673"
+              stroke="#00c7ff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mucahit_Gayiran id_Numan_Numan"
+              d="M -451.414032,213.065857 A 118.210432,118.210432 0,0 1,-396.481415,100.383316"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Emrah_Gultekin"
+              d="M -392.534363,104.248558 A 109.675022,109.675022 0,0 1,-494.724396,157.168427"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Idriss_Al_Rifai"
+              d="M -396.668335,100.038208 A 120.069410,120.069410 0,0 1,-523.268799,84.118828"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Batu_Sat"
+              d="M -382.587006,86.905373 A 242.133601,242.133601 0,0 1,-130.087143,-20.300331"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Tolga_Sen"
+              d="M -394.594055,102.771461 A 130.547620,130.547620 0,0 1,-531.533386,132.875641"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Huzeyfe_Onal"
+              d="M -389.790009,105.245811 A 126.034643,126.034643 0,0 1,-487.021210,198.579803"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Nevzat_Atakli"
+              d="M -385.538727,85.704391 A 141.522478,141.522478 0,0 1,-271.859100,-17.312571"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Murat_Hacioglu id_Cagdas_Yildiz"
+              d="M -88.711319,-226.831146 A 104.824170,104.824170 0,0 1,-83.898788,-117.702377"
+              stroke="#fa9200" stroke-width="4.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Murat_Hacioglu id_Ozge_Sevim"
+              d="M -85.781670,-230.294220 A 72.340994,72.340994 0,0 1,-50.802109,-169.639816"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Deniz_Ozgur"
+              d="M -82.617790,-116.766159 A 150.759500,150.759500 0,0 1,76.793022,-157.457169"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Batuhan_Ozcan"
+              d="M -88.831375,-99.190865 A 112.789239,112.789239 0,0 1,-152.782440,0.964184"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Selim_Satici"
+              d="M -84.323196,-100.422768 A 117.610138,117.610138 0,0 1,-96.564461,23.611109"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Batu_Sat"
+              d="M -86.654556,-99.499962 A 80.228128,80.228128 0,0 1,-112.429482,-24.233973"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Olcay_Silahli"
+              d="M -97.857948,-114.085274 A 97.488171,97.488171 0,0 1,-143.020203,-203.744659"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Balca_Yilmaz"
+              d="M -88.602089,-119.171608 A 137.872614,137.872614 0,0 1,2.892135,-236.800308"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Nevzat_Atakli"
+              d="M -93.715134,-100.293938 A 162.591419,162.591419 0,0 1,-252.025208,-17.294802"
+              stroke="#00c7ff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hakan_Yurdakul id_Kivanc_Aydin"
+              d="M -57.818718,-91.951912 A 92.764844,92.764844 0,0 1,-152.501556,-90.480408"
+              stroke="#00c7ff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Sean_Yu id_Kivanc_Aydin"
+              d="M -6.690911,-86.786247 A 135.490221,135.490221 0,0 1,-152.811264,-90.029076"
+              stroke="#00c7ff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Sean_Yu id_Ozge_Sevim"
+              d="M -7.807695,-95.553032 A 71.400271,71.400271 0,0 1,-50.385635,-149.696121"
+              stroke="#00c7ff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Philippe_Berlan id_Gizem_Yagiz"
+              d="M -187.414185,201.112381 A 127.558932,127.558932 0,0 1,-122.702438,80.798592"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Josua_Vieten"
+              d="M -105.663490,70.429932 A 102.952737,102.952737 0,0 1,1.281417,67.714371"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Robert_Brull"
+              d="M -105.823166,70.212662 A 130.340291,130.340291 0,0 1,34.012417,64.316986"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Selim_Satici"
+              d="M -116.542908,66.626129 A 38.547657,38.547657 0,0 1,-109.811104,38.587070"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Mukremin_Cetinkaya"
+              d="M -109.145004,85.092957 A 128.753098,128.753098 0,0 1,-125.726006,222.143356"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Oguz_Alper_Oktem"
+              d="M -122.918022,72.135307 A 130.194481,130.194481 0,0 1,-195.078384,-47.583298"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Batuhan_Ozcan"
+              d="M -122.998856,72.319672 A 71.746753,71.746753 0,0 1,-161.778381,14.887422"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Hande_Cilingir"
+              d="M -121.704308,70.116562 A 108.751458,108.751458 0,0 1,-156.896011,-38.280903"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Olcay_Silahli id_Ozge_Sevim"
+              d="M -131.779312,-214.147812 A 87.794211,87.794211 0,0 1,-55.627357,-168.674866"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tunga_Bayrak id_Kivanc_Aydin"
+              d="M -302.397675,-156.900436 A 135.162043,135.162043 0,0 1,-166.498291,-104.195869"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kivanc_Aydin id_Tomas_Nepala"
+              d="M -169.247040,-90.405586 A 133.989888,133.989888 0,0 1,-313.559387,-93.754944"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kivanc_Aydin id_Baransel_Soysal"
+              d="M -155.012589,-103.994789 A 163.357817,163.357817 0,0 1,15.045911,-161.971237"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kivanc_Aydin id_Oguz_Alper_Oktem"
+              d="M -162.820251,-86.097000 A 42.461848,42.461848 0,0 1,-184.980576,-60.770905"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kivanc_Aydin id_Batuhan_Ozcan"
+              d="M -155.475327,-87.509064 A 84.004914,84.004914 0,0 1,-156.377487,-3.393880"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kivanc_Aydin id_Hande_Cilingir"
+              d="M -154.766342,-88.011681 A 40.423554,40.423554 0,0 1,-150.399628,-57.172451"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kivanc_Aydin id_Nevzat_Atakli"
+              d="M -164.056641,-86.422371 A 106.026931,106.026931 0,0 1,-251.957169,-19.157986"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kivanc_Aydin id_Batu_Sat"
+              d="M -152.196335,-90.984352 A 73.122104,73.122104 0,0 1,-119.387993,-28.060415"
+              stroke="#00c7ff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mehmet_Uygun id_Cem_Okay"
+              d="M 1946.289429,746.087219 A 47.827881,47.827881 0,0 1,1909.008057,730.978210"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Batu_Sat id_Ozge_Sevim"
+              d="M -121.842514,-27.990107 A 131.231277,131.231277 0,0 1,-60.033001,-154.755997"
+              stroke="#806b68" stroke-width="4.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Sadok_Kohen id_Ozge_Sevim"
+              d="M -37.974957,-315.892487 A 137.430949,137.430949 0,0 1,-45.215393,-167.577972"
+              stroke="#e28bff" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ozge_Sevim id_Balca_Yilmaz"
+              d="M -50.443062,-169.614914 A 85.328531,85.328531 0,0 1,2.926558,-236.692169"
+              stroke="#69c404" stroke-width="2.0" stroke-opacity="1.0"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="111.180115"
+                class="id_Florin_Cornianu" cy="244.11717" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="9.2" cx="11.595426"
+                class="id_Maher_Hakim" cy="126.450294" stroke="#1f583e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="247.52702"
+                class="id_Lukas_Hackl" cy="-61.370293" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="9.2" cx="88.26565"
+                class="id_Caglar_Urcan" cy="-55.049526" stroke="#1f583e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-7.510661"
+                class="id_Bilen_Akuzum" cy="6.2851267" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="231.74149"
+                class="id_Mehmet_Coka" cy="-408.62952" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="9.2" cx="155.82713"
+                class="id_Selma_Bahcivanoglu" cy="-262.04706" stroke="#1f583e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="26.208937"
+                class="id_Daghan_Cam" cy="-110.41335" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="193.94322"
+                class="id_Michail_Desyllas" cy="58.9874" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-203.46791"
+                class="id_Emre_Fadillioglu" cy="-22.870996" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="9.2" cx="-131.8747"
+                class="id_Ali_Karabey" cy="-174.96216" stroke="#1f583e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-449.94345"
+                class="id_Mucahit_Gayiran" cy="222.95714" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="9.2" cx="-387.78345"
+                class="id_Numan_Numan" cy="95.449196" stroke="#1f583e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-247.06482"
+                class="id_Mark_Felegyhazi" cy="-294.6689" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-94.68211"
+                class="id_Murat_Hacioglu" cy="-234.85297" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="9.2" cx="-89.14026"
+                class="id_Cagdas_Yildiz" cy="-109.1861" stroke="#1f583e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-49.594353"
+                class="id_Hakan_Yurdakul" cy="-97.64048" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-504.6524"
+                class="id_Emrah_Gultekin" cy="155.97066" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="1.6495178"
+                class="id_Sean_Yu" cy="-92.303246" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-186.30826"
+                class="id_Philippe_Berlan" cy="211.05104" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="9.2" cx="-113.800514"
+                class="id_Gizem_Yagiz" cy="76.242744" stroke="#1f583e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="86.15055"
+                class="id_Deniz_Ozgur" cy="-153.93062" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="9.702966"
+                class="id_Josua_Vieten" cy="73.10673" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-141.7677"
+                class="id_Olcay_Silahli" cy="-213.66591" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="42.469025"
+                class="id_Robert_Brull" cy="69.65419" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-530.74097"
+                class="id_Idriss_Al_Rifai" cy="77.473" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-312.11923"
+                class="id_Tunga_Bayrak" cy="-154.55705" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="9.2" cx="-160.89873"
+                class="id_Kivanc_Aydin" cy="-95.91065" stroke="#1f583e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-321.6433"
+                class="id_Tomas_Nepala" cy="-99.64139" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="1956.1715"
+                class="id_Mehmet_Uygun" cy="744.55597" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="9.2" cx="1902.9802"
+                class="id_Cem_Okay" cy="722.99915" stroke="#1f583e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="246.59138"
+                class="id_Gediminas_Mikutis" cy="-13.147861" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="287.31427"
+                class="id_Arden_Agopyan" cy="-368.00812" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="240.93567"
+                class="id_Ali_Beklen" cy="-360.0944" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-154.09798"
+                class="id_Hande_Cilingir" cy="-47.881477" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="298.55823"
+                class="id_Alara_Eren_Iplikcioglu" cy="-321.3025"
+                stroke="#773c49" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="58.057617"
+                class="id_Berhan_Kongel" cy="-189.80661" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="306.97687"
+                class="id_Cagkan_Ekici" cy="-273.67993" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-120.3311"
+                class="id_Batu_Sat" cy="-18.104986" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="15.137506"
+                class="id_Haris_Aghadi" cy="280.27448" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="39.53812"
+                class="id_Oguzhan_Uyar" cy="-207.00691" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-540.78705"
+                class="id_Tolga_Sen" cy="129.08488" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-43.27268"
+                class="id_Sadok_Kohen" cy="-324.3739" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3fb17d" r="9.2" cx="-51.314045"
+                class="id_Ozge_Sevim" cy="-159.65292" stroke="#1f583e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="198.60236"
+                class="id_Saliha_Durmus" cy="-160.04564" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="24.644423"
+                class="id_Baransel_Soysal" cy="-159.16614" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-274.37912"
+                class="id_Kamal_Reggad" cy="-254.04518" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="179.34052"
+                class="id_Didem_Aral" cy="-407.75287" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-496.89166"
+                class="id_Huzeyfe_Onal" cy="200.18416" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-164.1185"
+                class="id_Oguz_Kucukbarak" cy="-339.18515" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-212.01234"
+                class="id_Koray_Dogan" cy="-323.80676" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-161.97984"
+                class="id_Batuhan_Ozcan" cy="4.889451" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-261.941"
+                class="id_Nevzat_Atakli" cy="-18.589758" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-103.001656"
+                class="id_Selim_Satici" cy="31.263721" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="67.21801"
+                class="id_Ceren_Melis_Abacioglu" cy="273.19833" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="12.438089"
+                class="id_Balca_Yilmaz" cy="-239.77936" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="227.57912"
+                class="id_Martin_Weber" cy="26.098377" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-132.35779"
+                class="id_Mukremin_Cetinkaya" cy="229.62798" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="9.2" cx="-194.4523"
+                class="id_Oguz_Alper_Oktem" cy="-57.56368" stroke="#773c49"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+    </g>
+    <g id="edge-labels">
+        <text font-size="16" x="41.776623" y="207.16634" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_0"
+              font-weight="bold">
+            investment:123Formbuilder
+        </text>
+        <text font-size="16" x="39.003834" y="208.05719" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_1"
+              font-weight="bold">
+            investment:Meddy; education:Carnegie Mellon University;
+            experience:Carnegie Mellon University|Carnegie Mellon University in
+            Qatar
+        </text>
+        <text font-size="16" x="63.864727" y="195.83904" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_2"
+              font-weight="bold">
+            investment:Wellbees; experience:Wellbees
+        </text>
+        <text font-size="16" x="-78.46038" y="81.445564" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_3"
+              font-weight="bold">
+            education:University of Illinois Urbana-Champaign; experience:212
+        </text>
+        <text font-size="16" x="-17.985146" y="74.83721" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_4"
+              font-weight="bold">
+            experience:University of California, Berkeley
+        </text>
+        <text font-size="16" x="-29.836454" y="24.016333" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_5"
+              font-weight="bold">
+            experience:212
+        </text>
+        <text font-size="16" x="168.9498" y="-26.381187" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_6"
+              font-weight="bold">
+            investment:Aepnus
+        </text>
+        <text font-size="16" x="50.599937" y="-3.134324" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_7"
+              font-weight="bold">
+            investment:Aepnus
+        </text>
+        <text font-size="16" x="48.009987" y="-67.1035" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_8"
+              font-weight="bold">
+            investment:Aibuild
+        </text>
+        <text font-size="16" x="160.1106" y="-10.358835" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_9"
+              font-weight="bold">
+            investment:Aibuild
+        </text>
+        <text font-size="16" x="70.34368" y="27.40754" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_10"
+              font-weight="bold">
+            investment:Exomatter
+        </text>
+        <text font-size="16" x="86.15129" y="20.22026" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_11"
+              font-weight="bold">
+            investment:Fibrecoat
+        </text>
+        <text font-size="16" x="174.41212" y="-55.20116" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_12"
+              font-weight="bold">
+            investment:Haelixa
+        </text>
+        <text font-size="16" x="171.44704" y="-32.40933" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_13"
+              font-weight="bold">
+            investment:One Five
+        </text>
+        <text font-size="16" x="12.237155" y="-48.08318" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_14"
+              font-weight="bold">
+            education:Robert College
+        </text>
+        <text font-size="16" x="-9.875304" y="3.4740224" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_15"
+              font-weight="bold">
+            education:Robert College
+        </text>
+        <text font-size="16" x="70.72792" y="-98.8524" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_16"
+              font-weight="bold">
+            education:Bogazici University
+        </text>
+        <text font-size="16" x="38.74863" y="-53.955208" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_17"
+              font-weight="bold">
+            education:Bogazici University
+        </text>
+        <text font-size="16" x="50.702118" y="-112.10824" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_18"
+              font-weight="bold">
+            education:Bogazici University
+        </text>
+        <text font-size="16" x="39.10227" y="-91.21914" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_19"
+              font-weight="bold">
+            education:Bogazici University
+        </text>
+        <text font-size="16" x="125.93465" y="-120.65188" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_20"
+              font-weight="bold">
+            education:Bogazici University
+        </text>
+        <text font-size="16" x="38.575653" y="-117.62181" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_21"
+              font-weight="bold">
+            education:Bogazici University
+        </text>
+        <text font-size="16" x="-48.995983" y="64.26407" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_22"
+              font-weight="bold">
+            education:Orta Dogu Teknik Universitesi / Middle East Technical
+            University
+        </text>
+        <text font-size="16" x="-57.068695" y="-64.098175" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_23"
+              font-weight="bold">
+            experience:Bosch Turkey
+        </text>
+        <text font-size="16" x="218.21472" y="-317.40073" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_24"
+              font-weight="bold">
+            investment:Agrotics
+        </text>
+        <text font-size="16" x="107.02896" y="-146.19373" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_25"
+              font-weight="bold">
+            investment:Eluvium; education:Bogazici University
+        </text>
+        <text font-size="16" x="203.91052" y="-331.65695" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_26"
+              font-weight="bold">
+            investment:Hotelrunner
+        </text>
+        <text font-size="16" x="182.04018" y="-319.97034" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_27"
+              font-weight="bold">
+            investment:Hotelrunner
+        </text>
+        <text font-size="16" x="217.31677" y="-310.17813" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_28"
+              font-weight="bold">
+            investment:Juphy
+        </text>
+        <text font-size="16" x="229.46318" y="-287.76996" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_29"
+              font-weight="bold">
+            investment:Khenda
+        </text>
+        <text font-size="16" x="194.21498" y="-212.8904" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_30"
+              font-weight="bold">
+            investment:Phitech; education:Bogazici University
+        </text>
+        <text font-size="16" x="143.29951" y="-333.5337" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_31"
+              font-weight="bold">
+            investment:Reprai; education:Marmara University
+        </text>
+        <text font-size="16" x="87.843895" y="-221.72987" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_32"
+              font-weight="bold">
+            investment:Werover
+        </text>
+        <text font-size="16" x="139.00826" y="-191.09091" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_33"
+              font-weight="bold">
+            education:Bogazici University
+        </text>
+        <text font-size="16" x="118.98245" y="-204.34676" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_34"
+              font-weight="bold">
+            education:Bogazici University
+        </text>
+        <text font-size="16" x="107.3826" y="-183.45766" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_35"
+              font-weight="bold">
+            education:Bogazici University
+        </text>
+        <text font-size="16" x="106.85599" y="-209.86032" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_36"
+              font-weight="bold">
+            education:Bogazici University
+        </text>
+        <text font-size="16" x="-20.75915" y="-116.827484" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_37"
+              font-weight="bold">
+            education:Istanbul Technical University
+        </text>
+        <text font-size="16" x="-31.261118" y="-85.2897" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_38"
+              font-weight="bold">
+            education:Istanbul Technical University
+        </text>
+        <text font-size="16" x="-193.01984" y="-105.56362" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_39"
+              font-weight="bold">
+            investment:Appsamurai
+        </text>
+        <text font-size="16" x="-142.11525" y="17.026466" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_40"
+              font-weight="bold">
+            education:Orta Dogu Teknik Universitesi / Middle East Technical
+            University
+        </text>
+        <text font-size="16" x="-209.42088" y="-210.33203" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_41"
+              font-weight="bold">
+            investment:Avatao
+        </text>
+        <text font-size="16" x="-77.84758" y="-144.72955" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_42"
+              font-weight="bold">
+            investment:Bolt Insight
+        </text>
+        <text font-size="16" x="-143.27182" y="-187.38005" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_43"
+              font-weight="bold">
+            investment:Fazla
+        </text>
+        <text font-size="16" x="-121.80622" y="-102.43278" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_44"
+              font-weight="bold">
+            investment:Insider One|Iyzico
+        </text>
+        <text font-size="16" x="-39.382614" y="-208.75461" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_45"
+              font-weight="bold">
+            investment:Keyrails
+        </text>
+        <text font-size="16" x="-51.50908" y="-214.26819" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_46"
+              font-weight="bold">
+            investment:Metrobi
+        </text>
+        <text font-size="16" x="-216.3074" y="-185.46777" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_47"
+              font-weight="bold">
+            investment:Remotepass
+        </text>
+        <text font-size="16" x="-175.3671" y="-246.41454" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_48"
+              font-weight="bold">
+            investment:Smartmessage
+        </text>
+        <text font-size="16" x="-196.75096" y="-230.74303" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_49"
+              font-weight="bold">
+            investment:Solvoyo
+        </text>
+        <text font-size="16" x="-143.59709" y="-100.548164" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_50"
+              font-weight="bold">
+            investment:Marti; experience:Deutsche Bank
+        </text>
+        <text font-size="16" x="-99.96004" y="-93.17235" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_51"
+              font-weight="bold">
+            experience:212
+        </text>
+        <text font-size="16" x="-51.336105" y="-150.60158" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_52"
+              font-weight="bold">
+            experience:212
+        </text>
+        <text font-size="16" x="-440.11478" y="154.12833" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_53"
+              font-weight="bold">
+            investment:Artboard Studio
+        </text>
+        <text font-size="16" x="-436.131" y="150.47324" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_54"
+              font-weight="bold">
+            investment:Chooch
+        </text>
+        <text font-size="16" x="-462.25824" y="115.57251" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_55"
+              font-weight="bold">
+            investment:Flow48
+        </text>
+        <text font-size="16" x="-272.98297" y="-0.6181259" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_56"
+              font-weight="bold">
+            investment:Mall Iq
+        </text>
+        <text font-size="16" x="-458.6793" y="143.0528" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_57"
+              font-weight="bold">
+            investment:Omma
+        </text>
+        <text font-size="16" x="-424.8817" y="171.28653" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_58"
+              font-weight="bold">
+            investment:Socradar
+        </text>
+        <text font-size="16" x="-343.8687" y="22.741135" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_59"
+              font-weight="bold">
+            investment:Trio Mobil
+        </text>
+        <text font-size="16" x="-70.966705" y="-167.65802" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_60"
+              font-weight="bold">
+            investment:B2Metric; education:Istanbul Technical University
+        </text>
+        <text font-size="16" x="-60.46474" y="-199.1958" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_61"
+              font-weight="bold">
+            education:Istanbul Technical University
+        </text>
+        <text font-size="16" x="-8.952273" y="-155.48834" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_62"
+              font-weight="bold">
+            investment:Evercopy
+        </text>
+        <text font-size="16" x="-106.54746" y="-34.723236" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_63"
+              font-weight="bold">
+            investment:Syntonym
+        </text>
+        <text font-size="16" x="-72.66265" y="-31.365799" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_64"
+              font-weight="bold">
+            investment:Voltfox
+        </text>
+        <text font-size="16" x="-89.5555" y="-53.16191" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_65"
+              font-weight="bold">
+            education:Istanbul Technical University
+        </text>
+        <text font-size="16" x="-132.86728" y="-147.3696" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_66"
+              font-weight="bold">
+            education:Istanbul Technical University
+        </text>
+        <text font-size="16" x="-60.11663" y="-186.1273" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_67"
+              font-weight="bold">
+            education:Istanbul Technical University
+        </text>
+        <text font-size="16" x="-160.44124" y="-29.802647" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_68"
+              font-weight="bold">
+            experience:Trio Mobil
+        </text>
+        <text font-size="16" x="-104.95824" y="-72.93968" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_69"
+              font-weight="bold">
+            experience:Bolt Insight
+        </text>
+        <text font-size="16" x="-80.22584" y="-61.730415" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_70"
+              font-weight="bold">
+            experience:212
+        </text>
+        <text font-size="16" x="-36.05721" y="-111.86567" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_71"
+              font-weight="bold">
+            experience:212
+        </text>
+        <text font-size="16" x="-172.52243" y="136.84743" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_72"
+              font-weight="bold">
+            investment:Ever Dye
+        </text>
+        <text font-size="16" x="-52.571445" y="59.375977" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_73"
+              font-weight="bold">
+            investment:Exomatter
+        </text>
+        <text font-size="16" x="-36.763836" y="52.188698" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_74"
+              font-weight="bold">
+            investment:Fibrecoat
+        </text>
+        <text font-size="16" x="-115.89759" y="57.23858" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_75"
+              font-weight="bold">
+            education:Orta Dogu Teknik Universitesi / Middle East Technical
+            University
+        </text>
+        <text font-size="16" x="-97.514946" y="161.3134" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_76"
+              font-weight="bold">
+            education:Orta Dogu Teknik Universitesi / Middle East Technical
+            University
+        </text>
+        <text font-size="16" x="-176.42747" y="28.066656" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_77"
+              font-weight="bold">
+            education:The London School of Economics and Political Science
+            (LSE)
+        </text>
+        <text font-size="16" x="-149.7824" y="53.88114" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_78"
+              font-weight="bold">
+            education:The London School of Economics and Political Science
+            (LSE)
+        </text>
+        <text font-size="16" x="-154.63661" y="26.182034" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_79"
+              font-weight="bold">
+            education:The London School of Economics and Political Science
+            (LSE)
+        </text>
+        <text font-size="16" x="-87.53871" y="-196.44987" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_80"
+              font-weight="bold">
+            education:Istanbul Technical University
+        </text>
+        <text font-size="16" x="-226.73457" y="-145.15211" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_81"
+              font-weight="bold">
+            investment:Freya
+        </text>
+        <text font-size="16" x="-241.8928" y="-65.700096" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_82"
+              font-weight="bold">
+            investment:Freya
+        </text>
+        <text font-size="16" x="-78.66973" y="-153.1771" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_83"
+              font-weight="bold">
+            investment:Qrambo
+        </text>
+        <text font-size="16" x="-171.28435" y="-65.85975" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_84"
+              font-weight="bold">
+            education:The London School of Economics and Political Science
+            (LSE)
+        </text>
+        <text font-size="16" x="-144.63927" y="-40.045258" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_85"
+              font-weight="bold">
+            education:The London School of Economics and Political Science
+            (LSE)
+        </text>
+        <text font-size="16" x="-149.49348" y="-67.74437" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_86"
+              font-weight="bold">
+            education:The London School of Economics and Political Science
+            (LSE)
+        </text>
+        <text font-size="16" x="-198.53305" y="-35.12467" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_87"
+              font-weight="bold">
+            education:Izmir Fen Lisesi
+        </text>
+        <text font-size="16" x="-127.6473" y="-58.483932" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_88"
+              font-weight="bold">
+            experience:212
+        </text>
+        <text font-size="16" x="1925.983" y="747.9279" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_89"
+              font-weight="bold">
+            investment:Getmobil
+        </text>
+        <text font-size="16" x="-109.413895" y="-95.09664" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_90"
+              font-weight="bold">
+            education:Istanbul Technical University; experience:212
+        </text>
+        <text font-size="16" x="-19.839865" y="-235.38803" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_91"
+              font-weight="bold">
+            investment:Philosopherking
+        </text>
+        <text font-size="16" x="-32.792385" y="-205.05634" fill="#000000"
+              style="text-anchor: middle;" font-family="Arial" class="id_92"
+              font-weight="bold">
+            education:Istanbul Technical University
+        </text>
+    </g>
+</svg>

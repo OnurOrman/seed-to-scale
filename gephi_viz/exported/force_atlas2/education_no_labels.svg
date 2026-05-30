@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1718.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-770.000000 -631.000000 1718.000000 1429.000000" height="1429.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_Lukas_Hackl id_ETH_Zürich"
+              d="M -203.460129,-3.836900 A 23.223758,23.223758 0,0 1,-210.779755,-10.141035"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lukas_Hackl id_University_of_California,_Berkeley"
+              d="M -184.224304,1.636866 A 36.459298,36.459298 0,0 1,-165.482574,20.025984"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_ETH_Zürich id_Gediminas_Mikutis"
+              d="M -224.448715,-22.428236 A 18.880114,18.880114 0,0 1,-227.539642,-25.044395"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_University_of_California,_Berkeley id_Bilen_Akuzum"
+              d="M -153.256790,26.134687 A 34.285722,34.285722 0,0 1,-129.930252,29.470985"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_University_of_California,_Berkeley id_Mark_Felegyhazi"
+              d="M -170.570328,35.693989 A 20.439470,20.439470 0,0 1,-176.447922,37.241829"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_University_of_California,_Berkeley id_Selim_Satici"
+              d="M -153.881912,34.450687 A 22.559532,22.559532 0,0 1,-148.580963,41.487129"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bilen_Akuzum id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University"
+              d="M -118.399040,44.802017 A 30.667227,30.667227 0,0 1,-120.710220,63.719639"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bilen_Akuzum id_Harvard_University"
+              d="M -115.645805,27.637362 A 36.124126,36.124126 0,0 1,-91.743294,17.814955"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University id_Selim_Satici"
+              d="M -135.689178,68.345764 A 23.991762,23.991762 0,0 1,-143.072266,60.683395"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Harvard_University id_Sean_Yu"
+              d="M -75.201889,11.453529 A 33.943312,33.943312 0,0 1,-53.492702,3.446155"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Istanbul_Technical_University id_Murat_Hacioglu"
+              d="M 132.907288,-102.136780 A 36.863052,36.863052 0,0 1,139.950485,-127.948997"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Istanbul_Technical_University id_Olcay_Silahli"
+              d="M 144.384979,-96.593201 A 20.825614,20.825614 0,0 1,150.959915,-96.782593"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Istanbul_Technical_University id_Batu_Sat"
+              d="M 136.066711,-82.455788 A 46.168424,46.168424 0,0 1,119.187881,-48.190826"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Murat_Hacioglu id_Technical_University_of_Munich"
+              d="M 149.161850,-144.851303 A 19.355627,19.355627 0,0 1,151.823120,-148.688751"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hakan_Yurdakul id_Koç_University"
+              d="M 67.888100,33.392105 A 26.655525,26.655525 0,0 1,64.503685,46.997166"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hakan_Yurdakul id_Robert_College"
+              d="M 62.658310,14.118150 A 28.002668,28.002668 0,0 1,64.930267,-1.434453"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Koç_University id_Mehmet_Ertan_Uygun"
+              d="M 59.542194,64.545830 A 26.102647,26.102647 0,0 1,55.564754,77.259003"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Robert_College id_Batu_Sat"
+              d="M 74.114746,-19.017416 A 43.364742,43.364742 0,0 1,100.942520,-41.121334"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Sean_Yu id_Boğaziçi_University"
+              d="M -36.825119,-2.496782 A 34.753862,34.753862 0,0 1,-13.968963,-10.278864"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Boğaziçi_University id_Oguzhan_Uyar"
+              d="M -10.482262,-16.288254 A 16.727181,16.727181 0,0 1,-10.900004,-17.431486"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mehmet_Ertan_Uygun id_Açı_Schools"
+              d="M 46.936039,94.388466 A 24.154945,24.154945 0,0 1,40.683205,103.253693"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Açı_Schools id_Alara_Eren_Iplikcioglu"
+              d="M 29.195946,117.830750 A 23.739720,23.739720 0,0 1,22.416378,125.610374"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_The_London_School_of_Economics_and_Political_Science_(LSE) id_Oguz_Alper_Oktem"
+              d="M -79.209587,163.484909 A 17.993740,17.993740 0,0 1,-80.735138,165.937241"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_The_London_School_of_Economics_and_Political_Science_(LSE) id_Batuhan_Ozcan"
+              d="M -68.578094,148.739532 A 29.965800,29.965800 0,0 1,-50.411762,148.009888"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Alara_Eren_Iplikcioglu id_Imperial_College_London"
+              d="M 6.910896,137.408218 A 24.210958,24.210958 0,0 1,-2.956318,142.085953"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Imperial_College_London id_Batuhan_Ozcan"
+              d="M -20.037580,149.218567 A 25.103245,25.103245 0,0 1,-31.398108,153.249176"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Batu_Sat id_University_of_Illinois_Urbana-Champaign"
+              d="M 120.199745,-39.278866 A 19.086398,19.086398 0,0 1,123.416809,-36.397377"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Boğaziçi_University"
+              d="M 25.789284,-4.568639 A 32.200189,32.200189 0,0 1,4.823706,-4.093805"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Robert_College"
+              d="M 43.377293,-14.086042 A 30.113302,30.113302 0,0 1,61.742638,-14.179536"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_The_London_School_of_Economics_and_Political_Science_(LSE)"
+              d="M -94.126579,119.353386 A 38.851183,38.851183 0,0 1,-77.985596,143.698822"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University"
+              d="M -111.552841,109.572411 A 40.658212,40.658212 0,0 1,-126.583931,81.963318"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_The_London_School_of_Economics_and_Political_Science_(LSE) id_Kivanc_Aydin"
+              d="M -71.466484,161.812943 A 16.703107,16.703107 0,0 1,-71.138458,162.951904"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Maher_Hakim id_University_of_Illinois_Urbana-Champaign"
+              d="M 134.789032,-17.172003 A 17.707371,17.707371 0,0 1,132.855316,-18.774673"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="112.05467"
+                class="id_Florin_Cornianu" cy="-618.02344" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="109.80256"
+                class="id_Politehnica_University_of_Timisoara" cy="-621.2992"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="114.358955"
+                class="id_C.N._Mihai_Eminescu_Oradea" cy="-614.7494"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-193.86209"
+                class="id_Lukas_Hackl" cy="-1.030194" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-198.26042"
+                class="id_UC_Berkeley_College_of_Engineering" cy="-6.5814667"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-214.97836"
+                class="id_ETH_Zürich" cy="-19.216917" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-192.554"
+                class="id_The_University_of_Edinburgh" cy="-7.490159"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-162.63297"
+                class="id_University_of_California,_Berkeley" cy="29.611374"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-200.47864"
+                class="id_Ashbury_College" cy="-1.1287223" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-121.904564"
+                class="id_Bilen_Akuzum" cy="35.43659" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-116.825424"
+                class="id_Drexel_University" cy="30.152006" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-126.367355"
+                class="id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University"
+                cy="71.96566" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-81.80905"
+                class="id_Harvard_University" cy="18.95989" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-115.32518"
+                class="id_Technische_Universität_Braunschweig" cy="36.622215"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-127.251976"
+                class="id_Beşiktaş_Atatürk_Anadolu_Lisesi" cy="31.449379"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-122.04832"
+                class="id_Terakki_Vakfı_Okulları" cy="27.823" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="497.1428"
+                class="id_Mehmet_Coka" cy="-308.49695" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="501.91824"
+                class="id_Nasdaq_Entreprenual_Center" cy="-311.09253"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="494.48123"
+                class="id_Food_System_6_Acceralator-Silicon_Valley"
+                cy="-313.36685" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="492.38232"
+                class="id_Eastern_Mediterranean_University" cy="-305.59937"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="500.21173"
+                class="id_Kabataş_Erkek_Lisesi" cy="-303.77106" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="123.97829"
+                class="id_Daghan_Cam" cy="-105.86143" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="117.92912"
+                class="id_Architectural_Association" cy="-108.7363"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="135.29466"
+                class="id_Istanbul_Technical_University" cy="-92.42594"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="121.753365"
+                class="id_MEF_Okulları" cy="-112.064255" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="7.718474"
+                class="id_Michail_Desyllas" cy="583.7295" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="9.2498665"
+                class="id_Architectural_Association_DRL" cy="586.0359"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-136.73187"
+                class="id_Emre_Fadillioglu" cy="83.40202" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-138.71066"
+                class="id_University_of_California,_Berkeley,_Haas_School_of_Business"
+                cy="89.22226" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-142.4389"
+                class="id_Arı_Fen_Lisesi" cy="85.947205" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="462.82974"
+                class="id_Mucahit_Gayiran" cy="587.1334" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="462.079"
+                class="id_Sivas_Cumhuriyet_Üniversitesi" cy="584.562"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-186.35165"
+                class="id_Mark_Felegyhazi" cy="35.857605" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-191.1166"
+                class="id_EPFL" cy="31.740156" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-193.0627"
+                class="id_Budapest_University_of_Technology_and_Economics"
+                cy="39.77196" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-194.33008"
+                class="id_Karlsruhe_Institute_of_Technology_(KIT)" cy="35.42035"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-188.887"
+                class="id_Szent_Istvan_High_School" cy="42.01464"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="146.93922"
+                class="id_Murat_Hacioglu" cy="-135.10144" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="160.1755"
+                class="id_Technical_University_of_Munich" cy="-154.18764"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="141.59114"
+                class="id_Yeditepe_University" cy="-152.63983" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="150.72887"
+                class="id_Ulubatli_Hasan_Anatolian_High_School" cy="-139.0316"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="65.7938"
+                class="id_Hakan_Yurdakul" cy="23.61387" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="69.350204"
+                class="id_University_of_Warwick" cy="26.43097" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="58.072083"
+                class="id_Koç_University" cy="54.654484" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="70.65107"
+                class="id_Robert_College" cy="-9.636429" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-19.39671"
+                class="id_Emrah_Gultekin" cy="-50.969833" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-21.22379"
+                class="id_Brown_University" cy="-56.367325" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-15.934315"
+                class="id_Massachusetts_Institute_of_Technology" cy="-41.29668"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-43.59377"
+                class="id_Sean_Yu" cy="4.864289" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-4.1147466"
+                class="id_Boğaziçi_University" cy="-8.577562" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-459.56683"
+                class="id_Philippe_Berlan" cy="554.2245" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-456.2127"
+                class="id_Mines_Paris_-_PSL" cy="552.2787" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-462.8729"
+                class="id_Lycée_Sainte-Geneviève" cy="556.21686"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1.9283968"
+                class="id_Deniz_Ozgur" cy="-6.5537143" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="169.63101"
+                class="id_Josua_Vieten" cy="-169.23636" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="170.70558"
+                class="id_Technische_Universität_Dresden" cy="-175.81548"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="175.07648"
+                class="id_Technische_Universität_München,_LMU_München,_Universität_Augsburg"
+                cy="-173.32133" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="160.27504"
+                class="id_Olcay_Silahli" cy="-93.14551" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="166.13966"
+                class="id_The_Turkish_Military_Academy" cy="-89.13736"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="166.02655"
+                class="id_Kuleli_Military_High_School" cy="-97.28621"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="168.5983"
+                class="id_Católica_Lisbon_School_of_Business_and_Economics"
+                cy="-93.19805" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-601.90137"
+                class="id_Robert_Brull" cy="-253.14156" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-604.62866"
+                class="id_RWTH_Aachen_University" cy="-253.8502"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="340.2975"
+                class="id_Tunga_Bayrak" cy="418.82898" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="338.90533"
+                class="id_University_of_Pennsylvania" cy="423.28595"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="342.333"
+                class="id_The_Wharton_School" cy="412.14365" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="344.83838"
+                class="id_Tomas_Nepala" cy="404.61392" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="349.28745"
+                class="id_Y_Combinator" cy="402.06937" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="342.74393"
+                class="id_The_English_College_in_Prague_-_Anglické_gymnázium"
+                cy="400.04892" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="48.719364"
+                class="id_Mehmet_Ertan_Uygun" cy="84.54877" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="54.38586"
+                class="id_The_University_of_British_Columbia" cy="85.68572"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="50.949734"
+                class="id_UCLA_Anderson_School_of_Management" cy="89.8945"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="32.01253"
+                class="id_Açı_Schools" cy="108.2356" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-232.27167"
+                class="id_Gediminas_Mikutis" cy="-33.85393" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-238.85445"
+                class="id_Jacobs_University_Bremen" cy="-34.032475"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-238.3623"
+                class="id_Utrecht_University" cy="-38.88346" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-233.71466"
+                class="id_KTU_Gymnasium" cy="-40.652508" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-216.21353"
+                class="id_Arden_Agopyan" cy="-523.51196" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-219.47046"
+                class="id_Galatasaray_University" cy="-527.80505"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-211.94955"
+                class="id_Ozyegin_University" cy="-527.1733" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-220.52357"
+                class="id_Istanbul_Bilgi_University" cy="-520.5237"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-212.50989"
+                class="id_Lycée_Saint-Joseph" cy="-519.4041" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="647.1116"
+                class="id_Ali_Beklen" cy="-2.5746522" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="649.92566"
+                class="id_Maltepe_University" cy="-2.7005363" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-85.392685"
+                class="id_Hande_Cilingir" cy="156.67339" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-77.27608"
+                class="id_The_London_School_of_Economics_and_Political_Science_(LSE)"
+                cy="153.67361" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-90.28495"
+                class="id_Shanghai_Normal_University" cy="158.36383"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="13.296469"
+                class="id_Alara_Eren_Iplikcioglu" cy="129.71248"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-12.9560585"
+                class="id_Imperial_College_London" cy="142.15797"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="18.449383"
+                class="id_University_of_Westminster" cy="131.6714"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="14.832527"
+                class="id_UCL" cy="135.62408" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-14.141558"
+                class="id_Berhan_Kongel" cy="-11.81696" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-19.278942"
+                class="id_Deutsche_Schule_Istanbul_/_Alman_Lisesi"
+                cy="-13.580273" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="141.90038"
+                class="id_Cagkan_Ekici" cy="-159.60007" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="110.81285"
+                class="id_Batu_Sat" cy="-42.726498" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="127.87354"
+                class="id_University_of_Illinois_Urbana-Champaign"
+                cy="-27.445421" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-88.68156"
+                class="id_Oguz_Alper_Oktem" cy="172.00803" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-94.32278"
+                class="id_University_of_Chicago" cy="176.58463" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-90.47347"
+                class="id_The_Koç_School" cy="179.32281" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="165.6918"
+                class="id_Haris_Aghadi" cy="1.9947944" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="156.83064"
+                class="id_Carnegie_Mellon_University" cy="-4.4717317"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="170.312"
+                class="id_500_Startups" cy="5.4337792" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-11.003861"
+                class="id_Oguzhan_Uyar" cy="-27.430946" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-233.90361"
+                class="id_Tolga_Sen" cy="667.8065" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-229.6581"
+                class="id_Yıldız_Teknik_Üniversitesi" cy="669.5807"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-237.13391"
+                class="id_Bahcesehir_University" cy="671.347" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-234.7958"
+                class="id_Macka_Anatolia_Technical_High_School" cy="663.2068"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="137.33823"
+                class="id_Sadok_Kohen" cy="-158.28362" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-7.707965"
+                class="id_Saliha_Durmus" cy="0.9922854" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-9.723139"
+                class="id_Haydarpaşa_Lisesi" cy="5.762117" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="5.3268356"
+                class="id_Baransel_Soysal" cy="-20.767216" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="10.741034"
+                class="id_Galatasaray_Lisesi" cy="-23.833252" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="6.6680803"
+                class="id_Politecnico_di_Milano" cy="-26.826166"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-717.13306"
+                class="id_Kamal_Reggad" cy="-330.97128" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-719.7264"
+                class="id_Northeastern_University" cy="-332.0894"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="9.107616"
+                class="id_Didem_Aral" cy="13.114666" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="6.6054783"
+                class="id_Marmara_University" cy="8.833986" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-122.74861"
+                class="id_Mukremin_Cetinkaya" cy="76.12198" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="687.6583"
+                class="id_Huzeyfe_Onal" cy="465.83823" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="689.0011"
+                class="id_Kocaeli_University" cy="468.33026" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="624.22974"
+                class="id_Oguz_Kucukbarak" cy="282.66443" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="621.4077"
+                class="id_Bilgi_University" cy="279.93097" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="627.034"
+                class="id_Gazi_University" cy="285.43375" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="575.78546"
+                class="id_Koray_Dogan" cy="-578.4095" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="571.5602"
+                class="id_Georgia_Institute_of_Technology" cy="-580.7239"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="579.36865"
+                class="id_Bilkent_University" cy="-581.8154" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="576.3984"
+                class="id_Ankara_Science_High_School" cy="-573.72784"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-41.346085"
+                class="id_Batuhan_Ozcan" cy="152.23048" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-39.581512"
+                class="id_Blekinge_Institute_of_Technology" cy="158.38048"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-36.170635"
+                class="id_Maltepe_Military_High_School" cy="154.78424"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="933.6937"
+                class="id_Nevzat_Atakli" cy="217.85" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="931.1674"
+                class="id_Harvard_Business_School_Online" cy="221.85017"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="930.71027"
+                class="id_Sabanci_University" cy="214.13177" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="938.3493"
+                class="id_İzmir_Fen_Lisesi" cy="217.91211" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-146.3437"
+                class="id_Selim_Satici" cy="51.23365" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="816.0802"
+                class="id_Ceren_Melis_Abacioglu" cy="-186.23727"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="812.45526"
+                class="id_Columbia_University" cy="-187.74014" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="819.7478"
+                class="id_Deutsche_Schule_Istanbul" cy="-184.71843"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="138.88248"
+                class="id_Balca_Yilmaz" cy="-97.93487" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-755.78033"
+                class="id_Martin_Weber" cy="394.37247" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-754.814"
+                class="id_ESCP_Business_School" cy="389.7049" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-752.0436"
+                class="id_The_Hebrew_University_of_Jerusalem" cy="397.1971"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-760.3596"
+                class="id_HSBA_Hamburg_School_of_Business_Administration"
+                cy="395.79858" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-526.54236"
+                class="id_Ali_Karabey" cy="-601.28674" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-528.35297"
+                class="id_University_of_Michigan_-_Stephen_M._Ross_School_of_Business"
+                cy="-597.8336" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-524.6274"
+                class="id_St._Georg_Avusturya_Lisesi_ve_Ticaret_Okulu_(Österreichisches_St._Georgs-Kolleg)"
+                cy="-604.7343" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="124.79051"
+                class="id_Cagdas_Yildiz" cy="-88.86726" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="119.17204"
+                class="id_Concordia_University" cy="-87.211334" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="34.515575"
+                class="id_Caglar_Urcan" cy="-9.452472" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-103.03822"
+                class="id_Gizem_Yagiz" cy="114.81658" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-106.11311"
+                class="id_TED_Ankara_Koleji" cy="118.67334" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-71.728935"
+                class="id_Kivanc_Aydin" cy="172.93446" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-67.851074"
+                class="id_University_of_Cambridge" cy="179.06558"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-72.25896"
+                class="id_Izmir_Fen_Lisesi" cy="180.4834" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="144.23372"
+                class="id_Maher_Hakim" cy="-13.885993" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="147.06595"
+                class="id_Damascus_University" cy="-10.028535" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="127.556496"
+                class="id_Numan_Numan" cy="787.6169" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="130.34636"
+                class="id_Ege_University" cy="787.154" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="141.43251"
+                class="id_Ozge_Sevim" cy="-83.25021" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="144.7392"
+                class="id_Sabancı_Business_School" cy="-78.35065"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="2.1423423"
+                class="id_Selma_Bahcivanoglu" cy="1.6235579" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+    </g>
+</svg>

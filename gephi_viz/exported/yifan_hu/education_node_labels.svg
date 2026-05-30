@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="5106.172"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-2423.645996 -2215.000000 5106.171875 4643.000000" height="4643.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_Florin_Cornianu id_Politehnica_University_of_Timisoara"
+              d="M 1687.778564,-1053.796387 A 54.046126,54.046126 0,0 1,1650.329956,-1083.524536"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Florin_Cornianu id_C.N._Mihai_Eminescu_Oradea"
+              d="M 1704.321289,-1045.098511 A 54.709992,54.709992 0,0 1,1712.585815,-997.183777"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lukas_Hackl id_UC_Berkeley_College_of_Engineering"
+              d="M -1728.554199,-252.894608 A 85.344337,85.344337 0,0 1,-1772.173218,-326.707367"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lukas_Hackl id_ETH_Zürich"
+              d="M -1729.475952,-249.813202 A 182.718003,182.718003 0,0 1,-1878.615356,-387.442230"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lukas_Hackl id_The_University_of_Edinburgh"
+              d="M -1729.396606,-246.729446 A 92.995551,92.995551 0,0 1,-1816.530396,-284.511688"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lukas_Hackl id_University_of_California,_Berkeley"
+              d="M -1709.560425,-248.366211 A 248.519989,248.519989 0,0 1,-1483.261719,-80.125710"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lukas_Hackl id_Ashbury_College"
+              d="M -1727.317383,-242.215805 A 99.089371,99.089371 0,0 1,-1829.227661,-233.043976"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_ETH_Zürich id_Gediminas_Mikutis"
+              d="M -1890.476196,-399.299164 A 160.571537,160.571537 0,0 1,-2010.583496,-528.384338"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_University_of_California,_Berkeley id_Bilen_Akuzum"
+              d="M -1471.311890,-75.122612 A 261.768178,261.768178 0,0 1,-1176.974976,-29.214033"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_University_of_California,_Berkeley id_Mark_Felegyhazi"
+              d="M -1486.110229,-62.508904 A 169.337749,169.337749 0,0 1,-1663.000610,-2.295240"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_University_of_California,_Berkeley id_Selim_Satici"
+              d="M -1470.957153,-66.850578 A 145.944882,145.944882 0,0 1,-1384.288818,66.132446"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bilen_Akuzum id_Drexel_University"
+              d="M -1177.055664,-29.131462 A 97.318239,97.318239 0,0 1,-1198.049194,-127.093712"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bilen_Akuzum id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University"
+              d="M -1166.900391,-12.635375 A 199.593714,199.593714 0,0 1,-1236.696167,199.388977"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bilen_Akuzum id_Harvard_University"
+              d="M -1162.133057,-28.535532 A 277.982090,277.982090 0,0 1,-845.382385,-48.277367"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bilen_Akuzum id_Technische_Universität_Braunschweig"
+              d="M -1172.150635,-31.921526 A 84.004240,84.004240 0,0 1,-1143.084473,-110.859489"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bilen_Akuzum id_Beşiktaş_Atatürk_Anadolu_Lisesi"
+              d="M -1179.495972,-24.860287 A 70.183058,70.183058 0,0 1,-1224.347290,-75.177711"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bilen_Akuzum id_Terakki_Vakfı_Okulları"
+              d="M -1163.589233,-29.977282 A 58.146862,58.146862 0,0 1,-1113.732056,-47.369171"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University id_Emre_Fadillioglu"
+              d="M -1253.063965,199.757294 A 133.450287,133.450287 0,0 1,-1305.756348,66.064468"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University id_Mukremin_Cetinkaya"
+              d="M -1236.083374,210.302780 A 55.475385,55.475385 0,0 1,-1212.526001,253.899261"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University id_Selim_Satici"
+              d="M -1254.661499,203.981461 A 158.659242,158.659242 0,0 1,-1382.490845,85.901367"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Harvard_University id_Sean_Yu"
+              d="M -829.086365,-49.144306 A 275.061355,275.061355 0,0 1,-515.535339,-63.026005"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mehmet_Coka id_Nasdaq_Entreprenual_Center"
+              d="M 1488.435791,-1436.189453 A 169.839471,169.839471 0,0 1,1366.172241,-1294.086426"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mehmet_Coka id_Food_System_6_Acceralator-Silicon_Valley"
+              d="M 1491.997925,-1455.799194 A 108.738043,108.738043 0,0 1,1578.387939,-1530.106323"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mehmet_Coka id_Eastern_Mediterranean_University"
+              d="M 1487.150146,-1455.886841 A 103.124214,103.124214 0,0 1,1525.730103,-1555.889038"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mehmet_Coka id_Kabataş_Erkek_Lisesi"
+              d="M 1497.979248,-1451.278442 A 61.567743,61.567743 0,0 1,1554.923950,-1449.974731"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Daghan_Cam id_Architectural_Association"
+              d="M 712.986877,-1103.679932 A 92.192811,92.192811 0,0 1,738.630249,-1194.118896"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Daghan_Cam id_Istanbul_Technical_University"
+              d="M 717.292358,-1084.241211 A 143.477867,143.477867 0,0 1,644.583435,-946.487244"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Daghan_Cam id_MEF_Okulları"
+              d="M 717.874451,-1104.000732 A 98.673454,98.673454 0,0 1,789.097900,-1176.765137"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Istanbul_Technical_University id_Murat_Hacioglu"
+              d="M 629.120667,-949.433594 A 268.977523,268.977523 0,0 1,600.708496,-1254.666870"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Istanbul_Technical_University id_Olcay_Silahli"
+              d="M 641.825806,-949.802612 A 161.477032,161.477032 0,0 1,811.383362,-1001.994873"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Istanbul_Technical_University id_Batu_Sat"
+              d="M 639.785522,-932.774414 A 323.962110,323.962110 0,0 1,563.245544,-568.150024"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Istanbul_Technical_University id_Balca_Yilmaz"
+              d="M 645.694397,-941.655579 A 59.739422,59.739422 0,0 1,691.354980,-911.464844"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Michail_Desyllas id_Architectural_Association_DRL"
+              d="M 1165.155396,1823.084961 A 69.014426,69.014426 0,0 1,1202.180542,1877.709351"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Emre_Fadillioglu id_University_of_California,_Berkeley,_Haas_School_of_Business"
+              d="M -1312.307861,51.648571 A 93.195314,93.195314 0,0 1,-1357.443481,-32.187019"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Emre_Fadillioglu id_Arı_Fen_Lisesi"
+              d="M -1309.147095,48.096294 A 95.897950,95.897950 0,0 1,-1310.356567,-50.369915"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mucahit_Gayiran id_Sivas_Cumhuriyet_Üniversitesi"
+              d="M 2092.166992,1472.914063 A 49.272580,49.272580 0,0 1,2093.421387,1514.887329"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mark_Felegyhazi id_EPFL"
+              d="M -1681.646362,-0.864538 A 107.462650,107.462650 0,0 1,-1792.661621,-18.543665"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mark_Felegyhazi id_Budapest_University_of_Technology_and_Economics"
+              d="M -1667.119019,3.252395 A 58.701417,58.701417 0,0 1,-1665.983154,56.718060"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mark_Felegyhazi id_Karlsruhe_Institute_of_Technology_(KIT)"
+              d="M -1678.351074,3.061860 A 95.844309,95.844309 0,0 1,-1770.238525,38.290157"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mark_Felegyhazi id_Szent_Istvan_High_School"
+              d="M -1670.256226,4.607542 A 90.699898,90.699898 0,0 1,-1702.072266,91.146980"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Murat_Hacioglu id_Technical_University_of_Munich"
+              d="M 600.810913,-1271.961304 A 190.715884,190.715884 0,0 1,621.402222,-1483.511475"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Murat_Hacioglu id_Yeditepe_University"
+              d="M 597.359375,-1268.675049 A 155.510413,155.510413 0,0 1,532.620422,-1426.119751"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Murat_Hacioglu id_Ulubatli_Hasan_Anatolian_High_School"
+              d="M 602.774963,-1272.821533 A 85.864852,85.864852 0,0 1,626.627563,-1355.828613"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Technical_University_of_Munich id_Josua_Vieten"
+              d="M 622.420105,-1499.396606 A 169.041462,169.041462 0,0 1,627.564697,-1685.827515"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Yeditepe_University id_Cagkan_Ekici"
+              d="M 528.656677,-1443.755005 A 101.642433,101.642433 0,0 1,521.377380,-1548.903320"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Yeditepe_University id_Sadok_Kohen"
+              d="M 525.354675,-1439.117432 A 98.948227,98.948227 0,0 1,463.717133,-1520.578003"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hakan_Yurdakul id_University_of_Warwick"
+              d="M 310.109100,81.820396 A 94.014145,94.014145 0,0 1,377.291138,150.677383"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hakan_Yurdakul id_Koç_University"
+              d="M 303.162018,89.349724 A 254.354925,254.354925 0,0 1,207.869827,362.180115"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hakan_Yurdakul id_Robert_College"
+              d="M 295.846313,70.819275 A 267.047999,267.047999 0,0 1,344.489105,-229.502655"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Koç_University id_Mehmet_Ertan_Uygun"
+              d="M 201.478867,377.753021 A 241.377478,241.377478 0,0 1,84.583954,624.911682"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Robert_College id_Batu_Sat"
+              d="M 350.894928,-246.551926 A 319.791629,319.791629 0,0 1,546.552063,-557.713928"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Emrah_Gultekin id_Brown_University"
+              d="M 352.242523,44.872478 A 98.550475,98.550475 0,0 1,448.221619,78.417633"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Emrah_Gultekin id_Massachusetts_Institute_of_Technology"
+              d="M 333.227112,50.975529 A 130.704099,130.704099 0,0 1,196.874115,17.519058"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Massachusetts_Institute_of_Technology id_Oguzhan_Uyar"
+              d="M 180.966949,13.768913 A 148.144207,148.144207 0,0 1,23.727669,-22.540831"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Sean_Yu id_Boğaziçi_University"
+              d="M -499.233276,-63.611565 A 279.766835,279.766835 0,0 1,-179.843643,-72.319489"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Boğaziçi_University id_Deniz_Ozgur"
+              d="M -180.225098,-71.714577 A 71.445017,71.445017 0,0 1,-211.474487,-133.158005"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Boğaziçi_University id_Berhan_Kongel"
+              d="M -176.183731,-75.564346 A 108.782319,108.782319 0,0 1,-162.623215,-188.759109"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Boğaziçi_University id_Oguzhan_Uyar"
+              d="M -162.450134,-70.763939 A 160.125815,160.125815 0,0 1,10.094121,-37.170361"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Boğaziçi_University id_Saliha_Durmus"
+              d="M -180.659073,-62.492424 A 86.416197,86.416197 0,0 1,-266.676788,-75.740494"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Boğaziçi_University id_Baransel_Soysal"
+              d="M -162.167358,-63.312859 A 112.106332,112.106332 0,0 1,-92.853912,32.194252"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Philippe_Berlan id_Mines_Paris_-_PSL"
+              d="M -951.813354,2368.394043 A 54.322355,54.322355 0,0 1,-924.144104,2407.800293"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Philippe_Berlan id_Lycée_Sainte-Geneviève"
+              d="M -966.610046,2356.157715 A 63.379495,63.379495 0,0 1,-968.481506,2297.028809"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Josua_Vieten id_Technische_Universität_Dresden"
+              d="M 625.952087,-1700.342651 A 101.691859,101.691859 0,0 1,597.976929,-1802.024048"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Josua_Vieten id_Technische_Universität_München,_LMU_München,_Universität_Augsburg"
+              d="M 630.606079,-1703.396729 A 105.831365,105.831365 0,0 1,662.987793,-1808.991699"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Olcay_Silahli id_The_Turkish_Military_Academy"
+              d="M 830.230652,-1002.490173 A 88.582836,88.582836 0,0 1,917.706543,-982.877380"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Olcay_Silahli id_Kuleli_Military_High_School"
+              d="M 827.144287,-1006.713562 A 102.181202,102.181202 0,0 1,928.420532,-1038.171509"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Olcay_Silahli id_Católica_Lisbon_School_of_Business_and_Economics"
+              d="M 823.032227,-1008.675842 A 102.387202,102.387202 0,0 1,900.027222,-1081.962769"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Robert_Brull id_RWTH_Aachen_University"
+              d="M -2391.406738,-356.808563 A 104.238690,104.238690 0,0 1,-2284.531006,-337.935974"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tunga_Bayrak id_University_of_Pennsylvania"
+              d="M 870.273682,1926.109497 A 97.889865,97.889865 0,0 1,894.366333,2024.065918"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tunga_Bayrak id_The_Wharton_School"
+              d="M 855.904785,1912.212036 A 118.645651,118.645651 0,0 1,834.701233,1788.127441"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_The_Wharton_School id_Tomas_Nepala"
+              d="M 840.561157,1769.187256 A 76.743829,76.743829 0,0 1,891.715027,1713.869019"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tomas_Nepala id_Y_Combinator"
+              d="M 908.795471,1704.686035 A 63.729309,63.729309 0,0 1,967.463806,1694.286011"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tomas_Nepala id_The_English_College_in_Prague_-_Anglické_gymnázium"
+              d="M 894.494080,1704.212402 A 84.566285,84.566285 0,0 1,879.326538,1620.781860"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mehmet_Ertan_Uygun id_The_University_of_British_Columbia"
+              d="M 85.751762,631.072388 A 92.650480,92.650480 0,0 1,156.772995,693.497375"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mehmet_Ertan_Uygun id_UCLA_Anderson_School_of_Management"
+              d="M 83.266930,636.454834 A 94.168812,94.168812 0,0 1,106.831093,729.918091"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mehmet_Ertan_Uygun id_Açı_Schools"
+              d="M 73.510185,639.485779 A 225.239249,225.239249 0,0 1,-118.378731,805.940552"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Açı_Schools id_Alara_Eren_Iplikcioglu"
+              d="M -132.204758,816.092590 A 214.471478,214.471478 0,0 1,-337.324005,942.783752"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gediminas_Mikutis id_Jacobs_University_Bremen"
+              d="M -2021.547607,-535.484131 A 102.973018,102.973018 0,0 1,-2123.436035,-568.172974"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gediminas_Mikutis id_Utrecht_University"
+              d="M -2021.696777,-540.524536 A 102.801618,102.801618 0,0 1,-2094.545166,-618.619141"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gediminas_Mikutis id_KTU_Gymnasium"
+              d="M -2007.696167,-547.340942 A 81.841300,81.841300 0,0 1,-1938.171631,-589.880554"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Arden_Agopyan id_Galatasaray_University"
+              d="M -451.352325,-2096.610107 A 101.397968,101.397968 0,0 1,-493.758453,-2192.781250"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Arden_Agopyan id_Ozyegin_University"
+              d="M -447.334290,-2100.243652 A 95.864101,95.864101 0,0 1,-434.532135,-2197.840332"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Arden_Agopyan id_Istanbul_Bilgi_University"
+              d="M -452.384644,-2088.157959 A 63.417311,63.417311 0,0 1,-509.802155,-2102.593994"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Arden_Agopyan id_Lycée_Saint-Joseph"
+              d="M -435.262146,-2084.816895 A 155.485961,155.485961 0,0 1,-392.199341,-1920.148926"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Beklen id_Maltepe_University"
+              d="M 2183.291992,396.878632 A 50.142747,50.142747 0,0 1,2226.116211,401.324707"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hande_Cilingir id_The_London_School_of_Economics_and_Political_Science_(LSE)"
+              d="M -1103.381958,901.659729 A 85.711895,85.711895 0,0 1,-1117.613770,816.661499"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hande_Cilingir id_Shanghai_Normal_University"
+              d="M -1087.508057,913.223938 A 72.711452,72.711452 0,0 1,-1050.276123,973.051208"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_The_London_School_of_Economics_and_Political_Science_(LSE) id_Oguz_Alper_Oktem"
+              d="M -1118.458008,816.236267 A 153.979740,153.979740 0,0 1,-1270.382446,888.869995"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_The_London_School_of_Economics_and_Political_Science_(LSE) id_Batuhan_Ozcan"
+              d="M -1103.713745,805.687805 A 231.068106,231.068106 0,0 1,-867.200073,916.122192"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Alara_Eren_Iplikcioglu id_Imperial_College_London"
+              d="M -355.215607,948.228394 A 214.665188,214.665188 0,0 1,-596.369019,957.275879"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Alara_Eren_Iplikcioglu id_University_of_Westminster"
+              d="M -338.726440,947.259888 A 93.802798,93.802798 0,0 1,-297.836792,1034.057129"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Alara_Eren_Iplikcioglu id_UCL"
+              d="M -342.670135,950.978149 A 96.813262,96.813262 0,0 1,-353.630035,1049.950684"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Imperial_College_London id_Batuhan_Ozcan"
+              d="M -613.416016,956.708313 A 215.821347,215.821347 0,0 1,-854.811829,931.467163"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Berhan_Kongel id_Deutsche_Schule_Istanbul_/_Alman_Lisesi"
+              d="M -161.492920,-204.689987 A 83.918651,83.918651 0,0 1,-160.754135,-288.702576"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Batu_Sat id_University_of_Illinois_Urbana-Champaign"
+              d="M 565.592163,-563.618469 A 191.353676,191.353676 0,0 1,762.271484,-481.028564"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Oguz_Alper_Oktem id_University_of_Chicago"
+              d="M -1287.146973,894.464661 A 95.290854,95.290854 0,0 1,-1382.569824,915.627563"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Oguz_Alper_Oktem id_The_Koç_School"
+              d="M -1281.988159,897.074097 A 100.762014,100.762014 0,0 1,-1354.540649,972.058777"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Haris_Aghadi id_Carnegie_Mellon_University"
+              d="M 1249.570190,-256.352264 A 121.000400,121.000400 0,0 1,1131.348267,-307.263641"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Haris_Aghadi id_500_Startups"
+              d="M 1269.103271,-260.630096 A 91.510496,91.510496 0,0 1,1356.533325,-228.402023"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tolga_Sen id_Yıldız_Teknik_Üniversitesi"
+              d="M -1299.620850,1659.861328 A 100.309699,100.309699 0,0 1,-1373.141602,1733.126465"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tolga_Sen id_Bahcesehir_University"
+              d="M -1298.598877,1640.088623 A 157.482586,157.482586 0,0 1,-1212.606567,1490.428345"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tolga_Sen id_Macka_Anatolia_Technical_High_School"
+              d="M -1294.308960,1659.456177 A 96.687447,96.687447 0,0 1,-1318.524048,1755.888184"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Saliha_Durmus id_Haydarpaşa_Lisesi"
+              d="M -282.892151,-77.759384 A 64.926100,64.926100 0,0 1,-343.751953,-82.376778"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baransel_Soysal id_Galatasaray_Lisesi"
+              d="M -82.564896,42.212887 A 78.217548,78.217548 0,0 1,-18.128094,84.597137"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baransel_Soysal id_Politecnico_di_Milano"
+              d="M -85.101707,48.845985 A 80.094576,80.094576 0,0 1,-64.577354,125.542862"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kamal_Reggad id_Northeastern_University"
+              d="M -2126.177979,-1288.465942 A 48.844920,48.844920 0,0 1,-2115.764648,-1328.606812"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Didem_Aral id_Marmara_University"
+              d="M -222.313141,300.310852 A 81.963803,81.963803 0,0 1,-218.831528,218.730774"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Huzeyfe_Onal id_Kocaeli_University"
+              d="M 2230.303467,994.030334 A 89.070380,89.070380 0,0 1,2147.729980,957.641663"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Oguz_Kucukbarak id_Bilgi_University"
+              d="M 1581.664307,1370.735718 A 69.155570,69.155570 0,0 1,1631.508057,1414.242798"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Oguz_Kucukbarak id_Gazi_University"
+              d="M 1561.821899,1368.272461 A 97.461614,97.461614 0,0 1,1484.593384,1304.180542"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Koray_Dogan id_Georgia_Institute_of_Technology"
+              d="M 1959.948120,-767.564941 A 133.059878,133.059878 0,0 1,1824.038696,-722.353516"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Koray_Dogan id_Bilkent_University"
+              d="M 1960.458374,-783.920593 A 56.776827,56.776827 0,0 1,1959.126099,-835.040833"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Koray_Dogan id_Ankara_Science_High_School"
+              d="M 1972.590088,-783.040771 A 101.923862,101.923862 0,0 1,2075.036865,-809.222229"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Batuhan_Ozcan id_Blekinge_Institute_of_Technology"
+              d="M -858.927673,934.253601 A 93.675756,93.675756 0,0 1,-882.267151,1027.160034"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Batuhan_Ozcan id_Maltepe_Military_High_School"
+              d="M -854.445679,931.028809 A 96.303529,96.303529 0,0 1,-824.082581,1025.218628"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Nevzat_Atakli id_Harvard_Business_School_Online"
+              d="M 2151.109375,-366.598419 A 142.035034,142.035034 0,0 1,1997.204956,-360.391052"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Nevzat_Atakli id_Sabanci_University"
+              d="M 2165.341553,-380.434998 A 98.926292,98.926292 0,0 1,2262.873535,-410.718994"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Nevzat_Atakli id_İzmir_Fen_Lisesi"
+              d="M 2168.711914,-375.322479 A 80.344375,80.344375 0,0 1,2244.621094,-351.042999"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ceren_Melis_Abacioglu id_Columbia_University"
+              d="M 2582.222656,-77.424072 A 58.863192,58.863192 0,0 1,2634.350830,-90.214989"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ceren_Melis_Abacioglu id_Deutsche_Schule_Istanbul"
+              d="M 2566.810547,-64.891083 A 96.786463,96.786463 0,0 1,2467.297607,-67.422440"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Martin_Weber id_ESCP_Business_School"
+              d="M -1939.878906,941.517212 A 101.699761,101.699761 0,0 1,-2040.482422,973.182129"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Martin_Weber id_The_Hebrew_University_of_Jerusalem"
+              d="M -1934.290649,943.668518 A 73.824778,73.824778 0,0 1,-1977.127197,1001.307373"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Martin_Weber id_HSBA_Hamburg_School_of_Business_Administration"
+              d="M -1929.119019,924.777527 A 147.611447,147.611447 0,0 1,-1787.307373,849.109375"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_University_of_Michigan_-_Stephen_M._Ross_School_of_Business"
+              d="M -1519.291138,-1873.561890 A 78.945729,78.945729 0,0 1,-1562.914429,-1938.230957"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_St._Georg_Avusturya_Lisesi_ve_Ticaret_Okulu_(Österreichisches_St._Georgs-Kolleg)"
+              d="M -1500.813843,-1865.907837 A 112.412219,112.412219 0,0 1,-1435.586792,-1767.122803"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Concordia_University"
+              d="M 576.864136,-1054.811035 A 79.580437,79.580437 0,0 1,540.635437,-1124.760010"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Istanbul_Technical_University"
+              d="M 594.140686,-1044.740112 A 99.224837,99.224837 0,0 1,637.277222,-951.774963"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Istanbul_Technical_University id_Ozge_Sevim"
+              d="M 626.159851,-938.894592 A 97.921145,97.921145 0,0 1,529.376831,-967.470459"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Boğaziçi_University"
+              d="M 87.825142,-145.135849 A 232.561280,232.561280 0,0 1,-162.048126,-63.666191"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Robert_College"
+              d="M 99.690857,-161.235657 A 225.801306,225.801306 0,0 1,342.032135,-239.610962"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Boğaziçi_University id_Selma_Bahcivanoglu"
+              d="M -167.783813,-57.435539 A 125.559268,125.559268 0,0 1,-196.306870,73.704369"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_The_London_School_of_Economics_and_Political_Science_(LSE)"
+              d="M -1187.604614,516.099854 A 257.291224,257.291224 0,0 1,-1110.060059,798.153687"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University"
+              d="M -1202.456787,502.748474 A 257.069514,257.069514 0,0 1,-1249.220337,214.260986"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_TED_Ankara_Koleji"
+              d="M -1200.144043,518.621948 A 82.949686,82.949686 0,0 1,-1273.154663,557.773071"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_The_London_School_of_Economics_and_Political_Science_(LSE) id_Kivanc_Aydin"
+              d="M -1112.616455,817.484436 A 158.892969,158.892969 0,0 1,-1199.107300,968.813538"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kivanc_Aydin id_University_of_Cambridge"
+              d="M -1204.694702,982.450317 A 99.192240,99.192240 0,0 1,-1229.002319,1081.970947"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kivanc_Aydin id_Izmir_Fen_Lisesi"
+              d="M -1209.418457,982.988831 A 104.895836,104.895836 0,0 1,-1281.693970,1065.009399"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Maher_Hakim id_Carnegie_Mellon_University"
+              d="M 971.794983,-391.228241 A 149.845499,149.845499 0,0 1,1120.888672,-324.308960"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Maher_Hakim id_University_of_Illinois_Urbana-Champaign"
+              d="M 952.193115,-387.263824 A 176.223633,176.223633 0,0 1,772.787231,-464.016296"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Maher_Hakim id_Damascus_University"
+              d="M 970.684998,-394.263794 A 76.435887,76.435887 0,0 1,1045.498169,-389.381653"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Ege_University"
+              d="M -314.546936,1996.137207 A 49.362747,49.362747 0,0 1,-298.500092,2035.061279"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ozge_Sevim id_Sabancı_Business_School"
+              d="M 513.080750,-973.919189 A 76.705249,76.705249 0,0 1,445.356903,-1006.832520"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Marmara_University"
+              d="M -198.586868,89.193008 A 108.680733,108.680733 0,0 1,-206.774216,202.780060"
+              stroke="#006d2c" stroke-width="2.0" stroke-opacity="1.0"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1697.7065"
+                class="id_Florin_Cornianu" cy="-1052.5981" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1646.9106"
+                class="id_Politehnica_University_of_Timisoara" cy="-1092.9218"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1708.8657"
+                class="id_C.N._Mihai_Eminescu_Oradea" cy="-987.9015"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1719.5592"
+                class="id_Lukas_Hackl" cy="-248.52531" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1771.662"
+                class="id_UC_Berkeley_College_of_Engineering" cy="-336.69427"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1880.694"
+                class="id_ETH_Zürich" cy="-397.22382" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1821.9431"
+                class="id_The_University_of_Edinburgh" cy="-292.9202"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1480.229"
+                class="id_University_of_California,_Berkeley" cy="-70.596664"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1837.9878"
+                class="id_Ashbury_College" cy="-237.86684" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1169.8597"
+                class="id_Bilen_Akuzum" cy="-22.18746" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1194.3308"
+                class="id_Drexel_University" cy="-136.37668" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1244.7509"
+                class="id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University"
+                cy="205.31538" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-836.92725"
+                class="id_Harvard_University" cy="-42.937847" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1135.0281"
+                class="id_Technische_Universität_Braunschweig" cy="-116.783554"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1225.8993"
+                class="id_Beşiktaş_Atatürk_Anadolu_Lisesi" cy="-85.05655"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1103.9769"
+                class="id_Terakki_Vakfı_Okulları" cy="-45.1696" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1489.3987"
+                class="id_Mehmet_Coka" cy="-1446.143" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1356.4739"
+                class="id_Nasdaq_Entreprenual_Center" cy="-1291.6488"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1588.3243"
+                class="id_Food_System_6_Acceralator-Silicon_Valley"
+                cy="-1531.2324" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1533.9403"
+                class="id_Eastern_Mediterranean_University" cy="-1561.598"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1563.2606"
+                class="id_Kabataş_Erkek_Lisesi" cy="-1444.452" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="716.06555"
+                class="id_Daghan_Cam" cy="-1094.1656" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="746.2446"
+                class="id_Architectural_Association" cy="-1200.6012"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="635.6974"
+                class="id_Istanbul_Technical_University" cy="-941.9006"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="798.89197"
+                class="id_MEF_Okulları" cy="-1178.784" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1155.9609"
+                class="id_Michail_Desyllas" cy="1819.1528" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1202.4274"
+                class="id_Architectural_Association_DRL" cy="1887.7063"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1303.4708"
+                class="id_Emre_Fadillioglu" cy="56.329147" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1356.4855"
+                class="id_University_of_California,_Berkeley,_Haas_School_of_Business"
+                cy="-42.14103" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1304.8843"
+                class="id_Arı_Fen_Lisesi" cy="-58.73971" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="2086.756"
+                class="id_Mucahit_Gayiran" cy="1464.5044" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2088.5225"
+                class="id_Sivas_Cumhuriyet_Üniversitesi" cy="1523.6051"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1672.5947"
+                class="id_Mark_Felegyhazi" cy="-5.115183" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1799.9452"
+                class="id_EPFL" cy="-25.395678" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1671.0986"
+                class="id_Budapest_University_of_Technology_and_Economics"
+                cy="65.31063" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1779.986"
+                class="id_Karlsruhe_Institute_of_Technology_(KIT)" cy="36.05707"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1710.1517"
+                class="id_Szent_Istvan_High_School" cy="97.03956"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="605.7819"
+                class="id_Murat_Hacioglu" cy="-1263.2843" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="627.9532"
+                class="id_Technical_University_of_Munich" cy="-1491.0669"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="534.81476"
+                class="id_Yeditepe_University" cy="-1435.876" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="634.2389"
+                class="id_Ulubatli_Hasan_Anatolian_High_School" cy="-1362.3146"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="300.32343"
+                class="id_Hakan_Yurdakul" cy="79.76106" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="379.10892"
+                class="id_University_of_Warwick" cy="160.51077" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="199.67867"
+                class="id_Koç_University" cy="367.91638" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="351.55984"
+                class="id_Robert_College" cy="-236.57405" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="342.5697"
+                class="id_Emrah_Gultekin" cy="47.409546" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="454.20816"
+                class="id_Brown_University" cy="86.42772" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="190.24316"
+                class="id_Massachusetts_Institute_of_Technology" cy="10.033705"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-507.1766"
+                class="id_Sean_Yu" cy="-57.536747" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-171.5811"
+                class="id_Boğaziçi_University" cy="-66.686516" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-960.9953"
+                class="id_Philippe_Berlan" cy="2364.4326" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-923.5361"
+                class="id_Mines_Paris_-_PSL" cy="2417.7817" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-963.40125"
+                class="id_Lycée_Sainte-Geneviève" cy="2288.4153"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-210.44666"
+                class="id_Deniz_Ozgur" cy="-143.10504" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="633.5487"
+                class="id_Josua_Vieten" cy="-1693.8395" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="601.1779"
+                class="id_Technische_Universität_Dresden" cy="-1811.4979"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="670.78235"
+                class="id_Technische_Universität_München,_LMU_München,_Universität_Augsburg"
+                cy="-1815.2563" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="820.89465"
+                class="id_Olcay_Silahli" cy="-998.907" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="924.61896"
+                class="id_The_Turkish_Military_Academy" cy="-975.6512"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="937.9932"
+                class="id_Kuleli_Military_High_School" cy="-1035.2795"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="909.88965"
+                class="id_Católica_Lisbon_School_of_Business_and_Economics"
+                cy="-1083.616" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-2400.5347"
+                class="id_Robert_Brull" cy="-352.72427" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-2277.354"
+                class="id_RWTH_Aachen_University" cy="-330.97247"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="862.87036"
+                class="id_Tunga_Bayrak" cy="1919.3871" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="890.9257"
+                class="id_University_of_Pennsylvania" cy="2033.4554"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="838.88904"
+                class="id_The_Wharton_School" cy="1779.0465" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="901.4135"
+                class="id_Tomas_Nepala" cy="1711.4319" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="976.7147"
+                class="id_Y_Combinator" cy="1698.0835" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="883.2622"
+                class="id_The_English_College_in_Prague_-_Anglické_gymnázium"
+                cy="1611.5889" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="75.83818"
+                class="id_Mehmet_Ertan_Uygun" cy="629.76056" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="159.3459"
+                class="id_The_University_of_British_Columbia" cy="703.1607"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="103.46414"
+                class="id_UCLA_Anderson_School_of_Management" cy="739.3342"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-128.3353"
+                class="id_Açı_Schools" cy="806.8716" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-2011.9495"
+                class="id_Gediminas_Mikutis" cy="-538.2906" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-2129.6099"
+                class="id_Jacobs_University_Bremen" cy="-576.0396"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-2096.097"
+                class="id_Utrecht_University" cy="-628.498" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1928.1771"
+                class="id_KTU_Gymnasium" cy="-589.5479" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-442.88684"
+                class="id_Arden_Agopyan" cy="-2091.287" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-491.97925"
+                class="id_Galatasaray_University" cy="-2202.6216"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-427.92514"
+                class="id_Ozyegin_University" cy="-2205.347" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-516.6907"
+                class="id_Istanbul_Bilgi_University" cy="-2109.843"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-395.68045"
+                class="id_Lycée_Saint-Joseph" cy="-1910.7744" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="2174.245"
+                class="id_Ali_Beklen" cy="401.13956" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2234.0947"
+                class="id_Maltepe_University" cy="407.3532" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1096.558"
+                class="id_Hande_Cilingir" cy="908.9696" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1113.5431"
+                class="id_The_London_School_of_Economics_and_Political_Science_(LSE)"
+                cy="807.52747" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1050.4562"
+                class="id_Shanghai_Normal_University" cy="983.04956"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-347.30164"
+                class="id_Alara_Eren_Iplikcioglu" cy="942.11536"
+                stroke="#7c3b21" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-604.71875"
+                class="id_Imperial_College_London" cy="951.773" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-299.33035"
+                class="id_University_of_Westminster" cy="1043.945"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-360.0884"
+                class="id_UCL" cy="1057.5854" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-156.05382"
+                class="id_Berhan_Kongel" cy="-196.29855" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-155.16829"
+                class="id_Deutsche_Schule_Istanbul_/_Alman_Lisesi"
+                cy="-296.99704" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="526.391"
+                class="id_Cagkan_Ekici" cy="-1557.5557" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="555.83276"
+                class="id_Batu_Sat" cy="-561.43805" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="767.5483"
+                class="id_University_of_Illinois_Urbana-Champaign"
+                cy="-472.53412" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1280.2466"
+                class="id_Oguz_Alper_Oktem" cy="887.2269" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1391.883"
+                class="id_University_of_Chicago" cy="911.9857" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1364.3251"
+                class="id_The_Koç_School" cy="974.124" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1259.3796"
+                class="id_Haris_Aghadi" cy="-258.2951" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1126.0195"
+                class="id_Carnegie_Mellon_University" cy="-315.72562"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1362.415"
+                class="id_500_Startups" cy="-220.31468" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="17.0284"
+                class="id_Oguzhan_Uyar" cy="-29.965101" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1297.6979"
+                class="id_Tolga_Sen" cy="1650.048" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1382.9615"
+                class="id_Yıldız_Teknik_Üniversitesi" cy="1735.0153"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1203.5486"
+                class="id_Bahcesehir_University" cy="1486.1913" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1325.9557"
+                class="id_Macka_Anatolia_Technical_High_School" cy="1762.5792"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="463.16943"
+                class="id_Sadok_Kohen" cy="-1530.563" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-274.07208"
+                class="id_Saliha_Durmus" cy="-82.471725" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-351.76013"
+                class="id_Haydarpaşa_Lisesi" cy="-88.36587" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-92.56487"
+                class="id_Baransel_Soysal" cy="42.190075" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-14.147057"
+                class="id_Galatasaray_Lisesi" cy="93.77054" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-67.71882"
+                class="id_Politecnico_di_Milano" cy="135.0366" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-2123.346"
+                class="id_Kamal_Reggad" cy="-1278.8754" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-2108.6274"
+                class="id_Northeastern_University" cy="-1335.6112"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-217.17342"
+                class="id_Didem_Aral" cy="308.88892" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-212.97964"
+                class="id_Marmara_University" cy="210.6218" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1213.1041"
+                class="id_Mukremin_Cetinkaya" cy="263.88254" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="2240.1555"
+                class="id_Huzeyfe_Onal" cy="992.3163" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2142.3472"
+                class="id_Kocaeli_University" cy="949.2139" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1571.7714"
+                class="id_Oguz_Kucukbarak" cy="1369.2761" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1634.2913"
+                class="id_Bilgi_University" cy="1423.8477" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1481.7731"
+                class="id_Gazi_University" cy="1294.5865" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1965.9501"
+                class="id_Koray_Dogan" cy="-775.56354" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1814.4414"
+                class="id_Georgia_Institute_of_Technology" cy="-725.1629"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1964.1752"
+                class="id_Bilkent_University" cy="-843.6726" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2084.4502"
+                class="id_Ankara_Science_High_School" cy="-805.8476"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-862.30005"
+                class="id_Batuhan_Ozcan" cy="924.8394" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-889.6883"
+                class="id_Blekinge_Institute_of_Technology" cy="1033.8628"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-826.8434"
+                class="id_Maltepe_Military_High_School" cy="1034.83"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="2159.0786"
+                class="id_Nevzat_Atakli" cy="-372.63916" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1988.775"
+                class="id_Harvard_Business_School_Online" cy="-365.77036"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2272.4507"
+                class="id_Sabanci_University" cy="-407.84152" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2250.909"
+                class="id_İzmir_Fen_Lisesi" cy="-343.26727" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1384.6052"
+                class="id_Selim_Satici" cy="76.12744" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="2575.249"
+                class="id_Ceren_Melis_Abacioglu" cy="-70.25694" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2643.8499"
+                class="id_Columbia_University" cy="-87.08988" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2459.1428"
+                class="id_Deutsche_Schule_Istanbul" cy="-73.21039"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="695.4953"
+                class="id_Balca_Yilmaz" cy="-902.36224" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1933.657"
+                class="id_Martin_Weber" cy="933.6886" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-2050.0667"
+                class="id_ESCP_Business_School" cy="970.3285" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1986.5004"
+                class="id_The_Hebrew_University_of_Jerusalem" cy="1004.7922"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1777.3787"
+                class="id_HSBA_Hamburg_School_of_Business_Administration"
+                cy="850.3013" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-1510.0697"
+                class="id_Ali_Karabey" cy="-1869.6932" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1563.0476"
+                class="id_University_of_Michigan_-_Stephen_M._Ross_School_of_Business"
+                cy="-1948.2301" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1435.7411"
+                class="id_St._Georg_Avusturya_Lisesi_ve_Ticaret_Okulu_(Österreichisches_St._Georgs-Kolleg)"
+                cy="-1757.124" stroke="#4d4b72" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="585.58044"
+                class="id_Cagdas_Yildiz" cy="-1049.9094" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="541.6611"
+                class="id_Concordia_University" cy="-1134.7073" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="93.74582"
+                class="id_Caglar_Urcan" cy="-153.19473" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-1195.3903"
+                class="id_Gizem_Yagiz" cy="509.82413" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1283.1133"
+                class="id_TED_Ankara_Koleji" cy="556.8646" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-1208.1567"
+                class="id_Kivanc_Aydin" cy="973.0687" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1236.3993"
+                class="id_University_of_Cambridge" cy="1088.7003"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1291.3765"
+                class="id_Izmir_Fen_Lisesi" cy="1067.5092" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="961.9716"
+                class="id_Maher_Hakim" cy="-389.35696" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1053.5"
+                class="id_Damascus_University" cy="-383.384" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-322.58142"
+                class="id_Numan_Numan" cy="1990.1835" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-300.00443"
+                class="id_Ege_University" cy="2044.9475" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="523.0016"
+                class="id_Ozge_Sevim" cy="-975.17474" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="440.2143"
+                class="id_Sabancı_Business_School" cy="-1015.4089"
+                stroke="#4d4b72" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-203.60353"
+                class="id_Selma_Bahcivanoglu" cy="80.5424" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="8" x="1697.7065" y="-1049.9556" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Florin_Cornianu" font-weight="bold">
+            Florin Cornianu
+        </text>
+        <text font-size="8" x="1646.9106" y="-1090.2792" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Politehnica_University_of_Timisoara" font-weight="bold">
+            Politehnica University of Timisoara
+        </text>
+        <text font-size="8" x="1708.8657" y="-985.2589" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_C.N._Mihai_Eminescu_Oradea" font-weight="bold">
+            C.N. Mihai Eminescu Oradea
+        </text>
+        <text font-size="8" x="-1719.5592" y="-245.88274" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Lukas_Hackl" font-weight="bold">
+            Lukas Hackl
+        </text>
+        <text font-size="8" x="-1771.662" y="-334.0517" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_UC_Berkeley_College_of_Engineering" font-weight="bold">
+            UC Berkeley College of Engineering
+        </text>
+        <text font-size="8" x="-1880.694" y="-394.58124" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_ETH_Zürich" font-weight="bold">
+            ETH Zürich
+        </text>
+        <text font-size="8" x="-1821.9431" y="-290.27762" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_The_University_of_Edinburgh" font-weight="bold">
+            The University of Edinburgh
+        </text>
+        <text font-size="8" x="-1480.229" y="-67.95409" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_University_of_California,_Berkeley" font-weight="bold">
+            University of California, Berkeley
+        </text>
+        <text font-size="8" x="-1837.9878" y="-235.22426" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ashbury_College" font-weight="bold">
+            Ashbury College
+        </text>
+        <text font-size="8" x="-1169.8597" y="-19.544882" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Bilen_Akuzum" font-weight="bold">
+            Bilen Akuzum
+        </text>
+        <text font-size="8" x="-1194.3308" y="-133.7341" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Drexel_University" font-weight="bold">
+            Drexel University
+        </text>
+        <text font-size="8" x="-1244.7509" y="207.95796" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Orta_Doğu_Teknik_Üniversitesi_/_Middle_East_Technical_University"
+              font-weight="bold">
+            Orta Doğu Teknik Üniversitesi / Middle East Technical University
+        </text>
+        <text font-size="8" x="-836.92725" y="-40.29527" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Harvard_University" font-weight="bold">
+            Harvard University
+        </text>
+        <text font-size="8" x="-1135.0281" y="-114.140976" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Technische_Universität_Braunschweig" font-weight="bold">
+            Technische Universität Braunschweig
+        </text>
+        <text font-size="8" x="-1225.8993" y="-82.41397" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Beşiktaş_Atatürk_Anadolu_Lisesi" font-weight="bold">
+            Beşiktaş Atatürk Anadolu Lisesi
+        </text>
+        <text font-size="8" x="-1103.9769" y="-42.527023" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Terakki_Vakfı_Okulları" font-weight="bold">
+            Terakki Vakfı Okulları
+        </text>
+        <text font-size="8" x="1489.3987" y="-1443.5004" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mehmet_Coka" font-weight="bold">
+            Mehmet Coka
+        </text>
+        <text font-size="8" x="1356.4739" y="-1289.0062" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Nasdaq_Entreprenual_Center" font-weight="bold">
+            Nasdaq Entreprenual Center
+        </text>
+        <text font-size="8" x="1588.3243" y="-1528.5898" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Food_System_6_Acceralator-Silicon_Valley"
+              font-weight="bold">
+            Food System 6 Acceralator-Silicon Valley
+        </text>
+        <text font-size="8" x="1533.9403" y="-1558.9554" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Eastern_Mediterranean_University" font-weight="bold">
+            Eastern Mediterranean University
+        </text>
+        <text font-size="8" x="1563.2606" y="-1441.8094" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Kabataş_Erkek_Lisesi" font-weight="bold">
+            Kabataş Erkek Lisesi
+        </text>
+        <text font-size="8" x="716.06555" y="-1091.5231" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Daghan_Cam" font-weight="bold">
+            Daghan Cam
+        </text>
+        <text font-size="8" x="746.2446" y="-1197.9586" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Architectural_Association" font-weight="bold">
+            Architectural Association
+        </text>
+        <text font-size="8" x="635.6974" y="-939.258" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Istanbul_Technical_University" font-weight="bold">
+            Istanbul Technical University
+        </text>
+        <text font-size="8" x="798.89197" y="-1176.1415" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_MEF_Okulları" font-weight="bold">
+            MEF Okulları
+        </text>
+        <text font-size="8" x="1155.9609" y="1821.7954" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Michail_Desyllas" font-weight="bold">
+            Michail Desyllas
+        </text>
+        <text font-size="8" x="1202.4274" y="1890.3489" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Architectural_Association_DRL" font-weight="bold">
+            Architectural Association DRL
+        </text>
+        <text font-size="8" x="-1303.4708" y="58.971725" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Emre_Fadillioglu" font-weight="bold">
+            Emre Fadillioglu
+        </text>
+        <text font-size="8" x="-1356.4855" y="-39.49845" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_University_of_California,_Berkeley,_Haas_School_of_Business"
+              font-weight="bold">
+            University of California, Berkeley, Haas School of Business
+        </text>
+        <text font-size="8" x="2086.756" y="1467.147" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mucahit_Gayiran" font-weight="bold">
+            Mucahit Gayiran
+        </text>
+        <text font-size="8" x="2088.5225" y="1526.2477" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Sivas_Cumhuriyet_Üniversitesi" font-weight="bold">
+            Sivas Cumhuriyet Üniversitesi
+        </text>
+        <text font-size="8" x="-1672.5947" y="-2.4726048" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mark_Felegyhazi" font-weight="bold">
+            Mark Felegyhazi
+        </text>
+        <text font-size="8" x="-1799.9452" y="-22.7531" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_EPFL" font-weight="bold">
+            EPFL
+        </text>
+        <text font-size="8" x="-1671.0986" y="67.95321" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Budapest_University_of_Technology_and_Economics"
+              font-weight="bold">
+            Budapest University of Technology and Economics
+        </text>
+        <text font-size="8" x="-1779.986" y="38.69965" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Karlsruhe_Institute_of_Technology_(KIT)"
+              font-weight="bold">
+            Karlsruhe Institute of Technology (KIT)
+        </text>
+        <text font-size="8" x="-1710.1517" y="99.68214" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Szent_Istvan_High_School" font-weight="bold">
+            Szent Istvan High School
+        </text>
+        <text font-size="8" x="605.7819" y="-1260.6417" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Murat_Hacioglu" font-weight="bold">
+            Murat Hacioglu
+        </text>
+        <text font-size="8" x="627.9532" y="-1488.4243" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Technical_University_of_Munich" font-weight="bold">
+            Technical University of Munich
+        </text>
+        <text font-size="8" x="534.81476" y="-1433.2334" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Yeditepe_University" font-weight="bold">
+            Yeditepe University
+        </text>
+        <text font-size="8" x="634.2389" y="-1359.672" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ulubatli_Hasan_Anatolian_High_School" font-weight="bold">
+            Ulubatli Hasan Anatolian High School
+        </text>
+        <text font-size="8" x="300.32343" y="82.40364" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Hakan_Yurdakul" font-weight="bold">
+            Hakan Yurdakul
+        </text>
+        <text font-size="8" x="379.10892" y="163.15335" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_University_of_Warwick" font-weight="bold">
+            University of Warwick
+        </text>
+        <text font-size="8" x="199.67867" y="370.55896" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Koç_University" font-weight="bold">
+            Koç University
+        </text>
+        <text font-size="8" x="351.55984" y="-233.93147" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Robert_College" font-weight="bold">
+            Robert College
+        </text>
+        <text font-size="8" x="342.5697" y="50.052124" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Emrah_Gultekin" font-weight="bold">
+            Emrah Gultekin
+        </text>
+        <text font-size="8" x="454.20816" y="89.0703" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Brown_University" font-weight="bold">
+            Brown University
+        </text>
+        <text font-size="8" x="190.24316" y="12.676283" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Massachusetts_Institute_of_Technology"
+              font-weight="bold">
+            Massachusetts Institute of Technology
+        </text>
+        <text font-size="8" x="-507.1766" y="-54.89417" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Sean_Yu" font-weight="bold">
+            Sean Yu
+        </text>
+        <text font-size="8" x="-171.5811" y="-64.04394" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Boğaziçi_University" font-weight="bold">
+            Boğaziçi University
+        </text>
+        <text font-size="8" x="-960.9953" y="2367.0752" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Philippe_Berlan" font-weight="bold">
+            Philippe Berlan
+        </text>
+        <text font-size="8" x="-923.5361" y="2420.4243" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mines_Paris_-_PSL" font-weight="bold">
+            Mines Paris - PSL
+        </text>
+        <text font-size="8" x="-963.40125" y="2291.0579" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Lycée_Sainte-Geneviève" font-weight="bold">
+            Lycée Sainte-Geneviève
+        </text>
+        <text font-size="8" x="-210.44666" y="-140.46246" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Deniz_Ozgur" font-weight="bold">
+            Deniz Ozgur
+        </text>
+        <text font-size="8" x="633.5487" y="-1691.1969" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Josua_Vieten" font-weight="bold">
+            Josua Vieten
+        </text>
+        <text font-size="8" x="601.1779" y="-1808.8553" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Technische_Universität_Dresden" font-weight="bold">
+            Technische Universität Dresden
+        </text>
+        <text font-size="8" x="820.89465" y="-996.2644" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Olcay_Silahli" font-weight="bold">
+            Olcay Silahli
+        </text>
+        <text font-size="8" x="924.61896" y="-973.0086" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_The_Turkish_Military_Academy" font-weight="bold">
+            The Turkish Military Academy
+        </text>
+        <text font-size="8" x="937.9932" y="-1032.637" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Kuleli_Military_High_School" font-weight="bold">
+            Kuleli Military High School
+        </text>
+        <text font-size="8" x="909.88965" y="-1080.9734" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Católica_Lisbon_School_of_Business_and_Economics"
+              font-weight="bold">
+            Católica Lisbon School of Business and Economics
+        </text>
+        <text font-size="8" x="-2400.5347" y="-350.0817" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Robert_Brull" font-weight="bold">
+            Robert Brull
+        </text>
+        <text font-size="8" x="-2277.354" y="-328.3299" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_RWTH_Aachen_University" font-weight="bold">
+            RWTH Aachen University
+        </text>
+        <text font-size="8" x="862.87036" y="1922.0297" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Tunga_Bayrak" font-weight="bold">
+            Tunga Bayrak
+        </text>
+        <text font-size="8" x="890.9257" y="2036.098" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_University_of_Pennsylvania" font-weight="bold">
+            University of Pennsylvania
+        </text>
+        <text font-size="8" x="838.88904" y="1781.6891" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_The_Wharton_School" font-weight="bold">
+            The Wharton School
+        </text>
+        <text font-size="8" x="901.4135" y="1714.0745" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Tomas_Nepala" font-weight="bold">
+            Tomas Nepala
+        </text>
+        <text font-size="8" x="976.7147" y="1700.7261" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Y_Combinator" font-weight="bold">
+            Y Combinator
+        </text>
+        <text font-size="8" x="883.2622" y="1614.2314" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_The_English_College_in_Prague_-_Anglické_gymnázium"
+              font-weight="bold">
+            The English College in Prague - Anglické gymnázium
+        </text>
+        <text font-size="8" x="75.83818" y="632.40314" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mehmet_Ertan_Uygun" font-weight="bold">
+            Mehmet Ertan Uygun
+        </text>
+        <text font-size="8" x="159.3459" y="705.8033" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_The_University_of_British_Columbia" font-weight="bold">
+            The University of British Columbia
+        </text>
+        <text font-size="8" x="103.46414" y="741.9768" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_UCLA_Anderson_School_of_Management" font-weight="bold">
+            UCLA Anderson School of Management
+        </text>
+        <text font-size="8" x="-128.3353" y="809.51416" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Açı_Schools" font-weight="bold">
+            Açı Schools
+        </text>
+        <text font-size="8" x="-2011.9495" y="-535.648" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Gediminas_Mikutis" font-weight="bold">
+            Gediminas Mikutis
+        </text>
+        <text font-size="8" x="-2129.6099" y="-573.39703" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Jacobs_University_Bremen" font-weight="bold">
+            Jacobs University Bremen
+        </text>
+        <text font-size="8" x="-2096.097" y="-625.8554" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Utrecht_University" font-weight="bold">
+            Utrecht University
+        </text>
+        <text font-size="8" x="-1928.1771" y="-586.90533" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_KTU_Gymnasium" font-weight="bold">
+            KTU Gymnasium
+        </text>
+        <text font-size="8" x="-442.88684" y="-2088.6445" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Arden_Agopyan" font-weight="bold">
+            Arden Agopyan
+        </text>
+        <text font-size="8" x="-491.97925" y="-2199.979" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Galatasaray_University" font-weight="bold">
+            Galatasaray University
+        </text>
+        <text font-size="8" x="-395.68045" y="-1908.1318" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Lycée_Saint-Joseph" font-weight="bold">
+            Lycée Saint-Joseph
+        </text>
+        <text font-size="8" x="2174.245" y="403.78214" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ali_Beklen" font-weight="bold">
+            Ali Beklen
+        </text>
+        <text font-size="8" x="-1096.558" y="911.6122" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Hande_Cilingir" font-weight="bold">
+            Hande Cilingir
+        </text>
+        <text font-size="8" x="-1113.5431" y="810.17004" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_The_London_School_of_Economics_and_Political_Science_(LSE)"
+              font-weight="bold">
+            The London School of Economics and Political Science (LSE)
+        </text>
+        <text font-size="8" x="-1050.4562" y="985.69214" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Shanghai_Normal_University" font-weight="bold">
+            Shanghai Normal University
+        </text>
+        <text font-size="8" x="-347.30164" y="944.75793" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Alara_Eren_Iplikcioglu" font-weight="bold">
+            Alara Eren Iplikcioglu
+        </text>
+        <text font-size="8" x="-604.71875" y="954.4156" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Imperial_College_London" font-weight="bold">
+            Imperial College London
+        </text>
+        <text font-size="8" x="-299.33035" y="1046.5875" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_University_of_Westminster" font-weight="bold">
+            University of Westminster
+        </text>
+        <text font-size="8" x="-360.0884" y="1060.228" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_UCL" font-weight="bold">
+            UCL
+        </text>
+        <text font-size="8" x="-156.05382" y="-193.65598" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Berhan_Kongel" font-weight="bold">
+            Berhan Kongel
+        </text>
+        <text font-size="8" x="-155.16829" y="-294.35446" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Deutsche_Schule_Istanbul_/_Alman_Lisesi"
+              font-weight="bold">
+            Deutsche Schule Istanbul / Alman Lisesi
+        </text>
+        <text font-size="8" x="526.391" y="-1554.9131" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Cagkan_Ekici" font-weight="bold">
+            Cagkan Ekici
+        </text>
+        <text font-size="8" x="555.83276" y="-558.7955" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Batu_Sat" font-weight="bold">
+            Batu Sat
+        </text>
+        <text font-size="8" x="767.5483" y="-469.89154" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_University_of_Illinois_Urbana-Champaign"
+              font-weight="bold">
+            University of Illinois Urbana-Champaign
+        </text>
+        <text font-size="8" x="-1280.2466" y="889.8695" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Oguz_Alper_Oktem" font-weight="bold">
+            Oguz Alper Oktem
+        </text>
+        <text font-size="8" x="-1391.883" y="914.6283" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_University_of_Chicago" font-weight="bold">
+            University of Chicago
+        </text>
+        <text font-size="8" x="-1364.3251" y="976.7666" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_The_Koç_School" font-weight="bold">
+            The Koç School
+        </text>
+        <text font-size="8" x="1259.3796" y="-255.65253" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Haris_Aghadi" font-weight="bold">
+            Haris Aghadi
+        </text>
+        <text font-size="8" x="1126.0195" y="-313.08304" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Carnegie_Mellon_University" font-weight="bold">
+            Carnegie Mellon University
+        </text>
+        <text font-size="8" x="1362.415" y="-217.6721" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_500_Startups" font-weight="bold">
+            500 Startups
+        </text>
+        <text font-size="8" x="17.0284" y="-27.322523" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Oguzhan_Uyar" font-weight="bold">
+            Oguzhan Uyar
+        </text>
+        <text font-size="8" x="-1297.6979" y="1652.6906" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Tolga_Sen" font-weight="bold">
+            Tolga Sen
+        </text>
+        <text font-size="8" x="-1382.9615" y="1737.6578" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Yıldız_Teknik_Üniversitesi" font-weight="bold">
+            Yıldız Teknik Üniversitesi
+        </text>
+        <text font-size="8" x="-1203.5486" y="1488.8339" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Bahcesehir_University" font-weight="bold">
+            Bahcesehir University
+        </text>
+        <text font-size="8" x="-1325.9557" y="1765.2218" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Macka_Anatolia_Technical_High_School" font-weight="bold">
+            Macka Anatolia Technical High School
+        </text>
+        <text font-size="8" x="463.16943" y="-1527.9204" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Sadok_Kohen" font-weight="bold">
+            Sadok Kohen
+        </text>
+        <text font-size="8" x="-274.07208" y="-79.82915" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Saliha_Durmus" font-weight="bold">
+            Saliha Durmus
+        </text>
+        <text font-size="8" x="-351.76013" y="-85.72329" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Haydarpaşa_Lisesi" font-weight="bold">
+            Haydarpaşa Lisesi
+        </text>
+        <text font-size="8" x="-92.56487" y="44.832653" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Baransel_Soysal" font-weight="bold">
+            Baransel Soysal
+        </text>
+        <text font-size="8" x="-14.147057" y="96.41312" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Galatasaray_Lisesi" font-weight="bold">
+            Galatasaray Lisesi
+        </text>
+        <text font-size="8" x="-67.71882" y="137.67918" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Politecnico_di_Milano" font-weight="bold">
+            Politecnico di Milano
+        </text>
+        <text font-size="8" x="-2123.346" y="-1276.2328" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Kamal_Reggad" font-weight="bold">
+            Kamal Reggad
+        </text>
+        <text font-size="8" x="-2108.6274" y="-1332.9686" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Northeastern_University" font-weight="bold">
+            Northeastern University
+        </text>
+        <text font-size="8" x="-217.17342" y="311.5315" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Didem_Aral" font-weight="bold">
+            Didem Aral
+        </text>
+        <text font-size="8" x="-212.97964" y="213.26437" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Marmara_University" font-weight="bold">
+            Marmara University
+        </text>
+        <text font-size="8" x="-1213.1041" y="266.52512" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Mukremin_Cetinkaya" font-weight="bold">
+            Mukremin Cetinkaya
+        </text>
+        <text font-size="8" x="2240.1555" y="994.95886" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Huzeyfe_Onal" font-weight="bold">
+            Huzeyfe Onal
+        </text>
+        <text font-size="8" x="2142.3472" y="951.8565" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Kocaeli_University" font-weight="bold">
+            Kocaeli University
+        </text>
+        <text font-size="8" x="1571.7714" y="1371.9187" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Oguz_Kucukbarak" font-weight="bold">
+            Oguz Kucukbarak
+        </text>
+        <text font-size="8" x="1634.2913" y="1426.4902" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Bilgi_University" font-weight="bold">
+            Bilgi University
+        </text>
+        <text font-size="8" x="1481.7731" y="1297.2291" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Gazi_University" font-weight="bold">
+            Gazi University
+        </text>
+        <text font-size="8" x="1965.9501" y="-772.92096" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Koray_Dogan" font-weight="bold">
+            Koray Dogan
+        </text>
+        <text font-size="8" x="1814.4414" y="-722.5203" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Georgia_Institute_of_Technology" font-weight="bold">
+            Georgia Institute of Technology
+        </text>
+        <text font-size="8" x="1964.1752" y="-841.03" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Bilkent_University" font-weight="bold">
+            Bilkent University
+        </text>
+        <text font-size="8" x="2084.4502" y="-803.205" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ankara_Science_High_School" font-weight="bold">
+            Ankara Science High School
+        </text>
+        <text font-size="8" x="-862.30005" y="927.482" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Batuhan_Ozcan" font-weight="bold">
+            Batuhan Ozcan
+        </text>
+        <text font-size="8" x="-889.6883" y="1036.5054" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Blekinge_Institute_of_Technology" font-weight="bold">
+            Blekinge Institute of Technology
+        </text>
+        <text font-size="8" x="2159.0786" y="-369.99658" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Nevzat_Atakli" font-weight="bold">
+            Nevzat Atakli
+        </text>
+        <text font-size="8" x="1988.775" y="-363.12778" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Harvard_Business_School_Online" font-weight="bold">
+            Harvard Business School Online
+        </text>
+        <text font-size="8" x="2272.4507" y="-405.19894" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Sabanci_University" font-weight="bold">
+            Sabanci University
+        </text>
+        <text font-size="8" x="2250.909" y="-340.6247" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_İzmir_Fen_Lisesi" font-weight="bold">
+            İzmir Fen Lisesi
+        </text>
+        <text font-size="8" x="-1384.6052" y="78.77002" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Selim_Satici" font-weight="bold">
+            Selim Satici
+        </text>
+        <text font-size="8" x="2575.249" y="-67.614365" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ceren_Melis_Abacioglu" font-weight="bold">
+            Ceren Melis Abacioglu
+        </text>
+        <text font-size="8" x="2643.8499" y="-84.4473" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Columbia_University" font-weight="bold">
+            Columbia University
+        </text>
+        <text font-size="8" x="2459.1428" y="-70.56781" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Deutsche_Schule_Istanbul" font-weight="bold">
+            Deutsche Schule Istanbul
+        </text>
+        <text font-size="8" x="695.4953" y="-899.71967" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Balca_Yilmaz" font-weight="bold">
+            Balca Yilmaz
+        </text>
+        <text font-size="8" x="-1933.657" y="936.3312" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Martin_Weber" font-weight="bold">
+            Martin Weber
+        </text>
+        <text font-size="8" x="-2050.0667" y="972.97107" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_ESCP_Business_School" font-weight="bold">
+            ESCP Business School
+        </text>
+        <text font-size="8" x="-1986.5004" y="1007.43475" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_The_Hebrew_University_of_Jerusalem" font-weight="bold">
+            The Hebrew University of Jerusalem
+        </text>
+        <text font-size="8" x="-1777.3787" y="852.94385" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_HSBA_Hamburg_School_of_Business_Administration"
+              font-weight="bold">
+            HSBA Hamburg School of Business Administration
+        </text>
+        <text font-size="8" x="-1510.0697" y="-1867.0507" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ali_Karabey" font-weight="bold">
+            Ali Karabey
+        </text>
+        <text font-size="8" x="-1563.0476" y="-1945.5875" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_University_of_Michigan_-_Stephen_M._Ross_School_of_Business"
+              font-weight="bold">
+            University of Michigan - Stephen M. Ross School of Business
+        </text>
+        <text font-size="8" x="-1435.7411" y="-1754.4814" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_St._Georg_Avusturya_Lisesi_ve_Ticaret_Okulu_(Österreichisches_St._Georgs-Kolleg)"
+              font-weight="bold">
+            St. Georg Avusturya Lisesi ve Ticaret Okulu (Österreichisches St.
+            Georgs-Kolleg)
+        </text>
+        <text font-size="8" x="585.58044" y="-1047.2668" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Cagdas_Yildiz" font-weight="bold">
+            Cagdas Yildiz
+        </text>
+        <text font-size="8" x="541.6611" y="-1132.0647" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Concordia_University" font-weight="bold">
+            Concordia University
+        </text>
+        <text font-size="8" x="93.74582" y="-150.55215" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Caglar_Urcan" font-weight="bold">
+            Caglar Urcan
+        </text>
+        <text font-size="8" x="-1195.3903" y="512.4667" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Gizem_Yagiz" font-weight="bold">
+            Gizem Yagiz
+        </text>
+        <text font-size="8" x="-1283.1133" y="559.5072" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_TED_Ankara_Koleji" font-weight="bold">
+            TED Ankara Koleji
+        </text>
+        <text font-size="8" x="-1208.1567" y="975.7113" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Kivanc_Aydin" font-weight="bold">
+            Kivanc Aydin
+        </text>
+        <text font-size="8" x="-1236.3993" y="1091.3429" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_University_of_Cambridge" font-weight="bold">
+            University of Cambridge
+        </text>
+        <text font-size="8" x="-1291.3765" y="1070.1517" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Izmir_Fen_Lisesi" font-weight="bold">
+            Izmir Fen Lisesi
+        </text>
+        <text font-size="8" x="961.9716" y="-386.7144" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Maher_Hakim" font-weight="bold">
+            Maher Hakim
+        </text>
+        <text font-size="8" x="1053.5" y="-380.74142" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Damascus_University" font-weight="bold">
+            Damascus University
+        </text>
+        <text font-size="8" x="-322.58142" y="1992.826" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Numan_Numan" font-weight="bold">
+            Numan Numan
+        </text>
+        <text font-size="8" x="-300.00443" y="2047.5901" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ege_University" font-weight="bold">
+            Ege University
+        </text>
+        <text font-size="8" x="523.0016" y="-972.53217" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Ozge_Sevim" font-weight="bold">
+            Ozge Sevim
+        </text>
+        <text font-size="8" x="440.2143" y="-1012.7663" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Sabancı_Business_School" font-weight="bold">
+            Sabancı Business School
+        </text>
+        <text font-size="8" x="-203.60353" y="83.184975" fill-opacity="1.0"
+              fill="#000000" font-family="Arial" style="text-anchor: middle;"
+              class="id_Selma_Bahcivanoglu" font-weight="bold">
+            Selma Bahcivanoglu
+        </text>
+    </g>
+</svg>

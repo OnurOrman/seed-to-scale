@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="4202.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-2031.000000 -2291.000000 4202.000000 4714.000000" height="4714.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_123Formbuilder id_Florin_Cornianu"
+              d="M -1887.547363,377.512909 A 77.275985,77.275985 0,0 1,-1949.866699,420.992981"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Aepnus id_Lukas_Hackl"
+              d="M 504.924896,-147.213608 A 80.262505,80.262505 0,0 1,578.530457,-177.514511"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Aepnus id_Bilen_Akuzum"
+              d="M 509.140869,-140.651672 A 63.482238,63.482238 0,0 1,563.877625,-117.883514"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Agrotics id_Mehmet_Coka"
+              d="M -863.101685,1574.798462 A 100.055226,100.055226 0,0 1,-830.882324,1673.141724"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Aibuild id_Daghan_Cam"
+              d="M 439.278107,-235.908356 A 114.287957,114.287957 0,0 1,494.250549,-343.291077"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Aibuild id_Michail_Desyllas"
+              d="M 444.696381,-235.083969 A 95.084365,95.084365 0,0 1,527.743164,-286.152466"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Appsamurai id_Emre_Fadillioglu"
+              d="M -1492.474976,-1044.422852 A 90.295133,90.295133 0,0 1,-1581.137817,-1020.962158"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Artboard_Studio id_Mucahit_Gayiran"
+              d="M 2025.448486,755.768188 A 76.148634,76.148634 0,0 1,2083.934814,709.419006"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Avatao id_Mark_Felegyhazi"
+              d="M -1454.981567,-1266.463257 A 111.881353,111.881353 0,0 1,-1508.896484,-1371.130615"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_B2Metric id_Murat_Hacioglu"
+              d="M 353.726715,-2044.397583 A 78.638398,78.638398 0,0 1,410.861847,-1991.834839"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bolt_Insight id_Hakan_Yurdakul"
+              d="M -1352.236328,-955.391541 A 89.129279,89.129279 0,0 1,-1358.600708,-865.308899"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chooch id_Emrah_Gultekin"
+              d="M 1797.872681,799.149109 A 82.166077,82.166077 0,0 1,1717.891724,781.529846"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Eluvium id_Sean_Yu"
+              d="M -1057.115112,1463.631226 A 84.749568,84.749568 0,0 1,-1138.726807,1487.460205"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ever_Dye id_Philippe_Berlan"
+              d="M 296.101135,308.347778 A 66.354679,66.354679 0,0 1,289.550781,370.771912"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Evercopy id_Deniz_Ozgur"
+              d="M 279.068329,-1975.044434 A 63.853668,63.853668 0,0 1,309.353516,-1923.557129"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Exomatter id_Josua_Vieten"
+              d="M 367.229523,32.544369 A 55.227042,55.227042 0,0 1,410.481110,56.103527"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Fazla id_Olcay_Silahli"
+              d="M -1277.301025,-1013.935974 A 82.784808,82.784808 0,0 1,-1227.984009,-947.616821"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Fibrecoat id_Robert_Brull"
+              d="M 280.323181,37.239117 A 69.687726,69.687726 0,0 1,215.789352,54.512356"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Flow48 id_Idriss_Al_Rifai"
+              d="M 1978.117798,942.613647 A 88.265797,88.265797 0,0 1,2028.030884,1016.619751"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Freya id_Tunga_Bayrak"
+              d="M 1042.393555,784.559570 A 72.983841,72.983841 0,0 1,1109.983032,805.624878"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Freya id_Tomas_Nepala"
+              d="M 1031.145020,777.385803 A 70.757164,70.757164 0,0 1,1058.304077,714.935242"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Getmobil id_Mehmet_Uygun"
+              d="M 1019.027100,1716.797363 A 93.251784,93.251784 0,0 1,986.409607,1627.272461"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Haelixa id_Gediminas_Mikutis"
+              d="M 346.192291,-257.047211 A 107.197910,107.197910 0,0 1,347.056580,-369.139069"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hotelrunner id_Arden_Agopyan"
+              d="M -1028.588989,1311.206665 A 79.174388,79.174388 0,0 1,-1104.392578,1291.659302"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hotelrunner id_Ali_Beklen"
+              d="M -1028.047974,1303.477417 A 77.715610,77.715610 0,0 1,-1066.333618,1237.224243"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Insider_One id_Hande_Cilingir"
+              d="M -1235.888672,-1140.731323 A 80.442413,80.442413 0,0 1,-1157.342773,-1126.549927"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hande_Cilingir id_Iyzico"
+              d="M -1156.451538,-1111.942383 A 80.974773,80.974773 0,0 1,-1233.315063,-1088.158325"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Juphy id_Alara_Eren_Iplikcioglu"
+              d="M -807.778992,1389.678955 A 81.973677,81.973677 0,0 1,-729.214111,1367.386719"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Keyrails id_Berhan_Kongel"
+              d="M -1432.072021,-973.801758 A 89.983733,89.983733 0,0 1,-1488.302490,-901.823730"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Khenda id_Cagkan_Ekici"
+              d="M -791.466553,1491.205200 A 93.142023,93.142023 0,0 1,-714.629578,1547.325439"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Mall_Iq id_Batu_Sat"
+              d="M 2060.969482,865.199585 A 97.005014,97.005014 0,0 1,2154.895752,898.958008"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Marti id_Alper_Oktem"
+              d="M -1379.265869,-1284.766479 A 105.051761,105.051761 0,0 1,-1392.477417,-1393.475708"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Meddy id_Haris_Aghadi"
+              d="M -1929.131836,268.362152 A 84.508581,84.508581 0,0 1,-2013.124512,257.221832"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Metrobi id_Oguzhan_Uyar"
+              d="M -1508.974121,-1209.661499 A 109.048890,109.048890 0,0 1,-1598.715698,-1280.490356"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Omma id_Tolga_Sen"
+              d="M 1814.342773,911.068970 A 86.013956,86.013956 0,0 1,1742.028076,958.617249"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Philosopherking id_Sadok_Kohen"
+              d="M 1955.675537,-542.346802 A 62.837306,62.837306 0,0 1,1897.965698,-551.933044"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Phitech id_Saliha_Durmus"
+              d="M -956.084778,1599.377808 A 102.719818,102.719818 0,0 1,-973.716248,1704.609619"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Qrambo id_Baransel_Soysal"
+              d="M 969.340088,969.200623 A 66.375997,66.375997 0,0 1,975.477356,1031.692627"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Remotepass id_Kamal_Reggad"
+              d="M -1293.302368,-1257.281738 A 105.860973,105.860973 0,0 1,-1254.927124,-1360.887329"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Reprai id_Didem_Aral"
+              d="M -1027.873535,1560.865601 A 93.132632,93.132632 0,0 1,-1081.579590,1639.395142"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Robolaunch id_Mukremin_Cetinkaya"
+              d="M 1000.625061,2406.284912 A 57.982837,57.982837 0,0 1,985.214783,2355.988525"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Socradar id_Huzeyfe_Onal"
+              d="M 1970.428223,685.761536 A 89.826479,89.826479 0,0 1,2023.957275,611.986816"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Smartmessage id_Oguz_Kucukbarak"
+              d="M -1210.827637,-1209.993164 A 109.616504,109.616504 0,0 1,-1120.682983,-1281.414551"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Solvoyo id_Koray_Dogan"
+              d="M -1518.549927,-1128.216064 A 101.958551,101.958551 0,0 1,-1623.232300,-1143.422485"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Syntonym id_Batuhan_Ozcan"
+              d="M 242.971375,-2192.615967 A 81.807814,81.807814 0,0 1,252.367935,-2273.538086"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Trio_Mobil id_Nevzat_Atakli"
+              d="M 1871.233276,682.439026 A 81.186590,81.186590 0,0 1,1872.988159,601.742859"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Voltfox id_Selim_Satici"
+              d="M 129.851685,-2020.745850 A 80.243394,80.243394 0,0 1,69.333969,-1969.075195"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Wellbees id_Ceren_Melis_Abacioglu"
+              d="M -1662.376587,242.890747 A 117.636205,117.636205 0,0 1,-1542.635376,208.190079"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Werover id_Balca_Yilmaz"
+              d="M -916.193054,1319.147583 A 67.854694,67.854694 0,0 1,-911.352844,1254.744263"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_One_Five id_Martin_Weber"
+              d="M 252.043030,-230.012741 A 95.460093,95.460093 0,0 1,190.444656,-306.163696"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_123Formbuilder id_Maher_Hakim"
+              d="M -1882.368164,358.341644 A 95.528993,95.528993 0,0 1,-1816.559814,285.685760"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Maher_Hakim id_Meddy"
+              d="M -1815.975220,287.374969 A 95.760068,95.760068 0,0 1,-1912.888672,270.878784"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Maher_Hakim id_Wellbees"
+              d="M -1800.131348,275.871063 A 118.281907,118.281907 0,0 1,-1678.051147,247.010101"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Aepnus id_Caglar_Urcan"
+              d="M 491.058136,-133.271439 A 117.837164,117.837164 0,0 1,366.149078,-132.837341"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Aibuild"
+              d="M 359.506561,-148.330963 A 100.322363,100.322363 0,0 1,430.782410,-223.802734"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Exomatter"
+              d="M 363.568054,-130.237640 A 142.958203,142.958203 0,0 1,362.991150,24.901228"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Fibrecoat"
+              d="M 359.988831,-128.688232 A 152.167149,152.167149 0,0 1,295.511169,24.511089"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_Haelixa"
+              d="M 351.872406,-146.456528 A 92.033014,92.033014 0,0 1,346.662476,-240.123062"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caglar_Urcan id_One_Five"
+              d="M 347.988800,-139.920776 A 109.037090,109.037090 0,0 1,263.870880,-217.323578"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Agrotics id_Selma_Bahcivanoglu"
+              d="M -879.372131,1563.197144 A 107.472161,107.472161 0,0 1,-922.705505,1459.458252"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Eluvium"
+              d="M -928.690735,1455.680908 A 108.419910,108.419910 0,0 1,-1042.123413,1461.212646"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Hotelrunner"
+              d="M -930.082947,1446.184692 A 143.752461,143.752461 0,0 1,-1019.137695,1317.985718"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Juphy"
+              d="M -915.735779,1440.982910 A 98.835789,98.835789 0,0 1,-824.220093,1395.902710"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Khenda"
+              d="M -911.052124,1447.053101 A 105.119657,105.119657 0,0 1,-807.451782,1482.790283"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Phitech"
+              d="M -917.481567,1459.125977 A 121.729312,121.729312 0,0 1,-952.557556,1583.884644"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Reprai"
+              d="M -922.798401,1459.438843 A 122.774437,122.774437 0,0 1,-1017.892212,1549.327271"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Selma_Bahcivanoglu id_Werover"
+              d="M -925.661072,1440.973877 A 101.719592,101.719592 0,0 1,-917.657043,1335.785034"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Appsamurai id_Ali_Karabey"
+              d="M -1481.483276,-1060.910034 A 127.908854,127.908854 0,0 1,-1362.183228,-1128.332275"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Avatao"
+              d="M -1361.606079,-1130.893433 A 136.567886,136.567886 0,0 1,-1446.150879,-1251.701294"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Bolt_Insight"
+              d="M -1346.773193,-1119.049438 A 136.185984,136.185984 0,0 1,-1351.229126,-972.123657"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Ali_Karabey id_Fazla"
+              d="M -1343.164551,-1123.198853 A 106.757287,106.757287 0,0 1,-1286.103271,-1027.331299"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Insider_One"
+              d="M -1344.416748,-1133.682495 A 89.620529,89.620529 0,0 1,-1253.862915,-1141.609863"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Keyrails"
+              d="M -1351.189453,-1117.487061 A 136.662630,136.662630 0,0 1,-1422.362061,-988.218323"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Ali_Karabey id_Marti"
+              d="M -1358.963867,-1134.820679 A 125.988777,125.988777 0,0 1,-1377.206787,-1268.302734"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Metrobi"
+              d="M -1362.173096,-1126.427612 A 139.913286,139.913286 0,0 1,-1494.595093,-1199.978882"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Remotepass"
+              d="M -1353.491333,-1137.352783 A 112.399898,112.399898 0,0 1,-1299.686890,-1242.778687"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Smartmessage"
+              d="M -1347.603882,-1136.302368 A 130.409045,130.409045 0,0 1,-1223.738892,-1201.642822"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Solvoyo"
+              d="M -1360.627930,-1122.014038 A 131.171883,131.171883 0,0 1,-1501.513306,-1126.611572"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ali_Karabey id_Iyzico"
+              d="M -1342.583740,-1130.092651 A 96.028845,96.028845 0,0 1,-1249.029541,-1098.854980"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Artboard_Studio id_Numan_Numan"
+              d="M 2016.572754,773.465881 A 95.285367,95.285367 0,0 1,1925.555908,809.075256"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Chooch"
+              d="M 1906.943481,811.569092 A 90.976699,90.976699 0,0 1,1814.907227,801.957520"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Flow48"
+              d="M 1924.119263,812.449707 A 118.478249,118.478249 0,0 1,1971.040405,929.044312"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Mall_Iq"
+              d="M 1925.628174,805.105164 A 123.724513,123.724513 0,0 1,2046.077393,859.099060"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Numan_Numan id_Omma"
+              d="M 1913.812988,816.713867 A 113.431189,113.431189 0,0 1,1828.123291,900.154907"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Socradar"
+              d="M 1914.387085,797.011108 A 103.070153,103.070153 0,0 1,1961.360718,700.738770"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Numan_Numan id_Trio_Mobil"
+              d="M 1907.832275,800.859375 A 102.050154,102.050154 0,0 1,1873.895874,700.553284"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_B2Metric id_Cagdas_Yildiz"
+              d="M 335.115051,-2041.179810 A 89.471763,89.471763 0,0 1,244.694382,-2048.549805"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Evercopy"
+              d="M 245.197769,-2049.246094 A 68.499264,68.499264 0,0 1,271.695313,-1989.491821"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Syntonym"
+              d="M 231.924866,-2063.454590 A 107.809241,107.809241 0,0 1,241.188675,-2175.905518"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cagdas_Yildiz id_Voltfox"
+              d="M 230.008575,-2047.457275 A 89.187599,89.187599 0,0 1,142.011703,-2026.850098"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ever_Dye id_Gizem_Yagiz"
+              d="M 286.733582,290.683777 A 130.322795,130.322795 0,0 1,299.789886,151.355438"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Exomatter"
+              d="M 304.607788,133.828735 A 101.511373,101.511373 0,0 1,348.689636,38.263741"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gizem_Yagiz id_Fibrecoat"
+              d="M 299.343872,136.437958 A 96.218868,96.218868 0,0 1,282.927765,38.949772"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Freya id_Kivanc_Aydin"
+              d="M 1033.066284,797.249390 A 73.313252,73.313252 0,0 1,996.160034,858.131409"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kivanc_Aydin id_Qrambo"
+              d="M 990.552673,871.892639 A 84.768425,84.768425 0,0 1,970.491028,954.534607"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Getmobil id_Cem_Okay"
+              d="M 1035.291016,1728.435303 A 76.944361,76.944361 0,0 1,1063.444946,1798.583618"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Philosopherking id_Ozge_Sevim"
+              d="M 1968.247925,-536.814880 A 61.632478,61.632478 0,0 1,1955.814575,-481.148315"
+              stroke="#000000" stroke-width="2.0" stroke-opacity="1.0"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1883.8115"
+                class="id_123Formbuilder" cy="368.23694" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1959.862"
+                class="id_Florin_Cornianu" cy="421.29718" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="499.28583"
+                class="id_Aepnus" cy="-138.95522" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="588.3493"
+                class="id_Lukas_Hackl" cy="-175.61961" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="569.6223"
+                class="id_Bilen_Akuzum" cy="-109.698235" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-870.9974"
+                class="id_Agrotics" cy="1568.6619" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-833.61615"
+                class="id_Mehmet_Coka" cy="1682.7607" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="440.54065"
+                class="id_Aibuild" cy="-225.98837" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="503.03638"
+                class="id_Daghan_Cam" cy="-348.067" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="537.73535"
+                class="id_Michail_Desyllas" cy="-285.75696" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1485.851"
+                class="id_Appsamurai" cy="-1051.9143" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1590.6001"
+                class="id_Emre_Fadillioglu" cy="-1024.1971" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="2022.2756"
+                class="id_Artboard_Studio" cy="765.25146" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2093.892"
+                class="id_Mucahit_Gayiran" cy="708.4968" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1446.1882"
+                class="id_Avatao" cy="-1261.7012" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1507.6682"
+                class="id_Mark_Felegyhazi" cy="-1381.0549" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="343.8607"
+                class="id_B2Metric" cy="-2046.0289" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="413.30856"
+                class="id_Murat_Hacioglu" cy="-1982.1388" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1357.1777"
+                class="id_Bolt_Insight" cy="-964.0854" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1364.7153"
+                class="id_Hakan_Yurdakul" cy="-857.3962" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1807.2112"
+                class="id_Chooch" cy="795.5723" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1710.9207"
+                class="id_Emrah_Gultekin" cy="774.36017" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1050.6558"
+                class="id_Eluvium" cy="1455.9973" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1148.279"
+                class="id_Sean_Yu" cy="1484.5013" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="291.6301"
+                class="id_Ever_Dye" cy="299.40295" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="283.32034"
+                class="id_Philippe_Berlan" cy="378.59378" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="270.17072"
+                class="id_Evercopy" cy="-1979.6088" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="309.01944"
+                class="id_Deniz_Ozgur" cy="-1913.5627" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="357.24414"
+                class="id_Exomatter" cy="33.08487" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="415.44287"
+                class="id_Josua_Vieten" cy="64.78574" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1286.7006"
+                class="id_Fazla" cy="-1017.3491" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1227.4209"
+                class="id_Olcay_Silahli" cy="-937.6327" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="287.04813"
+                class="id_Fibrecoat" cy="29.838097" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="206.26651"
+                class="id_Robert_Brull" cy="51.46025" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1968.871"
+                class="id_Flow48" cy="938.80615" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2028.0963"
+                class="id_Idriss_Al_Rifai" cy="1026.6195" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1032.7634"
+                class="id_Freya" cy="787.25397" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1116.3772"
+                class="id_Tunga_Bayrak" cy="813.31354" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1066.6257"
+                class="id_Tomas_Nepala" cy="709.3899" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1027.0983"
+                class="id_Getmobil" cy="1722.7013" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="988.79114"
+                class="id_Mehmet_Uygun" cy="1617.5602" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="351.7487"
+                class="id_Haelixa" cy="-248.73297" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="352.7405"
+                class="id_Gediminas_Mikutis" cy="-377.36664" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1019.1219"
+                class="id_Hotelrunner" cy="1307.9857" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1111.1216"
+                class="id_Arden_Agopyan" cy="1284.262" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1065.7826"
+                class="id_Ali_Beklen" cy="1227.2394" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1245.0889"
+                class="id_Insider_One" cy="-1136.8125" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1150.0939"
+                class="id_Hande_Cilingir" cy="-1119.6613" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-814.31134"
+                class="id_Juphy" cy="1397.2505" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-719.67865"
+                class="id_Alara_Eren_Iplikcioglu" cy="1370.399" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1431.32"
+                class="id_Keyrails" cy="-983.77344" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1497.7958"
+                class="id_Berhan_Kongel" cy="-898.68085" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-801.4581"
+                class="id_Khenda" cy="1490.795" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-711.1989"
+                class="id_Cagkan_Ekici" cy="1556.7185" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="2051.2727"
+                class="id_Mall_Iq" cy="867.64355" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2160.818"
+                class="id_Batu_Sat" cy="907.0157" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1372.6959"
+                class="id_Marti" cy="-1277.2275" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1387.9044"
+                class="id_Alper_Oktem" cy="-1402.3689" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1920.138"
+                class="id_Meddy" cy="263.99057" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-2020.6678"
+                class="id_Haris_Aghadi" cy="250.65688" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1498.999"
+                class="id_Metrobi" cy="-1208.9569" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1601.7188"
+                class="id_Oguzhan_Uyar" cy="-1290.0288" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1818.2721"
+                class="id_Omma" cy="901.8733" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1732.0282"
+                class="id_Tolga_Sen" cy="958.5803" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1964.8892"
+                class="id_Philosopherking" cy="-546.23395" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1890.5037"
+                class="id_Sadok_Kohen" cy="-558.5902" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-960.24255"
+                class="id_Phitech" cy="1590.2832" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-980.6113"
+                class="id_Saliha_Durmus" cy="1711.8524" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="963.1617"
+                class="id_Qrambo" cy="961.3376" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="970.94666"
+                class="id_Baransel_Soysal" cy="1040.6074" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1290.9105"
+                class="id_Remotepass" cy="-1247.572" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1246.7872"
+                class="id_Kamal_Reggad" cy="-1366.6962" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1027.7731"
+                class="id_Reprai" cy="1550.8661" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1090.8619"
+                class="id_Didem_Aral" cy="1643.1152" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1008.1673"
+                class="id_Robolaunch" cy="2412.851" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="987.7842"
+                class="id_Mukremin_Cetinkaya" cy="2346.3242" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1970.0295"
+                class="id_Socradar" cy="695.7536" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="2033.3326"
+                class="id_Huzeyfe_Onal" cy="608.50806" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1213.8105"
+                class="id_Smartmessage" cy="-1200.4484" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1110.709"
+                class="id_Oguz_Kucukbarak" cy="-1282.1355" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1509.5463"
+                class="id_Solvoyo" cy="-1132.5674" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1630.6257"
+                class="id_Koray_Dogan" cy="-1150.1558" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="247.47118"
+                class="id_Syntonym" cy="-2183.6855" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="258.79437"
+                class="id_Batuhan_Ozcan" cy="-2281.1997" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="1876.5463"
+                class="id_Trio_Mobil" cy="690.9109" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="1878.6644"
+                class="id_Nevzat_Atakli" cy="593.51" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="132.64352"
+                class="id_Voltfox" cy="-2030.3483" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="59.412685"
+                class="id_Selim_Satici" cy="-1967.823" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1668.7245"
+                class="id_Wellbees" cy="250.61757" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-1533.1396"
+                class="id_Ceren_Melis_Abacioglu" cy="211.32544" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-911.44507"
+                class="id_Werover" cy="1327.9485" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="-905.3428"
+                class="id_Balca_Yilmaz" cy="1246.7518" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="-1242.9211"
+                class="id_Iyzico" cy="-1090.9375" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="9.2" cx="261.59772"
+                class="id_One_Five" cy="-227.0618" stroke="#7c3b21"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="9.2" cx="189.55539"
+                class="id_Martin_Weber" cy="-316.12408" stroke="#4d4b72"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-1806.8552"
+                class="id_Maher_Hakim" cy="283.27304" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="357.88208"
+                class="id_Caglar_Urcan" cy="-138.46379" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-920.7063"
+                class="id_Selma_Bahcivanoglu" cy="1449.6602" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="-1352.2238"
+                class="id_Ali_Karabey" cy="-1127.4335" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="1915.7927"
+                class="id_Numan_Numan" cy="806.9118" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="236.84944"
+                class="id_Cagdas_Yildiz" cy="-2054.7512" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="306.22104"
+                class="id_Gizem_Yagiz" cy="143.69775" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="987.15814"
+                class="id_Kivanc_Aydin" cy="862.4864" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="1061.4896"
+                class="id_Cem_Okay" cy="1808.3906" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="9.2" cx="1948.7673"
+                class="id_Ozge_Sevim" cy="-474.0535" stroke="#145935"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+    </g>
+</svg>

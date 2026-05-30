@@ -215,8 +215,11 @@ state/
 **/**.html
 
 # LaTeX artifacts
-*.aux
-*.fdb_latexmk
-*.fls
-*.out
-*.synctex.gz
+**/*.aux
+**/*.cls
+**/*.fdb_latexmk
+**/*.fls
+**/*.out
+**/*.synctex.gz
+
+report/*.md
