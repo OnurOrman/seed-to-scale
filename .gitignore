@@ -216,10 +216,13 @@ state/
 
 # LaTeX artifacts
 **/*.aux
-**/*.cls
 **/*.fdb_latexmk
 **/*.fls
 **/*.out
 **/*.synctex.gz
 
 report/*.md
+report/*.py
+
+figures/*.pdf
+figures/*.svg

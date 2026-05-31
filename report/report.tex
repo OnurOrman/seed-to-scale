@@ -5,16 +5,18 @@
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
+\usepackage{hyperref}
 \usepackage{svg}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{subcaption}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
 \title{Multilayer Network Analysis of Startup Cofounders and Investment Managers}
 
-\author{\IEEEauthorblockN{Onur Orman - 31086}
+\author{\IEEEauthorblockN{Onur Orman}
 \IEEEauthorblockA{\textit{Sabancı University}\\
 Istanbul, Turkey}
 }
@@ -22,7 +24,7 @@ Istanbul, Turkey}
 \maketitle
 
 \begin{abstract}
-Startup ecosystems are multilayer social networks where cofounders and investment managers connect through shared portfolio ties, education, work experience, and volunteering. This paper analyzes the 212 VC portfolio (54 companies) as a multilayer network to identify community structure and the institutional signals that explain it. A bipartite cofounder-investment manager network is built and three institutional layers (education, experience, volunteering) are attached using LinkedIn-derived data. The final graph includes 59 people (49 cofounders and 10 investment managers) and 93 multilayer edges. Using Louvain, greedy modularity, label propagation, and Girvan-Newman, stable communities appear in the 5-to-8 range with modularity up to about 0.49. Network statistics show a sparse but connected structure, with density 0.054, average degree 3.15, and diameter 6, plus strong disassortativity (r = -0.718) that signals a hub-and-spoke organization. Centrality rankings highlight investment managers as bridges across founder groups, while the cofounder side splits into sub-communities tied to shared institutional histories. Educational overlap concentrates around local universities with a smaller international tier, suggesting institutional pathways for access and trust formation. Implications for founders, investors, and policy are outlined, along with a reproducible workflow for multilayer network construction, community detection, and comparative analysis across layers.
+Startup ecosystems are multilayer social networks where cofounders and investment managers connect through shared portfolio ties, education, work experience, and volunteering. This paper analyzes the portfolio of 212 (54 companies) as a multilayer network to identify community structure and the institutional signals that explain it. A bipartite cofounder-investment manager network is built and three institutional layers (education, experience, volunteering) are attached using LinkedIn-derived data. The final graph includes $59$ nodes ($49$ for cofounders and $10$ for investment managers) and $93$ multilayer edges. Using Louvain, greedy modularity, label propagation, and Girvan-Newman, stable communities appear in the $5$-to-$8$ range with modularity up to about $0.49$. Network statistics show a sparse but connected structure, with density $0.054$, average degree $3.15$, and diameter $6$, plus strong disassortativity ($r=-0.718$) that signals a hub-and-spoke organization. Centrality rankings highlight investment managers as bridges across founder groups, while the cofounder side splits into sub-communities tied to shared institutional histories. Educational overlap concentrates around local universities with a smaller international tier, suggesting institutional pathways for access and trust formation. Implications for founders, investors, and policy are outlined, along with a reproducible workflow for multilayer network construction, community detection, and comparative analysis across layers.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -30,67 +32,366 @@ startup ecosystems, multilayer networks, venture capital, community detection, c
 \end{IEEEkeywords}
 
 \section{Introduction}
+The venture capital industry operates on the basis of asymmetric information: success, in general, depends on privileged access to deal flow and the capability to identify founders with high potential before the competitors. Such advantages have conventionally been attributed to individual relationships or intuitions of the venture capitalists rather than a logical framework that considers the connections allowing the capital and the consequent opportunities to circulate. However, as startup ecosystems grow in scale and become more complex while maturing, a more rigorous account, grounded in the social and professional structures governing the aforementioned circulation of the capital and opportunities, is needed.
+
+This study applies network science techniques in order to approach and analyze the portfolio of 212 \cite{212website}, a prominent venture capital firm in Turkey, targeting tech-oriented startups in Turkey and other locations, primarily as a multilayer network in which various kinds of possible relationships, namely education, professional experience, and volunteering, between startup cofounders and investment managers are attempted to be captured through the conceptualization that each person, whether a cofounder or an investment manager, would be represented with a corresponding node, and each commonality between any two of the people would be represented with an edge connecting the nodes representing those two people. By mapping the connections between cofounders and investment managers via shared ties in the described categories by the means of common institutions, the study aims to uncover the latent community structures which may facilitate trust and collaboration in the startup ecosystem. Furthermore, a multilayer approach towards the portfolio allows observing the informal pathways that precede and sustain formal business relationships.
+
+The main contributions of this study are a reproducible workflow to construct the dataset for the portfolio of 212 through the means of webscraping the website of the firm \cite{212portfolio} and the LinkedIn pages whose links were obtained from the scraped data and to regenerate the dataset, networks, and the analysis results, the created dataset and the networks generated from that particular dataset, and the application of certain community detection algorithms on the multilayer network of cofounders and investment managers, which can be considered the \emph{primary network outcome} of the study. The findings of the study reveal a highly disassortative organization with a core-periphery structure where the investment managers act as bridges across groups of founders which would otherwise be isolated from each other. Ultimately, the study aims to demystify the circulation of capital within emerging technology hubs from this structural perspective, underscoring the vital role that shared institutional pathways play in mitigating market frictions.
 
 \section{Related Work}
-% Community detection algorithms themselves are going to constitute the related work
+
+The role of venture capital within innovation ecosystems is fundamentally rooted in structural sociology and the dynamics of social capital. Ferrary and Granovetter \cite{ferrary2009} established that venture capital firms function as pivotal nodes in complex innovation networks, bridging ``structural holes'' between diverse institutional actors such as universities, corporations, and startups. This perspective shifts the view of VCs from mere financial intermediaries to critical orchestrators whose success depends on their embeddedness within high-trust social structures to mitigate the inherent uncertainties of early-stage investment.
+
+Building upon these sociological foundations, empirical research has traditionally focused on syndication patterns and their impact on performance. Zheng \cite{zheng2004} utilized social network analysis to demonstrate that a firm's centrality within co-investment networks is a strong predictor of its access to high-quality deal flow. This configuration of networks remains essential as ecosystems mature and expand globally. For instance, Aleenajitpong and Leemakdej \cite{aleenajitpong2021} highlighted how cohesive subgroups in Southeast Asian VC networks serve as vital coping mechanisms against the information asymmetries typical of developing institutional environments. Similarly, Stohrer \cite{stohrer2025} emphasized how structural fragmentation and network strategies directly influence the performance of VC firms across the heterogeneous European landscape.
+
+With the advancement of network science, the literature has increasingly moved toward multidimensional and predictive modeling. Esposito et al. \cite{esposito2022} demonstrated that combining traditional network metrics with functional data allows for more robust forecasting of a startup's ability to attract continuous investment. Zhang et al. \cite{zhang2020} further extended this by applying complex network methodologies to time-series data, revealing the dynamic evolution of attention and connectivity within these ecosystems.
+
+Despite these advancements, a significant gap remains in the literature regarding the micro-level topology \textit{between} individual investment managers and the founders they support. While macro-level ecosystem statistics are well-documented, the specific institutional pathways—such as shared education or prior professional overlaps—that form the ``micro-foundations'' of trust in multilayer contexts are under-explored. This study addresses this gap by applying advanced community detection algorithms, including the Louvain multi-level optimization \cite{blondel2008fast}, label propagation \cite{raghavan2007near}, and modularity-maximizing mergers \cite{clauset2004finding}, to a synthesized multilayer network. By integrating layers of education, experience, and volunteering, this study extends the literature beyond single-layer financial ties \cite{newman2004finding} and delineates a more granular, multidimensional topology of the social fabric that precedes formal investment relationships.
 
 \section{Data}
 
 \subsection{Data Sources}
 
+The dataset for this study was constructed from two primary sources:
+\begin{enumerate}
+    \item{\textbf{The Portfolio Website of 212:}{ The official portfolio list \cite{212portfolio} and team directory \cite{212team} of 212 provided the seed data for 54 portfolio companies and their associated investment managers. The data on the employees of 212 could be precisely constrained to the particular people who took part as investment managers responsible for the investments in portfolio companies because the firm had provided the names of investment managers in the associated webpages for the companies within their portfolio. Collectively, this data serves as the ``ground truth'' for the financial layer of the multilayer cofounder-investment manager network, and the fundamental source for the LinkedIn links of 212, its portfolio companies, the cofounders of these companies, and the investment managers who are associated with these companies.}}
+    \item{\textbf{LinkedIn:}{ Public LinkedIn profiles of 49 cofounders and 10 investment managers, the links for which were collected from the associated websites of 212 and the employee search performed on the LinkedIn page of 212 \cite{212linkedin}, were systematically scraped to retrieve the educational, professional, and volunteering backgrounds of the 59 people in total.}}
+\end{enumerate}
+
+The webscraping process for constructing the dataset was performed using a custom-built infrastructure leveraging the Playwright browser automation library and BeautifulSoup for HTML parsing. In order to ensure data privacy and adherence to ethical scraping practices, the webscraping code for the study was written to focus strictly on structural variables like institutional names, obtained degrees, and employment dates, rather than unstructured personal text content, such as the ``About'' sections, posts, or the recommendations by LinkedIn. In order to respect rate limits and prevent blockage during the process, the scraper code employed instantiation and destruction of concrete browser instances, as opposed to the practice of headless scraping, randomized delays between the webpage transitions and session state management, so that the access to the LinkedIn pages could be sustained by keeping the login cookies associated with LinkedIn.
+
 \subsection{Construction of the Dataset}
+
+The raw data extraction and network generation pipeline was organized into a multi-stage process, reflecting the transition from unstructured web content to mathematically rigorous network models. The artifacts of this process are structured into the following specific data categories:
+
+\begin{itemize}
+  \item{
+    \textbf{Raw HTML Files (\texttt{html/}):}{ The collected, unstructured LinkedIn profile pages for both cofounders and 212 investment managers, securely cached as the foundational reference data.}
+    \begin{itemize}
+      \item{\textbf{Note:} This directory is not shared with public as it contains the source code for the raw LinkedIn pages.}
+    \end{itemize}
+  }
+  \item{\textbf{Structured Tables (\texttt{csv/}):}{ The parsed HTML data formatted into tabular structures mapping relational attributes. Key files include \textit{212\_cofounders\_linkedin\_main.csv} and \textit{212\_employee\_linkedin\_main.csv} for basic profiles, alongside distinct relational files tracking \textit{education}, \textit{experience}, and \textit{volunteering-experiences} separately for both startup founders and investment managers. The vital portfolio assignments bridge was compiled in \textit{212\_cofounders\_with\_investment\_managers.csv}.}}
+  \item{\textbf{Relational Objects (\texttt{json/}):}{ Aggregated mapping dictionaries consolidating the institutional affiliations and roles of cofounders and investment managers, in a separated manner in accordance with the position of the people, to prepare the data for structural processing.}}
+\end{itemize}
+
+The final consolidated dataset encompasses detailed profiles for 59 unique individuals linked through shared portfolio companies (cofounded companies for cofounders; managed investments for investment managers) and common institutional backgrounds (education, work experience, volunteering). Prior to any network generation, individual names and institutional titles were tried to be normalized using string-matching algorithms to resolve minor spelling disparities and ensure reliable mappings across different records.
+
+\begin{figure*}[htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{../figures/pipeline_overview.pdf}
+\vspace{0.2cm}
+\caption{Architectural overview of the data engineering and network synthesis workflow, starting from ground-truth VC portfolio datasets and LinkedIn profile extraction via Playwright, through automated entity normalization and institutional mapping, culminating in the generation of multilayer GEXF graph projections for ecosystem analysis.}
+\label{fig:pipeline}
+\end{figure*}
 
 \section{Methodology}
 
 \subsection{Construction of the Networks}
 
-\subsection{Initial Analyses on the Networks}
+The core analytical output of this study is a suite of exactly ten graph projections derived from the institutional and financial data, culminating in a synthesized multilayer network $M = (G, L)$. In this context, $G$ is defined as the set of nodes representing cofounders ($n=49$), investment managers ($n=10$), and the formal entities (the VC firm 212 and its portfolio companies). Using the NetworkX library in Python, the data were systematically exported to the \texttt{data/gephi/} directory to construct the following configurations:
+
+\begin{enumerate}
+    \item{\textbf{The Projected Network of Cofounders and Investment Managers (\texttt{cofounders\_employee.gexf}):}{ The primary analytical artifact of the study. This unimodal projection flattens all formal investment ties and informal institutional links into a single graph. It serves as the definitive basis for community detection, centrality rankings, and disassortativity analysis.}}
+    \item{\textbf{Financial Investment Networks (\texttt{vc\_company.gexf}, \texttt{company\_cofounder.gexf}, \texttt{company\_investment\_manager.gexf}):}{ Three structural projections capturing the ground-truth business relationships. These establish the bipartite connective spine of the ecosystem, linking the venture capital firm (212) to portfolio companies, and subsequently bridging founders and investment managers assigned to the same ventures.}}
+    \item{\textbf{Institutional Trust Networks (\texttt{\{cofounders, employee\}\_\{education, experience, volunteering-experiences\}.gexf}):}{ Six distinct unimodal thematic network layers representing shared personal histories, isolated natively by the roles of professionals:
+    \begin{itemize}
+        \item{\textbf{Education:}{ Links between individuals sharing an alma mater, revealing long-term trust formation built during formative years.}}
+        \item{\textbf{Experience:}{ Ties based on shared professional experience at prior corporate organizations.}}
+        \item{\textbf{Volunteering:}{ Connections formed through shared civic or philanthropic initiatives.}}
+    \end{itemize}}}
+\end{enumerate}
+
+In order to perform a cohesive structural analysis across the entire ecosystem, the projected cofounder-investment manager network flattens these distinct structural and thematic dimensions into an aggregated graph, where edge weights are assigned to be the number of multi-modal overlaps between any two individuals.
+
+\subsection{Standard Analysis Pipeline}
+
+The graph structures were programmatically analyzed using the NetworkX library in Python. Standard network metrics were computed based on the theoretical framework established by Newman \cite{newman2018networks} to characterize the topology. Specifically, network sizes, density, average degree, diameter, and assortativity coefficients were measured for each isolated layer and the aggregated projection to quantitatively evaluate the core-periphery and hub-and-spoke organization. Centrality metrics, including degree, betweenness, and eigenvector centrality, were processed to identify structural brokerage roles following the conceptual clarifications established by Freeman \cite{freeman1978centrality}. Topographic distributions, specifically the degree density and modularity scores, were computationally rendered using \texttt{Matplotlib} to ensure precise analysis. For spatial representation, models were exported as GEXF files and visualized using the ForceAtlas2 \cite{jacomy2014forceatlas2}, optimized for handling continuous graph layouts and improving community visual modularity, and Yifan Hu \cite{hu2005} algorithms. The resulting layout configurations are systematically archived in the \texttt{gephi\_viz/} artifacts.
+
+\begin{figure*}[htbp]
+\centering
+\begin{subfigure}{0.32\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{../gephi_viz/exported/force_atlas2/education_no_labels.png}
+    \caption{Education Layer}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.32\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{../gephi_viz/exported/force_atlas2/experience_no_labels.png}
+    \caption{Experience Layer}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.32\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{../gephi_viz/exported/force_atlas2/volunteering_no_labels.png}
+    \caption{Volunteering Layer}
+\end{subfigure}
+\caption{The institutional layers within the dataset, comparing the topological dispersion of trust networks spatialized via the ForceAtlas2 layout. The education layer (a) exhibits denser clustering (alma mater ties) compared to the more sparse and fragmented volunteering layer (c).}
+\label{fig:layer_showcase}
+\end{figure*}
 
 \subsection{Community Detection}
 
+To investigate the micro-foundations of the venture capital ecosystem, this study implements a community detection pipeline designed to isolate dense relational clusters within the aggregated cofounder-investment manager network. This analytical approach identifies groups with elevated internal connectivity, effectively mapping the institutional pathways and trust-based signals—such as shared alma maters or professional histories—emphasized in the structural sociology of venture capital \cite{ferrary2009}. By consolidating these diverse relational modalities into a unified multilayer framework, we provide a robust basis for analyzing the modular organization and stability of the portfolio network.
+
+In order to ensure the stability and robustness of the resulting partitions, four distinct algorithms were utilized:
+\begin{itemize}
+    \item \textbf{Louvain Algorithm}: A multi-level modularity optimization algorithm effective for hierarchical community structures in large networks \cite{blondel2008fast}. It greedily optimizes the modularity parameter $Q$.
+    \item \textbf{Greedy Modularity}: An iterative merging approach that maximizes modularity gain at each step, providing a deterministic baseline for smaller graphs \cite{clauset2004finding}. 
+    \item \textbf{Label Propagation}: A fast heuristic that assigns labels based on neighbor frequency, identifying well-defined clusters without a predefined community count \cite{raghavan2007near}.
+    \item \textbf{Girvan-Newman Algorithm}: A divisive method based on the removal of edges with the highest betweenness centrality, useful for identifying the structural bridges connecting communities \cite{newman2004finding}. 
+\end{itemize}
+
+These algorithms were applied to the aggregated network using the NetworkX library in Python. Modularity $Q$ was used as the primary metric for evaluating partition quality:
+
+\[
+Q = \frac{1}{2m}\sum_{i,j} \left( A_{ij} - \frac{k_i k_j}{2m} \right) \delta(c_i, c_j)
+\]
+where $A_{ij}$ is the weight of the edge between $i$ and $j$, $k_i$ is the degree of node $i$, $c_i$ denotes the community of node $i$, $m$ is the sum of all edge weights, and the Kronecker delta function $\delta(c_i, c_j)$ evaluates to $1$ if $c_i = c_j$ and $0$ otherwise.
+
+In order to be able to guarantee the reproducibility of the partition results, all stochastic algorithms were executed using a standardized initialization state ($\texttt{seed}=42$), while edge weights—reflecting the aggregate intensity of multilayer connectivity—were fully integrated into the modularity calculations. Beyond pure topological extraction, the underlying socio-technical drivers of these clusters were investigated through an attribute enrichment process. By cross-referencing the modal institutional affiliations (e.g., specific alma maters or historical professional roles) within each detected community, the partitions were mapped to real-world institutional pathways. This mixed-methods approach facilitates a deeper understanding of whether communities are driven by financial syndication or shared social capital. For visual validation, the modular structures were exported as GEXF artifacts and spatialized using the ForceAtlas2 algorithm. This layout was specifically selected for its ability to convert the density of intra-community edges into spatial proximity, providing a qualitative confirmational lens for the modularity metrics computed programmatically.
+
 \section{Results}
+
+The empirical analysis of the synthesized ecosystem reveals a highly-structured and non-random topological organization. Table~\ref{tab:layer_metrics} summarizes the key network parameters across different structural projections. The aggregated cofounder-investment manager network, which serves as the primary analytical backbone, exhibits a sparse overall density ($0.054$) but maintains a relatively high average degree ($3.15$), indicating that connectivity is concentrated within specific high-volume channels. The scale differential between institutional layers and the bipartite financial core is further visualized in Fig.~\ref{fig:network_sizes}, highlighting the expansion of the professional experience layer relative to the volunteering and educational footprints.
+
+\begin{table}[htbp]
+\caption{Comparative Network Topology across Layers}
+\label{tab:layer_metrics}
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+\textbf{Layer} & \textbf{Nodes} & \textbf{Edges} & \textbf{Dens.} & \textbf{Avg. D.} & \textbf{Assort.} \\
+\hline
+Cof.-Ind. (Agg.) & 59 & 93 & 0.054 & 3.15 & -0.718 \\
+Cof. Education & 143 & 123 & 0.012 & 1.72 & -0.282 \\
+Cof. Experience & 386 & 358 & 0.005 & 1.85 & -0.597 \\
+Cof. Volunt. & 70 & 22 & 0.009 & 0.63 & -0.489 \\
+VC-Company & 55 & 54 & 0.036 & 1.96 & -1.000 \\
+Comp.-Cof. & 95 & 50 & 0.011 & 1.05 & -0.111 \\
+Comp.-Inv. & 55 & 47 & 0.032 & 1.71 & -0.611 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{../figures/network_sizes.png}
+\vspace{0.2cm}
+\caption{Comparative distribution of node and edge volumes across the separated unimodal and bipartite topology configurations of the ecosystem, demonstrating the varying scale of social capital across institutional layers.}
+\label{fig:network_sizes}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{../gephi_viz/exported/force_atlas2/cofounders_employee_node_labels.png}
+\vspace{0.2cm}
+\caption{Force-directed layout (ForceAtlas2) of the primary cofounder-investment manager network, exported from the Gephi workspace. The central positioning of investment managers visually confirms their role as the ecosystem's topological core, facilitating a distinct hub-and-spoke organization.}
+\label{fig:network_overview}
+\end{figure}
+
+\subsection{Centrality and Brokerage}
+
+The degree centrality rankings are unequivocally dominated by the investment managers of 212, verifying their role as the primary structural gatekeepers of the ecosystem. Caglar Urcan ($0.276$), Selma Bahcivanoglu ($0.224$), and Ali Karabey ($0.224$) exhibit the highest centrality scores, shown in Fig.~\ref{fig:degree_dist}, effectively acting as brokers who bridge otherwise isolated cohorts of founders. 
+
+This configuration is quantitatively validated by a high degree of disassortativity ($r = -0.718$), which is remarkably distant from typical social networks that generally exhibit assortativity ($r > 0$). This negative coefficient indicates that high-degree nodes (investors) exclusively connect to low-degree ``spoke'' nodes (founders), a signature of a strictly managed investment portfolio. The relative distribution and metric comparison of these centrality scores, indicating the heavy-tailed nature of brokerage in the 212 network, are illustrated in Fig.~\ref{fig:topographic_dist}.
+
+\begin{figure*}[htbp]
+\centering
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{../figures/community_size_distributions.png}
+    \caption{Community Size Distributions}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{../figures/centrality_comparison.png}
+    \caption{Centrality Score Comparison}
+\end{subfigure}
+\vspace{0.2cm}
+\caption{Computational topographic analysis: (a) distribution of community sizes across the different algorithms highlighting partition stability; (b) relative centrality score distributions by metric, identifying the dominant structural brokerage of the central hubs.}
+\label{fig:topographic_dist}
+\end{figure*}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{../figures/top_degree_centrality.png}
+\vspace{0.2cm}
+\caption{Top degree centrality rankings in the multilayer network, highlighting the long tail created by a small segment of highly-connected investment managers acting as structural bridges for the 54 portfolio companies.}
+\label{fig:degree_dist}
+\end{figure}
+
+\subsection{Community Structure}
+
+Using the Louvain multi-level optimization algorithm, six stable communities were extracted with a modularity score of $Q = 0.472$. This indicates a robust modular structure that significantly exceeds the expected clustering in a random graph with the same degree distribution. A comparative assessment of algorithm performance, as in Fig.~\ref{fig:community_modularity}, shows that while Label Propagation and Girvan-Newman algorithms yield slightly higher community counts, the underlying partitions remains structurally consistent.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{../figures/community_modularity.png}
+\vspace{0.2cm}
+\caption{Comparative modularity metrics ($Q$) achieved by disparate partition optimization strategies, highlighting the stability of the detected ecosystem sub-clusters.}
+\label{fig:community_modularity}
+\end{figure}
+
+Through the attribute enrichment process, three dominant meso-level clusters were identified as being driven by specific institutional signals:
+\begin{itemize}
+    \item \textbf{Deep-Tech / Bogazici Hub (Size 7)}: A cluster centered around Caglar Urcan, comprising founders from advanced engineering firms such as \textit{Haelixa, One Five, Aepnus,} and \textit{Aibuild}. This cluster shows an abnormally high concentration of shared educational ties to Boğaziçi University, suggesting a domain-specific pipeline.
+    \item \textbf{Local SaaS / Operational Lead (Size 9)}: A community managed by Selma Bahcivanoglu involving founders from \textit{Hotelrunner, Juphy, Phitech,} and \textit{Agrotics}, indicating a specialized operational cohort within the Turkish SaaS ecosystem. 
+    \item \textbf{International Expansion / Cross-Border Pathways (Size 8)}: Predominantly linked to Ali Karabey, this group links founders with international institutional backgrounds (international degrees and global professional experience), reflecting a strategic partition for cross-border scalability.
+\end{itemize}
+
+These findings indicate that communities in the 212 portfolio are not merely products of financial syndication but are systematically reinforced by pre-existing institutional pathways, primarily local alma mater networks and specialized professional domains.
+
 
 \section{Discussion}
 
+The structural synthesis of the 212 venture capital ecosystem reveals a architecture that deviates significantly from organic social network growth. Our findings highlight several critical features that define the underlying logic of venture capital connectivity in this emerging market.
+
+\subsection{Brokerage and Managed Topology}
+The exceptionally high negative assortativity ($r = -0.718$) quantitatively frames the ``hub-and-spoke'' topology observed in the force-directed layouts. While typical human social networks exhibit positive assortative mixing, where high-degree nodes cluster together (homophily), professional venture capital networks are deliberately engineered for brokerage. The partnership structure of 212 functions as a centralized routing layer, where a few highly-connected investment managers act as strict gatekeepers for a diverse set of cofounders. This disassortativity signals a managed ecosystem where information flow is filtered through hubs, mitigating the noise of unstructured connectivity but potentially creating single points of failure at the broker level.
+
+\subsection{Institutional Trust as a Connectivity Catalyst}
+The modularity analysis confirms that educational overlap serves as a primary structural ``glue,'' bridging the gap between informal social capital and formal financial ties. The recurrence of local institutions, specifically Boğaziçi University, Middle East Technical University (METU), and Istanbul Technical University (ITU), within the detected modules suggest that regional trust networks remain phenomenologically vital even for firms with global horizons. These institutional pathways operate as proxy due-diligence mechanisms; shared backgrounds allow investors to bypass the high frictions of early-stage uncertainty through implicit reference checks. Conversely, the ``bridge'' effect driven by international alma maters, specifically the London School of Economics (LSE), Harvard University, and the University of Cambridge, as observed in the dataset, provides the necessary structural holes for cross-border expansion, suggesting a dual-tier strategy of local trust and global reach.
+
+\subsection{Multilayer Synergies and Information Asymmetry}
+A key revelation of approaching the portfolio as a multilayer network is the synergy between professional experience and financial ties. While the education layer provides the initial trust-based entry points, the experience layer (the largest by edge volume, as shown in Table~\ref{tab:layer_metrics}) provides the functional density required for sustained collaboration. It is observed that modularity is highest when these layers align; cofounders who share both an alma mater and prior professional contexts are significantly more likely to reside in the same detected community. This suggests that investment managers at 212 are not merely selecting companies, but actively navigating pre-existing clusters of professional social capital to mitigate information asymmetries.
+
+\subsection{Implications for the Ecosystem}
+For \textbf{entrepreneurs}, the robust modularity observed in the cofounder aggregation suggests that strategic alignment with specific institutional clusters is not merely a social advantage but a structural requirement for visibility. For \textbf{venture practitioners}, these results illuminate the latent biases inherent in portfolio construction; an over-reliance on established institutional pipelines may lead to a homogenization of human capital, potentially overlooking high-potential founders from outside traditional ``alma mater hubs.'' Understanding these topographic signatures allows for a more deliberate approach to ecosystem diversification.
+
 \section{Limitations and Future Work}
+
+A primary limitation of this study is its reliance on public LinkedIn data, which is inherently self-reported and may suffer from survivor bias or outdated records. Furthermore, the bipartite nature of the investment layer means that ties between cofounders of different companies are only visible through their shared institutional backgrounds, potentially underestimating the density of the actual, unstructured social network like informal mentorships. 
+
+Additionally, specific data integrity challenges were encountered during the scraping of the ground-truth portfolio datasets. These include missing profiles for one investment manager, for whom not any link could be obtained from either the website of 212 or LinkedIn, naming irregularities for portfolio companies across pages, for example, \emph{SOCRadar} and \emph{Socradar}, both of which indicate the same company, and an occasion of a link inconsistency in which the portfolio entry of 212 for \emph{iyzico} provided information for \emph{Insider One} (formerly known as \emph{Insider}) instead. While the current study prioritized a robust automated pipeline for data generation, these anomalies highlight the need for enhanced entity resolution and manual verification in future iterations.
+
+Another aspect that should be incorporated by prospective future work on this study is temporal data so as to investigate whether networks grow denser or sparser dynamically around funding rounds. In addition, incorporating co-investment data with entirely separate competitor VCs would illuminate the bridge connectivity across the wider Turkish startup ecosystem at large. Expanding the dataset to include multiple VC firms operating within Turkey would enable a comparative structural analysis of portfolio strategies and institutional biases across the industry.
 
 \section{Conclusion}
 
+This study has demonstrated the utility of multilayer network analysis in deciphering the complex social fabric governing venture capital portfolios. By synthesizing institutional and financial data from the 212 ecosystem, a highly structured, disassortative topology ($r = -0.718$) was identified, where investment managers function as critical structural bridges between isolated founder communities. The findings of the study reveal that these communities are not random aggregations but are systematically reinforced by pre-existing institutional pathways, with local alma mater networks—specifically Boğaziçi, METU, and ITU—serving as primary catalysts for trust and connectivity. Conversely, international institutional bridges like LSE and Harvard provide the structural holes necessary for cross-border scalability.
+
+The results underscore that professional social capital is a structural requirement for visibility within emerging technology hubs. The reproducible methodology provides a scalable framework for founders to navigate institutional pipelines and for investors to audit the connectivity and resilience of their portfolios. Ultimately, mapping these micro-foundations demystifies the circulation of capital, revealing how shared personal histories mitigate market frictions and sustain the formation of formal business relationships.
+
 \section*{Acknowledgments}
-% TL;DR: This was a course project; you can find the code and the dataset on the repo OnurOrman/seed-to-scale
+This study was conducted as a course project for CS 414/514 (Network Science) at Sabancı University. The author would like to thank the instructor for their guidance. The full dataset and code for this project are available at the GitHub repository \texttt{\href{https://github.com/OnurOrman/seed-to-scale}{OnurOrman/seed-to-scale}}.
 
-\section*{References}
+\begin{thebibliography}{00}
 
-% Please number citations consecutively within brackets \cite{b1}. The 
-% sentence punctuation follows the bracket \cite{b2}. Refer simply to the reference 
-% number, as in \cite{b3}---do not use ``Ref. \cite{b3}'' or ``reference \cite{b3}'' except at 
-% the beginning of a sentence: ``Reference \cite{b3} was the first $\ldots$''
+% --- Part I: Project Data & Institutional Context ---
+\bibitem{212website}{212, ``Home – 212,'' 212. [Online]. Available: \href{https://212.vc/}{https://212.vc}. [Accessed: May 31, 2026].}
+\bibitem{212portfolio}{212, ``Portfolio – 212,'' 212. [Online]. Available: \href{https://212.vc/portfolio}{https://212.vc/portfolio}. [Accessed: May 31, 2026].}
+\bibitem{212team}{212, ``Team – 212,'' 212. [Online]. Available: \href{https://212.vc/team}{https://212.vc/team}. [Accessed: May 31, 2026].}
+\bibitem{212linkedin}{212, ``Posts – LinkedIn,'' LinkedIn. [Online]. Available: \href{https://www.linkedin.com/company/212vc}{https://www.linkedin.com/company/212vc}. [Accessed: May 31, 2026].}
 
-% Number footnotes separately in superscripts. Place the actual footnote at 
-% the bottom of the column in which it was cited. Do not put footnotes in the 
-% abstract or reference list. Use letters for table footnotes.
+% --- Part II: Network Scholarship in Venture Capital & Innovation ---
+\bibitem{ferrary2009}{M. Ferrary and M. Granovetter, ``The role of venture capital firms in Silicon Valley's complex innovation network,'' \textit{Economy and Society}, vol. 38, no. 2, pp. 326--359, 2009.}
+\bibitem{zheng2004}{J. K. Zheng, ``A Social Network Analysis of Corporate Venture Capital Syndication,'' M.A.Sc. thesis, University of Waterloo, 2004.}
+\bibitem{aleenajitpong2021}{N. Aleenajitpong and A. Leemakdej, ``Venture capital networks in Southeast Asia: Network characteristics and cohesive subgroups,'' \textit{International Review of Financial Analysis}, vol. 76, p. 101752, 2021.}
+\bibitem{stohrer2025}{S. J. Stohrer, \textit{Venture Capital Networks in Europe: Fragmentation, Performance Implications, and Strategies behind VC Networks}, Ph.D. dissertation, TUM School of Management, 2025.}
+\bibitem{esposito2022}{C. Esposito et al., ``Venture capital investments through the lens of network and functional data analysis,'' \textit{Applied Network Science}, vol. 7, no. 1, 2022.}
+\bibitem{zhang2020}{Y.-J. Zhang et al., ``Analysis of attention on venture capital: A method of complex network on time series,'' \textit{International Journal of Modern Physics B}, vol. 34, no. 29, 2020.}
 
-% Unless there are six authors or more give all authors' names; do not use 
-% ``et al.''. Papers that have not been published, even if they have been 
-% submitted for publication, should be cited as ``unpublished'' \cite{b4}. Papers 
-% that have been accepted for publication should be cited as ``in press'' \cite{b5}. 
-% Capitalize only the first word in a paper title, except for proper nouns and 
-% element symbols.
+% --- Part III: Graph Theory, Centrality & Community Detection ---
+\bibitem{newman2018networks}{M. Newman, \textit{Networks}, 2nd ed. Oxford, UK: Oxford University Press, 2018.}
+\bibitem{freeman1978centrality}{L. C. Freeman, ``Centrality in social networks: Conceptual clarification,'' \textit{Social Networks}, vol. 1, no. 3, pp. 215--239, 1978.}
+\bibitem{jacomy2014forceatlas2}{M. Jacomy et al., ``ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization,'' \textit{PLOS ONE}, vol. 9, no. 6, p. e98679, 2014.}
+\bibitem{hu2005}{Y. Hu, ``Efficient, High-Quality Force-Directed Graph Drawing,'' \textit{The Mathematica Journal}, vol. 10, pp. 37–71, 2005.}
+\bibitem{blondel2008fast}{V. D. Blondel, J.-L. Guillaume, R. Lambiotte, and E. Lefebvre, ``Fast unfolding of communities in large networks,'' \textit{Journal of Statistical Mechanics: Theory and Experiment}, vol. 2008, no. 10, p. P10008, 2008.}
+\bibitem{clauset2004finding}{A. Clauset, M. E. J. Newman, and C. Moore, ``Finding community structure in very large networks,'' \textit{Physical Review E}, vol. 70, no. 6, p. 066111, 2004.}
+\bibitem{raghavan2007near}{U. N. Raghavan, R. Albert, and S. Kumara, ``Near linear time algorithm to detect community structures in large-scale networks,'' \textit{Physical Review E}, vol. 76, no. 3, p. 036106, 2007.}
+\bibitem{newman2004finding}{M. E. J. Newman and M. Girvan, ``Finding and evaluating community structure in networks,'' \textit{Physical Review E}, vol. 69, no. 2, p. 026113, 2004.}
 
-% For papers published in translation journals, please give the English 
-% citation first, followed by the original foreign-language citation \cite{b6}.
+\end{thebibliography}
 
-%\begin{thebibliography}{00}
-%\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
-%\bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
-%\bibitem{b3} I. S. Jacobs and C. P. Bean, ``Fine particles, thin films and exchange anisotropy,'' in Magnetism, vol. III, G. T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271--350.
-%\bibitem{b4} K. Elissa, ``Title of paper if known,'' unpublished.
-%\bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
-%\bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interface,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
-%\bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
-%\end{thebibliography}
-%\vspace{12pt}
+\clearpage
+\appendices
 
-\section*{Appendices}
+\section{Graph Visualizations Reference}
+In addition to the primary figures included throughout the text, a comprehensive suite of computational layouts covering all isolated thematic and bipartite structural components natively generated via ForceAtlas2 and Yifan Hu algorithms has been systematically exported. These reference variants can be found in the \texttt{gephi\_viz/exported/} directory. Key architectural mappings include:
+\begin{itemize}
+    \item \textbf{Financial Connectivity:} \texttt{vc\_company\_cofounder}, \texttt{vc\_company\_inv\_manager}, \texttt{company\_cofounder\_inv\_manager}.
+    \item \textbf{Institutional Trust Pathways:} \texttt{education}, \texttt{experience}, \texttt{volunteering}.
+    \item \textbf{Aggregated Ecosystem Layouts:} \texttt{cofounders\_employee} and \texttt{all\_networks\_combined}.
+\end{itemize}
+
+\section{Supplemental Statistical Tables}
+
+Table~\ref{tab:centrality_rankings} provides a detailed breakdown of the top influencers within the cofounder-investment manager network, highlighting the brokerage role of 212 partners.
+
+\begin{table}[htbp]
+\caption{Top Brokerage and Influence Rankings (Main Network)}
+\label{tab:centrality_rankings}
+\begin{center}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Node Name} & \textbf{Type} & \textbf{Degree} & \textbf{Betweenness} \\
+\hline
+\textbf{Caglar Urcan} & Manager & 16 & 0.270 \\
+\textbf{Selma Bahcivanoglu} & Manager & 13 & 0.215 \\
+\textbf{Ali Karabey} & Manager & 13 & 0.211 \\
+\textbf{Gizem Yagiz} & Manager & 10 & 0.108 \\
+\textbf{Kivanc Aydin} & Manager & 10 & 0.137 \\
+\textbf{Batu Sat} & Cofounder & 7 & 0.230 \\
+\textbf{Sean Yu} & Cofounder & 6 & 0.130 \\
+\textbf{Numan Numan} & Manager & 6 & 0.162 \\
+\textbf{Cagdas Yildiz} & Manager & 6 & 0.094 \\
+\textbf{Maher Hakim} & Manager & 6 & 0.105 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+The following clusters (Table~\ref{tab:community_profiles}) were identified using the Louvain algorithm ($Q=0.472$), showing the institutional focus of each sub-group within the 212 portfolio.
+
+\begin{table}[htbp]
+\caption{Characterization of Detected Ecosystem Communities}
+\label{tab:community_profiles}
+\begin{center}
+\begin{tabular}{|c|c|l|p{3.3cm}|}
+\hline
+\textbf{ID} & \textbf{Size} & \textbf{Primary Broker} & \textbf{Defining Signal / Shared Background} \\
+\hline
+1 & 7 & Caglar Urcan & Deep-Tech / Bogazici Engineering Hub \\
+2 & 9 & Selma Bahcivanoglu & Travel \& SaaS / METU \& ITU Pathways \\
+3 & 8 & Ali Karabey & International Scaling / LSE \& Harvard \\
+4 & 11 & Gizem Yagiz & Regional Logistics / Local Professional Ties \\
+5 & 12 & Numan Numan & FinTech \& Payments / Mixed Professional \\
+6 & 10 & Kivanc Aydin & AI \& Data Science / METU Alumni \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\section{Supplemental Computational Topography}
+
+Fig.~\ref{fig:full_ecosystem} showcases the absolute structural complexity of the 212 ecosystem when all institutional and financial layers are aggregated into a single multilayer projection. Fig.~\ref{fig:tripartite_core} reveals the tripartite core, while Fig.~\ref{fig:connectivity_chart} illustrates the scaling properties of average degree and density across these isolated layers.
+
+\begin{figure*}[htbp]
+\centering
+\includegraphics[width=0.85\textwidth]{../gephi_viz/exported/force_atlas2/all_networks_combined_node_labels.png}
+\vspace{0.2cm}
+\caption{Global multilayer aggregate of the 212 ecosystem, featuring all nodes (Cofounders, Companies, Investment Managers) and edges (Financial, Education, Experience, Volunteering) spatialized via ForceAtlas2.}
+\label{fig:full_ecosystem}
+\end{figure*}
+
+\begin{figure*}[htbp]
+\centering
+\includegraphics[width=0.85\textwidth]{../gephi_viz/exported/force_atlas2/company_cofounder_inv_manager_node_labels.png}
+\vspace{0.2cm}
+\caption{The cofounder-company-investment manager tripartite core, highlighting the shared portfolio ties that form the financial backbone of the network.}
+\label{fig:tripartite_core}
+\end{figure*}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{../figures/connectivity_metrics.png}
+\vspace{0.2cm}
+\caption{Comparative analysis of average degree and network density across specific institutional layers, demonstrating the structural density of the professional experience tier relative to education and volunteering.}
+\label{fig:connectivity_chart}
+\end{figure}
 
 \end{document}
