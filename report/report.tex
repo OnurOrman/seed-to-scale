@@ -102,7 +102,11 @@ The core analytical output of this study is a suite of exactly ten graph project
     \end{itemize}}}
 \end{enumerate}
 
-In order to perform a cohesive structural analysis across the entire ecosystem, the projected cofounder-investment manager network flattens these distinct structural and thematic dimensions into an aggregated graph. In this aggregation, edge weights are defined as the sum of binary indicators across all layers: an edge exists if two individuals share at least one commonality, and its weight corresponds to the total number of distinct layers (financial, education, experience, volunteering) in which the tie is present. This additive weighting scheme ensures that multi-modal overlaps are prioritized during community detection and centrality analysis.
+In order to perform a cohesive structural analysis across the entire ecosystem, the multilayer dataset is first represented as a set of distinct relational graphs corresponding to financial ties, education, professional experience, and volunteering. These layers capture heterogeneous but complementary dimensions of connectivity among cofounders and investment managers.
+
+For the main structural analysis, these layers are then integrated into a single \textit{collapsed weighted projection}. In this projection, the node set is preserved, while edges are defined based on the union of all relational layers: a link exists between two individuals if at least one type of relationship is present. Edge weights are assigned as the sum of binary indicators across layers, corresponding to the number of distinct relational dimensions (financial, education, experience, volunteering) shared by a given pair of nodes.
+
+This aggregation preserves multilayer information in a compact form while enabling the application of standard single-layer community detection and global network statistics. Importantly, the resulting edge weights encode the intensity of multi-modal overlap, ensuring that pairs connected through multiple institutional channels contribute more strongly to structural cohesion and centrality measures.
 
 \subsection{Standard Analysis Pipeline}
 
@@ -196,7 +200,7 @@ Comp.-Inv. & 55 & 47 & 0.032 & 1.71 & -0.611 \\
 
 The degree centrality rankings are unequivocally dominated by the investment managers of 212, verifying their role as the primary structural gatekeepers of the ecosystem. Caglar Urcan ($0.276$), Selma Bahcivanoglu ($0.224$), and Ali Karabey ($0.224$) exhibit the highest centrality scores, shown in Fig.~\ref{fig:degree_dist}, effectively acting as brokers who bridge otherwise isolated cohorts of founders. 
 
-This configuration is quantitatively validated by a high degree of disassortativity ($r = -0.718$), which is remarkably distant from typical social networks that generally exhibit assortativity ($r > 0$). While this negative coefficient is partially a structural artifact of the network's construction, specifically, the bipartite nature of a small group of investment managers connecting to a larger pool of founders, it nonetheless confirms a strictly managed hub-and-spoke organization. This signature indicates that the partnership structure of 212 functions as a centralized routing layer, where information flow is filtered through hubs, mitigating the noise of unstructured connectivity but potentially creating single points of failure at the broker level. The relative distribution and metric comparison of these centrality scores, indicating the heavy-tailed nature of brokerage in the 212 network, are illustrated in Fig.~\ref{fig:topographic_dist}.
+This configuration is quantitatively reflected by a strongly negative assortativity coefficient ($r = -0.718$), which is consistent with a hub-and-spoke topology given the construction of the network. While part of this effect is structurally induced by the bipartite-like composition of founders and investment managers, it still indicates a strongly centralized connectivity pattern in the aggregated projection. This signature indicates that the partnership structure of 212 functions as a centralized routing layer, where information flow is filtered through hubs, mitigating the noise of unstructured connectivity but potentially creating single points of failure at the broker level. The relative distribution and metric comparison of these centrality scores, indicating the heavy-tailed nature of brokerage in the 212 network, are illustrated in Fig.~\ref{fig:topographic_dist}.
 
 \begin{figure*}[htbp]
 \centering
@@ -226,7 +230,9 @@ This configuration is quantitatively validated by a high degree of disassortativ
 
 \subsection{Community Structure}
 
-Using the Louvain multi-level optimization algorithm, six stable communities are extracted with an optimized empirical modularity score of $Q = 0.4721$. This indicates a robust modular structure that significantly exceeds the expected clustering of an equivalent random network topology. A comparative assessment of algorithm performance (Table~\ref{tab:community_results}) demonstrates that while alternative heuristic routines vary in their absolute community counts, the underlying localized partitions remain structurally consistent.
+Using the Louvain multi-level optimization algorithm, six communities are extracted with an empirical modularity score of $Q = 0.4721$, which represent the full partition of the 59-node network under the chosen resolution. This indicates a robust modular structure that significantly exceeds the expected clustering of an equivalent random network topology. A comparative assessment of algorithm performance (Table~\ref{tab:community_results}) demonstrates that while alternative heuristic routines vary in their absolute community counts, the underlying localized partitions remain structurally consistent.
+
+To provide interpretability, three representative (and structurally dominant) communities are discussed in detail below. These are selected based on size, central brokerage presence, and clarity of institutional signals, rather than implying they constitute the complete set.
 
 \begin{table}[htbp]
 \caption{Comparative Community Detection Performance on the Collapsed Single-Layer Projection ($N=59, M=93$)}
@@ -285,7 +291,7 @@ Finally, the hierarchical Girvan-Newman edge-betweenness split reaches an optima
 
 \section{Discussion}
 
-The structural synthesis of the 212 venture capital ecosystem reveals a architecture that deviates significantly from organic social network growth. The findings of this study highlight several critical features that define the underlying logic of venture capital connectivity in this emerging market.
+The structural analysis of the 212 venture capital ecosystem suggests a non-random and highly centralized topology that differs from what is typically observed in organically formed social networks.
 
 \subsection{Brokerage and Managed Topology}
 The exceptionally high negative assortativity ($r = -0.718$) quantitatively frames the ``hub-and-spoke'' topology observed in the force-directed layouts. While typical human social networks exhibit positive assortative mixing, where high-degree nodes cluster together (homophily), professional venture capital networks are deliberately engineered for brokerage. The partnership structure of 212 functions as a centralized routing layer, where a few highly-connected investment managers act as strict gatekeepers for a diverse set of cofounders. This disassortativity signals a managed ecosystem where information flow is filtered through hubs, mitigating the noise of unstructured connectivity but potentially creating single points of failure at the broker level.
@@ -388,22 +394,23 @@ Table~\ref{tab:centrality_rankings} provides a detailed breakdown of the top inf
 The following clusters (Table~\ref{tab:community_profiles}) were identified using the Louvain algorithm ($Q=0.472$), showing the institutional focus of each sub-group within the 212 portfolio.
 
 \begin{table}[htbp]
-\caption{Characterization of Detected Ecosystem Communities}
+\caption{Characterization of Detected Ecosystem Communities (Full Partition, $N=59$)}
 \label{tab:community_profiles}
-\begin{center}
+\centering
 \begin{tabular}{|c|c|l|p{3.3cm}|}
 \hline
 \textbf{ID} & \textbf{Size} & \textbf{Primary Broker} & \textbf{Defining Signal / Shared Background} \\
 \hline
-1 & 7 & Caglar Urcan & Deep-Tech / Bogazici Engineering Hub \\
+1 & 7 & Caglar Urcan & Deep-Tech / Boğaziçi Engineering Hub \\
 2 & 9 & Selma Bahcivanoglu & Travel \& SaaS / METU \& ITU Pathways \\
 3 & 8 & Ali Karabey & International Scaling / LSE \& Harvard \\
 4 & 11 & Gizem Yagiz & Regional Logistics / Local Professional Ties \\
 5 & 12 & Numan Numan & FinTech \& Payments / Mixed Professional \\
 6 & 10 & Kivanc Aydin & AI \& Data Science / METU Alumni \\
 \hline
+\multicolumn{4}{|p{\dimexpr\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|}{\centering \textbf{Residual nodes: 2 nodes not strongly affiliated with any dominant community signal}} \\
+\hline
 \end{tabular}
-\end{center}
 \end{table}
 
 \section{Supplemental Computational Topography}
