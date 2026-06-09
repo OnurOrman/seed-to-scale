@@ -203,6 +203,58 @@ def _describe_network(gexf_path: Path) -> dict:
 
 	return stats
 
+def _null_model_modularity(
+	graph: nx.Graph,
+	communities: list[set[str]],
+	n_rewirings: int = 1000,
+	seed: int = 42,
+) -> dict:
+	"""Benchmark observed modularity against a configuration-model null distribution.
+
+	Generates ``n_rewirings`` double-edge-swap randomizations of *graph* that
+	preserve the exact degree sequence, computes modularity for the same
+	partition on each randomized copy, and returns summary statistics.  The
+	gap ``observed - null_mean`` quantifies how much of the modularity score
+	is driven by genuine community structure rather than degree heterogeneity.
+	"""
+	import statistics
+
+	observed_q = nx.algorithms.community.modularity(graph, communities, weight = "weight")
+
+	rng = __import__("random").Random(seed)
+	null_scores: list[float] = []
+
+	for _ in range(n_rewirings):
+		randomized = graph.copy()
+		# double_edge_swap preserves degree sequence exactly
+		try:
+			nx.double_edge_swap(randomized, nswap = graph.number_of_edges() * 10, max_tries = graph.number_of_edges() * 100, seed = rng.randint(0, 2**31))
+		except nx.NetworkXAlgorithmError:
+			# fallback: fewer swaps if the graph is too small / sparse
+			nx.double_edge_swap(randomized, nswap = max(1, graph.number_of_edges()), max_tries = graph.number_of_edges() * 20, seed = rng.randint(0, 2**31))
+		null_scores.append(
+			nx.algorithms.community.modularity(randomized, communities, weight = "weight")
+		)
+
+	null_mean = statistics.mean(null_scores)
+	null_std  = statistics.stdev(null_scores) if len(null_scores) > 1 else 0.0
+	delta_q   = observed_q - null_mean
+	z_score   = (delta_q / null_std) if null_std > 0 else float("inf")
+
+	return {
+		"observed_modularity": observed_q,
+		"null_model": {
+			"n_rewirings": n_rewirings,
+			"mean": null_mean,
+			"std": null_std,
+			"min": min(null_scores),
+			"max": max(null_scores),
+		},
+		"delta_q": delta_q,
+		"z_score": z_score,
+	}
+
+
 def _run_community_detection(gexf_path: Path, results_dir: Path, run_payload: dict) -> nx.Graph | None:
 	logger.info("Loading GEXF from %s", gexf_path)
 	if not gexf_path.exists():
@@ -242,6 +294,8 @@ def _run_community_detection(gexf_path: Path, results_dir: Path, run_payload: di
 			louvain_communities,
 			weight = "weight",
 		)
+		logger.info("Running null-model modularity benchmark for Louvain partition")
+		louvain_null = _null_model_modularity(graph, list(louvain_communities), seed = 42)
 		run_payload["algorithms"].append({
 			"name": "louvain",
 			"parameters": {"weight": "weight", "seed": 42},
@@ -251,6 +305,7 @@ def _run_community_detection(gexf_path: Path, results_dir: Path, run_payload: di
 				louvain_modularity,
 				graph,
 			),
+			"null_model_benchmark": louvain_null,
 		})
 	else:
 		run_payload["algorithms"].append({

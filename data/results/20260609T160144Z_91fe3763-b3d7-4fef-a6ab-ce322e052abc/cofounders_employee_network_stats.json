@@ -1,0 +1,444 @@
+{
+  "gexf_path": "data/gephi/cofounders_employee.gexf",
+  "nodes": 59,
+  "edges": 93,
+  "directed": false,
+  "density": 0.054354178842782,
+  "avg_degree": 3.152542372881356,
+  "min_degree": 1,
+  "max_degree": 16,
+  "connected_components": {
+    "count": 2,
+    "largest_size": 57,
+    "sizes": [
+      57,
+      2
+    ]
+  },
+  "average_clustering": 0.0,
+  "assortativity_degree": -0.7184369711940555,
+  "diameter_largest_component": 6,
+  "avg_shortest_path_largest_component": 3.181704260651629,
+  "centrality_top10": {
+    "degree": [
+      {
+        "node": "Caglar Urcan",
+        "score": 0.27586206896551724
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.22413793103448276
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.22413793103448276
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.1724137931034483
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.1724137931034483
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.15517241379310345
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.13793103448275862
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.12068965517241378
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.12068965517241378
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.10344827586206896
+      }
+    ],
+    "degree_weighted": [
+      {
+        "node": "Caglar Urcan",
+        "score": 0.27586206896551724
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.27586206896551724
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.25862068965517243
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.1896551724137931
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.1724137931034483
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.1724137931034483
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.1724137931034483
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.15517241379310345
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.15517241379310345
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.1206896551724138
+      }
+    ],
+    "betweenness": [
+      {
+        "node": "Caglar Urcan",
+        "score": 0.27048190019922363
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.23035304912440646
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.21475034243516142
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.21139952837727718
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.16241224192222375
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.13704269461404064
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.1298759903965643
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.10830350454471344
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.10460532935729548
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.0944054252760207
+      }
+    ],
+    "betweenness_weighted": [
+      {
+        "node": "Caglar Urcan",
+        "score": 0.29230421349116575
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.20313279667083706
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.18758533396268512
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.1796472241131348
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.1617981074317148
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.14992735500733295
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.11447974208744102
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.1117897682671919
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.09900853666733886
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.09385656033919001
+      }
+    ],
+    "closeness": [
+      {
+        "node": "Batu Sat",
+        "score": 0.4395850855060275
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.4325517241379311
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.4224137931034483
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.40349974266598043
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.3862068965517242
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.3807673627974745
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.37547892720306514
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.3653308480894688
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.3628789632029623
+      },
+      {
+        "node": "Berhan Kongel",
+        "score": 0.3628789632029623
+      }
+    ],
+    "closeness_weighted": [
+      {
+        "node": "Caglar Urcan",
+        "score": 0.40653357531760437
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.4005108556832695
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.3946639818776743
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.38346784054781125
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.37288941736028536
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.3557168784029038
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.3510971786833856
+      },
+      {
+        "node": "Berhan Kongel",
+        "score": 0.34659593280282935
+      },
+      {
+        "node": "Oguzhan Uyar",
+        "score": 0.34659593280282935
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.34659593280282935
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": "Caglar Urcan",
+        "score": 0.39209201188524234
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.30091503795256674
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.275502745211751
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.2696958593024214
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.24688521489592444
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.24458190933398122
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.210520806879079
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.20090113856571165
+      },
+      {
+        "node": "Hakan Yurdakul",
+        "score": 0.1655038337798269
+      },
+      {
+        "node": "Berhan Kongel",
+        "score": 0.1650982135618045
+      }
+    ],
+    "eigenvector_weighted": [
+      {
+        "node": "Batu Sat",
+        "score": 0.3286574521284393
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.3278149812312056
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.29388801528242703
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.2911563748575728
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.28976532934921967
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.27844353163903335
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.23485399610826752
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.20438069983129334
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.20013543814425588
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.1714339276082864
+      }
+    ],
+    "pagerank": [
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.07225713223106427
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.0696177370394698
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.06477095528620087
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.04513956372518627
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.04321841169293757
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.042951898236420476
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.04197178881735184
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.04030532918452299
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.036007269693092564
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.03552595157216466
+      }
+    ],
+    "pagerank_weighted": [
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.07225713223106427
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.0696177370394698
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.06477095528620087
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.04513956372518627
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.04321841169293757
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.042951898236420476
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.04197178881735184
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.04030532918452299
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.036007269693092564
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.03552595157216466
+      }
+    ]
+  }
+}

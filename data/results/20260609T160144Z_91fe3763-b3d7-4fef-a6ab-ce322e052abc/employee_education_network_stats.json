@@ -1,0 +1,448 @@
+{
+  "gexf_path": "data/gephi/employee_education.gexf",
+  "nodes": 26,
+  "edges": 20,
+  "directed": false,
+  "density": 0.06153846153846154,
+  "avg_degree": 1.5384615384615385,
+  "min_degree": 1,
+  "max_degree": 3,
+  "connected_components": {
+    "count": 6,
+    "largest_size": 7,
+    "sizes": [
+      7,
+      5,
+      5,
+      4,
+      3,
+      2
+    ]
+  },
+  "average_clustering": 0.0,
+  "assortativity_degree": -0.55844155844156,
+  "diameter_largest_component": 4,
+  "avg_shortest_path_largest_component": 2.2857142857142856,
+  "centrality_top10": {
+    "degree": [
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.12
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.12
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.12
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.08
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.08
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.08
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.08
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.08
+      },
+      {
+        "node": "The London School of Economics and Political Science (LSE)",
+        "score": 0.08
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.08
+      }
+    ],
+    "degree_weighted": [
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.12
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.12
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.12
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.08
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.08
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.08
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.08
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.08
+      },
+      {
+        "node": "The London School of Economics and Political Science (LSE)",
+        "score": 0.08
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.08
+      }
+    ],
+    "betweenness": [
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.030000000000000002
+      },
+      {
+        "node": "The London School of Economics and Political Science (LSE)",
+        "score": 0.030000000000000002
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.030000000000000002
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.013333333333333334
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.013333333333333334
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.01
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.01
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.01
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.01
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.01
+      }
+    ],
+    "betweenness_weighted": [
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.030000000000000002
+      },
+      {
+        "node": "The London School of Economics and Political Science (LSE)",
+        "score": 0.030000000000000002
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.030000000000000002
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.013333333333333334
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.013333333333333334
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.01
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.01
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.01
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.01
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.01
+      }
+    ],
+    "closeness": [
+      {
+        "node": "The London School of Economics and Political Science (LSE)",
+        "score": 0.144
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.1309090909090909
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.1309090909090909
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.12
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.10666666666666666
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.10666666666666666
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.09142857142857143
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.09142857142857143
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.09142857142857143
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.09142857142857143
+      }
+    ],
+    "closeness_weighted": [
+      {
+        "node": "The London School of Economics and Political Science (LSE)",
+        "score": 0.144
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.1309090909090909
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.1309090909090909
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.12
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.10666666666666666
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.10666666666666666
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.09142857142857143
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.09142857142857143
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.09142857142857143
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.09142857142857143
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.49999999873380147
+      },
+      {
+        "node": "The London School of Economics and Political Science (LSE)",
+        "score": 0.49999999873380147
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.49999999873380147
+      },
+      {
+        "node": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+        "score": 0.24999999936690073
+      },
+      {
+        "node": "TED Ankara Koleji",
+        "score": 0.24999999936690073
+      },
+      {
+        "node": "University of Cambridge",
+        "score": 0.24999999936690073
+      },
+      {
+        "node": "Izmir Fen Lisesi",
+        "score": 0.24999999936690073
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 2.694483666603387e-05
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 2.453822092441647e-05
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 2.4538220924416457e-05
+      }
+    ],
+    "eigenvector_weighted": [
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.49999999873380147
+      },
+      {
+        "node": "The London School of Economics and Political Science (LSE)",
+        "score": 0.49999999873380147
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.49999999873380147
+      },
+      {
+        "node": "Orta Doğu Teknik Üniversitesi / Middle East Technical University",
+        "score": 0.24999999936690073
+      },
+      {
+        "node": "TED Ankara Koleji",
+        "score": 0.24999999936690073
+      },
+      {
+        "node": "University of Cambridge",
+        "score": 0.24999999936690073
+      },
+      {
+        "node": "Izmir Fen Lisesi",
+        "score": 0.24999999936690073
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 2.694483666603387e-05
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 2.453822092441647e-05
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 2.4538220924416457e-05
+      }
+    ],
+    "pagerank": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.07380308692005633
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.06496769980542685
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.06496769980542685
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.05613231269079738
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.04729692557616792
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.04729692557616792
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.04729692557616792
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.04729692557616792
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.04597230519306283
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.04597230519306283
+      }
+    ],
+    "pagerank_weighted": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.07380308692005633
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.06496769980542685
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.06496769980542685
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.05613231269079738
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.04729692557616792
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.04729692557616792
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.04729692557616792
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.04729692557616792
+      },
+      {
+        "node": "Istanbul Technical University",
+        "score": 0.04597230519306283
+      },
+      {
+        "node": "Boğaziçi University",
+        "score": 0.04597230519306283
+      }
+    ]
+  }
+}
