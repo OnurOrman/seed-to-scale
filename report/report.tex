@@ -88,7 +88,7 @@ The final consolidated dataset encompasses detailed profiles for 59 unique indiv
 \section{Methodology}
 
 \subsection{Construction of the Networks}
-
+\label{subsec:network_constr}
 The core analytical output of this study is a suite of exactly ten graph projections derived from the institutional and financial data, culminating in a synthesized multilayer network $M = (G, L)$. In this context, $G$ is defined as the set of nodes representing cofounders ($n=49$), investment managers ($n=10$), and the formal entities (the VC firm 212 and its portfolio companies). Using the NetworkX library in Python, the data were systematically exported to the \texttt{data/gephi/} directory to construct the following configurations:
 
 \begin{enumerate}
@@ -236,7 +236,7 @@ Using the Louvain multi-level optimization algorithm, six stable communities wer
 \label{fig:community_modularity}
 \end{figure}
 
-Through the attribute enrichment process, three dominant meso-level clusters were identified as being driven by specific institutional signals:
+Community detection was performed on the aggregated multilayer graph using the additive edge-weight formulation described in Section~\ref{subsec:network_constr}, where financial and institutional ties contribute equally to edge strength. Through the attribute enrichment process, three dominant meso-level clusters were identified as being driven by specific institutional signals:
 \begin{itemize}
     \item \textbf{The Boğaziçi Engineering Nexus (Size 7)}: Centered around Caglar Urcan, this cluster aggregates founders from advanced engineering firms such as \textit{Haelixa, One Five, Aepnus,} and \textit{Aibuild}. It is defined by a strong educational homogeneity, with 5 out of 7 members (approx. 71\%) sharing an alma mater at Boğaziçi University, indicating a specialized academic-to-founder pipeline.
     \item \textbf{The Turkish SaaS Operational Core (Size 9)}: Managed by Selma Bahcivanoglu, this community includes founders from \textit{Hotelrunner, Juphy, Phitech,} and \textit{Agrotics}. The cluster is anchored by professional overlap, with 4 members sharing prior operational roles within the local SaaS ecosystem, frequently bridged by METU and ITU alumni networks.
@@ -244,6 +244,8 @@ Through the attribute enrichment process, three dominant meso-level clusters wer
 \end{itemize}
 
 These findings indicate that communities in the 212 portfolio are not merely products of financial syndication but are systematically reinforced by pre-existing institutional pathways, primarily local alma mater networks and specialized professional domains.
+
+To further validate that this modular organization is not a statistical artifact of the network's sparsity or degree heterogeneity, the observed modularity was benchmarked against a configuration-model null distribution. Specifically, $1000$ double-edge-swap randomizations of the aggregated network were generated, each preserving the exact degree sequence of every node while dismantling any community structure. Across these rewirings, null-model scores averaged $Q_{\text{null}} = -0.028$ ($\sigma = 0.035$), yielding an effect size of $\Delta Q = 0.500$ and a $z$-score of $14.39$. The observed modularity ($Q = 0.472$) thus exceeds the null mean by over fourteen standard deviations, providing strong quantitative evidence that the detected communities are not a product of the network's degree distribution but instead reflect genuine, institutionally-grounded clustering within the 212 portfolio.
 
 
 \section{Discussion}
@@ -277,7 +279,7 @@ Another aspect that should be incorporated by prospective future work on this st
 
 This study has demonstrated the utility of multilayer network analysis in deciphering the complex social fabric governing venture capital portfolios. By synthesizing institutional and financial data from the 212 ecosystem, a highly structured, disassortative topology ($r = -0.718$) was identified, where investment managers function as critical structural bridges between isolated founder communities. The findings of the study reveal that these communities are not random aggregations but are systematically reinforced by pre-existing institutional pathways, with local alma mater networks—specifically Boğaziçi, METU, and ITU—serving as primary catalysts for trust and connectivity. Conversely, international institutional bridges like LSE and Harvard provide the structural holes necessary for cross-border scalability.
 
-The results underscore that professional social capital is a structural requirement for visibility within emerging technology hubs. The reproducible methodology provides a scalable framework for founders to navigate institutional pipelines and for investors to audit the connectivity and resilience of their portfolios. Ultimately, mapping these micro-foundations demystifies the circulation of capital, revealing how shared personal histories mitigate market frictions and sustain the formation of formal business relationships.
+Within the specific context of the 212 portfolio, the results suggest that professional social capital is closely associated with founder visibility and connectivity. Although the dataset is limited to a single venture capital firm and a relatively small sample of actors, the reproducible methodology provides a framework for examining how institutional relationships shape startup ecosystems. More broadly, the findings illustrate how shared educational and professional histories may contribute to trust formation and the emergence of formal investment relationships, while motivating future comparative studies across larger and more diverse venture capital networks.
 
 \section*{Acknowledgments}
 This study was conducted as a course project for CS 414/514 (Network Science) at Sabancı University. The author would like to thank the instructor for their guidance. The full dataset and code for this project are available at the GitHub repository \texttt{\href{https://github.com/OnurOrman/seed-to-scale}{OnurOrman/seed-to-scale}}.
