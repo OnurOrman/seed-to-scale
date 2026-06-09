@@ -1,0 +1,487 @@
+{
+  "gexf_path": "data/gephi/company_cofounder.gexf",
+  "nodes": 95,
+  "edges": 50,
+  "directed": false,
+  "density": 0.011198208286674132,
+  "avg_degree": 1.0526315789473684,
+  "min_degree": 1,
+  "max_degree": 2,
+  "connected_components": {
+    "count": 45,
+    "largest_size": 3,
+    "sizes": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "average_clustering": 0.0,
+  "assortativity_degree": -0.11111111111111169,
+  "diameter_largest_component": 2,
+  "avg_shortest_path_largest_component": 1.3333333333333333,
+  "centrality_top10": {
+    "degree": [
+      {
+        "node": "Aepnus",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Freya",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Hotelrunner",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Hande Cilingir",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "123Formbuilder",
+        "score": 0.010638297872340425
+      },
+      {
+        "node": "Florin Cornianu",
+        "score": 0.010638297872340425
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.010638297872340425
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.010638297872340425
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.010638297872340425
+      }
+    ],
+    "degree_weighted": [
+      {
+        "node": "Aepnus",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Freya",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Hotelrunner",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Hande Cilingir",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "123Formbuilder",
+        "score": 0.010638297872340425
+      },
+      {
+        "node": "Florin Cornianu",
+        "score": 0.010638297872340425
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.010638297872340425
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.010638297872340425
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.010638297872340425
+      }
+    ],
+    "betweenness": [
+      {
+        "node": "Aepnus",
+        "score": 0.00022878059940517045
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.00022878059940517045
+      },
+      {
+        "node": "Freya",
+        "score": 0.00022878059940517045
+      },
+      {
+        "node": "Hotelrunner",
+        "score": 0.00022878059940517045
+      },
+      {
+        "node": "Hande Cilingir",
+        "score": 0.00022878059940517045
+      },
+      {
+        "node": "123Formbuilder",
+        "score": 0.0
+      },
+      {
+        "node": "Florin Cornianu",
+        "score": 0.0
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.0
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.0
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.0
+      }
+    ],
+    "betweenness_weighted": [
+      {
+        "node": "Aepnus",
+        "score": 0.00022878059940517045
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.00022878059940517045
+      },
+      {
+        "node": "Freya",
+        "score": 0.00022878059940517045
+      },
+      {
+        "node": "Hotelrunner",
+        "score": 0.00022878059940517045
+      },
+      {
+        "node": "Hande Cilingir",
+        "score": 0.00022878059940517045
+      },
+      {
+        "node": "123Formbuilder",
+        "score": 0.0
+      },
+      {
+        "node": "Florin Cornianu",
+        "score": 0.0
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.0
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.0
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.0
+      }
+    ],
+    "closeness": [
+      {
+        "node": "Aepnus",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Freya",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Hotelrunner",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Hande Cilingir",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.014184397163120567
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.014184397163120567
+      },
+      {
+        "node": "Daghan Cam",
+        "score": 0.014184397163120567
+      },
+      {
+        "node": "Michail Desyllas",
+        "score": 0.014184397163120567
+      },
+      {
+        "node": "Tunga Bayrak",
+        "score": 0.014184397163120567
+      }
+    ],
+    "closeness_weighted": [
+      {
+        "node": "Aepnus",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Freya",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Hotelrunner",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Hande Cilingir",
+        "score": 0.02127659574468085
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.014184397163120567
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.014184397163120567
+      },
+      {
+        "node": "Daghan Cam",
+        "score": 0.014184397163120567
+      },
+      {
+        "node": "Michail Desyllas",
+        "score": 0.014184397163120567
+      },
+      {
+        "node": "Tunga Bayrak",
+        "score": 0.014184397163120567
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": "Aepnus",
+        "score": 0.3162277657310337
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.3162277657310337
+      },
+      {
+        "node": "Freya",
+        "score": 0.3162277657310337
+      },
+      {
+        "node": "Hotelrunner",
+        "score": 0.3162277657310337
+      },
+      {
+        "node": "Hande Cilingir",
+        "score": 0.3162277657310337
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.22360679754788487
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.22360679754788487
+      },
+      {
+        "node": "Daghan Cam",
+        "score": 0.22360679754788487
+      },
+      {
+        "node": "Michail Desyllas",
+        "score": 0.22360679754788487
+      },
+      {
+        "node": "Tunga Bayrak",
+        "score": 0.22360679754788487
+      }
+    ],
+    "eigenvector_weighted": [
+      {
+        "node": "Aepnus",
+        "score": 0.3162277657310337
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.3162277657310337
+      },
+      {
+        "node": "Freya",
+        "score": 0.3162277657310337
+      },
+      {
+        "node": "Hotelrunner",
+        "score": 0.3162277657310337
+      },
+      {
+        "node": "Hande Cilingir",
+        "score": 0.3162277657310337
+      },
+      {
+        "node": "Lukas Hackl",
+        "score": 0.22360679754788487
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.22360679754788487
+      },
+      {
+        "node": "Daghan Cam",
+        "score": 0.22360679754788487
+      },
+      {
+        "node": "Michail Desyllas",
+        "score": 0.22360679754788487
+      },
+      {
+        "node": "Tunga Bayrak",
+        "score": 0.22360679754788487
+      }
+    ],
+    "pagerank": [
+      {
+        "node": "Aepnus",
+        "score": 0.01535893838380909
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.01535893838380909
+      },
+      {
+        "node": "Freya",
+        "score": 0.01535893838380909
+      },
+      {
+        "node": "Hotelrunner",
+        "score": 0.01535893838380909
+      },
+      {
+        "node": "Hande Cilingir",
+        "score": 0.01535893838380909
+      },
+      {
+        "node": "123Formbuilder",
+        "score": 0.010526315789473684
+      },
+      {
+        "node": "Florin Cornianu",
+        "score": 0.010526315789473684
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.010526315789473684
+      },
+      {
+        "node": "Mehmet Coka",
+        "score": 0.010526315789473684
+      },
+      {
+        "node": "Appsamurai",
+        "score": 0.010526315789473684
+      }
+    ],
+    "pagerank_weighted": [
+      {
+        "node": "Aepnus",
+        "score": 0.01535893838380909
+      },
+      {
+        "node": "Aibuild",
+        "score": 0.01535893838380909
+      },
+      {
+        "node": "Freya",
+        "score": 0.01535893838380909
+      },
+      {
+        "node": "Hotelrunner",
+        "score": 0.01535893838380909
+      },
+      {
+        "node": "Hande Cilingir",
+        "score": 0.01535893838380909
+      },
+      {
+        "node": "123Formbuilder",
+        "score": 0.010526315789473684
+      },
+      {
+        "node": "Florin Cornianu",
+        "score": 0.010526315789473684
+      },
+      {
+        "node": "Agrotics",
+        "score": 0.010526315789473684
+      },
+      {
+        "node": "Mehmet Coka",
+        "score": 0.010526315789473684
+      },
+      {
+        "node": "Appsamurai",
+        "score": 0.010526315789473684
+      }
+    ]
+  }
+}

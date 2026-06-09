@@ -1,0 +1,446 @@
+{
+  "gexf_path": "data/gephi/employee_experience.gexf",
+  "nodes": 73,
+  "edges": 69,
+  "directed": false,
+  "density": 0.026255707762557076,
+  "avg_degree": 1.8904109589041096,
+  "min_degree": 1,
+  "max_degree": 19,
+  "connected_components": {
+    "count": 4,
+    "largest_size": 37,
+    "sizes": [
+      37,
+      16,
+      12,
+      8
+    ]
+  },
+  "average_clustering": 0.0,
+  "assortativity_degree": -0.5551082122739401,
+  "diameter_largest_component": 4,
+  "avg_shortest_path_largest_component": 3.027027027027027,
+  "centrality_top10": {
+    "degree": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.2638888888888889
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.1111111111111111
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.09722222222222221
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.09722222222222221
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.09722222222222221
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.09722222222222221
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.08333333333333333
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.06944444444444445
+      },
+      {
+        "node": "212",
+        "score": 0.05555555555555555
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.041666666666666664
+      }
+    ],
+    "degree_weighted": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.2638888888888889
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.1111111111111111
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.09722222222222222
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.09722222222222222
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.09722222222222222
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.09722222222222222
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.08333333333333333
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.06944444444444445
+      },
+      {
+        "node": "212",
+        "score": 0.05555555555555555
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.041666666666666664
+      }
+    ],
+    "betweenness": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.18661971830985916
+      },
+      {
+        "node": "212",
+        "score": 0.1619718309859155
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.07629107981220658
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.07629107981220658
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.030125195618153366
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.02699530516431925
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.02699530516431925
+      },
+      {
+        "node": "Simya VC",
+        "score": 0.02190923317683881
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.01564945226917058
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.013302034428794993
+      }
+    ],
+    "betweenness_weighted": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.18661971830985916
+      },
+      {
+        "node": "212",
+        "score": 0.1619718309859155
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.07629107981220658
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.07629107981220658
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.030125195618153366
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.02699530516431925
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.02699530516431925
+      },
+      {
+        "node": "Simya VC",
+        "score": 0.02190923317683881
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.01564945226917058
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.013302034428794993
+      }
+    ],
+    "closeness": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.26865671641791045
+      },
+      {
+        "node": "212",
+        "score": 0.2647058823529412
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.1978021978021978
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.1978021978021978
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.18181818181818182
+      },
+      {
+        "node": "Innovation Foundry",
+        "score": 0.17647058823529413
+      },
+      {
+        "node": "Carnegie Mellon University",
+        "score": 0.17647058823529413
+      },
+      {
+        "node": "Qatar Research, Development and Innovation (QRDI) Council",
+        "score": 0.17647058823529413
+      },
+      {
+        "node": "Stellic",
+        "score": 0.17647058823529413
+      },
+      {
+        "node": "Wellbees",
+        "score": 0.17647058823529413
+      }
+    ],
+    "closeness_weighted": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.26865671641791045
+      },
+      {
+        "node": "212",
+        "score": 0.2647058823529412
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.1978021978021978
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.1978021978021978
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.18181818181818182
+      },
+      {
+        "node": "Innovation Foundry",
+        "score": 0.17647058823529413
+      },
+      {
+        "node": "Carnegie Mellon University",
+        "score": 0.17647058823529413
+      },
+      {
+        "node": "Qatar Research, Development and Innovation (QRDI) Council",
+        "score": 0.17647058823529413
+      },
+      {
+        "node": "Stellic",
+        "score": 0.17647058823529413
+      },
+      {
+        "node": "Wellbees",
+        "score": 0.17647058823529413
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.6989357791098844
+      },
+      {
+        "node": "212",
+        "score": 0.2012522263412041
+      },
+      {
+        "node": "Innovation Foundry",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "Carnegie Mellon University",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "Qatar Research, Development and Innovation (QRDI) Council",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "Stellic",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "Wellbees",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "Else Labs Inc.",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "European Innovation Academy",
+        "score": 0.1592451607657685
+      }
+    ],
+    "eigenvector_weighted": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.6989357791098844
+      },
+      {
+        "node": "212",
+        "score": 0.2012522263412041
+      },
+      {
+        "node": "Innovation Foundry",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "Carnegie Mellon University",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "Qatar Research, Development and Innovation (QRDI) Council",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "Stellic",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "Wellbees",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "123FormBuilder",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "Else Labs Inc.",
+        "score": 0.1592451607657685
+      },
+      {
+        "node": "European Innovation Academy",
+        "score": 0.1592451607657685
+      }
+    ],
+    "pagerank": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.12286840285095954
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.054681095366244103
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.051460832599512195
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.04824056983278034
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.04678058696475009
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.04678058696475009
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.042145378507221144
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.03560148505011935
+      },
+      {
+        "node": "212",
+        "score": 0.024830748866802164
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.020882255669694164
+      }
+    ],
+    "pagerank_weighted": [
+      {
+        "node": "Maher Hakim",
+        "score": 0.12286840285095954
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.054681095366244103
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.051460832599512195
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.04824056983278034
+      },
+      {
+        "node": "Ali Karabey",
+        "score": 0.04678058696475009
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.04678058696475009
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.042145378507221144
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.03560148505011935
+      },
+      {
+        "node": "212",
+        "score": 0.024830748866802164
+      },
+      {
+        "node": "Ozge Sevim",
+        "score": 0.020882255669694164
+      }
+    ]
+  }
+}

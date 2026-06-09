@@ -1,0 +1,473 @@
+{
+  "gexf_path": "data/gephi/cofounders_experience.gexf",
+  "nodes": 386,
+  "edges": 358,
+  "directed": false,
+  "density": 0.004817979947513627,
+  "avg_degree": 1.854922279792746,
+  "min_degree": 1,
+  "max_degree": 24,
+  "connected_components": {
+    "count": 31,
+    "largest_size": 61,
+    "sizes": [
+      61,
+      48,
+      37,
+      25,
+      16,
+      15,
+      14,
+      11,
+      11,
+      11,
+      10,
+      9,
+      9,
+      9,
+      9,
+      8,
+      8,
+      8,
+      8,
+      6,
+      6,
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      3,
+      3
+    ]
+  },
+  "average_clustering": 0.0,
+  "assortativity_degree": -0.5967876938255829,
+  "diameter_largest_component": 8,
+  "avg_shortest_path_largest_component": 4.427322404371584,
+  "centrality_top10": {
+    "degree": [
+      {
+        "node": "Martin Weber",
+        "score": 0.06233766233766234
+      },
+      {
+        "node": "Philippe Berlan",
+        "score": 0.03896103896103896
+      },
+      {
+        "node": "Sadok Kohen",
+        "score": 0.03896103896103896
+      },
+      {
+        "node": "Berhan Kongel",
+        "score": 0.033766233766233764
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.03116883116883117
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.03116883116883117
+      },
+      {
+        "node": "Emre Fadillioglu",
+        "score": 0.02857142857142857
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.02857142857142857
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.02857142857142857
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.025974025974025976
+      }
+    ],
+    "degree_weighted": [
+      {
+        "node": "Martin Weber",
+        "score": 0.06233766233766234
+      },
+      {
+        "node": "Philippe Berlan",
+        "score": 0.03896103896103896
+      },
+      {
+        "node": "Sadok Kohen",
+        "score": 0.03896103896103896
+      },
+      {
+        "node": "Berhan Kongel",
+        "score": 0.033766233766233764
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.03116883116883117
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.03116883116883117
+      },
+      {
+        "node": "Emre Fadillioglu",
+        "score": 0.02857142857142857
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.02857142857142857
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.02857142857142857
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.025974025974025976
+      }
+    ],
+    "betweenness": [
+      {
+        "node": "Batu Sat",
+        "score": 0.016558441558441557
+      },
+      {
+        "node": "Microsoft",
+        "score": 0.014488636363636363
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.010863095238095238
+      },
+      {
+        "node": "Full-time",
+        "score": 0.01066017316017316
+      },
+      {
+        "node": "Sadok Kohen",
+        "score": 0.009943181818181818
+      },
+      {
+        "node": "212",
+        "score": 0.009889069264069263
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.008252164502164502
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.008035714285714285
+      },
+      {
+        "node": "Mark Felegyhazi",
+        "score": 0.006831709956709957
+      },
+      {
+        "node": "Josua Vieten",
+        "score": 0.005316558441558442
+      }
+    ],
+    "betweenness_weighted": [
+      {
+        "node": "Batu Sat",
+        "score": 0.016558441558441557
+      },
+      {
+        "node": "Microsoft",
+        "score": 0.014488636363636363
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.010863095238095238
+      },
+      {
+        "node": "Full-time",
+        "score": 0.01066017316017316
+      },
+      {
+        "node": "Sadok Kohen",
+        "score": 0.009943181818181818
+      },
+      {
+        "node": "212",
+        "score": 0.009889069264069263
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.008252164502164502
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.008035714285714285
+      },
+      {
+        "node": "Mark Felegyhazi",
+        "score": 0.006831709956709957
+      },
+      {
+        "node": "Josua Vieten",
+        "score": 0.005316558441558442
+      }
+    ],
+    "closeness": [
+      {
+        "node": "Martin Weber",
+        "score": 0.06233766233766234
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.05667060212514758
+      },
+      {
+        "node": "Microsoft",
+        "score": 0.05500381970970206
+      },
+      {
+        "node": "212",
+        "score": 0.04921394395078605
+      },
+      {
+        "node": "Full-time",
+        "score": 0.046647661281807626
+      },
+      {
+        "node": "Sadok Kohen",
+        "score": 0.0465206435355689
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.04517221908526257
+      },
+      {
+        "node": "Alchemist Accelerator",
+        "score": 0.04369462313387547
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.0430905500029924
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.0425012025012025
+      }
+    ],
+    "closeness_weighted": [
+      {
+        "node": "Martin Weber",
+        "score": 0.06233766233766234
+      },
+      {
+        "node": "Batu Sat",
+        "score": 0.05667060212514758
+      },
+      {
+        "node": "Microsoft",
+        "score": 0.05500381970970206
+      },
+      {
+        "node": "212",
+        "score": 0.04921394395078605
+      },
+      {
+        "node": "Full-time",
+        "score": 0.046647661281807626
+      },
+      {
+        "node": "Sadok Kohen",
+        "score": 0.0465206435355689
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.04517221908526257
+      },
+      {
+        "node": "Alchemist Accelerator",
+        "score": 0.04369462313387547
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.0430905500029924
+      },
+      {
+        "node": "Alara Eren Iplikcioglu",
+        "score": 0.0425012025012025
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": "Martin Weber",
+        "score": 0.7071067488356756
+      },
+      {
+        "node": "one • fıve",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "Nucleus Capital",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "NetZeroNitrogen",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "UNCAGED Innovations",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "Recyda GmbH",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "Epoch Biodesign",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "info.link",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "Farmless",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "Tandem Repeat",
+        "score": 0.1443375611394053
+      }
+    ],
+    "eigenvector_weighted": [
+      {
+        "node": "Martin Weber",
+        "score": 0.7071067488356756
+      },
+      {
+        "node": "one • fıve",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "Nucleus Capital",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "NetZeroNitrogen",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "UNCAGED Innovations",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "Recyda GmbH",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "Epoch Biodesign",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "info.link",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "Farmless",
+        "score": 0.1443375611394053
+      },
+      {
+        "node": "Tandem Repeat",
+        "score": 0.1443375611394053
+      }
+    ],
+    "pagerank": [
+      {
+        "node": "Martin Weber",
+        "score": 0.029974674232319344
+      },
+      {
+        "node": "Philippe Berlan",
+        "score": 0.019259195714288548
+      },
+      {
+        "node": "Sadok Kohen",
+        "score": 0.018421313834505147
+      },
+      {
+        "node": "Berhan Kongel",
+        "score": 0.016877978265837267
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.014829533505037138
+      },
+      {
+        "node": "Emre Fadillioglu",
+        "score": 0.013816221941737589
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.013702551574935752
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.013364635198084429
+      },
+      {
+        "node": "Tolga Sen",
+        "score": 0.013306152093160339
+      },
+      {
+        "node": "Ceren Melis Abacioglu",
+        "score": 0.013306152093160339
+      }
+    ],
+    "pagerank_weighted": [
+      {
+        "node": "Martin Weber",
+        "score": 0.029974674232319344
+      },
+      {
+        "node": "Philippe Berlan",
+        "score": 0.019259195714288548
+      },
+      {
+        "node": "Sadok Kohen",
+        "score": 0.018421313834505147
+      },
+      {
+        "node": "Berhan Kongel",
+        "score": 0.016877978265837267
+      },
+      {
+        "node": "Haris Aghadi",
+        "score": 0.014829533505037138
+      },
+      {
+        "node": "Emre Fadillioglu",
+        "score": 0.013816221941737589
+      },
+      {
+        "node": "Bilen Akuzum",
+        "score": 0.013702551574935752
+      },
+      {
+        "node": "Sean Yu",
+        "score": 0.013364635198084429
+      },
+      {
+        "node": "Tolga Sen",
+        "score": 0.013306152093160339
+      },
+      {
+        "node": "Ceren Melis Abacioglu",
+        "score": 0.013306152093160339
+      }
+    ]
+  }
+}

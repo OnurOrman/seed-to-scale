@@ -1,0 +1,451 @@
+{
+  "gexf_path": "data/gephi/company_investment_manager.gexf",
+  "nodes": 55,
+  "edges": 47,
+  "directed": false,
+  "density": 0.03164983164983165,
+  "avg_degree": 1.709090909090909,
+  "min_degree": 1,
+  "max_degree": 12,
+  "connected_components": {
+    "count": 9,
+    "largest_size": 13,
+    "sizes": [
+      13,
+      9,
+      9,
+      8,
+      5,
+      4,
+      3,
+      2,
+      2
+    ]
+  },
+  "average_clustering": 0.0,
+  "assortativity_degree": -0.6114930795328312,
+  "diameter_largest_component": 2,
+  "avg_shortest_path_largest_component": 1.8461538461538463,
+  "centrality_top10": {
+    "degree": [
+      {
+        "node": "Ali Karabey",
+        "score": 0.2222222222222222
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.14814814814814814
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.12962962962962962
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.1111111111111111
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.07407407407407407
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.05555555555555555
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.05555555555555555
+      },
+      {
+        "node": "Exomatter",
+        "score": 0.037037037037037035
+      },
+      {
+        "node": "Fibrecoat",
+        "score": 0.037037037037037035
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.037037037037037035
+      }
+    ],
+    "degree_weighted": [
+      {
+        "node": "Ali Karabey",
+        "score": 0.2222222222222222
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.14814814814814814
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.12962962962962962
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.1111111111111111
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.07407407407407407
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.05555555555555555
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.05555555555555555
+      },
+      {
+        "node": "Exomatter",
+        "score": 0.037037037037037035
+      },
+      {
+        "node": "Fibrecoat",
+        "score": 0.037037037037037035
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.037037037037037035
+      }
+    ],
+    "betweenness": [
+      {
+        "node": "Ali Karabey",
+        "score": 0.04612159329140461
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.019566736547868623
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.015723270440251572
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.014675052410901467
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.0052410901467505235
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.0041928721174004195
+      },
+      {
+        "node": "Exomatter",
+        "score": 0.0034940600978336823
+      },
+      {
+        "node": "Fibrecoat",
+        "score": 0.0034940600978336823
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.0020964360587002098
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.0006988120195667365
+      }
+    ],
+    "betweenness_weighted": [
+      {
+        "node": "Ali Karabey",
+        "score": 0.04612159329140461
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.019566736547868623
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.015723270440251572
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.014675052410901467
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.0052410901467505235
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.0041928721174004195
+      },
+      {
+        "node": "Exomatter",
+        "score": 0.0034940600978336823
+      },
+      {
+        "node": "Fibrecoat",
+        "score": 0.0034940600978336823
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.0020964360587002098
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.0006988120195667365
+      }
+    ],
+    "closeness": [
+      {
+        "node": "Ali Karabey",
+        "score": 0.2222222222222222
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.14814814814814814
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.12962962962962962
+      },
+      {
+        "node": "Appsamurai",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Avatao",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Bolt Insight",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Fazla",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Insider One",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Keyrails",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Marti",
+        "score": 0.11594202898550723
+      }
+    ],
+    "closeness_weighted": [
+      {
+        "node": "Ali Karabey",
+        "score": 0.2222222222222222
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.14814814814814814
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.12962962962962962
+      },
+      {
+        "node": "Appsamurai",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Avatao",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Bolt Insight",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Fazla",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Insider One",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Keyrails",
+        "score": 0.11594202898550723
+      },
+      {
+        "node": "Marti",
+        "score": 0.11594202898550723
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": "Ali Karabey",
+        "score": 0.7071067776755949
+      },
+      {
+        "node": "Appsamurai",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Avatao",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Bolt Insight",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Fazla",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Insider One",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Keyrails",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Marti",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Metrobi",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Remotepass",
+        "score": 0.20412414421840663
+      }
+    ],
+    "eigenvector_weighted": [
+      {
+        "node": "Ali Karabey",
+        "score": 0.7071067776755949
+      },
+      {
+        "node": "Appsamurai",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Avatao",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Bolt Insight",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Fazla",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Insider One",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Keyrails",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Marti",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Metrobi",
+        "score": 0.20412414421840663
+      },
+      {
+        "node": "Remotepass",
+        "score": 0.20412414421840663
+      }
+    ],
+    "pagerank": [
+      {
+        "node": "Ali Karabey",
+        "score": 0.11006984417396462
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.07665601654045684
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.06830255963207989
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.051873795458688615
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.04324218890694903
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.034888731998572065
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.02653527509019513
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.026257125446832476
+      },
+      {
+        "node": "Getmobil",
+        "score": 0.01818181818181818
+      },
+      {
+        "node": "Cem Okay",
+        "score": 0.01818181818181818
+      }
+    ],
+    "pagerank_weighted": [
+      {
+        "node": "Ali Karabey",
+        "score": 0.11006984417396462
+      },
+      {
+        "node": "Selma Bahcivanoglu",
+        "score": 0.07665601654045684
+      },
+      {
+        "node": "Numan Numan",
+        "score": 0.06830255963207989
+      },
+      {
+        "node": "Caglar Urcan",
+        "score": 0.051873795458688615
+      },
+      {
+        "node": "Cagdas Yildiz",
+        "score": 0.04324218890694903
+      },
+      {
+        "node": "Maher Hakim",
+        "score": 0.034888731998572065
+      },
+      {
+        "node": "Kivanc Aydin",
+        "score": 0.02653527509019513
+      },
+      {
+        "node": "Gizem Yagiz",
+        "score": 0.026257125446832476
+      },
+      {
+        "node": "Getmobil",
+        "score": 0.01818181818181818
+      },
+      {
+        "node": "Cem Okay",
+        "score": 0.01818181818181818
+      }
+    ]
+  }
+}

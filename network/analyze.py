@@ -206,16 +206,16 @@ def _describe_network(gexf_path: Path) -> dict:
 def _null_model_modularity(
 	graph: nx.Graph,
 	communities: list[set[str]],
+	community_fn = None,
 	n_rewirings: int = 1000,
 	seed: int = 42,
 ) -> dict:
 	"""Benchmark observed modularity against a configuration-model null distribution.
 
 	Generates ``n_rewirings`` double-edge-swap randomizations of *graph* that
-	preserve the exact degree sequence, computes modularity for the same
-	partition on each randomized copy, and returns summary statistics.  The
-	gap ``observed - null_mean`` quantifies how much of the modularity score
-	is driven by genuine community structure rather than degree heterogeneity.
+	preserve the exact degree sequence. If ``community_fn`` is provided, it 
+	re-runs community detection dynamically on each randomized graph configuration 
+	to capture algorithmic optimization behavior under null constraints.
 	"""
 	import statistics
 
@@ -226,15 +226,18 @@ def _null_model_modularity(
 
 	for _ in range(n_rewirings):
 		randomized = graph.copy()
-		# double_edge_swap preserves degree sequence exactly
 		try:
 			nx.double_edge_swap(randomized, nswap = graph.number_of_edges() * 10, max_tries = graph.number_of_edges() * 100, seed = rng.randint(0, 2**31))
 		except nx.NetworkXAlgorithmError:
-			# fallback: fewer swaps if the graph is too small / sparse
 			nx.double_edge_swap(randomized, nswap = max(1, graph.number_of_edges()), max_tries = graph.number_of_edges() * 20, seed = rng.randint(0, 2**31))
-		null_scores.append(
-			nx.algorithms.community.modularity(randomized, communities, weight = "weight")
-		)
+		
+		if community_fn is not None:
+			null_comm = community_fn(randomized, rng.randint(0, 2**31))
+			q_score = nx.algorithms.community.modularity(randomized, null_comm, weight = "weight")
+		else:
+			q_score = nx.algorithms.community.modularity(randomized, communities, weight = "weight")
+			
+		null_scores.append(q_score)
 
 	null_mean = statistics.mean(null_scores)
 	null_std  = statistics.stdev(null_scores) if len(null_scores) > 1 else 0.0
@@ -281,12 +284,6 @@ def _run_community_detection(gexf_path: Path, results_dir: Path, run_payload: di
 
 	louvain_fn = getattr(nx.algorithms.community, "louvain_communities", None)
 	if louvain_fn is not None:
-		# Louvain: greedy, multi-level modularity optimization that coarsens the
-		# graph into communities, then refines by moving nodes to improve modularity.
-		# When to use: large graphs where you want fast, high-quality partitions.
-		# Parameter tips: use `weight` for edge strength; set `seed` for reproducible
-		# results; adjust `resolution` (if available) to favor more/smaller vs fewer
-		# larger communities.
 		logger.info("Running Louvain community detection")
 		louvain_communities = louvain_fn(graph, weight = "weight", seed = 42)
 		louvain_modularity = nx.algorithms.community.modularity(
@@ -295,7 +292,13 @@ def _run_community_detection(gexf_path: Path, results_dir: Path, run_payload: di
 			weight = "weight",
 		)
 		logger.info("Running null-model modularity benchmark for Louvain partition")
-		louvain_null = _null_model_modularity(graph, list(louvain_communities), seed = 42)
+		louvain_optimizer = lambda g, s: louvain_fn(g, weight = "weight", seed = s)
+		louvain_null = _null_model_modularity(
+			graph, 
+			list(louvain_communities), 
+			community_fn = louvain_optimizer, 
+			seed = 42
+		)
 		run_payload["algorithms"].append({
 			"name": "louvain",
 			"parameters": {"weight": "weight", "seed": 42},
@@ -318,11 +321,6 @@ def _run_community_detection(gexf_path: Path, results_dir: Path, run_payload: di
 	greedy_communities = list(
 		nx.algorithms.community.greedy_modularity_communities(graph, weight = "weight")
 	)
-	# Greedy modularity: iteratively merges communities that provide the largest
-	# modularity gain until no merge improves the score.
-	# When to use: small/medium graphs when you want a deterministic baseline.
-	# Parameter tips: include `weight` to respect edge strength; for reproducible
-	# results keep graph deterministic (ordering affects ties).
 	logger.info("Running greedy modularity community detection")
 	greedy_modularity = nx.algorithms.community.modularity(
 		graph,
@@ -341,11 +339,6 @@ def _run_community_detection(gexf_path: Path, results_dir: Path, run_payload: di
 	})
 
 	label_prop = list(nx.algorithms.community.label_propagation_communities(graph))
-	# Label propagation: initializes each node with a label and repeatedly updates
-	# to the most frequent neighbor label until labels stabilize into communities.
-	# When to use: very large graphs when you need a fast, lightweight heuristic.
-	# Parameter tips: no weights by default in NetworkX; results can vary across
-	# runs due to random tie-breaking, so compare multiple runs if needed.
 	logger.info("Running label propagation community detection")
 	label_prop_modularity = nx.algorithms.community.modularity(
 		graph,
@@ -364,11 +357,6 @@ def _run_community_detection(gexf_path: Path, results_dir: Path, run_payload: di
 	})
 
 	girvan_iter = nx.algorithms.community.girvan_newman(graph)
-	# Girvan-Newman: edge-betweenness approach that removes bridging edges to split
-	# the graph; each split level increases the number of communities.
-	# When to use: exploratory analysis on small graphs or when you want hierarchy.
-	# Parameter tips: choose how many split levels to explore; deeper splits reveal
-	# finer communities but can be expensive.
 	max_levels = 3
 	for level in range(1, max_levels + 1):
 		try:
